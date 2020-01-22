@@ -8,6 +8,7 @@ BespiegeltEuchBassoNotes = {
 	\relative c {
 		\clef bass
 		\key d \major \time 3/4 \autoBeamOff \tempoBespiegeltEuch
+		R2.*16 \bar "S-S" %16
 		
 	}
 }

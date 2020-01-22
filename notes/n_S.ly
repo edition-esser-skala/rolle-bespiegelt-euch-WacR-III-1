@@ -142,10 +142,10 @@ BespiegeltEuchSopranoLyrics = \lyricmode {
 	dies, %40
 	
 	be -- [ſpie -- gelt __ %43
-	euch
-	in Je -- ſu %45
-	Lei -- den,
-	in Je -- ſu
+	euch]
+	[in Je -- ſu %45
+	Lei -- den,]
+	[in Je -- ſu
 	Lei -- den,] hier iſt der
 	Ur -- ſprung wah -- rer
 	Freu -- den, wah -- rer %50
