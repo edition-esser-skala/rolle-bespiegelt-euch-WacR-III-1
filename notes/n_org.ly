@@ -29,14 +29,14 @@ BespiegeltEuchOrgano = {
 		r8 d' cis4 a
 		d d, r %20
 		r8 d' cis4 a
-		d d,8 d'' d d
+		d d,8 \mvTr d''[\pE-\soloE d d]
 		cis cis h h e, e
 		a a cis, cis d d
 		e d cis cis d d %25
 		e e, e4 r
-		\mvTr e'8\pE-\soloE e, e4 r
 		e'8 e, e4 r
-		\mvTr a\f-\tuttiE cis e
+		e'8 e, e4 r
+		a \mvTr cis\f-\tuttiE e
 		a cis, e %30
 		a cis, e
 		a, r8 \mvTr a'\p-\soloE cis cis
@@ -58,7 +58,7 @@ BespiegeltEuchOrgano = {
 		a a,8 \mvTr a'[\p-\soloE g g]
 		fis fis fis fis fis fis
 		fis fis fis fis fis fis %50
-		\mvTr h,4\ff-\tuttiE d fis
+		h,4 \mvTr d\ff-\tuttiE fis
 		h d, fis
 		h \mvTr d,8\p-\soloE d d d
 		e e e e e e
@@ -92,10 +92,10 @@ BespiegeltEuchOrgano = {
 		fis8. fis16 fis16. fis32 fis16. fis32 h16. fis32 cis'16. e,32
 		d8.\trillE h16 h'8 h16. h32 ais8 ais16. ais32
 		h8 h d,4 e
-		fis fis, fis'\p %85
-		h, d\f fis
-		h d,\p fis
-		h d,\f fis
+		fis fis, \mvTr fis'\p-\soloE %85
+		h, \mvTr d\f-\tuttiE fis
+		h \mvTr d,\p-\soloE fis
+		h \mvTr d,\f-\tuttiE fis
 		h h h
 		a! a a %90
 		gis gis gis
@@ -203,10 +203,10 @@ BespiegeltEuchBassFigures = \figuremode {
 	r2. %65
 	r
 	<6 4>
-	r8 <[6 4]> \bassFigureExtendersOn <6 4>2
+	r8 <[6]> \bassFigureExtendersOn <6>2
 	q2.
 	q8 \bassFigureExtendersOff <6> <6 4> <4 2> <6> q %70
-	q4 <6 4>4 <5 3>
+	q <[6]> <6 4>4 <5 3>
 	r <[6]> <[7]>
 	r <[6]> <[7]>
 	r8 <[6]> <[6 4]> <[2]> <[6]> q
@@ -226,22 +226,22 @@ BespiegeltEuchBassFigures = \figuremode {
 	r <[6]> <[_+]>
 	r2.
 	<6 4\+ 2\+> %90
-	<7 _+>4 <6 4> <[5+] _+>
+	<7 [5+] _+>4 <6 4> <[5+] _+>
 	<[5+]> <6\\> <[6 _+]>
 	<[6\\]> <6 4> <[5+] _+>
 	<[5]>8. <[1]>16 q16. q32 q16. q32 q16. q32 q16. q32
-	<[6 _+]>4 <[5+]> <6\\ _+> %95
-	r <[6 _+]>2
+	<[6 _+]>4 <[5+]> <6+ _+> %95
+	r <[6 _+]> <[5! \t]>
 	<[4]>8 <[_+]>16 <[1]> q16. q32 q16. q32 q16. q32 q16. q32
 	<[6]>4 <[_+]> <[6]>
-	r q2
-	<[_+]>4 <[7 _+]> \bassFigureExtendersOn <[6] _+>8 <[5] _+> \bassFigureExtendersOff %100
+	<[_+]> <[6]> <[5!]>
+	<[_+]> <[7 _+]> \bassFigureExtendersOn <[6] _+>8 <[5] _+> \bassFigureExtendersOff %100
 	r8 <[5+ _+]> <[\t \t]>4 <7>8 <6>
 	r2.
 	<[5+] _+>4 <7 5 [_+]>2
 	<[5+] _+>2.
 	<4 2>4 <7> <6\\> %105
-	<[6\\] 4\+> <6>2
+	<[6\+] 4\+> <6>2
 	r8 <5 2> <6\\>2
 	r4 <6\\> <6>
 	<6\\> <6 4> <[5+] _+>
