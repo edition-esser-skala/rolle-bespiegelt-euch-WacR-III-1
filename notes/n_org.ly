@@ -101,7 +101,7 @@ BespiegeltEuchOrgano = {
 		gis gis gis
 		cis, dis e
 		fis gis gis,
-		cis8. gis'16 gis16. gis32 gis16. gis32 cis16. gis32 dis'16. fis,32
+		cis8. gis'16\ffE gis16. gis32 gis16. gis32 cis16. gis32 dis'16. fis,32
 		e8.\trill cis16 cis'8 cis16. cis32 his8 his16. his32 %95
 		cis8 cis eis, eis eis eis
 		fis8. fis16 fis16. fis32 fis16. fis32 h16. fis32 cis'16. e,32
@@ -142,7 +142,7 @@ BespiegeltEuchBassFigures = \figuremode {
 	<[9] 4>8 <[8] 3> r2
 	r8 <[6]> <6>4 <7> %5
 	r <[6]>2
-	r4 <6>2
+	r8 <[2]> <6>2
 	r2.
 	<6 4>
 	<5 3> %10
@@ -191,8 +191,8 @@ BespiegeltEuchBassFigures = \figuremode {
 	r <6>4. <[5!]>8
 	<[7 _+]>2.
 	<[6 4]>8 <[5 _+]> r2 %55
-	r4 <[6]>2
-	<[5+] _+>4 <7> <6>
+	r4 <[6]> <[6\\ 5]>
+	<[5+] _+> <7> <6>
 	<[8 5+ _+]>8 <[7 5+ _+]> \bassFigureExtendersOn <7 5+ _+>2
 	q2 q8 q \bassFigureExtendersOff
 	<[8 _+]>8 <[6+ 4 _!]>2 \bassFigureExtendersOn <6+ 4 _!>8 %60
@@ -250,7 +250,7 @@ BespiegeltEuchBassFigures = \figuremode {
 	<7 [_+]>
 	<6 4>4 <[5+] _+>2
 	r4 <[6]>2
-	r4 <[6]>2 %115
+	r8 <[2]> <[6]>2 %115
 	r2.
 	<6 4>
 	<7>

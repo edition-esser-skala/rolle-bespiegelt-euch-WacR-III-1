@@ -87,7 +87,7 @@ BespiegeltEuchViolinoII = {
 		d8 d'4 d,8 cis8.( d32 e)
 		d16. d'32 d16. e32 d4 cis
 		d4\fermata r16 fis, fis16. fis32 h16. fis32 cis'16. e,32
-		d8\trill h h' fis16. h32 cis8 fis,16. cis'32 %80
+		d8.\trill-\critnote h16 h'8 fis16. h32 cis8 fis,16. cis'32 %80
 		d8 cis16 h h8 h g g
 		fis fis16. fis32 fis16. fis32 fis16. fis32 h16. fis32 cis'16. e,32
 		d8.\trill h16 h'8 fis16. h32 cis8 fis,16. cis'32
@@ -104,8 +104,8 @@ BespiegeltEuchViolinoII = {
 		gis8. gis16\ffE gis16. gis32 gis16. gis32 cis16. gis32 dis'16. fis,32
 		e8.\trillE cis16 cis'8 gis16. cis32 dis8 gis,16. dis'32 %95
 		e8 cis h! h gis gis
-		fis fis16. fis32 fis16. fis32 fis16. fis32 h16. fis32 cis'16. e,32
-		dis8. h16 h'8 fis16. h32 cis8 fis,16. cis'32
+		fis fis16. fis32 fis16. fis32 fis16. fis32 h16. fis32 cis'16. e,!32
+		dis8.\trillE h16 h'8 fis16. h32 cis8 fis,16. cis'32
 		dis8 h a! a fis fis
 		e h' h h gis gis %100
 		fis eis eis[\p eis fis fis]
