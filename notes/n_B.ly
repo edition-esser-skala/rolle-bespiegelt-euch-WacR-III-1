@@ -102,12 +102,12 @@ BespiegeltEuchBassoLyrics = \lyricmode {
 	in Je -- ſu
 	Lei -- den,
 	
-	[hier öff -- net %29
+	\xE hier öff -- net %29
 	ſich das Pa -- ra -- %30
 	dies, das Pa -- ra --
-	dies,]
+	dies,
 	
-	[hier] öff -- net %46
+	hier\x öff -- net %46
 	ſich das Pa -- ra --
 	dies, hier öff -- net, öff -- net
 	ſich das Pa -- ra --
@@ -118,7 +118,7 @@ BespiegeltEuchBassoLyrics = \lyricmode {
 	in Je -- ſu %45
 	Lei -- den,
 	in Je -- ſu
-	[Lei -- den,]
+	\xE Lei -- den,\x
 	
 	hier öff -- net %51
 	ſich das Pa -- ra --
@@ -172,9 +172,9 @@ BespiegeltEuchBassoLyrics = \lyricmode {
 	mar -- tern
 	ließ, %110
 	ſich vor die Sün -- der
-	[mar --
+	\xE mar --
 	tern
-	ließ.] %114 finis
+	ließ. %114 finis
 }
 
 % BassoNotes = {

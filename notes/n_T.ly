@@ -116,12 +116,12 @@ BespiegeltEuchTenoreNotes = {
 }
 
 BespiegeltEuchTenoreLyrics = \lyricmode {
-	[Be -- ſpie -- gelt %17
-	euch]
-	[in Je -- ſu
-	Lei -- den,] %20
-	[in Je -- ſu
-	Lei -- den,]
+	\xE Be -- ſpie -- gelt %17
+	euch
+	in Je -- ſu
+	Lei -- den, %20
+	in Je -- ſu
+	Lei -- den,\x
 	
 	hier öff -- net %26
 	ſich das Pa -- ra --
@@ -131,81 +131,81 @@ BespiegeltEuchTenoreLyrics = \lyricmode {
 	dies, das Pa -- ra --
 	dies,
 	
-	hier [öff -- net %36
+	hier \xE öff -- net %36
 	ſich das Pa -- ra --
-	dies,] hier öff -- net, öff -- net
+	dies,\x hier öff -- net, öff -- net
 	ſich das Pa -- ra --
 	dies. %40
 	
-	[Be -- ſpie -- gelt %43
-	euch,] be -- ſpie -- gelt
+	\xE Be -- ſpie -- gelt %43
+	euch,\x be -- ſpie -- gelt
 	euch in Je -- ſu %45
-	Lei -- den, [be -- ſpie -- gelt
+	Lei -- den, \xE be -- ſpie -- gelt
 	euch in Je -- ſu
-	Lei -- den,] 
+	Lei -- den,
 	
-	[hier öff -- net %51
+	hier öff -- net %51
 	ſich das Pa -- ra --
-	dies,]  hier iſt der
+	dies,\x hier iſt der
 	Ur -- ſprung wah -- rer
 	Freu -- den, wah -- rer %55
 	Freu -- den,
 	
-	[hier öff -- net %58
+	\xE hier öff -- net %58
 	ſich das Pa -- ra --
 	dies, hier öff -- net %60
 	ſich das Pa -- ra --
-	dies,] be -- ſpie -- gelt
+	dies,\x be -- ſpie -- gelt
 	euch __ in Je -- ſu
 	Lei -- den, hier iſt der
 	Ur -- ſprung wah -- rer %65
 	Freu -- den, hier öff --
 	net ſich das Pa -- ra --
-	dies, [hier öff -- net
+	dies, \xE hier öff -- net
 	ſich das Pa -- ra --
 	dies, hier öff -- net, öff -- net %70
 	ſich das Pa -- ra --
-	dies,]
-	[hier,]
-	[hier öff -- net, öff -- net
+	dies,
+	hier,
+	hier öff -- net, öff -- net
 	ſich das Pa -- ra -- %75
-	dies.]
+	dies.
 	
-	[Zer -- bre -- chet, zer -- bre -- chet %80
+	Zer -- bre -- chet, zer -- bre -- chet %80
 	Ba -- bels Schau -- ge --
-	rüſ -- te,]
-	[ver -- laßt, ver -- laßt das
+	rüſ -- te,
+	ver -- laßt, ver -- laßt das
 	Blend -- werck eit -- ler
-	Lüſ -- te,] %85
-	[um -- faßt den
-	Stamm,]
-	[an dem das
+	Lüſ -- te, %85
+	um -- faßt den
+	Stamm,
+	an dem das
 	Lamm ſich vor die
 	Sün -- der, %90
 	ſich vor die
 	Sün -- der
 	mar -- tern __
-	ließ.]
-	[Zer -- bre -- chet, zer -- bre -- chet %95
+	ließ.
+	Zer -- bre -- chet, zer -- bre -- chet %95
 	Ba -- bels Schau -- ge --
-	rüſ -- te,]
-	[ver -- laßt, ver -- laßt das
+	rüſ -- te,
+	ver -- laßt, ver -- laßt das
 	Blend -- werck eit -- ler
 	Lüſ -- te, eit -- ler %100
-	Lüſ -- te,]
+	Lüſ -- te,
 	
-	[an dem das
-	Lamm]
-	ſich vor die [Sün -- der %105
+	an dem das
+	Lamm\x
+	ſich vor die \xE Sün -- der %105
 	mar -- _
 	_ _
 	_ tern,
 	mar -- tern __
-	ließ,] %110
-	[ſich vor die Sün -- der
+	ließ, %110
+	ſich vor die Sün -- der
 	mar --
 	tern
-	ließ.] %114 finis
+	ließ.\x %114 finis
 }
 
 % TenoreNotes = {

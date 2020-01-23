@@ -119,99 +119,99 @@ BespiegeltEuchAltoNotes = {
 }
 
 BespiegeltEuchAltoLyrics = \lyricmode {
-	[Be -- ſpie -- gelt __ %17
+	\xE Be -- ſpie -- gelt __ %17
 	euch, be -- ſpie -- gelt
 	euch in Je -- ſu
-	Lei -- den,] be -- ſpie -- gelt %20
-	euch [in Je -- ſu
-	Lei -- den,]
+	Lei -- den,\x be -- ſpie -- gelt %20
+	euch \xE in Je -- ſu
+	Lei -- den,\x
 	
 	hier öff -- net
 	ſich das Pa -- ra -- %25
 	dies, hier öff --
 	net ſich __
 	das Pa -- ra --
-	dies, [hier öff -- net __
+	dies, \xE hier öff -- net __
 	ſich das Pa -- ra -- %30
-	dies,] das Pa -- ra --
-	dies,] hier iſt der
+	dies,\x das Pa -- ra --
+	dies, hier iſt der
 	Ur -- ſprung wah -- rer
 	Freu -- den, hier iſt der
 	Ur -- ſprung wah -- rer __ %35
-	[Freu -- den, hier öff -- net
+	\xE Freu -- den, hier öff -- net
 	ſich das Pa -- ra --
 	dies, hier öff -- net, öff -- net
 	ſich das Pa -- ra --
-	dies.] %40
+	dies. %40
 	
-	[Be -- ſpie -- gelt __ %43
+	Be -- ſpie -- gelt __ %43
 	euch, be -- ſpie -- gelt
 	euch in Je -- ſu %45
 	Lei -- den, be -- ſpie -- gelt
 	euch in Je -- ſu
-	Lei -- den,]
+	Lei -- den,
 	
-	[hier öff -- net __ %51
+	hier öff -- net __ %51
 	ſich das Pa -- ra --
-	dies,]
+	dies,\x
 	
 	hier öff -- net %56
 	ſich das Pa -- ra --
-	dies, [hier öff -- net
+	dies, \xE hier öff -- net
 	ſich das Pa -- ra --
 	dies, hier öff -- net %60
 	ſich das Pa -- ra --
-	dies,] hier iſt der
+	dies,\x hier iſt der
 	Ur -- ſprung, hier iſt der
 	Ur -- ſprung wah -- rer
 	Freu -- den, wah -- rer %65
 	Freu -- den, hier öff -- net
 	ſich das Pa -- ra --
-	dies, [hier öff -- net
+	dies, \xE hier öff -- net
 	ſich das Pa -- ra --
 	dies, hier öff -- net, öff -- net %70
 	ſich das Pa -- ra --
-	dies,] das Pa -- ra --
-	dies, [das Pa -- ra --
+	dies,\x das Pa -- ra --
+	dies, \xE das Pa -- ra --
 	dies, hier öff -- net, öff -- net
 	ſich das Pa -- ra -- %75
-	dies.]
+	dies.
 	
-	[Zer -- bre -- chet, zer -- bre -- chet %80
+	Zer -- bre -- chet, zer -- bre -- chet %80
 	Ba -- bels Schau -- ge --
-	rüſ -- te,]
-	[ver -- laßt, ver -- laßt das
+	rüſ -- te,
+	ver -- laßt, ver -- laßt das
 	Blend -- werck eit -- ler
-	Lüſ -- te,] um -- faßt den __ %85
-	Stamm, [um -- faßt den __
-	Stamm,] an dem das __
-	Lamm, [an dem das __
+	Lüſ -- te,\x um -- faßt den __ %85
+	Stamm, \xE um -- faßt den __
+	Stamm,\x an dem das __
+	Lamm, \xE an dem das __
 	Lamm ſich vor die
 	Sün -- der, %90
 	ſich vor die
 	Sün -- der
 	mar -- tern
-	ließ.]
-	[Zer -- bre -- chet, zer -- bre -- chet %95
+	ließ.
+	Zer -- bre -- chet, zer -- bre -- chet %95
 	Ba -- bels Schau -- ge --
-	rüſ -- te,]
-	[ver -- laßt, ver -- laßt das
+	rüſ -- te,
+	ver -- laßt, ver -- laßt das
 	Blend -- werck eit -- ler
 	Lüſ -- te, eit -- ler %100
-	Lüſ -- te,] um -- faßt den
+	Lüſ -- te,\x um -- faßt den
 	Stamm, an dem das
-	Lamm, [an dem das
-	Lamm]
+	Lamm, \xE an dem das
+	Lamm\x
 	ſich vor die Sün -- der %105
 	mar -- _
 	_ _
 	_ _ tern,
 	mar -- tern __
-	[ließ, %110
+	\xE ließ, %110
 	ſich vor die Sün -- der
 	mar -- _
 	tern
-	ließ.] %114 finis
+	ließ. %114 finis
 }
 
 % AltoNotes = {

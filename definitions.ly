@@ -158,6 +158,8 @@ critnote = \markup { \musicglyph #'"pedal.*" }
 trillE = \tweak self-alignment-X #CENTER ^\markup { \hspace #1.5 [ \musicglyph #'"scripts.trill" ] }
 extraNat = \once \override Accidental.restore-first = ##t
 kneeBeam = \once \override Beam.auto-knee-gap = #0
+xE = \override LyricText.font-shape = #'italic
+x = \revert LyricText.font-shape
 
 
 ff = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "ff")))

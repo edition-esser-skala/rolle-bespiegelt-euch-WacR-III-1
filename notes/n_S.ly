@@ -119,8 +119,8 @@ BespiegeltEuchSopranoLyrics = \lyricmode {
 	Be -- ſpie -- gelt __ %17
 	euch, be -- ſpie -- gelt
 	euch in Je -- ſu
-	Lei -- den, [be -- ſpie -- gelt %20
-	euch in Je -- ſu]
+	Lei -- den, \xE be -- ſpie -- gelt %20
+	euch in Je -- ſu\x
 	Lei -- den, hier iſt der
 	Ur -- ſprung wah -- rer
 	Freu -- den,
@@ -128,53 +128,53 @@ BespiegeltEuchSopranoLyrics = \lyricmode {
 	hier öff -- net
 	ſich das Pa -- ra --
 	dies, das Pa -- ra --
-	dies, [hier öff -- net __
+	dies, \xE hier öff -- net __
 	ſich das Pa -- ra -- %30
-	dies,] das Pa -- ra --
+	dies,\x das Pa -- ra --
 	dies, be -- ſpie -- gelt
 	euch __ in Je -- ſu
 	Lei -- den, hier iſt der
 	Ur -- ſprung wah -- rer __ %35
-	Freu -- den, hier [öff -- net
+	Freu -- den, hier \xE öff -- net
 	ſich das Pa -- ra --
-	dies,] hier öff -- net, öff -- net
+	dies,\x hier öff -- net, öff -- net
 	ſich das Pa -- ra --
 	dies. %40
 	
-	Be -- [ſpie -- gelt __ %43
-	euch]
-	[in Je -- ſu %45
-	Lei -- den,]
-	[in Je -- ſu
-	Lei -- den,] hier iſt der
+	Be -- \xE ſpie -- gelt __ %43
+	euch
+	in Je -- ſu %45
+	Lei -- den,
+	in Je -- ſu
+	Lei -- den,\x hier iſt der
 	Ur -- ſprung wah -- rer
 	Freu -- den, wah -- rer %50
 	Freu -- den, hier öff -- net __
 	ſich das Pa -- ra --
 	dies,
 	
-	[hier öff -- net %58
+	\xE hier öff -- net %58
 	ſich das Pa -- ra --
 	dies, hier öff -- net %60
 	ſich das Pa -- ra --
-	dies,]
+	dies,\x
 	
 	hier öff -- %66
 	net ſich, __
 	hier öff -- net
-	[ſich das Pa -- ra --
+	\xE ſich das Pa -- ra --
 	dies, hier öff -- net, öff -- net %70
 	ſich das Pa -- ra --
 	dies, das Pa -- ra --
 	dies, das Pa -- ra --
 	dies, hier öff -- net, öff -- net
 	ſich das Pa -- ra -- %75
-	dies.]
+	dies.
 	
-	[Zer -- bre -- chet, zer -- bre -- chet %80
+	Zer -- bre -- chet, zer -- bre -- chet %80
 	Ba -- bels Schau -- ge --
-	rüſ -- te,]
-	[ver -- laßt, ver -- laßt das
+	rüſ -- te,
+	ver -- laßt, ver -- laßt das
 	Blend -- werck eit -- ler
 	Lüſ -- te, um -- faßt den __ %85
 	Stamm, um -- faßt den __
@@ -185,14 +185,14 @@ BespiegeltEuchSopranoLyrics = \lyricmode {
 	ſich vor die
 	Sün -- der
 	mar -- tern __
-	ließ.]
-	[Zer -- bre -- chet, zer -- bre -- chet %95
+	ließ.
+	Zer -- bre -- chet, zer -- bre -- chet %95
 	Ba -- bels Schau -- ge --
-	rüſ -- te,]
-	[ver -- laßt, ver -- laßt das
+	rüſ -- te,
+	ver -- laßt, ver -- laßt das
 	Blend -- werck eit -- ler
 	Lüſ -- te, eit -- ler %100
-	Lüſ -- te,]
+	Lüſ -- te,\x
 	
 	an dem das
 	Lamm
@@ -201,11 +201,11 @@ BespiegeltEuchSopranoLyrics = \lyricmode {
 	_
 	_ _ tern,
 	mar -- tern __
-	[ließ, %110
+	\xE ließ, %110
 	ſich vor die Sün -- der
 	mar -- _
 	tern
-	ließ.] %114 finis
+	ließ. %114 finis
 }
 
 % SopranoNotes = {
