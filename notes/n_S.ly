@@ -173,8 +173,8 @@ BespiegeltEuchSopranoLyrics = \lyricmode {
 	
 	[Zer -- bre -- chet, zer -- bre -- chet %80
 	Ba -- bels Schau -- ge --
-	rüſ -- te,
-	ver -- laßt, ver -- laßt das
+	rüſ -- te,]
+	[ver -- laßt, ver -- laßt das
 	Blend -- werck eit -- ler
 	Lüſ -- te, um -- faßt den __ %85
 	Stamm, um -- faßt den __
@@ -188,8 +188,8 @@ BespiegeltEuchSopranoLyrics = \lyricmode {
 	ließ.]
 	[Zer -- bre -- chet, zer -- bre -- chet %95
 	Ba -- bels Schau -- ge --
-	rüſ -- te,
-	ver -- laßt, ver -- laßt das
+	rüſ -- te,]
+	[ver -- laßt, ver -- laßt das
 	Blend -- werck eit -- ler
 	Lüſ -- te, eit -- ler %100
 	Lüſ -- te,]

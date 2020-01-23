@@ -171,9 +171,9 @@ BespiegeltEuchBassFigures = \figuremode {
 	<9>4 <3> <6\\>8 <5>
 	<6 5>2 <[6]>8 <[5]>
 	<6 5>4 q2 %35
-	<[_+]>2. \bassFigureExtendersOn
-	<_+>2.
-	q8 \bassFigureExtendersOff <[6]> <[6]> <[6]> q <[_+]>
+	<[7 _+]>2. \bassFigureExtendersOn
+	<7 _+>2.
+	q8 \bassFigureExtendersOff <[6]> <[6]> <[6]> q <[7 _+]>
 	r <[6]> <[6 4]>4 <[5 _+]>
 	r <[6]> <[7 _+]> %40
 	r <[6]> <[7 _+]>
@@ -188,19 +188,19 @@ BespiegeltEuchBassFigures = \figuremode {
 	<[6 4]>8 <[5 _+]> r2 %50
 	r4 <6> <_+>
 	r <[6]> <[_+]>
-	r <6>2
+	r <6>4. <[5!]>8
+	<[7 _+]>2.
+	<[6 4]>8 <[5 _+]> r2 %55
 	r2.
-	r %55
-	r
 	<[5+] _+>4 <7> <6>
 	<[8 5+ _+]>8 <[7 5+ _+]> \bassFigureExtendersOn <7 5+ _+>2
 	q2 q8 q \bassFigureExtendersOff
 	<[8 _+]>4 <[7! _+]>2 \bassFigureExtendersOn %60
 	<7! _+> q8 q \bassFigureExtendersOff
-	r4 <6>2
+	r4 <6!>2
 	<7>4 <6>2
 	<7>4 <6>2
-	<[6]> <[8 6]>8 <[7 5]> %65
+	<[7]>4 <[6]> <[8 6]>8 <[7 5]> %65
 	<[6 4]> <[5 3]> r2
 	<6 4>2.
 	r8 <[6 4 3]> \bassFigureExtendersOn <6 4 3>2
@@ -240,8 +240,8 @@ BespiegeltEuchBassFigures = \figuremode {
 	<[_+]> <[7]> <[6]>
 	<[5+] _+> <7 5 [_+]>2
 	<[5+] _+>2.
-	<4 2>4 <7> <6\\> %105
-	<[6\+] 4\+> <6>2
+	<4 2>4 <7> <[8] 6\\>8 <[7 5]> %105
+	<[6\+] 4\+ [2]>4 <6>2
 	r8 <[6 4] 2> <6\\>2
 	r4 <6\\> <6>
 	<6\\> <6 4> <[5+] _+>

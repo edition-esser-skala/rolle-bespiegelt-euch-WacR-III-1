@@ -62,7 +62,7 @@ BespiegeltEuchAltoNotes = {
 		h8 h h4 h
 		ais8 ais ais4 ais %60
 		ais8 ais ais4 ais
-		h8 r r \mvTr d\pE^\soloE h g
+		h8 r r \mvTr d\pE^\soloE h g!
 		cis16([ h)] cis8 r cis a fis
 		h16([ a)] h8 r h([ g)] e
 		a4( h8) a g fis %65
@@ -179,8 +179,8 @@ BespiegeltEuchAltoLyrics = \lyricmode {
 	
 	[Zer -- bre -- chet, zer -- bre -- chet %80
 	Ba -- bels Schau -- ge --
-	rüſ -- te,
-	ver -- laßt, ver -- laßt das
+	rüſ -- te,]
+	[ver -- laßt, ver -- laßt das
 	Blend -- werck eit -- ler
 	Lüſ -- te,] um -- faßt den __ %85
 	Stamm, [um -- faßt den __
@@ -194,8 +194,8 @@ BespiegeltEuchAltoLyrics = \lyricmode {
 	ließ.]
 	[Zer -- bre -- chet, zer -- bre -- chet %95
 	Ba -- bels Schau -- ge --
-	rüſ -- te,
-	ver -- laßt, ver -- laßt das
+	rüſ -- te,]
+	[ver -- laßt, ver -- laßt das
 	Blend -- werck eit -- ler
 	Lüſ -- te, eit -- ler %100
 	Lüſ -- te,] um -- faßt den
