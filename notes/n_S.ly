@@ -20,7 +20,7 @@ BespiegeltEuchSopranoNotes = {
 		\clef treble
 		\key d \major \time 3/4 \autoBeamOff \tempoBespiegeltEuch
 		R2.*16 \bar "S-S" %16
-		r8 \mvTr a'\fE^\tuttiE d,4 e8.([ fis32 g)]
+		r8 \mvTr a'\fE^\tuttiE d,4 e8.([ fis32 g)] \noBreak
 		g8([ fis)] r \mvTr fis'\pE^\solo e d
 		cis \mvTr d\f^\tutti a4( g16[ fis)] g8
 		g fis r \mvTr fis'\pE^\solo e d %20

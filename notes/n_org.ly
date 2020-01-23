@@ -22,8 +22,8 @@ BespiegeltEuchOrgano = {
 		d fis, a
 		d16. fis,32 g16. e32 a4 a,
 		d fis,\p a
-		d fis, a %15
-		d16.\fE fis32 g16. h32 a4 a, \bar "S-S"
+		d fis, a \noBreak %15
+		d16. fis32\fE g16. h32 a4 a, \bar "S-S"
 		d, fis' a \noBreak
 		d, d, r
 		r8 d' cis4 a
@@ -31,8 +31,8 @@ BespiegeltEuchOrgano = {
 		r8 d' cis4 a
 		d d,8 \mvTr d''[\pE-\soloE d d]
 		cis cis h h e, e
-		a a cis, cis d d
-		e d cis cis d d %25
+		a[ a] cis,\fE cis[\pE d d]
+		e[ d] cis\fE cis[\pE d d] %25
 		e e, e4 r
 		e'8 e, e4 r
 		e'8 e, e4 r
@@ -60,7 +60,7 @@ BespiegeltEuchOrgano = {
 		fis fis fis fis fis fis %50
 		h,4 \mvTr d\ff-\tuttiE fis
 		h d, fis
-		h \mvTr d,8\p-\soloE d d d
+		h d,8 \mvTr d[\p-\soloE d d]
 		e e e e e e
 		e e e e e e %55
 		a[ a] a,\f a[\p h h]
@@ -129,17 +129,17 @@ BespiegeltEuchOrgano = {
 		d4 fis, a
 		d fis, a %120
 		d,16. fis32 g16. e32 a4 a,
+		d fis,\pE a
 		d fis, a
-		d fis, a
-		d16. fis32 g16. h32 a4 a, \bar "S-S" %124 finis
+		d16. fis32\ffE g16. h32 a4 a, \bar "S-S" %124 finis
 	}
 }
 
 BespiegeltEuchBassFigures = \figuremode {
 	r4 <6> <7>
-	<4>8 <3> r2
+	<[9] 4>8 <[8] 3> r2
 	r8 <6> q4 <7>
-	<4>8 <3> r2
+	<[9] 4>8 <[8] 3> r2
 	r8 <[6]> <6>4 <7> %5
 	r <[6]>2
 	r4 <6>2
@@ -191,12 +191,12 @@ BespiegeltEuchBassFigures = \figuremode {
 	r <6>4. <[5!]>8
 	<[7 _+]>2.
 	<[6 4]>8 <[5 _+]> r2 %55
-	r2.
+	r4 <[6]>2
 	<[5+] _+>4 <7> <6>
 	<[8 5+ _+]>8 <[7 5+ _+]> \bassFigureExtendersOn <7 5+ _+>2
 	q2 q8 q \bassFigureExtendersOff
-	<[8 _+]>4 <[7! _+]>2 \bassFigureExtendersOn %60
-	<7! _+> q8 q \bassFigureExtendersOff
+	<[8 _+]>8 <[6+ 4 _!]>2 \bassFigureExtendersOn <6+ 4 _!>8 %60
+	q2 q8 q \bassFigureExtendersOff
 	r4 <6!>2
 	<7>4 <6>2
 	<7>4 <6>2
