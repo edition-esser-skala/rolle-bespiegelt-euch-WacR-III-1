@@ -39,7 +39,7 @@ BespiegeltEuchViolinoI = {
 		cis e4\ff a,8 h8.( cis32 d)
 		cis8 a'4 a,8 h8.( cis32 d) %30
 		cis8 e4 a,8 h8.( cis32 d)
-		cis8 a e'[\p e e e]
+		cis8 a[\p e' e e e]
 		e e d d d d
 		d d cis cis cis cis
 		cis cis h h a a %35
@@ -102,22 +102,22 @@ BespiegeltEuchViolinoI = {
 		e( e) dis( dis) cis( cis)
 		dis?( dis) cis( cis) his( his)
 		cis8. gis16\ffE gis16. gis32 gis16. gis32 cis16. gis32 dis'16. fis,32
-		e8. cis16 cis'8 gis16. cis32 dis8 gis,16. dis'32 %95
+		e8.\trillE cis16 cis'8 gis16. cis32 dis8 gis,16. dis'32 %95
 		e8 cis gis' fis32( eis dis cis) h!8 h
 		h ais16. fis32 fis16. fis32 fis16. fis32 h16. fis32 cis'16. e,32
 		dis8. h16 h'8 fis16. h32 cis8 fis,16. cis'32
 		dis8 h fis' e32( dis cis h) a!8 a
 		gis d'! gis8~ gis32 fis( eis dis) cis8 h %100
-		a gis r4 r
-		cis8\p eis fis2
+		a gis cis[\p cis cis h]
+		cis eis fis2
 		eis8 \noBeam cis\fE fis4 fis
 		eis r r
 		r8 a, d4 d %105
-		cis2.
-		h
-		a4( gis) fis
-		gis fis eis
-		fis8 fis'4 fis fis8~ %110
+		r8 cis cis cis cis cis
+		h2.
+		a8 a gis gis fis fis
+		gis gis fis fis eis eis
+		fis fis'4 fis fis8~ %110
 		fis a,4 a a8~
 		a fis'4 fis fis8~
 		fis4 gis,2\trillE

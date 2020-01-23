@@ -55,7 +55,7 @@ BespiegeltEuchOrgano = {
 		r8 a' gis4 e %45
 		a a, r
 		r8 a' gis4 e
-		a a,8 \mvTr a'[\p-\soloE g g]
+		a \mvTr a,8[\p-\soloE a' g g]
 		fis fis fis fis fis fis
 		fis fis fis fis fis fis %50
 		h,4 \mvTr d\ff-\tuttiE fis
@@ -236,8 +236,8 @@ BespiegeltEuchBassFigures = \figuremode {
 	<[6]>4 <[_+]> <[6]>
 	<[_+]> <[6 5!]>2
 	<[_+]>4 <[7! _+]> \bassFigureExtendersOn <[6] _+>8 <[5] _+> \bassFigureExtendersOff %100
-	r8 <[5+ _+]> <[\t \t]>4 <6>
-	<[_+]> <[7]> <[6]>
+	r8 <[5+ _+]> <[\t \t]>4 <7>8 <6>
+	<[_+]>4 <[7]> <[6]>
 	<[5+] _+> <7 5 [_+]>2
 	<[5+] _+>2.
 	<4 2>4 <7> <[8] 6\\>8 <[7 5]> %105

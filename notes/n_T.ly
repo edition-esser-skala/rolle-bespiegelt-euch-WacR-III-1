@@ -71,7 +71,7 @@ BespiegeltEuchTenoreNotes = {
 		a g' fis4 cis
 		d r r
 		\mvTr d\pE^\soloE r r
-		r8 \mvTr h\fE^\tuttiE a g a a
+		d8^\critnote \mvTr h\fE^\tuttiE a g a a
 		a d d4 cis %75
 		d r r
 		R2.*2
@@ -167,7 +167,7 @@ BespiegeltEuchTenoreLyrics = \lyricmode {
 	ſich das Pa -- ra --
 	dies,
 	hier,
-	hier öff -- net, öff -- net
+	hier, hier öff -- net, öff -- net
 	ſich das Pa -- ra -- %75
 	dies.
 	
