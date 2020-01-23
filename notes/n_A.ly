@@ -142,9 +142,9 @@ BespiegeltEuchAltoLyrics = \lyricmode {
 	ſich das Pa -- ra --
 	dies, hier öff -- net, öff -- net
 	ſich das Pa -- ra --
-	dies,] %40
+	dies.] %40
 	
-	[be -- ſpie -- gelt __ %43
+	[Be -- ſpie -- gelt __ %43
 	euch, be -- ſpie -- gelt
 	euch in Je -- ſu %45
 	Lei -- den, be -- ſpie -- gelt
@@ -212,14 +212,6 @@ BespiegeltEuchAltoLyrics = \lyricmode {
 	mar -- _
 	tern
 	ließ.] %114 finis
-	
-% 	Be -- ſpie -- gelt euch in Je -- ſu Lei -- den,
-% 	hier iſt der Ur -- ſprung wah -- rer Freu -- den,
-% 	hier öff -- net ſich das Pa -- ra -- dies.
-% 	Zer -- bre -- chet Ba -- bels Schau -- ge -- rüſ -- te,
-% 	ver -- laßt das Blend -- werck eit -- ler Lüſ -- te,
-% 	um -- faßt den Stamm, an dem das Lamm
-% 	ſich vor die Sün -- der mar -- tern ließ.
 }
 
 % AltoNotes = {

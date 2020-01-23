@@ -139,9 +139,9 @@ BespiegeltEuchSopranoLyrics = \lyricmode {
 	ſich das Pa -- ra --
 	dies,] hier öff -- net, öff -- net
 	ſich das Pa -- ra --
-	dies, %40
+	dies. %40
 	
-	be -- [ſpie -- gelt __ %43
+	Be -- [ſpie -- gelt __ %43
 	euch]
 	[in Je -- ſu %45
 	Lei -- den,]
