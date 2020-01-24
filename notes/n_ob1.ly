@@ -48,13 +48,13 @@ BespiegeltEuchOboeI = {
 		r8 a' e4 d16 cis d8 %45
 		\once \slurDashed d8( cis) r4 r
 		r8 a' e4 d16 cis d8
-		d cis r4 r
+		\once \slurDashed d( cis) r4 r
 		R2.*2 %50
 		r8 fis4\ff h,8 cis8.( d32 e)
 		d8 h'4 h,8 cis8.( d32 e)
 		d4 r r
 		R2.*4 %57
-		r8 eis4\fE eis eis8~
+		r8 eis4\f eis eis8~
 		eis eis4 eis eis8(
 		fis) ais4 ais ais8~ %60
 		ais ais4 ais ais8

@@ -46,7 +46,7 @@ BespiegeltEuchViolinoII = {
 		h h'4\ff h h8~
 		h h4 h h8~
 		h e d cis h gis
-		a h a4 gis
+		a h a4 gis\trillE
 		a r8 e gis8.( a32 h) %40
 		a4 r8 e gis8.( a32 h)
 		a8 a a4 gis\trill
@@ -120,7 +120,7 @@ BespiegeltEuchViolinoII = {
 		a-\critnote a'4 a a8~ %110
 		a fis4 fis fis8~
 		fis a4 a a8~
-		a4 eis2
+		a4 eis2\trillE
 		fis4 r8 a' g!16( fis) e( d)
 		cis8.( d32 e) a,8 a' g16( fis) e( d) %115
 		cis8.( d32 e) a,2~
