@@ -108,7 +108,7 @@ BespiegeltEuchOboeII = {
 		a4 eis2\trill
 		fis4 r8 a' g!16( fis) e( d)
 		cis8.( d32 e) a,8 a' g16( fis) e( d) %115
-		cis( h) a8 r g( fis e)
+		cis( h) a8 r \once \slurDashed g( fis e)
 		fis4 r8 a( g fis)
 		cis'4 r8 e( d cis)
 		d a'4 d,8 cis8.( d32 e)

@@ -22,11 +22,11 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Oboe I"
-							\BespiegeltEuchOboeI
+% 							\BespiegeltEuchOboeI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Oboe II"
-							\BespiegeltEuchOboeII
+% 							\BespiegeltEuchOboeII
 						}
 					>>
 				>>
@@ -49,7 +49,7 @@
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\BespiegeltEuchViola
+% 						\BespiegeltEuchViola
 					}
 				>>
 % 				\new ChoirStaff <<
