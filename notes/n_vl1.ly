@@ -101,7 +101,7 @@ BespiegeltEuchViolinoI = {
 		fis( fis) e( e) dis( dis)
 		e( e) dis( dis) cis( cis)
 		dis?( dis) cis( cis) his( his)
-		cis8. gis16\ffE gis16. gis32 gis16. gis32 cis16. gis32 dis'16. fis,32
+		cis8. gis16\ff gis16. gis32 gis16. gis32 cis16. gis32 dis'16. fis,32
 		e8.\trillE cis16 cis'8 gis16. cis32 dis8 gis,16. dis'32 %95
 		e8 cis gis' fis32( eis dis cis) h!8 h
 		h ais16. fis32 fis16. fis32 fis16. fis32 h16. fis32 cis'16. e,!32

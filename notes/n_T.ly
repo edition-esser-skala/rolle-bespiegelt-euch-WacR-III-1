@@ -35,7 +35,7 @@ BespiegeltEuchTenoreNotes = {
 		e8. e16 e4 e
 		e r r
 		R2.*3 %35
-		r8 d d4 d
+		r8 \mvTr d\fE^\tuttiE d4 d
 		d8 d d4 d
 		d8 cis h cis e d
 		cis fis e4 d

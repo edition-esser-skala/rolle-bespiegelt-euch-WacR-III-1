@@ -101,7 +101,7 @@ BespiegeltEuchViolinoII = {
 		his( his) cis( cis) his( his)
 		cis( cis) his( his) gis( gis)
 		\slurDashed a( a) gis( gis) gis( gis) \slurSolid
-		gis8. gis16\ffE gis16. gis32 gis16. gis32 cis16. gis32 dis'16. fis,32
+		gis8. gis16\ff gis16. gis32 gis16. gis32 cis16. gis32 dis'16. fis,32
 		e8.\trillE cis16 cis'8 gis16. cis32 dis8 gis,16. dis'32 %95
 		e8 cis h! h gis gis
 		fis fis16. fis32 fis16. fis32 fis16. fis32 h16. fis32 cis'16. e,!32

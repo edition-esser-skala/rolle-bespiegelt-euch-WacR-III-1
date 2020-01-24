@@ -81,9 +81,9 @@ BespiegeltEuchCornoII = {
 		e8. e16 e8 e16. e32 e8 e16. e32
 		e4 r r
 		R2. %85
-		r8 c' e4 e
+		r8 c'\fE e4 e
 		e r r
-		r8 c e4 e
+		r8 c\fE e4 e
 		e r r
 		R2.*24 %113
 		r4 r8 c\fE \slurDashed c([ d)]
@@ -96,6 +96,6 @@ BespiegeltEuchCornoII = {
 		g8 f' e4 d
 		c g2~\p
 		g2.~
-		g16. c32 c16. d32 c4 g \bar "S-S" %124 finis
+		g16. c32\ff c16. d32 c4 g \bar "S-S" %124 finis
 	}
 }

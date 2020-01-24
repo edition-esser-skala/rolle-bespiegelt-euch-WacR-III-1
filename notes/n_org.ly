@@ -36,7 +36,7 @@ BespiegeltEuchOrgano = {
 		e e, e4 r
 		e'8 e, e4 r
 		e'8 e, e4 r
-		a \mvTr cis\f-\tuttiE e
+		a \mvTrr cis\ff-\tuttiE e
 		a cis, e %30
 		a cis, e
 		a, r8 \mvTr a'\p-\soloE cis cis
@@ -101,7 +101,7 @@ BespiegeltEuchOrgano = {
 		gis gis gis
 		cis, dis e
 		fis gis gis,
-		cis8. gis'16\ffE gis16. gis32 gis16. gis32 cis16. gis32 dis'16. fis,32
+		cis8. gis'16\ff gis16. gis32 gis16. gis32 cis16. gis32 dis'16. fis,32
 		e8.\trill cis16 cis'8 cis16. cis32 his8 his16. his32 %95
 		cis8 cis eis, eis eis eis
 		fis8. fis16 fis16. fis32 fis16. fis32 h16. fis32 cis'16. e,32

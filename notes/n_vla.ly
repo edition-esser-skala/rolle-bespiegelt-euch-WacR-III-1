@@ -101,7 +101,7 @@ BespiegeltEuchViola = {
 		gis( gis) gis( gis) gis( gis)
 		gis( gis) fis( fis) e( e)
 		dis( dis) e( e) dis( dis) \slurSolid
-		e8. gis16\ffE gis16. gis32 gis16. gis32 cis16. gis32 dis'16. fis,32
+		e8. gis16\ff gis16. gis32 gis16. gis32 cis16. gis32 dis'16. fis,32
 		e8.\trill cis16 e8 e16. e32 gis8 gis16. gis32 %95
 		gis8 e cis cis cis cis
 		cis8. fis16 fis16. fis32 fis16. fis32 h16. fis32 cis'16. e,!32

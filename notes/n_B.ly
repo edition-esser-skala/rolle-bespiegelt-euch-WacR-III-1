@@ -16,12 +16,12 @@ BespiegeltEuchBassoNotes = {
 		r8 d cis4 a
 		d8 d r4 r
 		R2.*6 %28
-		r8 a' cis,4 e
+		r8 \mvTr a'\fE^\tuttiE cis,4 e
 		a r8 cis, e e %30
 		a4 r8 cis, e e
 		a,4 r r
 		R2.*3 %35
-		r8 e' e4 e
+		r8 \mvTr e'\fE^\tuttiE e4 e
 		e8 e e4 e
 		e8 cis' h a gis e
 		fis d e4 e
@@ -38,13 +38,13 @@ BespiegeltEuchBassoNotes = {
 		h r8 d, fis fis
 		h4 r r
 		R2.*4 %57
-		r8 cis cis4 cis
+		r8 \mvTr cis\fE^\tuttiE cis4 cis
 		cis8 cis cis4 cis
 		fis,8 fis fis4 fis %60
 		fis8 fis fis4 fis
 		h, r r
 		R2.*5 %67
-		r8 a' a4 a
+		r8 \mvTr a'\fE^\tuttiE a4 a
 		a8 a a4 a
 		a8 h a g fis e %70
 		fis g a4 a,

@@ -81,9 +81,9 @@ BespiegeltEuchCornoI = {
 		e8. e16 e8 e16. e32 e8 e16. e32
 		e4 r r
 		R2. %85
-		r8 e' e4 e
+		r8 e'\fE e4 e
 		e r r
-		r8 e e4 e
+		r8 e\fE e4 e
 		e r r
 		R2.*24 %113
 		r4 r8 g\fE \once \slurDashed a([ f)]
