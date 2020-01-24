@@ -22,18 +22,25 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Oboe I"
-% 							\BespiegeltEuchOboeI
+							\BespiegeltEuchOboeI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Oboe II"
-% 							\BespiegeltEuchOboeII
+							\BespiegeltEuchOboeII
 						}
 					>>
 				>>
 				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "[in D]" } }
-						\partcombine \BespiegeltEuchCornoI \BespiegeltEuchCornoII
+					\new GrandStaff <<
+						\set GrandStaff.instrumentName = "[in D]"
+						\new Staff {
+							\set Staff.instrumentName = "Corno I"
+							\BespiegeltEuchCornoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Corno II"
+							\BespiegeltEuchCornoII
+						}
 					>>
 				>>
 				\new StaffGroup <<
@@ -49,40 +56,40 @@
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-% 						\BespiegeltEuchViola
+						\BespiegeltEuchViola
 					}
 				>>
-% 				\new ChoirStaff <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = \SopranoIncipit
-% 						\override Staff.InstrumentName.self-alignment-Y = ##f
-% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-% 						\new Voice = "Soprano" { \dynamicUp \BespiegeltEuchSopranoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Soprano \BespiegeltEuchSopranoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = \AltoIncipit
-% 						\override Staff.InstrumentName.self-alignment-Y = ##f
-% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-% 						\new Voice = "Alto" { \dynamicUp \BespiegeltEuchAltoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Alto \BespiegeltEuchAltoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = \TenoreIncipit
-% 						\override Staff.InstrumentName.self-alignment-Y = ##f
-% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-% 						\new Voice = "Tenore" { \dynamicUp \BespiegeltEuchTenoreNotes }
-% 					}
-% 					\new Lyrics \lyricsto Tenore \BespiegeltEuchTenoreLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Basſo"
-% 						\new Voice = "Basso" { \dynamicUp \BespiegeltEuchBassoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Basso \BespiegeltEuchBassoLyrics
-% 				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = \SopranoIncipit
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\new Voice = "Soprano" { \dynamicUp \BespiegeltEuchSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \BespiegeltEuchSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \AltoIncipit
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\new Voice = "Alto" { \dynamicUp \BespiegeltEuchAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \BespiegeltEuchAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \TenoreIncipit
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\new Voice = "Tenore" { \dynamicUp \BespiegeltEuchTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \BespiegeltEuchTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \BespiegeltEuchBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \BespiegeltEuchBassoLyrics
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"

@@ -34,12 +34,12 @@ BespiegeltEuchCornoI = {
 		r4 r8 d(\p d d)
 		d4 r8 d( d d)
 		d4 r8 d( d d)
-		d4 g\f a8.( h32 c)
+		d4 g\ff a8.( h32 c)
 		h4 g a8.( h32 c) %30
 		h4 g a8.( h32 c)
 		h8 r r4 r
 		R2.*3 %35
-		r8 c4\ffE c c8~
+		r8 c4\ff c c8~
 		c c4 c c8~
 		c h c h a a
 		g a h4 a
@@ -89,7 +89,7 @@ BespiegeltEuchCornoI = {
 		r4 r8 g\fE \once \slurDashed a([ f)]
 		d8( d) g( g) \once \slurDashed a( f) %115
 		d( d d) g,(\p g g)
-		\once \slurDashed e'(\f e e) g,(\p g g)
+		\once \slurDashed e'(\fE e e) g,(\p g g)
 		\once \slurDashed f'(\f f f) g,(\p g g)
 		e'4\f c d8.( e32 f)
 		e4 c d8.( e32 f) %120
