@@ -10,9 +10,9 @@ BespiegeltEuchViolinoII = {
 		\key d \major \time 3/4 \tempoBespiegeltEuch
 		fis4\fE a, cis8.( d32 e)
 		\appoggiatura fis16 e8 d r a'( g fis)
-		e16.( g32 fis8) e4 e-\critnote
+		e16.( g32) fis8 e4 e-\critnote
 		\once \slurDashed e8( d) r \once \slurDashed a'( g fis)
-		e16.( g32 fis8) e4 e %5
+		e16.( g32) fis8 e4 e %5
 		fis16( d) fis( a) d8 a' g16( fis) e( d)
 		cis8.( d32 e) a,8 a' g16( fis) e( d)
 		cis8.( d32 e) a,2~
@@ -25,11 +25,11 @@ BespiegeltEuchViolinoII = {
 		d4 r8 a cis8.( d32 e) \noBreak %15
 		d16. a''32\fE g16. d32 d4 cis\trill \bar "S-S"
 		d8. d,16 d4 cis8.( d32 e) \noBreak
-		e8 d r a'(\pE g fis)
-		\once \slurDashed e16.( g32 fis8)\fE e4 e
+		\once \slurDashed e8( d) r a'(\pE g fis)
+		\once \slurDashed e16.( g32) fis8\fE e4 e
 		\slurDashed e8( d) r a'(\pE g fis) \slurSolid %20
-		e16.( g32 fis8)\fE e4 e
-		e8 d r fis\p fis a
+		e16.( g32) fis8\fE e4 e
+		\once \slurDashed e8( d) r fis\p fis a
 		a a a a gis gis
 		a[ a] <cis e, a,>\f \noBeam a\p \slurDashed fis16( e) d( cis) \slurSolid
 		\appoggiatura cis8 h4 <cis e a e'>8\f \noBeam a'\p \slurDashed fis16( e) d( cis) \slurSolid %25
@@ -52,10 +52,10 @@ BespiegeltEuchViolinoII = {
 		a8 a a4 gis\trill
 		a e gis8.( a32 h)
 		h8( a) r e'(\pE d cis)
-		h16.( d32 cis8)\fE h4 h %45
-		h8 a r e'(\pE d cis)
-		h16.( d32 cis8)\fE h4 h
-		h8 a cis[\p cis cis h]
+		h16.( d32) cis8\fE h4 h %45
+		\once \slurDashed h8( a) r e'(\pE d cis)
+		h16.( d32) cis8\fE h4 h
+		\once \slurDashed h8( a) cis[\p cis cis h]
 		ais e' e e e e
 		d cis cis8.( d32 e) d8 cis %50
 		h fis'4\ff fis,8 ais8.( h32 cis)

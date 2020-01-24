@@ -65,7 +65,7 @@ BespiegeltEuchAltoNotes = {
 		h8 r r \mvTr d\pE^\soloE h g!
 		cis16([ h)] cis8 r cis a fis
 		h16([ a)] h8 r h([ g)] e
-		a4( h8) a g fis %65
+		a4~ a8 a g fis %65
 		fis e r g fis e
 		fis4 r8 a g fis
 		e \mvTr cis'\fE^\tutti cis4 cis

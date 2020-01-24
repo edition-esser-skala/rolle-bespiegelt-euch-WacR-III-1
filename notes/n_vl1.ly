@@ -25,11 +25,11 @@ BespiegeltEuchViolinoI = {
 		fis8 d'4 d,8 e8.( fis32 g) \noBreak %15
 		fis16.^\critnote a'32\fE h16. g32 fis4 e\trill \bar "S-S"
 		d8. d,16 d4 e8.( fis32 g) \noBreak
-		g8 fis r fis'(\pE e d)
-		cis16.( e32) d16.(\fE a32) a4 \appoggiatura a16 g16(-\critnote fis g8)
+		\once \slurDashed g8( fis) r fis'(\pE e d)
+		cis16.( e32) d16.(\fE a32) a4 \appoggiatura a16 g16-\critnote fis g8
 		g8( fis) r fis'(\pE e d) %20
-		cis16.( e32) d16.(\fE a32) a4( g16 fis) g8
-		g fis r a\p d fis
+		cis16.( e32) d16.(\fE a32) a4 g16 fis g8
+		\once \slurDashed g( fis) r a\p d fis
 		e e e e d d
 		cis[ cis] <a' cis, e, a,>8\f \noBeam e^\critnote\p \slurDashed d16( cis) h( a) \slurSolid
 		\appoggiatura a8 gis4 <e' cis e, cis>8\f \noBeam e\p d16( cis) h( a) %25
@@ -52,10 +52,10 @@ BespiegeltEuchViolinoI = {
 		cis16. e32 fis16. d32 cis4 h\trill
 		a a h8.( cis32 d)
 		d8( cis) r cis'(\pE h a)
-		gis16.( h32) a16.(\fE e32) e4 d16( cis d8) %45
-		d8 cis r cis'(\pE h a)
-		gis16.( h32) a16.(\fE e32) e4 d16( cis d8)
-		d cis e[\p e e e]
+		gis16.( h32) a16.(\fE e32) e4 d16 cis d8 %45
+		\once \slurDashed d8( cis) r cis'(\pE h a)
+		gis16.( h32) a16.(\fE e32) e4 d16 cis d8
+		\once \slurDashed d( cis) e[\p e e e]
 		e ais ais ais ais ais
 		h ais e8.( fis32 g) fis8 e %50
 		d fis4\ff h,8 cis8.( d32 e)
