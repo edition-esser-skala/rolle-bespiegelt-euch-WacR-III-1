@@ -177,6 +177,18 @@ BespiegeltEuchBassoLyrics = \lyricmode {
 	ließ. %114 finis
 }
 
+GuteNachtBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 4/4 \autoBeamOff \tempoGuteNacht
+		
+	}
+}
+
+GuteNachtBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

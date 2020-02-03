@@ -262,6 +262,18 @@ BespiegeltEuchBassFigures = \figuremode {
 	r8.. <[6]>32 <[6 4]>4 <[5 3]> %124 finis
 }
 
+GuteNachtOrgano = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 4/4 \tempoGuteNacht
+		
+	}
+}
+
+GuteNachtBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

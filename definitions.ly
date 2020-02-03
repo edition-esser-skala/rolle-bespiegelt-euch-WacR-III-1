@@ -295,6 +295,7 @@ tempoMarkup =
 %
 
 tempoBespiegeltEuch = \tempoMarkup "Coro"
+tempoGuteNacht = \tempoMarkup "Choral con Instrum:"
 
 
 

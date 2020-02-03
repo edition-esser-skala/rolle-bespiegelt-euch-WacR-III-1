@@ -11,95 +11,143 @@
 #(set-global-staff-size 15.87)
 
 \book {
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1" "C O R O" "Beſpiegelt euch in Jeſu Leiden"
+% 		}
+% 		\paper { systems-per-page = #1 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe I"
+% 							\BespiegeltEuchOboeI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe II"
+% 							\BespiegeltEuchOboeII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\set GrandStaff.instrumentName = "[in D]"
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Corno I"
+% 							\BespiegeltEuchCornoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Corno II"
+% 							\BespiegeltEuchCornoII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\BespiegeltEuchViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\BespiegeltEuchViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\BespiegeltEuchViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \SopranoIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Soprano" { \dynamicUp \BespiegeltEuchSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \BespiegeltEuchSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \AltoIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Alto" { \dynamicUp \BespiegeltEuchAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \BespiegeltEuchAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \TenoreIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Tenore" { \dynamicUp \BespiegeltEuchTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \BespiegeltEuchTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \BespiegeltEuchBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \BespiegeltEuchBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\BespiegeltEuchOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \BespiegeltEuchBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 75 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1" "C O R O" "Beſpiegelt euch in Jeſu Leiden"
+			movement = \movementTitle "2" "C H O R A L" "Gute Nacht, o Weſen"
 		}
-		\paper { systems-per-page = #1 }
+		\paper {
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #35
+		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Oboe I"
-							\BespiegeltEuchOboeI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Oboe II"
-							\BespiegeltEuchOboeII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\set GrandStaff.instrumentName = "[in D]"
-						\new Staff {
-							\set Staff.instrumentName = "Corno I"
-							\BespiegeltEuchCornoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Corno II"
-							\BespiegeltEuchCornoII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\BespiegeltEuchViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\BespiegeltEuchViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\BespiegeltEuchViola
-					}
-				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \SopranoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Soprano" { \dynamicUp \BespiegeltEuchSopranoNotes }
+						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
+						\new Voice = "Soprano" { \dynamicUp \GuteNachtSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \BespiegeltEuchSopranoLyrics
+					\new Lyrics \lyricsto Soprano \GuteNachtSopranoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \AltoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Alto" { \dynamicUp \BespiegeltEuchAltoNotes }
+						\set Staff.instrumentName = \markup { \center-column { "Alto" "Violino II" "Oboe II" } }
+						\new Voice = "Alto" { \dynamicUp \GuteNachtAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \BespiegeltEuchAltoLyrics
+					\new Lyrics \lyricsto Alto \GuteNachtAltoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \TenoreIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Tenore" { \dynamicUp \BespiegeltEuchTenoreNotes }
+						\set Staff.instrumentName = \markup { \center-column { "Tenore" "Viola" } }
+						\new Voice = "Tenore" { \dynamicUp \GuteNachtTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \BespiegeltEuchTenoreLyrics
+					\new Lyrics \lyricsto Tenore \GuteNachtTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \BespiegeltEuchBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \GuteNachtBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \BespiegeltEuchBassoLyrics
+					\new Lyrics \lyricsto Basso \GuteNachtBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\BespiegeltEuchOrgano
+						\GuteNachtOrgano
 					}
 				>>
-				\new FiguredBass { \BespiegeltEuchBassFigures }
+				\new FiguredBass { \GuteNachtBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 75 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }

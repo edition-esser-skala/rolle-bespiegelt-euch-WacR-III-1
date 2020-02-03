@@ -208,6 +208,18 @@ BespiegeltEuchTenoreLyrics = \lyricmode {
 	ließ.\x %114 finis
 }
 
+GuteNachtTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \minor \time 4/4 \autoBeamOff \tempoGuteNacht
+		
+	}
+}
+
+GuteNachtTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

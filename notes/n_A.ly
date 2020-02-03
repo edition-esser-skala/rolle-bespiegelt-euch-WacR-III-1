@@ -214,6 +214,18 @@ BespiegeltEuchAltoLyrics = \lyricmode {
 	ließ. %114 finis
 }
 
+GuteNachtAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \autoBeamOff \tempoGuteNacht
+		
+	}
+}
+
+GuteNachtAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -208,6 +208,18 @@ BespiegeltEuchSopranoLyrics = \lyricmode {
 	ließ. %114 finis
 }
 
+GuteNachtSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \autoBeamOff \tempoGuteNacht
+		
+	}
+}
+
+GuteNachtSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
