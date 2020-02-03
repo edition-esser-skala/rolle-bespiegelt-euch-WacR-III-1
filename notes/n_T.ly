@@ -253,6 +253,18 @@ GuteNachtTenoreLyricsB = \lyricmode {
 	Licht. %6 finis
 }
 
+JesusGingHinaufTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \minor \time 4/4 \autoBeamOff \tempoJesusGingHinauf
+		
+	}
+}
+
+JesusGingHinaufTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

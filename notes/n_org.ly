@@ -298,6 +298,18 @@ GuteNachtBassFigures = \figuremode {
 	r1 %13 finis
 }
 
+JesusGingHinaufOrgano = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 4/4 \tempoJesusGingHinauf
+		
+	}
+}
+
+JesusGingHinaufBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

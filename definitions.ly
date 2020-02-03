@@ -296,6 +296,7 @@ tempoMarkup =
 
 tempoBespiegeltEuch = \tempoMarkup "Coro"
 tempoGuteNacht = \tempoMarkup "Choral con Instrum:"
+tempoJesusGingHinauf = \tempoMarkup "Evang: Luca XXII. 39."
 
 
 

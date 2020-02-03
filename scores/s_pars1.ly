@@ -102,56 +102,84 @@
 % 			\midi { \tempo 4 = 75 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2" "C H O R A L" "Gute Nacht, o Weſen"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new ChoirStaff \with { \twoStanzaDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
+% 						\new Voice = "Soprano" { \dynamicUp \GuteNachtSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \GuteNachtSopranoLyricsA
+% 					\new Lyrics \lyricsto Soprano \GuteNachtSopranoLyricsB
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Alto" "Violino II" "Oboe II" } }
+% 						\new Voice = "Alto" { \dynamicUp \GuteNachtAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \GuteNachtAltoLyricsA
+% 					\new Lyrics \lyricsto Alto \GuteNachtAltoLyricsB
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Tenore" "Viola" } }
+% 						\new Voice = "Tenore" { \dynamicUp \GuteNachtTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \GuteNachtTenoreLyricsA
+% 					\new Lyrics \lyricsto Tenore \GuteNachtTenoreLyricsB
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \GuteNachtBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \GuteNachtBassoLyricsA
+% 					\new Lyrics \lyricsto Basso \GuteNachtBassoLyricsB
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\GuteNachtOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \GuteNachtBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2" "C H O R A L" "Gute Nacht, o Weſen"
+			movement = \movementTitle "3" "R E C I T A T I V O" "Und Jeſus ging hinauf"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #5
 		}
 		\score {
 			<<
-				\new ChoirStaff \with { \twoStanzaDistance } <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
-						\new Voice = "Soprano" { \dynamicUp \GuteNachtSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \GuteNachtSopranoLyricsA
-					\new Lyrics \lyricsto Soprano \GuteNachtSopranoLyricsB
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Alto" "Violino II" "Oboe II" } }
-						\new Voice = "Alto" { \dynamicUp \GuteNachtAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \GuteNachtAltoLyricsA
-					\new Lyrics \lyricsto Alto \GuteNachtAltoLyricsB
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Tenore" "Viola" } }
-						\new Voice = "Tenore" { \dynamicUp \GuteNachtTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \GuteNachtTenoreLyricsA
-					\new Lyrics \lyricsto Tenore \GuteNachtTenoreLyricsB
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \GuteNachtBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \GuteNachtBassoLyricsA
-					\new Lyrics \lyricsto Basso \GuteNachtBassoLyricsB
-				>>
+				\new Staff {
+					\set Staff.instrumentName = "Evangeliſt"
+					\new Voice = "Tenore" { \dynamicUp \JesusGingHinaufTenoreNotes }
+				}
+				\new Lyrics \lyricsto Tenore \JesusGingHinaufTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\GuteNachtOrgano
+						\JesusGingHinaufOrgano
 					}
 				>>
-				\new FiguredBass { \GuteNachtBassFigures }
+				\new FiguredBass { \JesusGingHinaufBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }
