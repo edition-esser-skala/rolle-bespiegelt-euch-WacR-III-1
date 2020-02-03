@@ -181,12 +181,45 @@ GuteNachtBassoNotes = {
 	\relative c {
 		\clef bass
 		\key d \minor \time 4/4 \autoBeamOff \tempoGuteNacht
-		
+		d4 fis g d
+		a'2 d,\fermata
+		d4 f! e f
+		d2 a
+		f'4 d g a %5
+		d,1\fermata \bar ":|."
+		d4 d e f
+		b, c f2\fermata
+		f4 d e f
+		d a' e2 %10
+		a, d4 fis
+		g d a2
+		d1\fermata \bar "|." %13 finis
 	}
 }
 
-GuteNachtBassoLyrics = \lyricmode {
-	
+GuteNachtBassoLyricsA = \lyricmode {
+	Gu -- te Nacht, o
+	We -- ſen,
+	das die Welt er --
+	le -- ſen,
+	mir ge -- fällſt du %5
+	nicht.
+	Gu -- te Nacht, du
+	Stolz und Pracht,
+	dir ſey gantz, du
+	Laſ -- ter -- le -- %10
+	ben,
+	gu -- te Nacht ge --
+	ge -- ben. %13 finis
+}
+
+GuteNachtBassoLyricsB = \lyricmode {
+	Gu -- te Nacht, ihr
+	Sün -- den,
+	blei -- bet weit da --
+	hin -- den,
+	kommt nicht mehr ans %5
+	Licht. %6 finis
 }
 
 % BassoNotes = {

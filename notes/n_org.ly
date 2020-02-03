@@ -266,12 +266,36 @@ GuteNachtOrgano = {
 	\relative c {
 		\clef bass
 		\key d \minor \time 4/4 \tempoGuteNacht
-		
+		d4 fis g d
+		a2 d\fermata
+		d4 f! e f
+		d2 a
+		f'4 d g a %5
+		d,1\fermata \bar ":|."
+		d4 d e f
+		b, c f2\fermata
+		f4 d e f
+		d a' e2 %10
+		a, d4 fis
+		g d a2
+		d,1\fermata \bar "|." %13 finis
 	}
 }
 
 GuteNachtBassFigures = \figuremode {
-	
+	r4 <6 5> r <[_!]>
+	<6 4> <5 _+> r2
+	r4 <6 4! 2> <6>2
+	r <[_+]>
+	<[6]>2 <6 5>4 <_+> %5
+	r1
+	r2 <6>
+	r1
+	r4 <6!> <6>2
+	r2 <[5!] 4>4 <\l _+> %10
+	<_+>2. <6 5!>4
+	r <[_!]> <4> <_+>
+	r1 %13 finis
 }
 
 % Organo = {

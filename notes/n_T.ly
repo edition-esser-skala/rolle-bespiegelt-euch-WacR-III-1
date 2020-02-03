@@ -212,12 +212,45 @@ GuteNachtTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key d \minor \time 4/4 \autoBeamOff \tempoGuteNacht
-		
+		d4 c b a
+		a2 f\fermata
+		d'4 d e c
+		f2 e\fermata
+		d4 d d cis %5
+		a1\fermata \bar ":|."
+		d4 d c! c
+		d c a2\fermata
+		c4 d c c
+		f e e2 %10
+		cis\fermata d4 c?
+		b a a2
+		f1\fermata \bar "|." %13 finis
 	}
 }
 
-GuteNachtTenoreLyrics = \lyricmode {
-	
+GuteNachtTenoreLyricsA = \lyricmode {
+	Gu -- te Nacht, o
+	We -- ſen,
+	das die Welt er --
+	le -- ſen,
+	mir ge -- fällſt du %5
+	nicht.
+	Gu -- te Nacht, du
+	Stolz und Pracht,
+	dir ſey gantz, du
+	Laſ -- ter -- le -- %10
+	ben,
+	gu -- te Nacht ge --
+	ge -- ben. %13 finis
+}
+
+GuteNachtTenoreLyricsB = \lyricmode {
+	Gu -- te Nacht, ihr
+	Sün -- den,
+	blei -- bet weit da --
+	hin -- den,
+	kommt nicht mehr ans %5
+	Licht. %6 finis
 }
 
 % TenoreNotes = {

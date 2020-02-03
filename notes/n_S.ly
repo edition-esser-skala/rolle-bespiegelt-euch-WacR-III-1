@@ -212,12 +212,45 @@ GuteNachtSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \minor \time 4/4 \autoBeamOff \tempoGuteNacht
-		
+		a'4 a g f
+		f( e) d2\fermata
+		a'4 h c a
+		d2 cis\fermata
+		d4 f e e %5
+		d1\fermata \bar ":|."
+		a4 a c a
+		b g f2\fermata
+		a4 h c a
+		d c h2 %10
+		a\fermata f4 a
+		g f e2
+		d1\fermata \bar "|." %13 finis
 	}
 }
 
-GuteNachtSopranoLyrics = \lyricmode {
-	
+GuteNachtSopranoLyricsA = \lyricmode {
+	Gu -- te Nacht, o
+	We -- ſen,
+	das die Welt er --
+	le -- ſen,
+	mir ge -- fällſt du %5
+	nicht.
+	Gu -- te Nacht, du
+	Stolz und Pracht,
+	dir ſey gantz, du
+	Laſ -- ter -- le -- %10
+	ben,
+	gu -- te Nacht ge --
+	ge -- ben. %13 finis
+}
+
+GuteNachtSopranoLyricsB = \lyricmode {
+	Gu -- te Nacht, ihr
+	Sün -- den,
+	blei -- bet weit da --
+	hin -- den,
+	kommt nicht mehr ans %5
+	Licht. %6 finis
 }
 
 % SopranoNotes = {

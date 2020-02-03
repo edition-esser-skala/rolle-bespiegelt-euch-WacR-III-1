@@ -218,12 +218,45 @@ GuteNachtAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \minor \time 4/4 \autoBeamOff \tempoGuteNacht
-		
+		f4 d d d
+		d( cis) a2\fermata
+		f'4 g g f
+		a2 a\fermata
+		a4 a b a %5
+		f1\fermata \bar ":|."
+		f4 f g f
+		f e c2\fermata
+		f4 f g f
+		a a a( gis) %10
+		e2\fermata d4 d
+		d d d( cis)
+		a1\fermata \bar "|." %13 finis
 	}
 }
 
-GuteNachtAltoLyrics = \lyricmode {
-	
+GuteNachtAltoLyricsA = \lyricmode {
+	Gu -- te Nacht, o
+	We -- ſen,
+	das die Welt er --
+	le -- ſen,
+	mir ge -- fällſt du %5
+	nicht.
+	Gu -- te Nacht, du
+	Stolz und Pracht,
+	dir ſey gantz, du
+	Laſ -- ter -- le -- %10
+	ben,
+	gu -- te Nacht ge --
+	ge -- ben. %13 finis
+}
+
+GuteNachtAltoLyricsB = \lyricmode {
+	Gu -- te Nacht, ihr
+	Sün -- den,
+	blei -- bet weit da --
+	hin -- den,
+	kommt nicht mehr ans %5
+	Licht. %6 finis
 }
 
 % AltoNotes = {
