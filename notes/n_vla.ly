@@ -134,3 +134,11 @@ BespiegeltEuchViola = {
 		a16. a'32\ffE g16. g32 a4 g \bar "S-S" %124 finis
 	}
 }
+
+LassetUnsZuViola = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoLassetUnsZu
+		
+	}
+}

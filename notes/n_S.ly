@@ -253,6 +253,18 @@ GuteNachtSopranoLyricsB = \lyricmode {
 	Licht. %6 finis
 }
 
+LassetUnsZuSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoLassetUnsZu
+		
+	}
+}
+
+LassetUnsZuSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

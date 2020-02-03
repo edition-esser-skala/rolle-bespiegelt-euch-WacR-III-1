@@ -273,6 +273,18 @@ JesusGingHinaufTenoreLyrics = \lyricmode {
 	\xE an den ſelb -- gen Ort. %5 finis
 }
 
+LassetUnsZuTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 4/4 \autoBeamOff \tempoLassetUnsZu
+		
+	}
+}
+
+LassetUnsZuTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -154,32 +154,104 @@
 % 			\midi { \tempo 4 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3" "R E C I T A T I V O" "Und Jeſus ging hinaus"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Evangeliſt"
+% 					\new Voice = "Tenore" { \dynamicUp \JesusGingHinaufTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \JesusGingHinaufTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\JesusGingHinaufOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \JesusGingHinaufBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3" "R E C I T A T I V O" "Und Jeſus ging hinaus"
+			movement = \movementTitle "4" "C O R O" "Laßet uns zu Jeſu hinaus gehen"
 		}
-		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #2
-		}
+		\paper { systems-per-page = #1 }
 		\score {
 			<<
-				\new Staff {
-					\set Staff.instrumentName = "Evangeliſt"
-					\new Voice = "Tenore" { \dynamicUp \JesusGingHinaufTenoreNotes }
-				}
-				\new Lyrics \lyricsto Tenore \JesusGingHinaufTenoreLyrics
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Oboe I"
+							\LassetUnsZuOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe II"
+							\LassetUnsZuOboeII
+						}
+					>>
+				>>
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\LassetUnsZuViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\LassetUnsZuViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\LassetUnsZuViola
+					}
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Canto"
+						\new Voice = "Soprano" { \dynamicUp \LassetUnsZuSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \LassetUnsZuSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \LassetUnsZuAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \LassetUnsZuAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \LassetUnsZuTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \LassetUnsZuTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \LassetUnsZuBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \LassetUnsZuBassoLyrics
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\JesusGingHinaufOrgano
+						\LassetUnsZuOrgano
 					}
 				>>
-				\new FiguredBass { \JesusGingHinaufBassFigures }
+				\new FiguredBass { \LassetUnsZuBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 75 }
 		}
 	}
 }

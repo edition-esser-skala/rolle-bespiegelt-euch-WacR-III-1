@@ -134,3 +134,11 @@ BespiegeltEuchViolinoII = {
 		d16. d'32\ff d16. d32 d4 cis \bar "S-S" %124 finis
 	}
 }
+
+LassetUnsZuViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoLassetUnsZu
+		
+	}
+}

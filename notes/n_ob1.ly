@@ -119,3 +119,11 @@ BespiegeltEuchOboeI = {
 		fis16. a'32\ff h16. g32 fis4 e\trill \bar "S-S" %124 finis
 	}
 }
+
+LassetUnsZuOboeI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoLassetUnsZu
+		
+	}
+}

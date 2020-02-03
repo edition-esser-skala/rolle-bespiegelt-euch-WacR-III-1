@@ -222,6 +222,18 @@ GuteNachtBassoLyricsB = \lyricmode {
 	Licht. %6 finis
 }
 
+LassetUnsZuBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \autoBeamOff \tempoLassetUnsZu
+		
+	}
+}
+
+LassetUnsZuBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

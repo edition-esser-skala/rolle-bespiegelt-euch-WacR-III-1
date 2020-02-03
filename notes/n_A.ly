@@ -259,6 +259,18 @@ GuteNachtAltoLyricsB = \lyricmode {
 	Licht. %6 finis
 }
 
+LassetUnsZuAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoLassetUnsZu
+		
+	}
+}
+
+LassetUnsZuAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -318,6 +318,18 @@ JesusGingHinaufBassFigures = \figuremode {
 	r1 %5
 }
 
+LassetUnsZuOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \tempoLassetUnsZu
+		
+	}
+}
+
+LassetUnsZuBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
