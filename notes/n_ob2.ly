@@ -124,6 +124,57 @@ LassetUnsZuOboeII = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 4/4 \tempoLassetUnsZu
-		
+		R1*7 %7
+		b'2\fE b
+		a2. d4
+		g, b c b %10
+		a f c'2~
+		c fis,4 fis
+		g2 \once \tieDashed b~
+		b e,4 e
+		f f g a %15
+		b2 b~
+		b a
+		b as~
+		as4 g8 as g4 f
+		es c g'2~ %20
+		g4 f8 g f4 es
+		d es f g
+		a f c' a
+		b g g2
+		a r %25
+		a a
+		g r
+		g g
+		f r
+		f b %30
+		c1
+		b2 r
+		d d
+		c r
+		c c %35
+		b f'~
+		f4 es8 f es4 d
+		c2 es~
+		es4 d8 es d4 c
+		b2 d~ %40
+		d4 c8 d c4 b
+		b a d2~\pE
+		d4 c8 d c4 b
+		b a es'2~\fE
+		es4 d8 es d4 c %45
+		b1~
+		b~
+		b~
+		b~
+		b4 b2 g4~ %50
+		g b2 g4(
+		d) d'2 b4(
+		a) c2 a4
+		b2 b'
+		b a %55
+		b b
+		b a
+		b1\fermata \bar "|." %58 finis
 	}
 }

@@ -251,7 +251,7 @@
 				\new FiguredBass { \LassetUnsZuBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 75 }
+			\midi { \tempo 1 = 60 }
 		}
 	}
 }

@@ -263,12 +263,107 @@ LassetUnsZuAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 4/4 \autoBeamOff \tempoLassetUnsZu
-		
+		R1*7 %7
+		b'2\fE b
+		a2. d4
+		g, b c b %10
+		a f c'2~
+		c fis,4 fis
+		g2 b~
+		b e,
+		f4 f g a %15
+		b1~
+		b2 a
+		b as~
+		as4 g8([ as] g4) f
+		es2 g~ %20
+		g4 f8([ g] f4) es
+		d es f g
+		a1
+		g
+		a2 r %25
+		a a
+		g r
+		e g
+		f r
+		f b %30
+		c1
+		b2 r
+		h g
+		g^\critnote r
+		a f %35
+		f r
+		g1
+		g2 es'~
+		es4 d8([ es] d4) c
+		b2 d~ %40
+		d4 c8[ d] c4 b
+		b( a) d2~\pE
+		d4 c8[ d] c4 b
+		b( a) es'2~\fE
+		es4 d8[ es] d4 c %45
+		b2 b
+		b b
+		b b
+		b b
+		b1~ %50
+		b
+		f~
+		f
+		f2 r
+		R1*3 %57
+		R1\fermataMarkup \bar "|." %58 finis
 	}
 }
 
 LassetUnsZuAltoLyrics = \lyricmode {
+	La -- ßet %8
+	uns zu
+	Je -- ſu hi -- naus %10
+	ge -- hen au --
+	ßer dem
+	La -- _
+	_
+	ger, au -- ßer dem %15
+	La --
+	_
+	ger und __
+	ſei -- ne
+	Schmach, und __ %20
+	ſei -- ne
+	Schmach, und ſei -- ne
+	Schmach
+	tra --
+	gen, %25
+	ſei -- ne
+	\xE Schmach,\x
+	ſei -- ne
+	Schmach
+	tra -- _ %30
+	_
+	gen,
+	ſei -- ne
+	Schmach,
+	ſei -- ne %35
+	Schmach
+	\xE tra --
+	\x gen, und __
+	ſei -- ne
+	Schmach tra -- %40
+	_ _ _
+	\xE gen, tra --
+	_ _ _
+	gen, tra --
+	_ _ _ %45
+	gen, und
+	ſei -- ne
+	Schmach, und
+	ſei -- ne
+	Schmach __ %50
 	
+	tra --
+	
+	gen. %54 finis
 }
 
 % AltoNotes = {

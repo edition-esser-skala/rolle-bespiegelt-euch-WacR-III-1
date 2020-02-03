@@ -322,12 +322,126 @@ LassetUnsZuOrgano = {
 	\relative c {
 		\clef bass
 		\key b \major \time 4/4 \tempoLassetUnsZu
-		
+		R1
+		r4 b8\fE c d4 es
+		f g a f
+		b2 r4 d8 c
+		h4 a g f %5
+		es c r c'8 b
+		a4 g f es
+		d c b g'
+		f f, r b'
+		c2. c,4 %10
+		f2 r4 a8 g
+		fis2 d
+		g, r4 g'8 f
+		e2 c
+		f, \clef "treble_8" b'4^\critnote c %15
+		b c d es
+		f1
+		b,2 r
+		h g
+		c r %20
+		a f
+		\clef bass b2 b
+		a2. d4
+		g, b c b
+		a f c'2~ %25
+		c fis,4 fis
+		g2 b~
+		b e,
+		f!4 f g a
+		b2 b~ %30
+		b a
+		b as~
+		as4 g8 as g4 f
+		es2 g~
+		g4 f8 g f4 es %35
+		d b r2
+		h'2 g
+		c r
+		a f
+		b b,4 d %40
+		es2. es4
+		f1~\p
+		f~
+		f2 r
+		a\fE a %45
+		r4 b b a
+		g b f b
+		e, des' b as
+		g b f b
+		e,2 e %50
+		e e
+		f1
+		f,
+		b2 d
+		es f %55
+		b, d
+		es f
+		b,1\fermata \bar "|." %58 finis
 	}
 }
 
 LassetUnsZuBassFigures = \figuremode {
-	
+	r1
+	r2 <6>
+	r4 <6> q <7>
+	r1
+	<6 5>2 <_!> %5
+	<6>1
+	<[6 5]>
+	<[6]>4 q r q
+	r1
+	<[4]>2 <[_!]> %10
+	r2. <5->8 <6>
+	<7>4 <6> <_+>2
+	r1
+	<7>4 <6> <_!>2
+	r2 <[7]>4 <[6]> %15
+	r1
+	<[4]>2 <[3]>
+	r1
+	<[7-]>4 <[6]> <[_!]>2
+	r1 %20
+	<[7]>4 <[6]> r2
+	r1
+	<6>
+	<7>2 <_!>
+	<6>1 %25
+	<6 4+ [_-]>4 <\t \t 2> <6> <5>
+	r1
+	<6 4! 3>4 <\t \t [2]> <6> <[5]>
+	r1
+	r2 <[5 3]>4 <[6 4]> %30
+	<5 2>2 <[6]>
+	r <4 2!>
+	r <[_!]>
+	<6> <6>
+	<6 4 2>1 %35
+	<[6]>1
+	<[7-]>4 <[6]> <[_!]>2
+	r1
+	<[7]>4 <[6]> r2
+	r2. <[6]>4 %40
+	<[9 7]>2 <[8 6]>4 <[7 5]>
+	<[6 4]> <[5 3]> <[8 6]>2
+	<[\t \t]>2 <[7 5]>4 <[6 4]>
+	<[\t \t]> <[5 3]>2.
+	<[7 5]>2 <[6 4]>4 <[5 3]> %45
+	r1
+	r2 <6 4>
+	<[7-]>1 \bassFigureExtendersOn
+	<7->1
+	q %50
+	q2 \bassFigureExtendersOff <[6]>
+	<[6! 4]>1
+	<[7 3]>
+	r2 <6>
+	<6 5> <3> %55
+	r <6>
+	<6 5> <3>
+	r1 %58 finis
 }
 
 % Organo = {

@@ -226,12 +226,77 @@ LassetUnsZuBassoNotes = {
 	\relative c {
 		\clef bass
 		\key b \major \time 4/4 \autoBeamOff \tempoLassetUnsZu
-		
+		R1*21 %21
+		b'2\fE b
+		a2. d4
+		g, b c b
+		a f c'2~ %25
+		c fis,4 fis
+		g2 b~
+		b e,
+		f4 f g a
+		b1~ %30
+		b2 a
+		b as~
+		as4 g8([ as] g4) f
+		es2 g~
+		g4 f8([ g] f4) es %35
+		d2 r
+		h'( g)
+		c r
+		a( f)
+		b2. d,4 %40
+		es2. es4
+		f2 r
+		R1*2
+		a2\fE a %45
+		b b
+		g^\critnote f
+		e b'
+		g f
+		e1~ %50
+		e
+		f~
+		f
+		b,2 r
+		R1*3 %57
+		R1\fermataMarkup \bar "|." %58 finis
 	}
 }
 
 LassetUnsZuBassoLyrics = \lyricmode {
+	La -- ßet %22
+	uns zu
+	Je -- ſu hi -- naus
+	ge -- hen au -- %25
+	ßer dem
+	La -- _
+	_
+	ger, au -- ßer dem
+	La -- %30
+	_
+	ger und __
+	ſei -- ne
+	Schmach, und __
+	ſei -- ne %35
+	Schmach
+	tra --
+	gen,
+	tra --
+	gen, und %40
+	ſei -- ne
+	Schmach,
 	
+	ſei -- ne %45
+	Schmach, und
+	ſei -- ne
+	Schmach, und
+	ſei -- ne
+	Schmach __ %50
+	
+	tra --
+	
+	gen. %54 finis
 }
 
 % BassoNotes = {

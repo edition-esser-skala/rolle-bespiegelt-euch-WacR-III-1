@@ -137,8 +137,65 @@ BespiegeltEuchViola = {
 
 LassetUnsZuViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key b \major \time 4/4 \tempoLassetUnsZu
-		
+		f2\fE f
+		d2. g4
+		c, es f es
+		d b f'2~
+		f h,4 h %5
+		c2 es~
+		es a,
+		b4 c d es
+		f2 f~
+		f e %10
+		f es~
+		es4 d8 es d4 c
+		b g d'2~
+		d4 c8 d c4 b
+		a a b c %15
+		b c d es
+		f2 f,
+		b r4 d8 c
+		h2 g
+		c r4 c8 b-\critnote %20
+		a2 f
+		b1
+		c2. d4
+		d2 c
+		c r %25
+		fis d
+		d r
+		e c
+		f f
+		d2. g4 %30
+		c, es! f es
+		d b f'2~
+		f h,4 h
+		c2 es~
+		es a, %35
+		b r
+		h h'
+		g r
+		f f
+		f b,! %40
+		g'2. g4
+		f1~\pE
+		f~
+		f2 r
+		r f4\fE f %45
+		b, b b a
+		g b f b
+		e, des' b as
+		g b f b
+		e,2 des' %50
+		des c
+		f1
+		es
+		d2 d
+		es f %55
+		b, d
+		es f
+		b,1\fermata \bar "|." %58 finis
 	}
 }

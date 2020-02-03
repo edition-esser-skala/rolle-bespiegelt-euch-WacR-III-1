@@ -277,12 +277,118 @@ LassetUnsZuTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key b \major \time 4/4 \autoBeamOff \tempoLassetUnsZu
-		
+		f2\fE f
+		d2. g4
+		c, es f es
+		d b f'2~
+		f h,4 h %5
+		c2 es~
+		es a,
+		b4 c d es
+		\once \tieDashed f1~
+		f2 e %10
+		f es~
+		es4 d8([ es] d4) c
+		b2 d~
+		d4 c8([ d] c4) b
+		a2( b4 c) %15
+		b c d es
+		f1
+		b,2 r
+		h g
+		c r %20
+		a f
+		b1
+		c2. d4
+		d2( c)
+		c r %25
+		fis d
+		d r
+		R1
+		f2 f
+		d2. g4 %30
+		c, es! f es
+		d b f'2~
+		f h,4 h
+		c2 es~
+		es a, %35
+		b f'~
+		f4 es8([ f] es4) d
+		c2 r
+		f1
+		f2 b, %40
+		g'2. g4
+		f2 r
+		R1*2
+		r2 f4\fE f %45
+		f2 f
+		g f
+		e f
+		g f
+		des1~ %50
+		des2 c
+		d1
+		c
+		d2 r
+		R1*3 %57
+		R1\fermataMarkup \bar "|." %58 finis
 	}
 }
 
 LassetUnsZuTenoreLyrics = \lyricmode {
+	La -- ßet
+	uns zu
+	Je -- ſu hi -- naus
+	ge -- hen au --
+	ßer dem %5
+	La -- _
+	_
+	ger au -- ßer dem
+	La --
+	_ %10
+	ger und __
+	ſei -- ne
+	Schmach, und __
+	ſei -- ne
+	Schmach __ %15
+	tra -- _ _ _
+	_
+	gen,
+	ſei -- ne
+	Schmach, %20
+	ſei -- ne
+	Schmach
+	\xE tra -- gen,
+	tra --
+	gen, %25
+	ſei -- ne\x
+	Schmach,
 	
+	la -- ßet
+	uns zu %30
+	Je -- ſu hi -- naus
+	ge -- hen au --
+	ßer dem
+	La -- _
+	_ %35
+	ger und __
+	ſei -- ne
+	Schmach
+	tra --
+	gen, und %40
+	ſei -- ne
+	Schmach,
+	
+	ſei -- ne %45
+	\xE Schmach, und
+	ſei -- ne
+	Schmach, und
+	ſei -- ne
+	Schmach __ %50
+	_
+	tra --
+	_
+	gen. %54 finis
 }
 
 % TenoreNotes = {

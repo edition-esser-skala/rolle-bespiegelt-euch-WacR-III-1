@@ -257,12 +257,93 @@ LassetUnsZuSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 4/4 \autoBeamOff \tempoLassetUnsZu
-		
+		R1*14 %14
+		f'2\fE f %15
+		d2. g4
+		c, es f es
+		d^\critnote b f'2~
+		f h,4 h
+		c2 es~ %20
+		es a,
+		b4 c d es
+		f1~
+		f2 e
+		f es~ %25
+		es4 d8([ es] d4) c
+		b2 d~
+		d4 c8([ d] c4) b
+		a2( b4 c)
+		b( c d es %30
+		f2) f,
+		R1
+		d'2 d
+		es r
+		c c %35
+		d as'~
+		as4 g8[( as] g4) f
+		es2 g~
+		g4 f8[( g] f4) es
+		d2 f~ %40
+		f4 es8[ f] es4 d
+		d( c) f2~\pE
+		f4 es8[ f] es4 d
+		d( c) g'2~\fE
+		g4 f8[ g] f4 es %45
+		d2 d
+		d d
+		des des
+		des? des
+		g1~ %50
+		g
+		b,
+		a
+		b2 r
+		R1*3 %57
+		R1\fermataMarkup \bar "|." %58 finis
 	}
 }
 
 LassetUnsZuSopranoLyrics = \lyricmode {
+	La -- ßet %15
+	uns zu
+	Je -- ſu hi -- naus
+	ge -- hen au --
+	ßer dem
+	La -- _ %20
+	_
+	ger, au -- ßer dem
+	La --
+	_
+	ger und __ %25
+	ſei -- ne
+	Schmach, und __
+	ſei -- ne
+	Schmach __
+	tra -- %30
+	gen,
 	
+	ſei -- ne
+	Schmach,
+	ſei -- ne %35
+	Schmach, und __
+	ſei -- ne
+	Schmach, und __
+	ſei -- ne
+	Schmach tra -- %40
+	_ _ _
+	\xE gen, tra --
+	_ _ _
+	gen, tra --
+	_ _ _ %45
+	gen, und
+	ſei -- ne
+	Schmach, und
+	ſei -- ne
+	Schmach __ %50
+	
+	tra --
+	_
+	gen. %54 finis
 }
 
 % SopranoNotes = {
