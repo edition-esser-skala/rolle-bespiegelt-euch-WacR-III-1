@@ -156,12 +156,12 @@
 % 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3" "R E C I T A T I V O" "Und Jeſus ging hinauf"
+			movement = \movementTitle "3" "R E C I T A T I V O" "Und Jeſus ging hinaus"
 		}
 		\paper {
 			system-system-spacing.basic-distance = #23
 			system-system-spacing.minimum-distance = #23
-			systems-per-page = #5
+			systems-per-page = #2
 		}
 		\score {
 			<<

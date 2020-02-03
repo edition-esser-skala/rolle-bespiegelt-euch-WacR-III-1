@@ -257,12 +257,20 @@ JesusGingHinaufTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key d \minor \time 4/4 \autoBeamOff \tempoJesusGingHinauf
-		
+		r4 r8 a d d d e
+		f f f e16 f g8 cis, cis d
+		d a r a d d d a
+		b b b g c c c4
+		g'8 es es d b4 r\fermata \bar "|." %5 finis
 	}
 }
 
 JesusGingHinaufTenoreLyrics = \lyricmode {
-	
+	Und Je -- ſus ging hi --
+	naus nach ſei -- ner Ge -- wohn -- heit an den
+	Öhl -- berg. Es fol -- ge -- ten ihm
+	a -- ber ſei -- ne Jün -- ger nach
+	\xE an den ſelb -- gen Ort. %5 finis
 }
 
 % TenoreNotes = {

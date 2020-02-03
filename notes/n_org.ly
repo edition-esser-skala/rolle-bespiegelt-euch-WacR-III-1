@@ -302,12 +302,20 @@ JesusGingHinaufOrgano = {
 	\relative c {
 		\clef bass
 		\key d \minor \time 4/4 \tempoJesusGingHinauf
-		
+		d1~
+		d~
+		d4 fis2.
+		g2 es~
+		es r8 f b,4\fermata \bar "|." %5 finis
 	}
 }
 
 JesusGingHinaufBassFigures = \figuremode {
-	
+	r1
+	<5 3>2 <[7+] 5 2>
+	<[8 3]>4 <6>2.
+	r2 <6>
+	r1 %5
 }
 
 % Organo = {
