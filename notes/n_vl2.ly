@@ -193,3 +193,11 @@ LassetUnsZuViolinoII = {
 		b1\fermata \bar "|." %58 finis
 	}
 }
+
+AlsErDahinKamViolinoII = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \tempoAlsErDahinKam
+		
+	}
+}

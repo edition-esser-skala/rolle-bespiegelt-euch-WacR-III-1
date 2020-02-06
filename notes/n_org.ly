@@ -444,6 +444,18 @@ LassetUnsZuBassFigures = \figuremode {
 	r1 %58 finis
 }
 
+AlsErDahinKamOrgano = {
+	\relative c {
+		\clef bass
+		\key es \major \time 4/4 \tempoAlsErDahinKam
+		
+	}
+}
+
+AlsErDahinKamBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

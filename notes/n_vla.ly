@@ -199,3 +199,11 @@ LassetUnsZuViola = {
 		b,1\fermata \bar "|." %58 finis
 	}
 }
+
+AlsErDahinKamViola = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \tempoAlsErDahinKam
+		
+	}
+}

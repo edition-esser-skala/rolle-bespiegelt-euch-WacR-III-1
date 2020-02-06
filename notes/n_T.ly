@@ -391,6 +391,18 @@ LassetUnsZuTenoreLyrics = \lyricmode {
 	gen. %54 finis
 }
 
+AlsErDahinKamTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key es \major \time 4/4 \autoBeamOff \tempoAlsErDahinKam
+		
+	}
+}
+
+AlsErDahinKamTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

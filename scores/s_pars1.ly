@@ -182,76 +182,120 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4" "C O R O" "Laßet uns zu Jeſu hinaus gehen"
+% 		}
+% 		\paper { systems-per-page = #1 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe I"
+% 							\LassetUnsZuOboeI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe II"
+% 							\LassetUnsZuOboeII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\LassetUnsZuViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\LassetUnsZuViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\LassetUnsZuViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Canto"
+% 						\new Voice = "Soprano" { \dynamicUp \LassetUnsZuSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \LassetUnsZuSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \LassetUnsZuAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \LassetUnsZuAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \LassetUnsZuTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \LassetUnsZuTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \LassetUnsZuBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \LassetUnsZuBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\LassetUnsZuOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \LassetUnsZuBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 1 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4" "C O R O" "Laßet uns zu Jeſu hinaus gehen"
+			movement = \movementTitle "5" "R E C I T A T I V O" "Und als er dahin kam"
 		}
-		\paper { systems-per-page = #1 }
+		\paper {
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
+		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Oboe I"
-							\LassetUnsZuOboeI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Oboe II"
-							\LassetUnsZuOboeII
-						}
-					>>
-				>>
 				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\LassetUnsZuViolinoI
+							\AlsErDahinKamViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\LassetUnsZuViolinoII
+							\AlsErDahinKamViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\LassetUnsZuViola
+						\AlsErDahinKamViola
 					}
 				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Canto"
-						\new Voice = "Soprano" { \dynamicUp \LassetUnsZuSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \LassetUnsZuSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \LassetUnsZuAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \LassetUnsZuAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \LassetUnsZuTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \LassetUnsZuTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \LassetUnsZuBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \LassetUnsZuBassoLyrics
-				>>
+				\new Staff {
+					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Jeſus" } }
+					\new Voice = "Tenore" { \dynamicUp \AlsErDahinKamTenoreNotes }
+				}
+				\new Lyrics \lyricsto Tenore \AlsErDahinKamTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\LassetUnsZuOrgano
+						\AlsErDahinKamOrgano
 					}
 				>>
-				\new FiguredBass { \LassetUnsZuBassFigures }
+				\new FiguredBass { \AlsErDahinKamBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 1 = 60 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

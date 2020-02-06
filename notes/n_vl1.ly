@@ -187,6 +187,14 @@ LassetUnsZuViolinoI = {
 	}
 }
 
+AlsErDahinKamViolinoI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \tempoAlsErDahinKam
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
