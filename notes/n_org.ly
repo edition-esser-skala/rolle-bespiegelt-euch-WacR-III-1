@@ -447,13 +447,41 @@ LassetUnsZuBassFigures = \figuremode {
 AlsErDahinKamOrgano = {
 	\relative c {
 		\clef bass
-		\key es \major \time 4/4 \tempoAlsErDahinKam
-		
+		\key es \lydian \time 4/4 \tempoAlsErDahinKam
+		as1\pE
+		d2 es
+		\tempoAlsErDahinKamB es4 es es r8 g,
+		as b c d es8[~ es16.] es32-!\f \tempoAlsErDahinKamC es4~
+		es1\pE %5
+		e2 f4 fis~
+		fis2 g
+		\tempoAlsErDahinKamD c,4 c g'8\fE g, r g\pE
+		a!4 h c r8 d
+		es4 es\f^\tenuto as,8\pE as as as %10
+		r a a a fis'4\f r
+		r g c, r
+		\tempoAlsErDahinKamE as1~\pE
+		as2 g
+		f' r8 f b,4\fermata \bar "|." %15 finis
 	}
 }
 
 AlsErDahinKamBassFigures = \figuremode {
-	
+	<6 4 2>1
+	<[6]>
+	r2 <[6 4-]>8 <[5 3]> r <[6]>
+	<[6]>8 <[6 4]> <[6-]> <[6 5-]> <[9 4-]> <[8 3]>16. <[6]>32 r4
+	r1 %5
+	<6>4 <7->8 <6> <_->4 <7 _!>
+	r2 <_!>
+	r2 <[6 4]>8 <[5 _!]>4.
+	<[6 5]>4 <[6 5]> <[9]>8 <[8]> r <[6 5-]>
+	<\l [4-]>4 <[7- 3]>2. %10
+	r8 <[6\\ 5-]>4. <7 _!]>2
+	r4 <[_!]>2.
+	<5>1
+	<6 4 2>2 <6>
+	<7 _!>1 %15 finis
 }
 
 % Organo = {

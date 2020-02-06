@@ -197,7 +197,17 @@ LassetUnsZuViolinoII = {
 AlsErDahinKamViolinoII = {
 	\relative c' {
 		\clef treble
-		\key es \major \time 4/4 \tempoAlsErDahinKam
-		
+		\key es \lydian \time 4/4 \tempoAlsErDahinKam
+		R1*2
+		\tempoAlsErDahinKamB g'8(\p b as g) \appoggiatura b16 as8 g es'4~
+		es4. f16. f,32 f8[ es16.] c'32-!\f \tempoAlsErDahinKamC c4-!
+		R1*3 %7
+		\tempoAlsErDahinKamD es,8(\p f es) c' c-!\f h?-! es4~\p
+		es d~ d8( c) r as~
+		as4 g\f^\tenuto as8(\p c, es as) %10
+		r fis fis fis c'4-!\f r
+		r <h d, g,> <c es, g,> r
+		\tempoAlsErDahinKamE R1*2
+		R1\fermataMarkup \bar "|." %15 finis
 	}
 }

@@ -202,8 +202,18 @@ LassetUnsZuViola = {
 
 AlsErDahinKamViola = {
 	\relative c' {
-		\clef treble
-		\key es \major \time 4/4 \tempoAlsErDahinKam
-		
+		\clef alto
+		\key es \lydian \time 4/4 \tempoAlsErDahinKam
+		R1*2
+		\tempoAlsErDahinKamB es4\p es es r8 es
+		f g as b,16. b32 b8~[ b16.] es32-!\f \tempoAlsErDahinKamC es4
+		R1*3 %7
+		\tempoAlsErDahinKamD c4\p c g'8-!\f g,-! r g\pE
+		a!4 h c r8 d
+		es4 b\f^\tenuto as8\pE as c es %10
+		r es es es es4-!\f r
+		r <d g,> <es g, c,> r
+		\tempoAlsErDahinKamE R1*2
+		R1\fermataMarkup \bar "|." %15 finis
 	}
 }

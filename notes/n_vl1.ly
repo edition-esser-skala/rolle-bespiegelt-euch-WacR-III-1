@@ -190,8 +190,18 @@ LassetUnsZuViolinoI = {
 AlsErDahinKamViolinoI = {
 	\relative c' {
 		\clef treble
-		\key es \major \time 4/4 \tempoAlsErDahinKam
-		
+		\key es \lydian \time 4/4 \tempoAlsErDahinKam
+		R1*2
+		\tempoAlsErDahinKamB b'8(\p g' f es) \appoggiatura des16 c8 b es4~
+		es4. f16. as,32 as8[ g16.] g'32-!\f \tempoAlsErDahinKamC g4-!
+		R1*3 %7
+		\tempoAlsErDahinKamD g,8(\p as g) es' es-!\f d-! g4\p
+		f~ f16 g,( h d) es4 r8 f16( es64 d c32)
+		b4 des,\f^\tenuto c8(\p es as c) %10
+		r c c c a'4-!\f r
+		r <h, d, g,> <c es, g,> r
+		\tempoAlsErDahinKamE R1*2
+		R1\fermataMarkup \bar "|." %15 finis
 	}
 }
 

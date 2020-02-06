@@ -394,13 +394,41 @@ LassetUnsZuTenoreLyrics = \lyricmode {
 AlsErDahinKamTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
-		\key es \major \time 4/4 \autoBeamOff \tempoAlsErDahinKam
-		
+		\key es \lydian \time 4/4 \autoBeamOff \tempoAlsErDahinKam
+		r4 r8 b^\Evangelist d d d es
+		f r16 f g8 as g g r4
+		\clef bass \tempoAlsErDahinKamB b,4.^\Jesus es8 \appoggiatura des16 c8 b r es,16. es32
+		f8 g as16 c b as as8 g \clef "treble_8" \tempoAlsErDahinKamC r8 g16^\Evangelist g
+		c8 c16 d es8 es r16 es f g g8 c, %5
+		r b des c as as r4
+		es'8. es16 es8 d h4 r
+		\clef bass \tempoAlsErDahinKamD g8([^\Jesus as)] g r c h r h
+		c h16 c d8 f, es r16 es as4~
+		as8 g16 as? b8 des, c4 r8 c'16 c %10
+		\appoggiatura g8 fis4 r c'8 c16 es c8 h16 c
+		c8 g r4 r2
+		\clef "treble_8" \tempoAlsErDahinKamE r4 c8^\Evangelist c c c c b16 as
+		d8 d r f es es r4
+		r8 es es d b4 r\fermata \bar "|." %15 finis
 	}
 }
 
 AlsErDahinKamTenoreLyrics = \lyricmode {
-	
+	Und als er da -- hin
+	kam, ſprach er zu ih -- nen:
+	Be -- tet, be -- tet, auf daß
+	ihr nicht in An -- fech -- tung fal -- let. Und er
+	riß sich von ih -- nen bey ei -- nen Stein -- wurff %5
+	und knie -- te nie -- der,
+	be -- te -- te und ſprach:
+	Va -- ter, willſt du, ſo
+	nimm die -- ſen Kelch von mir, ſo nimm __
+	die -- ſen Kelch von mir. Doch nicht %10
+	mein, ſon -- dern dein Wil -- le ge --
+	ſche -- he.
+	Es er -- ſchien ihm a -- ber ein
+	En -- gel vom Him -- mel
+	und ſtärck -- te ihn. %15 finis
 }
 
 % TenoreNotes = {

@@ -282,6 +282,8 @@ markFermata = \mark \markup { \musicglyph #"scripts.ufermata" }
 scriptOut = \once \override Script.avoid-slur = #'outside
 alwaysScriptOut = \override Script.avoid-slur = #'outside
 
+Evangelist = \markup { \remark "Evangeliſt" }
+Jesus = \markup { \remark "Jeſus" }
 
 
 
@@ -298,7 +300,11 @@ tempoBespiegeltEuch = \tempoMarkup "Coro"
 tempoGuteNacht = \tempoMarkup "Choral con Instrum:"
 tempoJesusGingHinauf = \tempoMarkup "Evang: Luca XXII. 39."
 tempoLassetUnsZu = \tempoMarkup "Ebr: XIII. 13"
-tempoAlsErDahinKam = \tempoMarkup "Recitativo"
+tempoAlsErDahinKam = \tempoMarkup "[Recitativo]"
+	tempoAlsErDahinKamB = \tempoMarkup "Adagio"
+	tempoAlsErDahinKamC = \tempoMarkup "Recitativo"
+	tempoAlsErDahinKamD = \tempoMarkup "[Adagio]"
+	tempoAlsErDahinKamE = \tempoMarkup "[Recitativo]"
 
 
 

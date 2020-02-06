@@ -289,12 +289,12 @@
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\AlsErDahinKamOrgano
+						\transpose c c,\AlsErDahinKamOrgano
 					}
 				>>
 				\new FiguredBass { \AlsErDahinKamBassFigures }
 			>>
-			\layout { }
+% 			\layout { }
 			\midi { \tempo 4 = 60 }
 		}
 	}
