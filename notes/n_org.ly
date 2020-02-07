@@ -484,6 +484,18 @@ AlsErDahinKamBassFigures = \figuremode {
 	<7 _!>1 %15 finis
 }
 
+DeinenEngelOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \tempoDeinenEngel
+		
+	}
+}
+
+DeinenEngelBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

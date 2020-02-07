@@ -366,6 +366,22 @@ LassetUnsZuAltoLyrics = \lyricmode {
 	gen. %54 finis
 }
 
+DeinenEngelAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoDeinenEngel
+		
+	}
+}
+
+DeinenEngelAltoLyricsA = \lyricmode {
+	
+}
+
+DeinenEngelAltoLyricsB = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -254,9 +254,53 @@
 % 			\midi { \tempo 1 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "5" "R E C I T A T I V O" "Und als er dahin kam"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\AlsErDahinKamViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\AlsErDahinKamViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\AlsErDahinKamViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Jeſus" } }
+% 					\new Voice = "Tenore" { \dynamicUp \AlsErDahinKamTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \AlsErDahinKamTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\AlsErDahinKamOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \AlsErDahinKamBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "5" "R E C I T A T I V O" "Und als er dahin kam"
+			movement = \movementTitle "6" "C H O R A L" "Deinen Engel zu mir ſende"
 		}
 		\paper {
 			system-system-spacing.basic-distance = #35
@@ -265,37 +309,45 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\AlsErDahinKamViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\AlsErDahinKamViolinoII
-						}
-					>>
+				\new ChoirStaff \with { \twoStanzaDistance } <<
 					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\AlsErDahinKamViola
+						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
+						\new Voice = "Soprano" { \dynamicUp \DeinenEngelSopranoNotes }
 					}
+					\new Lyrics \lyricsto Soprano \DeinenEngelSopranoLyricsA
+					\new Lyrics \lyricsto Soprano \DeinenEngelSopranoLyricsB
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Alto" "Violino II" "Oboe II" } }
+						\new Voice = "Alto" { \dynamicUp \DeinenEngelAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \DeinenEngelAltoLyricsA
+					\new Lyrics \lyricsto Alto \DeinenEngelAltoLyricsB
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Tenore" "Viola" } }
+						\new Voice = "Tenore" { \dynamicUp \DeinenEngelTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \DeinenEngelTenoreLyricsA
+					\new Lyrics \lyricsto Tenore \DeinenEngelTenoreLyricsB
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \DeinenEngelBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \DeinenEngelBassoLyricsA
+					\new Lyrics \lyricsto Basso \DeinenEngelBassoLyricsB
 				>>
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Jeſus" } }
-					\new Voice = "Tenore" { \dynamicUp \AlsErDahinKamTenoreNotes }
-				}
-				\new Lyrics \lyricsto Tenore \AlsErDahinKamTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\transpose c c,\AlsErDahinKamOrgano
+						\DeinenEngelOrgano
 					}
 				>>
-				\new FiguredBass { \AlsErDahinKamBassFigures }
+				\new FiguredBass { \DeinenEngelBassFigures }
 			>>
-% 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\layout { }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

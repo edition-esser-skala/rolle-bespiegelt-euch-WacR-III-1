@@ -346,6 +346,22 @@ LassetUnsZuSopranoLyrics = \lyricmode {
 	gen. %54 finis
 }
 
+DeinenEngelSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoDeinenEngel
+		
+	}
+}
+
+DeinenEngelSopranoLyricsA = \lyricmode {
+	
+}
+
+DeinenEngelSopranoLyricsB = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

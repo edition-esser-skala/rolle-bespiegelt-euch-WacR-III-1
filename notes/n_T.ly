@@ -431,6 +431,22 @@ AlsErDahinKamTenoreLyrics = \lyricmode {
 	und ſtärck -- te ihn. %15 finis
 }
 
+DeinenEngelTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 4/4 \autoBeamOff \tempoDeinenEngel
+		
+	}
+}
+
+DeinenEngelTenoreLyricsA = \lyricmode {
+	
+}
+
+DeinenEngelTenoreLyricsB = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -299,6 +299,22 @@ LassetUnsZuBassoLyrics = \lyricmode {
 	gen. %54 finis
 }
 
+DeinenEngelBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \autoBeamOff \tempoDeinenEngel
+		
+	}
+}
+
+DeinenEngelBassoLyricsA = \lyricmode {
+	
+}
+
+DeinenEngelBassoLyricsB = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass
