@@ -488,12 +488,28 @@ DeinenEngelOrgano = {
 	\relative c {
 		\clef bass
 		\key b \major \time 4/4 \tempoDeinenEngel
-		
+		b4 f' b f
+		g a8([ b)] c4( c,)
+		f2\fermata es!4 es
+		d c b f' \noBreak
+		b,1\fermata \bar ":|." %5
+		b'4 g es d \noBreak
+		c d8([ es)] f2\fermata
+		g4 f8([ es)] d4 c
+		b f' b,2\fermata \bar "|." %9 finis
 	}
 }
 
 DeinenEngelBassFigures = \figuremode {
-	
+	r1
+	r4 <[6]> <[4]> <[_!]>
+	r2. <[2]>4
+	<6> q r <[7]>
+	r1 %5
+	r2 <6>4 q
+	<[7]>8 <[6]> q2.
+	r2 <[6]>4 q
+	r1 %9 finis
 }
 
 % Organo = {

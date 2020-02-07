@@ -435,16 +435,36 @@ DeinenEngelTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key b \major \time 4/4 \autoBeamOff \tempoDeinenEngel
-		
+		d4 f f f
+		d c c2
+		a\fermata b4 c
+		d es f es
+		d1\fermata \bar ":|." %5
+		f4 g g f
+		es f f2\fermata
+		b,4 c d es^\critnote
+		f f d2\fermata \bar "|." %9 finis
 	}
 }
 
 DeinenEngelTenoreLyricsA = \lyricmode {
-	
+	Dei -- nen En -- gel
+	zu mir ſen --
+	de, der des
+	bö -- ſen Fein -- des
+	Macht, %5
+	der auch end -- lich
+	mich zur Ruh
+	tra -- ge nach dem
+	Him -- mel zu. %9 finis
 }
 
 DeinenEngelTenoreLyricsB = \lyricmode {
-	
+	Liſt und An -- ſchlag
+	von mir wen --
+	de und mich
+	halt in gu -- ter
+	Acht, %5 finis
 }
 
 % TenoreNotes = {

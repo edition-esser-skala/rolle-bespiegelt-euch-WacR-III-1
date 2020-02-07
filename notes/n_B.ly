@@ -303,16 +303,36 @@ DeinenEngelBassoNotes = {
 	\relative c {
 		\clef bass
 		\key b \major \time 4/4 \autoBeamOff \tempoDeinenEngel
-		
+		b4 f' b f
+		g a8([ b)] c4( c,)
+		f2\fermata es!4 es
+		d c b f'
+		b,1\fermata \bar ":|." %5
+		b'4 g es d
+		c d8([ es)] f2\fermata
+		g4 f8([ es)] d4 c
+		b f' b,2\fermata \bar "|." %9 finis
 	}
 }
 
 DeinenEngelBassoLyricsA = \lyricmode {
-	
+	Dei -- nen En -- gel
+	zu mir ſen --
+	de, der des
+	bö -- ſen Fein -- des
+	Macht, %5
+	der auch end -- lich
+	mich zur __ Ruh
+	tra -- ge __ nach dem
+	Him -- mel zu. %9 finis
 }
 
 DeinenEngelBassoLyricsB = \lyricmode {
-	
+	Liſt und An -- ſchlag
+	von mir wen --
+	de und mich
+	halt in gu -- ter
+	Acht, %5 finis
 }
 
 % BassoNotes = {

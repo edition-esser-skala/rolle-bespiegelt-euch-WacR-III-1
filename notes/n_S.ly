@@ -350,16 +350,36 @@ DeinenEngelSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 4/4 \autoBeamOff \tempoDeinenEngel
-		
+		b'4 c d c
+		b a g2
+		f\fermata g4 a
+		b c d c
+		b1\fermata \bar ":|."
+		d4 d c d
+		es d c2\fermata
+		g4 a b c
+		d c b2\fermata \bar "|."
 	}
 }
 
 DeinenEngelSopranoLyricsA = \lyricmode {
-	
+	Dei -- nen En -- gel
+	zu mir ſen --
+	de, der des
+	bö -- ſen Fein -- des
+	Macht, %5
+	der auch end -- lich
+	mich zur Ruh
+	tra -- ge nach dem
+	Him -- mel zu. %9 finis
 }
 
 DeinenEngelSopranoLyricsB = \lyricmode {
-	
+	Liſt und An -- ſchlag
+	von mir wen --
+	de und mich
+	halt in gu -- ter
+	Acht, %5 finis
 }
 
 % SopranoNotes = {

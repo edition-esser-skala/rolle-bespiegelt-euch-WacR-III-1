@@ -370,16 +370,36 @@ DeinenEngelAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 4/4 \autoBeamOff \tempoDeinenEngel
-		
+		f4 a b a
+		g f f( e)
+		c2\fermata es4 f
+		f a b a
+		f1\fermata \bar ":|." %5
+		b4 b g b
+		b8([ a)] b4 a2\fermata
+		d,4 f f a
+		b a f2\fermata \bar "|." %9 finis
 	}
 }
 
 DeinenEngelAltoLyricsA = \lyricmode {
-	
+	Dei -- nen En -- gel
+	zu mir ſen --
+	de, der des
+	bö -- ſen Fein -- des
+	Macht, %5
+	der auch end -- lich
+	mich __ zur Ruh
+	tra -- ge nach dem
+	Him -- mel zu. %9 finis
 }
 
 DeinenEngelAltoLyricsB = \lyricmode {
-	
+	Liſt und An -- ſchlag
+	von mir wen --
+	de und mich
+	halt in gu -- ter
+	Acht, %5 finis
 }
 
 % AltoNotes = {
