@@ -512,6 +512,28 @@ DeinenEngelBassFigures = \figuremode {
 	r1 %9 finis
 }
 
+UndEsKamOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \tempoUndEsKam
+		fis1~
+		fis2 g~
+		g r4 a
+		gis1~
+		gis2 a %5
+		r r8 h e,4\fermata \bar "|." %6 finis
+	}
+}
+
+UndEsKamBassFigures = \figuremode {
+	<[6]>1
+	r
+	<[6!] 4\+ 2>2. <[5!] _+>4
+	<6! [_!]>1
+	r2 <[5! _!]> %5
+	r2 r8 <[5+ _+]> <[5! _!]>4 %6 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

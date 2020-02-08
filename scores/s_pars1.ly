@@ -298,56 +298,84 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "6" "C H O R A L" "Deinen Engel zu mir ſende"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new ChoirStaff \with { \twoStanzaDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
+% 						\new Voice = "Soprano" { \dynamicUp \DeinenEngelSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \DeinenEngelSopranoLyricsA
+% 					\new Lyrics \lyricsto Soprano \DeinenEngelSopranoLyricsB
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Alto" "Violino II" "Oboe II" } }
+% 						\new Voice = "Alto" { \dynamicUp \DeinenEngelAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \DeinenEngelAltoLyricsA
+% 					\new Lyrics \lyricsto Alto \DeinenEngelAltoLyricsB
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Tenore" "Viola" } }
+% 						\new Voice = "Tenore" { \dynamicUp \DeinenEngelTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \DeinenEngelTenoreLyricsA
+% 					\new Lyrics \lyricsto Tenore \DeinenEngelTenoreLyricsB
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \DeinenEngelBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \DeinenEngelBassoLyricsA
+% 					\new Lyrics \lyricsto Basso \DeinenEngelBassoLyricsB
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\DeinenEngelOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \DeinenEngelBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "6" "C H O R A L" "Deinen Engel zu mir ſende"
+			movement = \movementTitle "7" "R E C I T A T I V O" "Und es kam, daß er mit dem Tode rang"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
 			systems-per-page = #2
 		}
 		\score {
 			<<
-				\new ChoirStaff \with { \twoStanzaDistance } <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
-						\new Voice = "Soprano" { \dynamicUp \DeinenEngelSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \DeinenEngelSopranoLyricsA
-					\new Lyrics \lyricsto Soprano \DeinenEngelSopranoLyricsB
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Alto" "Violino II" "Oboe II" } }
-						\new Voice = "Alto" { \dynamicUp \DeinenEngelAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \DeinenEngelAltoLyricsA
-					\new Lyrics \lyricsto Alto \DeinenEngelAltoLyricsB
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Tenore" "Viola" } }
-						\new Voice = "Tenore" { \dynamicUp \DeinenEngelTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \DeinenEngelTenoreLyricsA
-					\new Lyrics \lyricsto Tenore \DeinenEngelTenoreLyricsB
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \DeinenEngelBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \DeinenEngelBassoLyricsA
-					\new Lyrics \lyricsto Basso \DeinenEngelBassoLyricsB
-				>>
+				\new Staff {
+					\set Staff.instrumentName = "Evangeliſt"
+					\new Voice = "Tenore" { \dynamicUp \UndEsKamTenoreNotes }
+				}
+				\new Lyrics \lyricsto Tenore \UndEsKamTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\DeinenEngelOrgano
+						\UndEsKamOrgano
 					}
 				>>
-				\new FiguredBass { \DeinenEngelBassFigures }
+				\new FiguredBass { \UndEsKamBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

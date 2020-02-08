@@ -306,6 +306,7 @@ tempoAlsErDahinKam = \tempoMarkup "[Recitativo]"
 	tempoAlsErDahinKamD = \tempoMarkup "[Adagio]"
 	tempoAlsErDahinKamE = \tempoMarkup "[Recitativo]"
 tempoDeinenEngel = \tempoMarkup "Choral con Strom:"
+tempoUndEsKam = \tempoMarkup "[Recitativo]"
 
 
 

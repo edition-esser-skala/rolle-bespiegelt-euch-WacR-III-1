@@ -467,6 +467,28 @@ DeinenEngelTenoreLyricsB = \lyricmode {
 	Acht, %5 finis
 }
 
+UndEsKamTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \minor \time 4/4 \autoBeamOff \tempoUndEsKam
+		r4 a8 a d4 d8 d
+		c c es d b4 r8 g
+		cis4 cis8 d a8. a16 a4
+		r h8 h e4 e8 e
+		d4 f8 e c! c r c %5
+		a a a g e e r4\fermata \bar "|." %6 finis
+	}
+}
+
+UndEsKamTenoreLyrics = \lyricmode {
+	Und es kam, daß er
+	mit dem To -- de rang, und
+	be -- te -- te hef -- ti -- ger.
+	Es ward a -- ber ſein
+	Schweiß wie Bluts -- trop -- fen, die %5
+	fie -- len auf die Er -- de. %6 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
