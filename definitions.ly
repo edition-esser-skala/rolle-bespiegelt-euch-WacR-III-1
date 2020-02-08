@@ -243,8 +243,8 @@ extraStaffDistance = {
 
 smallerStaffDistance = {
 	\override VerticalAxisGroup.staff-staff-spacing =
-      #'((basic-distance . 13)
-         (minimum-distance . 13)
+      #'((basic-distance . 12)
+         (minimum-distance . 12)
          (padding . -100)
 				 (stretchability . 0))
 }
@@ -307,6 +307,11 @@ tempoAlsErDahinKam = \tempoMarkup "[Recitativo]"
 	tempoAlsErDahinKamE = \tempoMarkup "[Recitativo]"
 tempoDeinenEngel = \tempoMarkup "Choral con Strom:"
 tempoUndEsKam = \tempoMarkup "[Recitativo]"
+tempoWieQuaelet = \tempoMarkup "Largo"
+	tempoWieQuaeletB = \tempoMarkup "Allegro"
+	tempoWieQuaeletC = \tempoMarkup "Recitativo"
+	tempoWieQuaeletD = \tempoMarkup "Largo [ossia Lento]"
+	tempoWieQuaeletE = \tempoMarkup "Allegretto"
 
 
 

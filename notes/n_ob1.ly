@@ -171,3 +171,68 @@ LassetUnsZuOboeI = {
 		b1\fermata \bar "|." %58 finis
 	}
 }
+
+WieQuaeletOboeI = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \tempoWieQuaelet
+		\partial 4 h'4\fE e2~ e16 h( cis dis e fis g8)
+		g4\trill fis r8 h,16( cis dis e fis g)
+		a2~ a16 g( fis e) dis( c) h( a)
+		g8.\trill fis16 e4 r16 \once \slurDashed e( g h) c-! c( e g)
+		fis( ais,) ais4( h8) r16 \once \slurDashed d,( fis ais) h-! h( d f) %5
+		e( gis,) gis4( a8) r16 c,( e gis) a-! a( c e)
+		\appoggiatura e8 dis4 r8 r16 fis fis8.( g32 a) h8 a
+		\appoggiatura a16 g8 fis r r16 dis\p dis8.( e32 fis) g8 fis
+		e16\f e8 e e e16~ e g,8 g g \once \tieDashed g16~
+		g e'8 e e e16~ e e( dis e) g-! e( dis e) %10
+		g,4 fis\trill e r
+		R1*11 %22
+		r2 r16 b''?8\fE b b b16~
+		b b,8 b b b16~b g'8 g g g16
+		d,8 e32( fis g a) a4\trill g4 r %25
+		R1*10 %35
+		r2 r16 g'8\pocoF g g g16~
+		g r r8 r4 r16 e8\f e e e16~
+		e8 r r4 r2
+		\tempoWieQuaeletB r16. h'32\f gis16. e32 h16. e32 h16. gis32 e8 r r4
+		\tempoWieQuaeletC R1 %40
+		r16. a'32\fE e16. c32 a16. e'32 c16. a32 fis4 r
+		r2 \tempoWieQuaeletD r16 h' \once \slurDashed h( fis) fis( dis) dis( h) \noBreak
+		h h\f h( fis) fis( dis) dis( fis) fis4 r \bar "|"
+		\time 3/8 \tempoWieQuaeletE h'8\p a g \noBreak
+		fis e dis %45
+		g fis e
+		fis e dis
+		dis4.(
+		e8) r g
+		g fis e %50
+		e d! c
+		h16. d32 c8 h
+		a16. d32 c8 h
+		a16. d32 c8 h
+		a16. e'32 d8 c %55
+		h fis' g
+		\tuplet 3/2 8 { e16([ d c)] } h8 a
+		g4 h8
+		a d4~
+		d8 c16( h) c( a) %60
+		h8 e4
+		e8 dis r
+		e e e
+		e e e
+		e e e %65
+		dis4 r8
+		h' a g
+		fis4 r8
+		h a g
+		f8. a16 g f %70
+		dis8 e r
+		c4.
+		h
+		dis
+		e8 h'[\ff dis,] %75
+		e h dis,
+		e4 r8\fermata \bar "|." %77 finis
+	}
+}

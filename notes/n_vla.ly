@@ -217,3 +217,87 @@ AlsErDahinKamViola = {
 		R1\fermataMarkup \bar "|." %15 finis
 	}
 }
+
+WieQuaeletViola = {
+	\relative c' {
+		\clef alto
+		\key e \minor \time 4/4 \tempoWieQuaelet
+		\partial 4 r4 e4\fE fis g h
+		h h, h h
+		r cis h h
+		h8. a16 g4 g g'8 e
+		fis4 fis fis fis8 d %5
+		e4 e e e8 a
+		\appoggiatura g fis4 h, h h
+		h h\p h h
+		c8\f c c h ais ais ais h
+		c c c h ais2 %10
+		h4 h e, r
+		e\p fis g g'8 h
+		h4 h, h h
+		r cis' h h
+		h h g e %15
+		d! d c c
+		d h a a
+		g8. g16\f g4 g8(-.\pE g-. g-. g-.)
+		g8. g16\f g4 a8(-.\p a-. a-. a-.)
+		a4 d\f d\p d\f %20
+		fis\p d\f e\p r8 fis
+		r g e d cis\pocoFE cis cis cis
+		d4\p d, g8 g'\fE es d
+		cis cis cis d es es cis cis
+		d4 d h!8 d\p dis dis %25
+		g4 fis e g8 h
+		h4 h, h h
+		r cis' h h
+		h h r g8 e
+		fis4 fis fis\f d\p %30
+		e e e\f e8\pE a
+		\appoggiatura g fis4 h, h h
+		h h h h
+		c8(-. c-. h-. h-.) a(-. a-. ais-. ais-.)
+		h h cis dis e4 ais, %35
+		h h e8 e\pocoF c h
+		ais\p ais ais h c\f c c h
+		ais\pE ais ais ais h4 h
+		\tempoWieQuaeletB h16.\f e32 e16. e32 e16. e32 e16. e32 e16. e32 e4.~
+		\tempoWieQuaeletC e1\p %40
+		e16.\fE e32 c16. c32 c16. c32 c16. c32 cis16. fis32 fis4.~
+		fis2\pE \tempoWieQuaeletD r16 fis fis fis fis fis fis( dis) \noBreak
+		dis h'\fE \once \slurDashed h( fis) fis( dis) dis( h) h4 r \bar "||"
+		\time 3/8 \tempoWieQuaeletE R4. \noBreak
+		r4 h8\pE %45
+		e fis g
+		a h h,
+		e4.~
+		e4 r8
+		h4 c8 %50
+		fis4 d8
+		g c, cis
+		d4 r8
+		d4 r8
+		d4 r8 %55
+		g, a h
+		c d d
+		g,16 g' d h g8
+		d'4 r8
+		a a' a, %60
+		e'4 r8
+		h h' a
+		g g, g
+		a a a
+		ais ais ais %65
+		h4 r8
+		h4 r8
+		h4 r8
+		h4 r8
+		a! a a %70
+		a g r
+		r a a
+		h4.~
+		h
+		e8 e[\ff fis] %75
+		g e fis,
+		g4 r8\fermata \bar "|." %77 finis
+	}
+}

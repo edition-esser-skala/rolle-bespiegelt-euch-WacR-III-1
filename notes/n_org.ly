@@ -534,6 +534,170 @@ UndEsKamBassFigures = \figuremode {
 	r2 r8 <[5+ _+]> <[5! _!]>4 %6 finis
 }
 
+WieQuaeletOrgano = {
+	\relative c {
+		\clef bass
+		\key e \minor \time 4/4 \tempoWieQuaelet
+		\partial 4 r4 e4\fE fis g e
+		h' h, h h
+		r cis dis dis
+		e e e e'
+		e d! d, d' %5
+		d c c, c'
+		h h, h h
+		h' h,\pE h h
+		c8\f c' c h ais ais, ais h
+		c c' c h ais2 %10
+		h4 h, e, r
+		e'\p fis g e
+		h' h, h h
+		r cis dis dis
+		e e e e %15
+		d! d c c'
+		c h a d,
+		g8. g,16\f g4 h\p h
+		c8. c16\f c4 cis\p cis
+		d d\f d\p d\f %20
+		d\p d\f e\p r8 fis
+		r g e d cis4\pocoFE cis
+		d\pE d g,8 g'\f es d
+		cis cis cis d es4 cis
+		d d, g8 g'\p fis fis %25
+		e4 fis g e
+		h' h, h h
+		r cis dis dis
+		e e e\fE e'\pE
+		e d! d,\f d'\pE %30
+		d c! c,\f c'\p
+		h h, h h
+		h' h, h h
+		c h' a r8 ais
+		h4 cis8 dis e4 ais, %35
+		h h, e8 e\pocoF c! h
+		ais\p ais ais h c\f c c h
+		ais4\pE ais h h
+		\tempoWieQuaeletB gis16.\f gis'32 gis16. gis32 gis16. gis32 gis16. gis32 gis2~
+		\tempoWieQuaeletC gis1\pE %40
+		a16.\f a32 a16. a32 a16. a32 a16. a32 ais2~
+		ais\pE \tempoWieQuaeletD h8 h h h \noBreak
+		h16 \mvTr h\f-\unisonoE h( fis) \slurDashed fis( dis) dis( h) \slurSolid h4 r \bar "|"
+		\time 3/8 \tempoWieQuaeletE R4. \noBreak
+		r4 h8\pE %45
+		e fis g
+		a h h,
+		e4.~
+		e4 r8
+		h'4^\orgE c8 %50
+		fis,4 d8
+		g c, cis
+		d4 r8
+		d4 r8
+		d4 r8 %55
+		g a h
+		c, d d,
+		g h g
+		d' d, d'
+		a a' a, %60
+		e e' e,
+		h' h' a
+		g g g
+		a a a
+		ais ais ais %65
+		h4 r8
+		h4 r8
+		h4 r8
+		h4 r8
+		a! a a %70
+		a g r
+		a a a
+		h4.~
+		h
+		e8 \clef bass g,[\ff^\bassi h] %75
+		e, g, h
+		e,4 r8\fermata \bar "|." %77 finis
+	}
+}
+
+WieQuaeletBassFigures = \figuremode {
+	r4 r <7> <6>2
+	<6 4>4 <5 _+>2.
+	r4 <6> <6 5>2
+	r2. <6>4
+	<[6\+] 4\+> <6>2 <[6 _!]>4 %5
+	<4\+> <6>2.
+	<[6 4]>8 <[5 _+]> r2 <[8 6 _+]>8 <[7 5 \t]>
+	<[6 4]> <[5 _+]> r2 <[6 4]>8 <[5 _+]>
+	<[5 3]>1 \bassFigureExtendersOn
+	<5 3>2... q16 \bassFigureExtendersOff %10
+	<[6 4]>4 <[5 _+]>2.
+	r4 <[7]> <[6]>2
+	<[6 4]>4 <[5 _+]>2.
+	r4 <[6]> <[6 5]>2
+	<[9] 4>4 <[8] 3>2. %15
+	<6>2 <7>4 <6>
+	<6 4 2> <6> <[7] 4> <7>
+	r2 <6 5!>
+	<[9 4]>8 <[8 3]> r4 <[6 5]>2
+	<[5 3]>2 <[6 4]> %20
+	<[7 5]>2.. <[6 5]>8
+	r4. <[6 4]>8 <7>2
+	r <_->4 <[5-]>8 <[6- 4]>
+	<7->4. <6- 4>8 <5->4 <[7-]>
+	<[6! 4]> <[5 3]> r <6\\> %25
+	r4 <7> <6>2
+	<[6 4]>4 <[5 _+]>2.
+	r4 <[6]> <[6 5]>2
+	<[9 4]>4 <[8 3]>2 <[6]>4
+	<[6\+ 4\+]> <[6]>2 <[6 _!]>4 %30
+	<[4\+]> <[6]>2.
+	<[6 4]>8 <[5 _+]> r2 <[8 6 _+]>8 <[7 5]>
+	<[6 4]> <[5 _+]> r2 <[6 4]>8 <[5 _+]>
+	r4 <6\\ [5!]>8 <\l [4]> r4. <[7 _+]>8
+	<[_+]>4 <[6]>8 <[6 5]> r4 <[7 _+]> %35
+	<[6 4]> <[5 \t]>8 <[\t _+]> r4. <[6 4]>8
+	<[7 _+]>4. <[6 4]>8 r4. q8
+	<[7 _+]>2 <[6 4]>4 <[5 _+]>
+	<[6]>2 <6 5!>
+	r1 %40
+	r2 <6 5 [_+]>
+	r <[_+]>
+	r1
+	r4.
+	r4 <[_+]>8 %45
+	r <6\\> <6>
+	<[6]> <[6 4]> <[5 _+]>
+	<7+ 4 2>4.
+	<8 3>
+	<[6] 4>8 <[5] _!> r %50
+	<7> <6> <7>
+	r <[6]> <7 5>
+	<5 3> <7 5> <6 4>
+	<[5 3]> <7 5> <6 4>
+	<[5 3]> <6 4> <7 5> %55
+	r <6> q
+	r <6 4> <5 3>
+	r <6> r
+	<6 4> <5 3> r
+	<[4]> <[3]> r %60
+	<[4]> <[3]> r
+	<[6 4]> <[5 _+]> <[4+] 2>
+	<[6]>4.
+	r
+	<[6 _+]> %65
+	<[_+]>
+	<[6 4]>
+	<[5 _+]>
+	<[6 4]>
+	<[6!]> %70
+	<[6+ 4+ 2]>8 <[6]>4
+	r4.
+	<[6 4]>
+	<[5 _+]>
+	r8 <[6]> <[7 _+]> %75
+	r <[6]> <[_+]>
+	r4. %77 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

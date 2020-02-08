@@ -178,3 +178,68 @@ LassetUnsZuOboeII = {
 		b1\fermata \bar "|." %58 finis
 	}
 }
+
+WieQuaeletOboeII = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \tempoWieQuaelet
+		\partial 4 h'4\fE g a h8( cis16 dis e dis e8)
+		e4\trill dis r8 h16( cis dis e fis g)
+		a4 e fis16( g fis e) dis( c) h( a)
+		g8.\trill fis16 e4 r16 \once \slurDashed e( g h) c-! c( e g)
+		fis( ais,) ais4( h8) r16 \once \slurDashed d,( fis ais) h-! h( d f) %5
+		e( gis,) gis4( a8) r16 c,( e gis) a-! a( c e)
+		\appoggiatura e8 dis4 r8 r16 dis dis8.( e32 fis) g8 fis
+		\appoggiatura fis16 e8 dis r r16 fis,\p fis8.( g32 a) h8 a
+		g16\f g8 g g g16~ g e8 e e \once \tieDashed e16~
+		e g8 g g g16~ g g( fis g) e-\parenthesize-! g( fis g) %10
+		e4 dis\trill e r
+		R1*11 %22
+		r2 r16 g'8[\f g g g16]~
+		g g,8 g g g16~ g b8 b b b16
+		d,8 e32( fis g a) fis4\trill g4 r %25
+		R1*10 %35
+		r2 r16 e'8\pocoF e e e16~
+		e16 r r8 r4 r16 g,8\fE g g g16~
+		g8 r r4 r2
+		\tempoWieQuaeletB r16. h'32\f gis16. e32 h16. e32 h16. gis32 e8 r r4
+		\tempoWieQuaeletC R1 %40
+		r16. a'32\fE e16. c32 a16. e'32 c16. a32 fis4 r
+		r2 \tempoWieQuaeletD r16 dis' dis dis dis( h) h( fis) \noBreak
+		h h\f h( fis) fis( dis) dis dis dis4 r \bar "|"
+		\time 3/8 \tempoWieQuaeletE g'8\p fis e \noBreak
+		dis cis h %45
+		h a h
+		c g fis
+		fis4.(
+		g8) r e'
+		e d! c %50
+		c h a
+		g16. h32 a8 g
+		fis16. h32 a8 g
+		fis16. h32 a8 g
+		fis16. c'32 h8 a %55
+		h c d
+		\tuplet 3/2 8 { c16([ h a)] } g8 fis
+		g4 g'8~
+		g fis16( e) fis( d)
+		e8 a4~ %60
+		a8 g16 fis g8
+		g fis r
+		h, h h
+		c c c
+		cis cis cis %65
+		h4 r8
+		e dis e
+		dis4 r8
+		e dis e
+		c4. %70
+		fis,8 e r
+		a4.
+		g
+		fis
+		g8 h[\ff a] %75
+		g e dis
+		e4 r8\fermata \bar "|." %77 finis
+	}
+}

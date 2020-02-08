@@ -350,29 +350,85 @@
 % 			\midi { \tempo 4 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "7" "R E C I T A T I V O" "Und es kam, daß er mit dem Tode rang"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Evangeliſt"
+% 					\new Voice = "Tenore" { \dynamicUp \UndEsKamTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \UndEsKamTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\UndEsKamOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \UndEsKamBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "7" "R E C I T A T I V O" "Und es kam, daß er mit dem Tode rang"
+			movement = \movementTitle "8" "A R I A" "Wie quälet ſich das höchſte Guth"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
+			system-system-spacing.basic-distance = #20
+			system-system-spacing.minimum-distance = #20
 			systems-per-page = #2
 		}
 		\score {
 			<<
-				\new Staff {
-					\set Staff.instrumentName = "Evangeliſt"
-					\new Voice = "Tenore" { \dynamicUp \UndEsKamTenoreNotes }
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Oboe I"
+							\WieQuaeletOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe II"
+							\WieQuaeletOboeII
+						}
+					>>
+				>>
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\WieQuaeletViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\WieQuaeletViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\WieQuaeletViola
+					}
+				>>
+				\new Staff \with { \smallerStaffDistance } {
+					\set Staff.instrumentName = \markup { \center-column { "Canto" "solo" } }
+					\new Voice = "Tenore" { \dynamicUp \WieQuaeletSopranoNotes }
 				}
-				\new Lyrics \lyricsto Tenore \UndEsKamTenoreLyrics
+				\new Lyrics \lyricsto Tenore \WieQuaeletSopranoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\UndEsKamOrgano
+						\WieQuaeletOrgano
 					}
 				>>
-				\new FiguredBass { \UndEsKamBassFigures }
+				\new FiguredBass { \WieQuaeletBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }

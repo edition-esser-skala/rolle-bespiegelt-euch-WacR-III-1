@@ -205,6 +205,90 @@ AlsErDahinKamViolinoI = {
 	}
 }
 
+WieQuaeletViolinoI = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \tempoWieQuaelet
+		\partial 4 h'4\fE e2~ e16 h( cis dis e fis g8)
+		g4\trill fis r8 h,16( cis dis e fis g)
+		a2~ a16 g( fis e) dis( c) h( a)
+		g8.\trill fis16 e4 r16 \once \slurDashed e( g h) c-! c( e g)
+		fis( ais,) ais4( h8) r16 \once \slurDashed d,( fis ais) h-! h( d f) %5
+		e( gis,) gis4( a8) r16 c,( e gis) a-! a( c e)
+		\appoggiatura e8 dis4 r8 r16 fis fis8.( g32 a) h8 a
+		\appoggiatura a16 g8 fis r r16 dis\p dis8.( e32 fis) g8 fis
+		e16\f e8 e e e16~ e g,8 g g \once \tieDashed g16~
+		g e'8 e e e16~ e e( dis e) g-! e( dis e) %10
+		g,4 fis\trill e8 h' h c16.( a32)
+		g4\p a \once \slurDashed h8( cis16 dis e fis g8)
+		g4 fis~ fis8 h,16( cis dis e fis g)
+		a4 a a a
+		a( g16) e,( g h) e g, h e g4 %15
+		fis fis e e
+		fis g g fis
+		\kneeBeam g8. g,,16\f h16. d32 g16. d'32\p d8(-. d-. d-. d-.)
+		\appoggiatura d c8. g,16\f c16. e32 g16. e'32\p e8(-. e-. e-. e-.)
+		d8[ r16 fis] <fis a, d,>4\f h,8[\p r16 g'] <g h, d,>4\f %20
+		c,8[\p r16 a'] <a c, d,>8\f c, h16\p g' fis( e) d( c) c( h)
+		h h8 h h h16~ h h8\pocoF h h h16
+		h4\p a\trill g16 b'8[\f b b b16]~
+		b b,8 b b b16~b g'8 g g g16
+		d,8 e32( fis g a) a4\trill g8 h\p h h %25
+		e4 e~ e16 h( cis dis e fis g8)
+		g4 fis~ fis8 h,16( cis dis e fis g)
+		a4 a a a
+		a( g) r16 \once \slurDashed e,(\f g h) c-! c(\p e g)
+		fis( ais,) ais4( h8) r16 \once \slurDashed d,(\f fis ais) h-! h(\p d f) %30
+		e( gis,) \slurDashed gis4( a8) r16 c,(\f e gis) \slurSolid a-! a(\p c e)
+		\appoggiatura e8 dis4 r8 r16 fis fis8.( g32 a) h8 a
+		g( fis) r r16 dis dis8.( e32 fis) g8 fis
+		e(-. e-. gis-. gis-.) a(-. a-. cis-. cis-.)
+		h a4 a8 r g g4 %35
+		r8 e e( dis) e16 g8\pocoF g g \once \tieDashed g16~
+		g g,8\p g g \once \tieDashed g16~ g e'8\f e e \once \tieDashed e16~
+		e8 e(-.\p e-. e-.) e4 dis\trill
+		\tempoWieQuaeletB e16.\f h'32 gis16. e32 h16. e32 h16. gis32 e16. d'32 d4.~
+		\tempoWieQuaeletC d1\pE %40
+		c16.\f a'32 e16. c32 a16. e'32 c16. a32 fis16. e'32 \once \tieDashed e4.~
+		e2\pE \tempoWieQuaeletD r16 h' h( fis) fis( dis) dis( h) \noBreak
+		h h\f h( fis) fis( dis) dis( h) h4 r \bar "|"
+		\time 3/8 \tempoWieQuaeletE R4. \noBreak
+		r4 h8\p %45
+		e fis g
+		c h a
+		a4.(
+		g8) r r
+		h,4 c8 %50
+		fis4 d8
+		g c, cis
+		d4 r8
+		d4 r8
+		d4 r8 %55
+		g, a h
+		c d d
+		g,16 g' d h g8
+		d'4 r8
+		a c' a, %60
+		e'4 r8
+		h h' a
+		g g, g
+		a a a
+		ais? ais ais %65
+		h h' a!
+		g fis e
+		h h' a
+		g fis e
+		a,! a a %70
+		a g r
+		r a a
+		h4.~
+		h
+		e8 h''[\ff dis,] %75
+		e h dis,
+		e4 r8\fermata \bar "|." %77 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -211,3 +211,87 @@ AlsErDahinKamViolinoII = {
 		R1\fermataMarkup \bar "|." %15 finis
 	}
 }
+
+WieQuaeletViolinoII = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \tempoWieQuaelet
+		\partial 4 h'4\fE g a h8( cis16 dis e dis e8)
+		e4\trill dis r8 h16( cis dis e fis g)
+		a4 e fis16( g fis e) dis( c) h( a)
+		g8.\trill fis16 e4 r16 \once \slurDashed e( g h) c-! c( e g)
+		fis( ais,) ais4( h8) r16 \once \slurDashed d,( fis ais) h-! h( d f) %5
+		e( gis,) gis4( a8) r16 c,( e gis) a-! a( c e)
+		\appoggiatura e8 dis4 r8 r16 dis dis8.( e32 fis) g8 fis
+		\appoggiatura fis16 e8 dis r r16 fis,\p fis8.( g32 a) h8 a
+		g16\f g8 g g g16~ g e8 e e \once \tieDashed e16~
+		e g8 g g g16~ g g( fis g) e-\parenthesize-! g( fis g) %10
+		e4 dis\trill e8 g fis dis
+		e4\p e e h'8 e
+		e4 dis~ dis8 h16( cis dis e fis g)
+		a4 e fis fis
+		fis( e16) e,( g h) e g, h8 h4 %15
+		h h h a
+		a d d( c16 h c8)
+		\appoggiatura c8 h8. g,16\f g16. h32 d16. f32\p f8(-. f-. f-. f-.)
+		\appoggiatura f e8. g,16\f c16. c32 e16. g32\p g8(-. g-. g-. g-.)
+		fis8[ r16 a] <fis' a, d,>4\f g,8[\p^\critnote r16 h] <g' h, d,>4\f %20
+		a,8[\p r16 c] <fis a, d,>8\f a, h16\p e d( c) h( a) a( g)
+		g g8 g g g16~g g8\pocoF g g g16
+		g4\p fis g16 g'8[\f g g g16]~
+		g g,8 g g g16~ g b8 b b b16
+		d,8 e32( fis g a) a4\trill g8 g\p a a %25
+		h4 a h8( cis16 dis e dis e8)
+		e4 dis~ dis8 h16( cis dis e fis g)
+		a4 e fis fis
+		fis( e) r16 \once \slurDashed e,(\f g h) c-! c(\p e g)
+		fis( ais,) ais4( h8) r16 \once \slurDashed d,(\f fis ais) h-! h(\p d f) %30
+		e( gis,) \slurDashed gis4( a8) r16 c,(\f e gis) \slurSolid a-! a(\p c e)
+		\appoggiatura e8 dis4 r8 r16 dis dis8.( e32 fis) g8 fis
+		\once \slurDashed e( dis) r r16 fis, fis8.( g32 a) h8 a
+		g(-. g-. d'-. d-.) \once \slurDashed c(-. c-. e-. e-.)
+		dis dis e^\critnote fis r e e4 %35
+		r8 g, fis fis g16 e'8\pocoF e e e16~
+		e e,8\p e e e16~ e g8\f g g \once \tieDashed g16~
+		g8 g(-.\p g-. g-.) g4 fis
+		\tempoWieQuaeletB e16.\f h''32 gis16. e32 h16. e32 h16. gis32 e16. h'32 h4.~
+		\tempoWieQuaeletC h1\pE %40
+		c16.\f a'32 e16. c32 a16. e'32 c16. a32 fis16. cis'32 \once \tieDashed cis4.~
+		cis2\pE \tempoWieQuaeletD r16 dis dis dis \slurDashed dis( h) h( fis) \slurSolid \noBreak
+		fis h\f h( fis) fis( dis) dis( h) h4 r \bar "|"
+		\time 3/8 \tempoWieQuaeletE R4. \noBreak
+		r4 h8\p %45
+		e fis g
+		a g fis
+		fis4.(
+		e8) r r
+		h4 c8 %50
+		fis4 d8
+		g c, cis
+		d4 r8
+		d4 r8
+		d4 r8 %55
+		g, a h
+		c d d
+		g,16 g' d h g8
+		d'4 r8
+		a c' a, %60
+		e'4 r8
+		h h' a
+		g g, g
+		a a a
+		ais? ais ais %65
+		h h' a!
+		g fis e
+		h h' a
+		g fis e
+		a,! a a %70
+		a g r
+		r a a
+		h4.~
+		h
+		e8 h''[\ff a,] %75
+		g e dis
+		e4 r8\fermata \bar "|." %77 finis
+	}
+}

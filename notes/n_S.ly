@@ -382,6 +382,149 @@ DeinenEngelSopranoLyricsB = \lyricmode {
 	Acht, %5 finis
 }
 
+WieQuaeletSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \autoBeamOff \tempoWieQuaelet
+		\partial 4 r4 R1*10 %10
+		r2 r4 h'
+		e2~ e16[ h cis dis] e[ fis] g8
+		g4( fis) r h,
+		a'2~ a16[ g fis e] dis[ cis] h([ a)]
+		a4( g) r8 h e g %15
+		fis([ \grace e16 d!8)] \appoggiatura cis h4 r8 e a fis
+		d([ e16 fis] g8) \appoggiatura fis16 e8 \appoggiatura d c4~ c16[ h] c8
+		\appoggiatura c h4 r8 r16 d16 d8. \tuplet 3/2 16 { c32([ h a)] } g8 f
+		f([ e)] r e'16. e32 e8.([ \tuplet 3/2 16 { d32 cis h] } a8) g
+		fis16.[ g32 a8]~ a16.[ h32 c16. a32] g16.[ a32 h8]~ h16.[ c32 d16. h32] %20
+		a16.[ h32 c8]~ c16.[ d32 e16. c32] h16 g' fis([ e)] d([ c)] c([ h)]
+		h2~ h8 g' g r16 g,
+		d4( a')\trill g r
+		R1
+		r2 r4 h %25
+		e2~ e16[ h cis dis] e[ fis] g8
+		g4( fis) r h,
+		a'2~ a16[ g fis e] dis[ cis] h([ a)]
+		a4( g) r r8 g'
+		fis4. \appoggiatura e16 d8 \appoggiatura cis h4 r8 fis' %30
+		e4. \appoggiatura d16 c8^\critnote \appoggiatura h a4 r16 e' e e
+		\appoggiatura e8 dis4 r8 h h4. dis8
+		e16.([ fis64 g)] fis8 r4 h,( g'8) fis
+		e e16([ d)] f8.([ e32 d)] c8 c16 a g'8. fis32([ e)]
+		dis16.([ a'32)] a8 r g16. fis32 \appoggiatura fis8 g4 r8 e %35
+		e4( fis)\trill e r
+		r8 r16 e e e e e e4 r8 e16 e
+		e8( g4) cis,8 e4( dis)\trill
+		\tempoWieQuaeletB e r r r8 e,
+		\tempoWieQuaeletC d'!4 r8 d d d f e %40
+		c4 r r r8 fis,
+		e' e g fis \appoggiatura e \tempoWieQuaeletD dis4 r \noBreak
+		r2 r4 r8 h \bar "|"
+		\time 3/8 \tempoWieQuaeletE e4. \noBreak
+		fis %45
+		g8([ fis)] e
+		fis e([ dis)]
+		dis4.(
+		e8) r g
+		g([ fis)] e %50
+		e([ d)] c
+		h16.([ d32 c8)] h
+		a16.[ d32 c8 h]
+		a16.[ d32 c8 h]
+		a16.[ e'32 d8 c] %55
+		h fis' g
+		\tuplet 3/2 8 { e16[ d c] } h8[ a]
+		g4 h8
+		a d4~
+		d8 c16([ h)] c([ a)] %60
+		h8 e4
+		\appoggiatura e8 dis4 r8
+		e8 g16([ fis]) e8
+		e d16([ c h a)]
+		r8 fis' fis %65
+		fis[ e16 dis cis h]
+		e8[ fis g]
+		fis[ e16 dis cis h]
+		e8[ fis g]
+		f8.[ a16 g f] %70
+		dis8 e r
+		c4 a8
+		g4.(
+		fis)
+		e4 r8 %75
+		R4.
+		R\fermataMarkup \bar "|." %77 finis
+	}
+}
+
+WieQuaeletSopranoLyrics = \lyricmode {
+	Wie %11
+	quä -- _ let
+	ſich __ das
+	höch -- _ ſte
+	Guth, __ mein treu -- er %15
+	Hei -- land, mein treu -- er
+	Hei -- land ſchwit -- zet
+	Blut, ſein Kum -- mer macht mir
+	Angſt, macht \xE mir \x Angſt __ und
+	Schre -- _ %20
+	_ cken, macht mir Angſt und
+	Schre -- cken, Angſt und
+	Schre -- cken.
+	
+	Wie %25
+	quä -- _ let
+	ſich __ das
+	höch -- _ ſte
+	Guth, __ wie
+	\xE quä -- let ſich, wie %30
+	quä -- let ſich das höch -- ſte
+	\x Guth, mein treu -- er
+	Hei -- land ſchwit -- zet
+	Blut, ſein Kum -- mer macht mir Angſt und
+	Schre -- cken, macht mir Angſt und %35
+	Schre -- cken,
+	ſein Kum -- mer macht mir Angſt, macht mir
+	Angſt __ und Schre --
+	cken. Doch
+	nein, mein Hertz, er -- ho -- le %40
+	dich, mein
+	Hertz, er -- ho -- le dich:
+	Der
+	Lie --
+	be %45
+	Brunn -- quell
+	öff -- net
+	ſich __
+	und
+	giebt ſich %50
+	flie -- ßend
+	dir __ zu
+	ſchme --
+	_
+	_ %55
+	cken, dir zu
+	ſchme -- _
+	cken, der
+	Lie -- be __
+	Brunn -- quell %60
+	öff -- net
+	ſich
+	und giebt ſich
+	flie -- ßend __
+	dir zu %65
+	ſchme --
+	_
+	_
+	_
+	_ %70
+	_ cken,
+	dir zu
+	ſchme --
+	
+	cken. %75 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
