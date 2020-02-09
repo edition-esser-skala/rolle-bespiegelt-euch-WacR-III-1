@@ -430,6 +430,50 @@ HerrSollenAltoLyrics = \lyricmode {
 	ſchla -- gen? %9 finis
 }
 
+LassMichAnAndernAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \autoBeamOff \tempoLassMichAnAndern
+		fis2 fis4 fis
+		fis fis8([ eis)] fis2
+		fis2.\fermata fis4
+		fis a g fis \noBreak
+		ais2( fis)\fermata \bar ":|." %5
+		gis a4 a \noBreak
+		a a fis fis
+		fis( g fis2)\fermata
+		fis h4 ais
+		h cis a( g) %10
+		fis2.\fermata fis8([ ais)]
+		h4 a g fis
+		ais2( fis)\fermata \bar "|." %13 finis
+	}
+}
+
+LassMichAnAndernAltoLyricsA = \lyricmode {
+	Laß mich an
+	an -- dern ü --
+	ben, was
+	du an mir ge --
+	than, __ %5
+	ohn Ei -- gen --
+	nutz und Heu -- chel --
+	ſchein, __
+	und, wie du
+	mir er -- wie -- %10
+	ſen, aus
+	rei -- ner Lieb al --
+	lein. __ %13 finis
+}
+
+LassMichAnAndernAltoLyricsB = \lyricmode {
+	und mei -- nen
+	Näch -- ſten lie --
+	ben, gern
+	die -- nen je -- der --
+	mann, __ %5 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

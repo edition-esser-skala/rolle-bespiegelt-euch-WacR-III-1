@@ -318,6 +318,7 @@ tempoUndErStund = \tempoMarkup "[Recitativo]"
 	tempoUndErStundD = \tempoMarkup "[Recitativo]"
 tempoHerrSollen = \tempoMarkup "Chorus"
 tempoUndEinerAusIhnen = \tempoMarkup "[Recitativo]"
+tempoLassMichAnAndern = \tempoMarkup "Choral"
 
 
 

@@ -593,6 +593,50 @@ UndEinerAusIhnenTenoreLyrics = \lyricmode {
 	und hei -- le -- te ihn. %8 finis
 }
 
+LassMichAnAndernTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key h \minor \time 4/4 \autoBeamOff \tempoLassMichAnAndern
+		d2 e4 d
+		cis cis cis2
+		d2.\fermata d8([ cis)]
+		h4 h h4. fis'8 \noBreak
+		fis2( d)\fermata \bar ":|." %5
+		e e4 e \noBreak
+		d cis h a
+		a( e'8[ d] cis2)\fermata
+		d fis4 fis
+		fis e d( e) %10
+		cis2.\fermata d8([ e)]
+		fis4 h, h4. fis'8
+		fis2( d)\fermata \bar "|." %13 finis
+	}
+}
+
+LassMichAnAndernTenoreLyricsA = \lyricmode {
+	Laß mich an
+	an -- dern ü --
+	ben, was
+	du an mir ge --
+	than, __ %5
+	ohn Ei -- gen --
+	nutz und Heu -- chel --
+	ſchein, __
+	und, wie du
+	mir er -- wie -- %10
+	ſen, aus
+	rei -- ner Lieb al --
+	lein. __ %13 finis
+}
+
+LassMichAnAndernTenoreLyricsB = \lyricmode {
+	und mei -- nen
+	Näch -- ſten lie --
+	ben, gern
+	die -- nen je -- der --
+	mann, __ %5 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

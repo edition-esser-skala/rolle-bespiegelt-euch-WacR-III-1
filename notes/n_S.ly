@@ -553,6 +553,50 @@ HerrSollenSopranoLyrics = \lyricmode {
 	ſchla -- gen? %9 finis
 }
 
+LassMichAnAndernSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \autoBeamOff \tempoLassMichAnAndern
+		h'2 cis4 h
+		a! fis8([ gis)] a4( ais)
+		h2.\fermata h8([ cis)]
+		d4 fis e d \noBreak
+		cis2( h)\fermata \bar ":|." %5
+		h cis4 cis \noBreak
+		fis e d cis
+		d( cis8[ h] a2)\fermata
+		a d4 cis
+		d e fis8.([ e16] d[ cis h8]) %10
+		a2.\fermata h8([ cis)]
+		d4 fis e d
+		cis2( h)\fermata \bar "|." %13 finis
+	}
+}
+
+LassMichAnAndernSopranoLyricsA = \lyricmode {
+	Laß mich an
+	an -- dern ü --
+	ben, was
+	du an mir ge --
+	than, __ %5
+	ohn Ei -- gen --
+	nutz und Heu -- chel --
+	ſchein, __
+	und, wie du
+	mir er -- wie -- %10
+	ſen, aus
+	rei -- ner Lieb al --
+	lein. __ %13 finis
+}
+
+LassMichAnAndernSopranoLyricsB = \lyricmode {
+	und mei -- nen
+	Näch -- ſten lie --
+	ben, gern
+	die -- nen je -- der --
+	mann, __ %5 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

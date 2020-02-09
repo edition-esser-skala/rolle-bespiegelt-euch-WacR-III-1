@@ -363,6 +363,50 @@ HerrSollenBassoLyrics = \lyricmode {
 	ſchla -- gen? %9 finis
 }
 
+LassMichAnAndernBassoNotes = {
+	\relative c {
+		\clef bass
+		\key h \minor \time 4/4 \autoBeamOff \tempoLassMichAnAndern
+		h'2 ais4 h
+		fis a8([ gis)] fis2
+		h,2.\fermata h'4
+		h dis, e h8([ d?)] \noBreak
+		fis2( h,)\fermata \bar ":|." %5
+		e a!4 a \noBreak
+		d, a' h fis
+		d( e fis2)\fermata
+		d4( cis) h fis'
+		h a! d,( e) %10
+		fis2.\fermata d8([ cis)]
+		h4 dis e h8([ d?)]
+		fis4( fis, h2)\fermata \bar "|." %13 finis
+	}
+}
+
+LassMichAnAndernBassoLyricsA = \lyricmode {
+	Laß mich an
+	an -- dern ü --
+	ben, was
+	du an mir ge --
+	than, __ %5
+	ohn Ei -- gen --
+	nutz und Heu -- chel --
+	ſchein, __
+	und, wie du
+	mir er -- wie -- %10
+	ſen, aus
+	rei -- ner Lieb al --
+	lein. __ %13 finis
+}
+
+LassMichAnAndernBassoLyricsB = \lyricmode {
+	und mei -- nen
+	Näch -- ſten lie --
+	ben, gern
+	die -- nen je -- der --
+	mann, __ %5 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass
