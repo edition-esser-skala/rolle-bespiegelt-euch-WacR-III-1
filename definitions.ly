@@ -312,6 +312,10 @@ tempoWieQuaelet = \tempoMarkup "Largo"
 	tempoWieQuaeletC = \tempoMarkup "Recitativo"
 	tempoWieQuaeletD = \tempoMarkup "Largo [ossia Lento]"
 	tempoWieQuaeletE = \tempoMarkup "Allegretto"
+tempoUndErStund = \tempoMarkup "[Recitativo]"
+	tempoUndErStundB = \tempoMarkup "Più largo"
+	tempoUndErStundC = \tempoMarkup "Un poco allegro"
+	tempoUndErStundD = \tempoMarkup "[Recitativo]"
 
 
 

@@ -378,57 +378,101 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "8" "A R I A" "Wie quälet ſich das höchſte Guth"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #20
+% 			system-system-spacing.minimum-distance = #20
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe I"
+% 							\WieQuaeletOboeI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe II"
+% 							\WieQuaeletOboeII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\WieQuaeletViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\WieQuaeletViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\WieQuaeletViola
+% 					}
+% 				>>
+% 				\new Staff \with { \smallerStaffDistance } {
+% 					\set Staff.instrumentName = \markup { \center-column { "Canto" "solo" } }
+% 					\new Voice = "Tenore" { \dynamicUp \WieQuaeletSopranoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \WieQuaeletSopranoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\WieQuaeletOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \WieQuaeletBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "8" "A R I A" "Wie quälet ſich das höchſte Guth"
+			movement = \movementTitle "9" "R E C I T A T I V O" "Und er ſtund auf von dem Gebet"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #20
-			system-system-spacing.minimum-distance = #20
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
 			systems-per-page = #2
 		}
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Oboe I"
-							\WieQuaeletOboeI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Oboe II"
-							\WieQuaeletOboeII
-						}
-					>>
-				>>
-				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\WieQuaeletViolinoI
+							\UndErStundViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\WieQuaeletViolinoII
+							\UndErStundViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\WieQuaeletViola
+						\UndErStundViola
 					}
 				>>
-				\new Staff \with { \smallerStaffDistance } {
-					\set Staff.instrumentName = \markup { \center-column { "Canto" "solo" } }
-					\new Voice = "Tenore" { \dynamicUp \WieQuaeletSopranoNotes }
+				\new Staff {
+					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Jeſus" } }
+					\new Voice = "Tenore" { \dynamicUp \UndErStundTenoreNotes }
 				}
-				\new Lyrics \lyricsto Tenore \WieQuaeletSopranoLyrics
+				\new Lyrics \lyricsto Tenore \UndErStundTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\WieQuaeletOrgano
+						\UndErStundOrgano
 					}
 				>>
-				\new FiguredBass { \WieQuaeletBassFigures }
+				\new FiguredBass { \UndErStundBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }

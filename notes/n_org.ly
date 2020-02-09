@@ -698,6 +698,56 @@ WieQuaeletBassFigures = \figuremode {
 	r4. %77 finis
 }
 
+UndErStundOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 4/4 \tempoUndErStund
+		ais1~
+		ais
+		h2 e~
+		e1
+		\tempoUndErStundB d8 d c c h h h h %5
+		\tempoUndErStundC r16 e e16. e32 e4 a a
+		d, d d d
+		g, r \tempoUndErStundD f'2~
+		f1~
+		f~ %10
+		f~
+		f2 e~
+		e f
+		r4 g gis2~
+		gis a~ %15
+		a f~
+		f1
+		e2 ais,~
+		ais h~
+		h a!\fermata \bar "|." %20 finis
+	}
+}
+
+UndErStundBassFigures = \figuremode {
+	<6 [_+]>1
+	<6 5 [_+]>
+	r2 <7>4 <6\\>
+	r1
+	r4 <4 2\+> <\t \t>2 %5
+	r2 <[7]>
+	<7>1
+	r2 <4 2>
+	r1
+	r %10
+	r
+	r2 <6>
+	r <7>4 <6>
+	r2 <[6]>
+	r1 %15
+	r2 <6>
+	r1
+	<[_+]>2 <6 _+>
+	r <5>
+	<6\\> <_+> %20 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

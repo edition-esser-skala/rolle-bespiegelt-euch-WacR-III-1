@@ -301,3 +301,17 @@ WieQuaeletViola = {
 		g4 r8\fermata \bar "|." %77 finis
 	}
 }
+
+UndErStundViola = {
+	\relative c' {
+		\clef alto
+		\key g \major \time 4/4 \tempoUndErStund
+		R1*4
+		\tempoUndErStundB a16(-. a-. a-. a-.) a(-. a-. a-. a-.) a(-. a-. a-. a-.) a(-. a-. a-. a-.) %5
+		\tempoUndErStundC r16 g h16. e32 g8 h a a a a
+		a a a a a a a a
+		g4 r \tempoUndErStundD r2
+		R1*11 %19
+		R1\fermataMarkup \bar "|." %20 finis
+	}
+}

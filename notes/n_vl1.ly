@@ -289,6 +289,20 @@ WieQuaeletViolinoI = {
 	}
 }
 
+UndErStundViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \tempoUndErStund
+		R1*4
+		\tempoUndErStundB fis16(-. fis-. fis-. fis-.) fis(-. fis-. fis-. fis-.) fis(-. fis-. fis-. fis-.) fis(-. fis-. fis-. fis-.) %5
+		\tempoUndErStundC r16 e g16. h32 e16. h32 g'8 g g g g
+		fis fis fis fis fis fis fis fis
+		g4 r \tempoUndErStundD r2
+		R1*11 %19
+		R1\fermataMarkup \bar "|." %20 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

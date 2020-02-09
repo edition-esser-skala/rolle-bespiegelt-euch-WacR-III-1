@@ -489,6 +489,56 @@ UndEsKamTenoreLyrics = \lyricmode {
 	fie -- len auf die Er -- de. %6 finis
 }
 
+UndErStundTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \major \time 4/4 \autoBeamOff \tempoUndErStund
+		r8 fis,^\Evangelist ais h cis cis cis d
+		e4 r8 e e e e fis
+		d d r16 d d d d4 cis8 e
+		g, g g4 r8 g g a
+		\tempoUndErStundB fis fis \clef bass r r16 fis^\Jesus h16. h32 h8 r h16 fis %5
+		\tempoUndErStundC g4 r8 e c' c c a
+		\appoggiatura g fis4 r8 a a c, c d
+		h h r4 \clef "treble_8" \tempoUndErStundD h'8^\Evangelist h h h16 d
+		d8. g,16 g4 g'8 d r d
+		h4 r8 h h h c d %10
+		d g, r d'16 d f8 f r4
+		d8 d d e c4 r8 c
+		c c16 c c8 e e a, h c
+		c g r4 r e'8 e
+		d d f e c4 \clef bass a8^\Jesus e %15
+		r4 c'8 a r a a a
+		d d d d d a gis a
+		h \clef "treble_8" h^\Evangelist h e cis cis r16 cis cis fis
+		fis8 cis e16 e e fis d8 d r4
+		d8 d h e cis4 r\fermata \bar "|." %20 finis
+	}
+}
+
+UndErStundTenoreLyrics = \lyricmode {
+	Und er ſtund auf von dem Ge --
+	bet und kam zu ſei -- nen
+	Jün -- gern, und fand ſie ſchla -- fend vor
+	Trau -- rig -- keit, und ſprach zu
+	ih -- nen: Was ſchla -- fet ihr? Ste -- het %5
+	auf und be -- tet, auf daß
+	ihr nicht in An -- fech -- tung
+	fal -- let. Da er a -- ber noch
+	re -- de -- te, ſie -- he, die
+	Schaar, und ei -- ner von den %10
+	Zwöl -- fen, ge -- nannt Ju -- das,
+	gang für ih -- nen her und
+	na -- he -- te ſich zu Je -- ſu, ihn zu
+	kü -- ßen. Je -- ſus
+	a -- ber ſprach zu ihm: Ju -- da! %15
+	Ju -- da! ver -- rä -- theſt
+	du des Men -- ſchen Sohn mit ei -- nem
+	Kuß? Da a -- ber ſa -- hen, die um ihn
+	wa -- ren, was da wer -- den woll -- te,
+	ſpra -- chen ſie zu ihm: %20 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
