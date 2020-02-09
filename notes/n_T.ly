@@ -567,6 +567,32 @@ HerrSollenTenoreLyrics = \lyricmode {
 	ſchla -- gen? %9 finis
 }
 
+UndEinerAusIhnenTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 4/4 \autoBeamOff \tempoUndEinerAusIhnen
+		r8 h^\Evangelist h h16 e^\critnote dis8 dis dis dis
+		fis fis gis dis e4 r8 e
+		dis dis his cis cis gis r4
+		cis8 cis cis gis16 a h8 h h cis
+		a4 \clef bass a8^\Jesus gis16 fis d'8 h h a %5
+		fis fis r4 \clef "treble_8" r cis'8^\Evangelist cis
+		fis fis fis cis d d r4
+		r8 cis e e16 d h4 r\fermata \bar "|." %8 finis
+	}
+}
+
+UndEinerAusIhnenTenoreLyrics = \lyricmode {
+	Und ei -- ner aus ih -- nen ſchlug des
+	Ho -- he -- prieſ -- ters Knecht und
+	hieb ihm ſein recht Ohr ab.
+	Je -- ſus a -- ber ant -- wor -- te -- te und
+	ſprach: La -- ßet ſie doch ſo fer -- ne %5
+	ma -- chen. Und er
+	rüh -- re -- te ſein Ohr an
+	und hei -- le -- te ihn. %8 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

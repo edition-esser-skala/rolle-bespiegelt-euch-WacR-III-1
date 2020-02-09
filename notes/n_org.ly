@@ -776,6 +776,32 @@ HerrSollenBassFigures = \figuremode {
 	<[6 4]>8 <[5 3]> r2 %9 finis
 }
 
+UndEinerAusIhnenOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoUndEinerAusIhnen
+		e2 his~
+		his cis
+		fis r4 gis
+		eis1
+		fis2 h, %5
+		r4 cis ais2~
+		ais h
+		e r8 fis h,4\fermata \bar "|."
+	}
+}
+
+UndEinerAusIhnenBassFigures = \figuremode {
+	<_+>2 <[6+] _+>
+	<[6+] 5 _+> <[5+]>
+	<6\+>2. <[5+ _+]>4
+	<6 _+>1
+	r %5
+	r4 <[_+]> <[6 _+]>2
+	r1
+	<6>2 r8 <_+>4. %8 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

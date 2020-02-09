@@ -462,7 +462,7 @@
 % 					}
 % 				>>
 % 				\new Staff {
-% 					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Jeſus" } }
+% 					\set Staff.instrumentName = 
 % 					\new Voice = "Tenore" { \dynamicUp \UndErStundTenoreNotes }
 % 				}
 % 				\new Lyrics \lyricsto Tenore \UndErStundTenoreLyrics
@@ -478,76 +478,104 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "10" "C O R O" "HErr, ſollen wir mit dem Schwerdt drein ſchlagen?"
+% 		}
+% 		\paper { systems-per-page = #1 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe I"
+% 							\HerrSollenOboeI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe II"
+% 							\HerrSollenOboeII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\HerrSollenViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\HerrSollenViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\HerrSollenViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Canto"
+% 						\new Voice = "Soprano" { \dynamicUp \HerrSollenSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \HerrSollenSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \HerrSollenAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \HerrSollenAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \HerrSollenTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \HerrSollenTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \HerrSollenBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \HerrSollenBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\HerrSollenOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \HerrSollenBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 120 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "10" "C O R O" "HErr, ſollen wir mit dem Schwerdt drein ſchlagen?"
+			movement = \movementTitle "11" "R E C I T A T I V O" "Und einer aus ihnen ſchlug des Hoheprieſters Knecht"
 		}
-		\paper { systems-per-page = #1 }
+		\paper {
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #3
+		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Oboe I"
-							\HerrSollenOboeI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Oboe II"
-							\HerrSollenOboeII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\HerrSollenViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\HerrSollenViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\HerrSollenViola
-					}
-				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Canto"
-						\new Voice = "Soprano" { \dynamicUp \HerrSollenSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \HerrSollenSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \HerrSollenAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \HerrSollenAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \HerrSollenTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \HerrSollenTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \HerrSollenBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \HerrSollenBassoLyrics
-				>>
+				\new Staff {
+					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Jeſus" } }
+					\new Voice = "Tenore" { \dynamicUp \UndEinerAusIhnenTenoreNotes }
+				}
+				\new Lyrics \lyricsto Tenore \UndEinerAusIhnenTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\HerrSollenOrgano
+						\UndEinerAusIhnenOrgano
 					}
 				>>
-				\new FiguredBass { \HerrSollenBassFigures }
+				\new FiguredBass { \UndEinerAusIhnenBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 120 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }
