@@ -328,27 +328,27 @@ LassetUnsZuAltoLyrics = \lyricmode {
 	La --
 	_
 	ger und __
-	ſei -- ne
+	Sei -- ne
 	Schmach, und __ %20
-	ſei -- ne
-	Schmach, und ſei -- ne
+	Sei -- ne
+	Schmach, und Sei -- ne
 	Schmach
 	tra --
 	gen, %25
-	ſei -- ne
+	Sei -- ne
 	\xE Schmach,\x
-	ſei -- ne
+	Sei -- ne
 	Schmach
 	tra -- _ %30
 	_
 	gen,
-	ſei -- ne
+	Sei -- ne
 	Schmach,
-	ſei -- ne %35
+	Sei -- ne %35
 	Schmach
 	\xE tra --
 	\x gen, und __
-	ſei -- ne
+	Sei -- ne
 	Schmach tra -- %40
 	_ _ _
 	\xE gen, tra --
@@ -356,9 +356,9 @@ LassetUnsZuAltoLyrics = \lyricmode {
 	gen, tra --
 	_ _ _ %45
 	gen, und
-	ſei -- ne
+	Sei -- ne
 	Schmach, und
-	ſei -- ne
+	Sei -- ne
 	Schmach __ %50
 	
 	tra --

@@ -319,6 +319,24 @@ HerrSollenViolinoI = {
 	}
 }
 
+JesusAberAntworteteViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoJesusAberAntwortete
+		R1*4
+		\key c \major \tempoJesusAberAntworteteB d8[\f r32 d fis a] d16. a32 g32. fis64 e32. d64 c!8 \once \slurDashed fis(-.\p fis-. fis-.) \noBreak %5
+		fis16(-. fis-. fis-. fis-.) fis(-. fis-. fis-. fis-.) fis(-. fis-. fis-. fis-.) fis(-. fis-. fis-. fis-.)
+		\once \slurDashed fis(-. fis-. fis-. fis-.) c'4-!\f g,8[ r32 g h d] g16. d32 c32. h64 a32. g64
+		f'8 h\pE h h g'4 r
+		r g r2
+		c,,8[\f r32 c e g] c16. g32 f32. e64 d32. c64 b8 g'16(-.\p g-.) g-.( g-. g-. g-.) %10
+		g(-. g-. g-. g-.) g(-. g-. g-. g-.) f(-. f-. f-. f-.) f4
+		r8 f\pp e e f4 r
+		\tempoJesusAberAntworteteC R1*15 %27
+		R1\fermataMarkup \bar "|." %28 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

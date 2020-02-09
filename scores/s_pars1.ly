@@ -256,7 +256,7 @@
 % 	}
 % 	\bookpart {
 % 		\header {
-% 			movement = \movementTitle "5" "R E C I T A T I V O" "Und als er dahin kam"
+% 			movement = \movementTitle "5" "R E C I T A T I V O" "Und als Er dahin kam"
 % 		}
 % 		\paper {
 % 			system-system-spacing.basic-distance = #35
@@ -352,7 +352,7 @@
 % 	}
 % 	\bookpart {
 % 		\header {
-% 			movement = \movementTitle "7" "R E C I T A T I V O" "Und es kam, daß er mit dem Tode rang"
+% 			movement = \movementTitle "7" "R E C I T A T I V O" "Und es kam, daß Er mit dem Tode rang"
 % 		}
 % 		\paper {
 % 			system-system-spacing.basic-distance = #23
@@ -462,7 +462,7 @@
 % 					}
 % 				>>
 % 				\new Staff {
-% 					\set Staff.instrumentName = 
+% 					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Jeſus" } }
 % 					\new Voice = "Tenore" { \dynamicUp \UndErStundTenoreNotes }
 % 				}
 % 				\new Lyrics \lyricsto Tenore \UndErStundTenoreLyrics
@@ -578,9 +578,61 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "12" "C H O R A L" "Laß mich an andern üben"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new ChoirStaff \with { \twoStanzaDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
+% 						\new Voice = "Soprano" { \dynamicUp \LassMichAnAndernSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \LassMichAnAndernSopranoLyricsA
+% 					\new Lyrics \lyricsto Soprano \LassMichAnAndernSopranoLyricsB
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Alto" "Violino II" "Oboe II" } }
+% 						\new Voice = "Alto" { \dynamicUp \LassMichAnAndernAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \LassMichAnAndernAltoLyricsA
+% 					\new Lyrics \lyricsto Alto \LassMichAnAndernAltoLyricsB
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Tenore" "Viola" } }
+% 						\new Voice = "Tenore" { \dynamicUp \LassMichAnAndernTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \LassMichAnAndernTenoreLyricsA
+% 					\new Lyrics \lyricsto Tenore \LassMichAnAndernTenoreLyricsB
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \LassMichAnAndernBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \LassMichAnAndernBassoLyricsA
+% 					\new Lyrics \lyricsto Basso \LassMichAnAndernBassoLyricsB
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\LassMichAnAndernOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \LassMichAnAndernBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "12" "C H O R A L" "Laß mich an andern üben"
+			movement = \movementTitle "13" "R E C I T A T I V O" "Jeſus aber antwortete zu den Hohenprieſtern"
 		}
 		\paper {
 			system-system-spacing.basic-distance = #35
@@ -589,45 +641,37 @@
 		}
 		\score {
 			<<
-				\new ChoirStaff \with { \twoStanzaDistance } <<
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\JesusAberAntworteteViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\JesusAberAntworteteViolinoII
+						}
+					>>
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
-						\new Voice = "Soprano" { \dynamicUp \LassMichAnAndernSopranoNotes }
+						\set Staff.instrumentName = "Viola"
+						\JesusAberAntworteteViola
 					}
-					\new Lyrics \lyricsto Soprano \LassMichAnAndernSopranoLyricsA
-					\new Lyrics \lyricsto Soprano \LassMichAnAndernSopranoLyricsB
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Alto" "Violino II" "Oboe II" } }
-						\new Voice = "Alto" { \dynamicUp \LassMichAnAndernAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \LassMichAnAndernAltoLyricsA
-					\new Lyrics \lyricsto Alto \LassMichAnAndernAltoLyricsB
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Tenore" "Viola" } }
-						\new Voice = "Tenore" { \dynamicUp \LassMichAnAndernTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \LassMichAnAndernTenoreLyricsA
-					\new Lyrics \lyricsto Tenore \LassMichAnAndernTenoreLyricsB
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \LassMichAnAndernBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \LassMichAnAndernBassoLyricsA
-					\new Lyrics \lyricsto Basso \LassMichAnAndernBassoLyricsB
 				>>
+				\new Staff {
+					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Jeſus" } }
+					\new Voice = "Tenore" { \dynamicUp \JesusAberAntworteteTenoreNotes }
+				}
+				\new Lyrics \lyricsto Tenore \JesusAberAntworteteTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\LassMichAnAndernOrgano
+						\JesusAberAntworteteOrgano
 					}
 				>>
-				\new FiguredBass { \LassMichAnAndernBassFigures }
+				\new FiguredBass { \JesusAberAntworteteBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

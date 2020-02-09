@@ -284,6 +284,8 @@ alwaysScriptOut = \override Script.avoid-slur = #'outside
 
 Evangelist = \markup { \remark "Evangeliſt" }
 Jesus = \markup { \remark "Jeſus" }
+MagdI = \markup { \remark "Magd I" }
+Petrus = \markup { \remark "Petrus" }
 
 
 
@@ -319,6 +321,9 @@ tempoUndErStund = \tempoMarkup "[Recitativo]"
 tempoHerrSollen = \tempoMarkup "Chorus"
 tempoUndEinerAusIhnen = \tempoMarkup "[Recitativo]"
 tempoLassMichAnAndern = \tempoMarkup "Choral"
+tempoJesusAberAntwortete = \tempoMarkup "[Recitativo]"
+	tempoJesusAberAntworteteB = \tempoMarkup "[Accompagnato]"
+	tempoJesusAberAntworteteC = \tempoMarkup "[Recitativo]"
 
 
 

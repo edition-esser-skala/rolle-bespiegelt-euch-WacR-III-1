@@ -267,9 +267,9 @@ JesusGingHinaufTenoreNotes = {
 
 JesusGingHinaufTenoreLyrics = \lyricmode {
 	Und Je -- ſus ging hi --
-	naus nach ſei -- ner Ge -- wohn -- heit an den
-	Öhl -- berg. Es fol -- ge -- ten ihm
-	a -- ber ſei -- ne Jün -- ger nach
+	naus nach Sei -- ner Ge -- wohn -- heit an den
+	Öhl -- berg. Es fol -- ge -- ten Ihm
+	a -- ber Sei -- ne Jün -- ger nach
 	\xE an den ſelb -- gen Ort. %5 finis
 }
 
@@ -347,21 +347,21 @@ LassetUnsZuTenoreLyrics = \lyricmode {
 	La --
 	_ %10
 	ger und __
-	ſei -- ne
+	Sei -- ne
 	Schmach, und __
-	ſei -- ne
+	Sei -- ne
 	Schmach __ %15
 	tra -- _ _ _
 	_
 	gen,
-	ſei -- ne
+	Sei -- ne
 	Schmach, %20
-	ſei -- ne
+	Sei -- ne
 	Schmach
 	\xE tra -- gen,
 	tra --
 	gen, %25
-	ſei -- ne\x
+	Sei -- ne\x
 	Schmach,
 	
 	la -- ßet
@@ -372,18 +372,18 @@ LassetUnsZuTenoreLyrics = \lyricmode {
 	La -- _
 	_ %35
 	ger und __
-	ſei -- ne
+	Sei -- ne
 	Schmach
 	tra --
 	gen, und %40
-	ſei -- ne
+	Sei -- ne
 	Schmach,
 	
-	ſei -- ne %45
+	Sei -- ne %45
 	\xE Schmach, und
-	ſei -- ne
+	Sei -- ne
 	Schmach, und
-	ſei -- ne
+	Sei -- ne
 	Schmach __ %50
 	_
 	tra --
@@ -414,10 +414,10 @@ AlsErDahinKamTenoreNotes = {
 }
 
 AlsErDahinKamTenoreLyrics = \lyricmode {
-	Und als er da -- hin
-	kam, ſprach er zu ih -- nen:
+	Und als Er da -- hin
+	kam, ſprach Er zu ih -- nen:
 	Be -- tet, be -- tet, auf daß
-	ihr nicht in An -- fech -- tung fal -- let. Und er
+	ihr nicht in An -- fech -- tung fal -- let. Und Er
 	riß sich von ih -- nen bey ei -- nen Stein -- wurff %5
 	und knie -- te nie -- der,
 	be -- te -- te und ſprach:
@@ -426,9 +426,9 @@ AlsErDahinKamTenoreLyrics = \lyricmode {
 	die -- ſen Kelch von mir. Doch nicht %10
 	mein, ſon -- dern dein Wil -- le ge --
 	ſche -- he.
-	Es er -- ſchien ihm a -- ber ein
+	Es er -- ſchien Ihm a -- ber ein
 	En -- gel vom Him -- mel
-	und ſtärck -- te ihn. %15 finis
+	und ſtärck -- te Ihn. %15 finis
 }
 
 DeinenEngelTenoreNotes = {
@@ -481,10 +481,10 @@ UndEsKamTenoreNotes = {
 }
 
 UndEsKamTenoreLyrics = \lyricmode {
-	Und es kam, daß er
+	Und es kam, daß Er
 	mit dem To -- de rang, und
 	be -- te -- te hef -- ti -- ger.
-	Es ward a -- ber ſein
+	Es ward a -- ber Sein
 	Schweiß wie Bluts -- trop -- fen, die %5
 	fie -- len auf die Er -- de. %6 finis
 }
@@ -517,26 +517,26 @@ UndErStundTenoreNotes = {
 }
 
 UndErStundTenoreLyrics = \lyricmode {
-	Und er ſtund auf von dem Ge --
-	bet und kam zu ſei -- nen
+	Und Er ſtund auf von dem Ge --
+	bet und kam zu Sei -- nen
 	Jün -- gern, und fand ſie ſchla -- fend vor
 	Trau -- rig -- keit, und ſprach zu
 	ih -- nen: Was ſchla -- fet ihr? Ste -- het %5
 	auf und be -- tet, auf daß
 	ihr nicht in An -- fech -- tung
-	fal -- let. Da er a -- ber noch
+	fal -- let. Da Er a -- ber noch
 	re -- de -- te, ſie -- he, die
 	Schaar, und ei -- ner von den %10
 	Zwöl -- fen, ge -- nannt Ju -- das,
 	gang für ih -- nen her und
-	na -- he -- te ſich zu Je -- ſu, ihn zu
+	na -- he -- te ſich zu Je -- ſu, Ihn zu
 	kü -- ßen. Je -- ſus
 	a -- ber ſprach zu ihm: Ju -- da! %15
 	Ju -- da! ver -- rä -- theſt
 	du des Men -- ſchen Sohn mit ei -- nem
-	Kuß? Da a -- ber ſa -- hen, die um ihn
+	Kuß? Da a -- ber ſa -- hen, die um Ihn
 	wa -- ren, was da wer -- den woll -- te,
-	ſpra -- chen ſie zu ihm: %20 finis
+	ſpra -- chen ſie zu Ihm: %20 finis
 }
 
 HerrSollenTenoreNotes = {
@@ -588,7 +588,7 @@ UndEinerAusIhnenTenoreLyrics = \lyricmode {
 	hieb ihm ſein recht Ohr ab.
 	Je -- ſus a -- ber ant -- wor -- te -- te und
 	ſprach: La -- ßet ſie doch ſo fer -- ne %5
-	ma -- chen. Und er
+	ma -- chen. Und Er
 	rüh -- re -- te ſein Ohr an
 	und hei -- le -- te ihn. %8 finis
 }
@@ -635,6 +635,72 @@ LassMichAnAndernTenoreLyricsB = \lyricmode {
 	ben, gern
 	die -- nen je -- der --
 	mann, __ %5 finis
+}
+
+JesusAberAntworteteTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 4/4 \autoBeamOff \tempoJesusAberAntwortete
+		h8^\Evangelist h h c d d16 d d8 e
+		cis cis cis d e e r fis
+		g g g e cis8. cis16 cis8 e \noBreak
+		g, g16 g g8 a fis fis r4
+		\key c \major \clef bass \tempoJesusAberAntworteteB r2 r8 a16^\Jesus a a a a a \noBreak %5
+		d8 d r a fis fis fis a
+		a d, r c'16 h g8 g r4
+		r8 g16 a h8 h16 c d8 d d d16 h
+		g8 g r d16 e f8 f16 g a a a g
+		e8 e r4 g16 g r b b8 b16 g %10
+		cis8 cis r cis16 a d4 r16 d d f, \noBreak
+		\appoggiatura e8 d4 r r2
+		\clef "treble_8" \tempoJesusAberAntworteteC r8 g^\Evangelist g g16 a h8 h16 h h8 h16 c \noBreak
+		d8 d d d g4 d8 e
+		f f f e c4 r %15
+		c8 e e c a8. a16 h8 c
+		c g r4 r r8 e'
+		e h16 h h8 e d d d4
+		f8 f f e c4 r8 c
+		c c h a dis dis16 dis dis8 fis %20
+		fis a,16 a c8 h g4 r8 h
+		e e16 e e8 dis e4 e16 e g fis
+		fis4 r8 cis cis cis cis cis16 cis
+		e8 e e fis d4 \clef treble d'8^\MagdI g,
+		e' c16 c c8 h g4 r %25
+		\clef "treble_8" r8 g,^\Evangelist g a16 a h8 h16 h h8 c
+		d4 g^\Petrus r8 d f f16 e
+		c4 r r2\fermata \bar "|." %28 finis
+	}
+}
+
+JesusAberAntworteteTenoreLyrics = \lyricmode {
+	Je -- ſus a -- ber \xE ſprach \x zu den Ho -- hen --
+	prieſ -- tern und Haupt -- leu -- ten des
+	Tem -- pels und den Äl -- teſ -- ten, die
+	ü -- ber Ihn kom -- men wa -- ren:
+	Ihr ſeid als zu ei -- nem %5
+	Mör -- der mit Schwerd -- tern und mit
+	Stan -- gen aus -- ge -- gan -- gen.
+	Ich bin täg -- lich bei euch im Tem -- pel ge --
+	we -- ſen, und ihr habt kei -- ne Hand an mich ge --
+	le -- get. A -- ber dies iſt eu -- re %10
+	Stun -- de und die Macht der Finſ -- ter --
+	niß.
+	Sie grif -- fen Ihn a -- ber und füh -- re -- ten
+	Ihn und brach -- ten Ihn in des
+	Ho -- he -- prieſ -- ters Haus. %15
+	Pe -- trus a -- ber fol -- ge -- te von
+	fer -- ne. Da
+	zün -- de -- ten ſie ein Feu -- er an
+	mit -- ten im Pal -- laſt, und
+	ſetz -- ten ſich zu -- ſam -- men, und Pe -- trus %20
+	ſaz -- te ſich un -- ter ſie. Da
+	ſa -- he ihn ei -- ne Magd ſit -- zen bey dem
+	Licht und ſa -- he e -- ben auf
+	ihn und ſprach zu ihm: Die -- ſer
+	Jün -- ger war auch mit Ihm. %25
+	Er a -- ber ver -- leug -- ne -- te Ihn und
+	ſprach: Weib, ich ken -- ne Sein
+	nicht. %28 finis
 }
 
 % TenoreNotes = {

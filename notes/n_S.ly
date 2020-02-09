@@ -315,20 +315,20 @@ LassetUnsZuSopranoLyrics = \lyricmode {
 	La --
 	_
 	ger und __ %25
-	ſei -- ne
+	Sei -- ne
 	Schmach, und __
-	ſei -- ne
+	Sei -- ne
 	Schmach __
 	tra -- %30
 	gen,
 	
-	ſei -- ne
+	Sei -- ne
 	Schmach,
-	ſei -- ne %35
+	Sei -- ne %35
 	Schmach, und __
-	ſei -- ne
+	Sei -- ne
 	Schmach, und __
-	ſei -- ne
+	Sei -- ne
 	Schmach tra -- %40
 	_ _ _
 	\xE gen, tra --
@@ -336,9 +336,9 @@ LassetUnsZuSopranoLyrics = \lyricmode {
 	gen, tra --
 	_ _ _ %45
 	gen, und
-	ſei -- ne
+	Sei -- ne
 	Schmach, und
-	ſei -- ne
+	Sei -- ne
 	Schmach __ %50
 	
 	tra --
@@ -465,7 +465,7 @@ WieQuaeletSopranoLyrics = \lyricmode {
 	Guth, __ mein treu -- er %15
 	Hei -- land, mein treu -- er
 	Hei -- land ſchwit -- zet
-	Blut, ſein Kum -- mer macht mir
+	Blut, Sein Kum -- mer macht mir
 	Angſt, macht \xE mir \x Angſt __ und
 	Schre -- _ %20
 	_ cken, macht mir Angſt und
@@ -481,10 +481,10 @@ WieQuaeletSopranoLyrics = \lyricmode {
 	quä -- let ſich das höch -- ſte
 	\x Guth, mein treu -- er
 	Hei -- land ſchwit -- zet
-	Blut, ſein Kum -- mer macht mir Angſt und
+	Blut, Sein Kum -- mer macht mir Angſt und
 	Schre -- cken, macht mir Angſt und %35
 	Schre -- cken,
-	ſein Kum -- mer macht mir Angſt, macht mir
+	Sein Kum -- mer macht mir Angſt, macht mir
 	Angſt __ und Schre --
 	cken. Doch
 	nein, mein Hertz, er -- ho -- le %40

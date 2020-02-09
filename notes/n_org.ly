@@ -838,6 +838,72 @@ LassMichAnAndernBassFigures = \figuremode {
 	<_+>1 %13 finis
 }
 
+JesusAberAntworteteOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoJesusAberAntwortete
+		g'1\pE
+		\once \tieDashed e~
+		e~ \noBreak
+		e2 d
+		\key c \major \tempoJesusAberAntworteteB \mvTr d8[\fE-\unisonoE r32 d fis a] d16. a32 g32. fis64 e32. d64 c!8 c(-.\pE c-. c-.) \noBreak %5
+		c(-. c-. c-. c-.) c(-. c-. c-. c-.)
+		c(-. c-.) fis,4-!\fE g8[-\unisonoE r32 g h d] g16. d32 c32. h64 a32. g64
+		f8 f'\pE f f f4 r
+		r h, r2
+		\mvTr c8[\fE-\unisonoE r32 c e g] c16. g32 f32. e64 d32. c64 b8 b(-.\p b-. b-.) %10
+		\slurDashed a(-. a-. a-. a-.) gis(-. gis-.) gis4 \slurSolid \noBreak
+		r8 a\pp a a d,4 r
+		\tempoJesusAberAntworteteC h'1~\pE \noBreak
+		h~
+		h2 e~ %15
+		e f^\critnote
+		r8 g c,4 gis2~
+		gis1~
+		gis2 a~
+		a fis'~ %20
+		fis e~
+		e ais,~
+		ais1~
+		ais2 h
+		c r4 h8 d %25
+		f!1~
+		f
+		r4 e8 g c,2\fermata \bar "|." %28 finis
+	}
+}
+
+JesusAberAntworteteBassFigures = \figuremode {
+	r1
+	<6\\>
+	r
+	r
+	<_+>2 r8 <4\+ 2>4. %5
+	r1
+	r4 <6 5>2.
+	r8 <6 4>4. r2
+	r4 <[6]>2.
+	r2 r8 <6 4 2>4. %10
+	<7 _+>2 <7>
+	r8 <6 4> <5 4> <\l _+> r2
+	<6>1
+	r
+	r2 <6> %15
+	r1
+	r2 <6>
+	r <6 5>
+	<7>1
+	r2 <6\\> %20
+	r1
+	r2 <5 [_+]>
+	<6+ \t>1
+	r2 <5+>4 <6>
+	r2. <[6]>8 <[_+]> %25
+	<6 4 2>1
+	r
+	r4 <6>8 <5> r2 %28 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

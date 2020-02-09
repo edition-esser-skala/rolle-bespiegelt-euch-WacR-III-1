@@ -325,3 +325,21 @@ HerrSollenViolinoII = {
 		e'8 e, r4 r\fermata \bar "|." %9 finis
 	}
 }
+
+JesusAberAntworteteViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoJesusAberAntwortete
+		R1*4
+		\key c \major \tempoJesusAberAntworteteB d8[\f r32 d fis a] d16. a32 g32. fis64 e32. d64 c!8 \once \slurDashed d(-.\p d-. d-.) \noBreak %5
+		d16(-. d-. d-. d-.) d(-. d-. d-. d-.) d(-. d-. d-. d-.) d(-. d-. d-. d-.)
+		\once \slurDashed d(-. d-. d-. d-.) d4-!\f g,8[ r32 g h d] g16. d32 c32. h64 a32. g64
+		f'!8 g\pE g g h4 r
+		r d r2
+		c,8[\f r32 c e g] c16. g32 f32. e64 d32. c64 b8 e16(-.\p e-.) e-.( e-. e-. e-.) %10
+		e-.( e-. e-. e-.) e-.( e-. e-. e-.) h(-. h-. h-. h-.) h4
+		r8 d\pp d cis d4 r
+		\tempoJesusAberAntworteteC R1*15 %27
+		R1\fermataMarkup \bar "|." %28 finis
+	}
+}

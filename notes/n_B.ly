@@ -276,22 +276,22 @@ LassetUnsZuBassoLyrics = \lyricmode {
 	La -- %30
 	_
 	ger und __
-	ſei -- ne
+	Sei -- ne
 	Schmach, und __
-	ſei -- ne %35
+	Sei -- ne %35
 	Schmach
 	tra --
 	gen,
 	tra --
 	gen, und %40
-	ſei -- ne
+	Sei -- ne
 	Schmach,
 	
-	ſei -- ne %45
+	Sei -- ne %45
 	Schmach, und
-	ſei -- ne
+	Sei -- ne
 	Schmach, und
-	ſei -- ne
+	Sei -- ne
 	Schmach __ %50
 	
 	tra --

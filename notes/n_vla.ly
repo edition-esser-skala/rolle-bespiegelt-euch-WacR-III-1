@@ -331,3 +331,21 @@ HerrSollenViola = {
 		e e, r4 r\fermata \bar "|." %9 finis
 	}
 }
+
+JesusAberAntworteteViola = {
+	\relative c' {
+		\clef alto
+		\key d \major \time 4/4 \tempoJesusAberAntwortete
+		R1*4
+		\key c \major \tempoJesusAberAntworteteB d8[\f r32 d fis a] d16. a32 g32. fis64 e32. d64 c!8 \once \slurDashed a(-.\p a-. a-.) \noBreak %5
+		a16(-. a-. a-. a-.) a(-. a-. a-. a-.) a(-. a-. a-. a-.) a(-. a-. a-. a-.)
+		\once \slurDashed a(-. a-. a-. a-.) a4-!\f g8[ r32 g h d] g16. d32 c32. h64 a32. g64
+		f!8 d'\pE d d d4 r
+		r h' r2
+		c,8[\f r32 c e g] c16. g32 f32. e64 d32. c64 b8 c16(-.\p c-.) c(-. c-. c-. c-.) %10
+		\slurDashed cis(-. cis-. cis-. cis-.) cis(-. cis-. cis-. cis-.) d(-. d-. d-. d-.) d4 \slurSolid
+		r8 a\pp a a a4 r
+		\tempoJesusAberAntworteteC R1*15 %27
+		R1\fermataMarkup \bar "|." %28 finis
+	}
+}
