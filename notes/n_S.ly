@@ -525,6 +525,34 @@ WieQuaeletSopranoLyrics = \lyricmode {
 	cken. %75 finis
 }
 
+HerrSollenSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/4 \autoBeamOff \tempoHerrSollen
+		a''4 r r
+		a8 a16 a gis8 gis gis gis
+		gis4 fis r
+		fis8 fis16 fis e8 e e e
+		e4 d r8 d %5
+		d4 cis8 e16 e d8 cis
+		cis h r4 a'8 cis,
+		h4 r8 gis'16 gis a8 cis,
+		cis h r4 r\fermata \bar "|." %9 finis
+	}
+}
+
+HerrSollenSopranoLyrics = \lyricmode {
+	HErr,
+	ſol -- len wir mit dem Schwerdt drein
+	ſchla -- gen,
+	ſol -- len wir mit dem Schwerdt drein
+	ſchla -- gen, drein %5
+	ſchla -- gen, mit dem Schwerdt drein
+	ſchla -- gen, \xE mit dem
+	Schwerdt, mit dem Schwerdt drein
+	ſchla -- gen? %9 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

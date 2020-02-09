@@ -748,6 +748,34 @@ UndErStundBassFigures = \figuremode {
 	<6\\> <_+> %20 finis
 }
 
+HerrSollenOrgano = {
+	\relative c {
+		\clef bass
+		\key a \major \time 3/4 \tempoHerrSollen
+		a'4 cis8 h16 a cis8 a
+		e' e, e e e e
+		fis4 a8 gis16 fis a8 fis
+		cis' cis, cis cis cis cis
+		d4 fis8 e16 d fis8 d %5
+		a' a, a cis' h a
+		e' e, e d' cis a
+		e' e, e d' cis a
+		e' e, r4 r\fermata \bar "|." %9 finis
+	}
+}
+
+HerrSollenBassFigures = \figuremode {
+	r4 <[6]>2
+	<4>4 <3>2
+	<9>4 <6>2
+	<4>4 <3>2
+	<[9]>4 <[6]>2 %5
+	<[4]>4 <[3]>8 <[6]> q4
+	<[6 4]>8 <[5 3]> r <[2]> <[6]>4
+	<[6 4]>8 <[5 3]> r <[2]> <[6]>4
+	<[6 4]>8 <[5 3]> r2 %9 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

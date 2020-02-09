@@ -315,3 +315,19 @@ UndErStundViola = {
 		R1\fermataMarkup \bar "|." %20 finis
 	}
 }
+
+HerrSollenViola = {
+	\relative c' {
+		\clef alto
+		\key a \major \time 3/4 \tempoHerrSollen
+		e8 e e e e e
+		e e e e e e
+		cis cis cis cis cis cis
+		cis cis cis cis cis cis
+		a a a a a a %5
+		a a a cis d e
+		e e e e e e
+		e e e e e e
+		e e, r4 r\fermata \bar "|." %9 finis
+	}
+}

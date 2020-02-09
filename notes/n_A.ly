@@ -402,6 +402,34 @@ DeinenEngelAltoLyricsB = \lyricmode {
 	Acht, %5 finis
 }
 
+HerrSollenAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/4 \autoBeamOff \tempoHerrSollen
+		cis'4 r r
+		h8 h16 h h8 h h h
+		a4 a r
+		gis8 gis16 gis gis8 gis gis gis
+		fis4 fis r8 fis %5
+		e4 e8 a16 a gis8 a
+		a gis r4 a8 a
+		gis4 r8 h16 h a8 a
+		a gis r4 r\fermata \bar "|." %9 finis
+	}
+}
+
+HerrSollenAltoLyrics = \lyricmode {
+	HErr,
+	ſol -- len \xE wir mit dem Schwerdt drein
+	ſchla -- gen,
+	ſol -- len wir mit dem Schwerdt drein
+	\x ſchla -- gen, drein %5
+	ſchla -- gen, \xE mit dem Schwerdt drein
+	ſchla -- gen, mit dem
+	Schwerdt, mit dem Schwerdt drein
+	ſchla -- gen? %9 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

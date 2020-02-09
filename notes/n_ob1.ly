@@ -236,3 +236,19 @@ WieQuaeletOboeI = {
 		e4 r8\fermata \bar "|." %77 finis
 	}
 }
+
+HerrSollenOboeI = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/4 \tempoHerrSollen
+		e'4 a a
+		a( gis8) h, e gis
+		gis4( fis8) a, cis fis
+		fis4( e8) gis, h e
+		e4( d8) fis, a d %5
+		d4( cis8) e d cis
+		cis h gis'4 a8 cis,
+		h e, gis'4 a8 cis,
+		cis h r4 r\fermata \bar "|." %9 finis
+	}
+}

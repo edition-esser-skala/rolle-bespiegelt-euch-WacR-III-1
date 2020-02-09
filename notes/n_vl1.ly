@@ -303,6 +303,22 @@ UndErStundViolinoI = {
 	}
 }
 
+HerrSollenViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/4 \tempoHerrSollen
+		cis'16 a' cis, a' cis, a' cis, a' cis, a' cis, a'
+		h, a' h, a' h, gis' h, gis' h, gis' h, gis'
+		a, gis' a, gis' a, fis' a, fis' a, fis' a, fis'
+		gis, fis' gis, fis' gis, e' gis, e' gis, e' gis, e'
+		fis, e' fis, e' fis, d' fis, d' fis, d' fis, d' %5
+		e, d' e, d' e, cis' e, e' e, e' e, e'
+		e, e' e, e' e, e' gis e a e cis a
+		h e e, e' e, e' gis e a e cis a
+		e'8 e, r4 r\fermata \bar "|." %9 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

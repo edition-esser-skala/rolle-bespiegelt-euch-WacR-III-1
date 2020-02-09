@@ -539,6 +539,34 @@ UndErStundTenoreLyrics = \lyricmode {
 	ſpra -- chen ſie zu ihm: %20 finis
 }
 
+HerrSollenTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \major \time 3/4 \autoBeamOff \tempoHerrSollen
+		r4 e r
+		e gis8 fis16 e gis8 e
+		fis fis fis4 fis,
+		cis' e8 d16 cis e8 cis
+		d8 d d4 d %5
+		a r8 e'16 e e8 e
+		e e r4 e8 e
+		e4 r8 e16 e e8 e
+		e e, r4 r\fermata \bar "|." %9 finis
+	}
+}
+
+HerrSollenTenoreLyrics = \lyricmode {
+	HErr,
+	\xE HErr, \x ſol -- len wir mit dem
+	Schwerdt drein ſchla -- gen,
+	HErr, ſol -- len wir mit dem
+	\xE Schwerdt drein ſchla -- gen, %5
+	HErr, mit dem Schwerdt drein
+	ſchla -- gen, \xE mit dem
+	Schwerdt, mit dem Schwerdt drein
+	ſchla -- gen? %9 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

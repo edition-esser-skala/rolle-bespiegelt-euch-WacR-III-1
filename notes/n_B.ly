@@ -335,6 +335,34 @@ DeinenEngelBassoLyricsB = \lyricmode {
 	Acht, %5 finis
 }
 
+HerrSollenBassoNotes = {
+	\relative c {
+		\clef bass
+		\key a \major \time 3/4 \autoBeamOff \tempoHerrSollen
+		a'4 cis8 h16 a cis8 a
+		e' e e4 e,
+		fis a8 gis16 fis a8 fis
+		cis' cis cis4 cis,
+		d fis8 e16 d fis8 d %5
+		a'4 r8 cis16 cis h8 a
+		e' e, r4 cis'8 a
+		e'4 r8 d16 d cis8 a
+		e' e, r4 r\fermata \bar "|." %9 finis
+	}
+}
+
+HerrSollenBassoLyrics = \lyricmode {
+	HErr, ſol -- len wir mit dem
+	Schwerdt drein ſchla -- gen,
+	HErr, ſol -- len wir mit dem
+	Schwerdt drein ſchla -- gen,
+	HErr, ſol -- len wir mit dem %5
+	Schwerdt, mit dem Schwerdt drein
+	ſchla -- gen, mit dem
+	Schwerdt, mit dem Schwerdt drein
+	ſchla -- gen? %9 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass
