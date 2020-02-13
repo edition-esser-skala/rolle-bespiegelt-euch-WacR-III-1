@@ -474,6 +474,211 @@ LassMichAnAndernAltoLyricsB = \lyricmode {
 	mann, __ %5 finis
 }
 
+GepriesnerWeibesAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/8 \autoBeamOff \tempoGepriesnerWeibes
+		\partial 8 r8 R4.*26 %26
+		r4 g'8
+		c([ h)] a
+		g16.([ a32 g8)] f
+		e16([ f)] g8 r %30
+		c, a' a
+		a([ g)] c
+		g4( f8)
+		\appoggiatura f e4 r8
+		e c' h~ %35
+		h a g
+		fis d' c~
+		c h a
+		g a16([ h c)] a
+		\appoggiatura g8 fis4 r8 %40
+		d c' h
+		a4 r8
+		r c h
+		h a r
+		g e'4~ %45
+		e8 d r
+		d16.([ e32 d8)] c
+		\appoggiatura c h4 r8
+		a c h
+		a([ e')] d %50
+		\tuplet 3/2 8 { e16([ d c)] } h8([ a)]
+		a4( g8)
+		a c h
+		a([ e')] d
+		\tuplet 3/2 8 { e16([ d c)] } h8([ a)] %55
+		g4 r8
+		R4.*6 %62
+		r4 g8
+		c([ h)] a
+		g16.([ a32 g8)] f %65
+		e16([ f)] g8 r
+		c, a' a
+		a([ g)] c
+		g4( f8)
+		\appoggiatura f e4 r8 %70
+		c b'4~
+		b8[ a16 b] c([ f,)]
+		g8 f([ e)]
+		e4( f8)
+		d c'4~ %75
+		c8[ h16 c] d([ g,)]
+		a8 g([ fis)]
+		g4 r8
+		g h c
+		g4 r8 %80
+		r h c
+		\tuplet 3/2 8 { h16([ a g)] } g8 r
+		c f, e
+		d([ a')] g
+		\tuplet 3/2 8 { a16([ g f)] } e8([ d)] %85
+		d4( c8)
+		c a'4~
+		a8 g r
+		\tuplet 3/2 8 { a16([ g f)] } e8([ d)]
+		c4 r8 %90
+		R4.*12 %102
+		r4\fermata e8
+		a([ c)] h
+		a([ gis)] a %105
+		\appoggiatura g f4.\trill
+		e4 c'8~
+		c h a
+		gis([ e')] d
+		\appoggiatura d c4. %110
+		h4 r8
+		c c c
+		c[~ \tuplet 3/2 8 { c16 h a] e'[ d c] }
+		\tuplet 3/2 8 { h[ a g] } h4~
+		h8[~ \tuplet 3/2 8 { h16 a g] d'[ c h] } %115
+		\tuplet 3/2 8 { a[ g fis] } a4~
+		a8[~ \tuplet 3/2 8 { a16 g fis] c'[ h a] }
+		\tuplet 3/2 8 { g[ fis e] a[ g fis] h[ a g] }
+		\tuplet 3/2 8 { c[ h] a } g8 fis
+		e4 r8 %120
+		h' c h
+		h[( e]) d
+		\appoggiatura d c4.
+		h8 r r
+		h c h %125
+		h([ e)] d
+		\appoggiatura d c4.
+		h4 r8
+		a a a
+		a4.~ %130
+		a16.[ c32 h8 a]
+		gis d'!4
+		c8[ h] a
+		h gis4\trill
+		a4 a8 %135
+		a4 a8
+		a4.
+		h
+		a4 \markDaCapo \bar "||" %139 finis
+	}
+}
+
+GepriesnerWeibesAltoLyrics = \lyricmode {
+	Ge -- %27
+	priß -- ner
+	Wei -- bes
+	Saa -- men, %30
+	ich nen -- ne
+	dich mit
+	Nah --
+	men,
+	und weiß wohl, %35
+	wer du
+	biſt, weiß wohl,
+	wer du
+	biſt, wer du
+	biſt, %40
+	ich nen -- ne
+	dich,
+	dich mit
+	Nah -- men,
+	und weiß __ %45
+	wohl,
+	wer __ du
+	biſt,
+	und weiß wohl,
+	wer du, %50
+	wer du __
+	biſt, __
+	und weiß wohl,
+	wer du,
+	wer du __ %55
+	biſt.
+	
+	Ge -- %63
+	priß -- ner
+	Wei -- bes %65
+	Saa -- men,
+	ich nen -- ne
+	dich mit
+	Nah --
+	men, %70
+	und weiß __
+	wohl,
+	wer du __
+	biſt, __
+	und weiß __ %75
+	wohl,
+	wer du __
+	biſt,
+	ich nen -- ne
+	dich, %80
+	dich mit
+	Nah -- men,
+	und weiß wohl,
+	wer du,
+	wer du __ %85
+	biſt, __
+	und weiß __
+	wohl,
+	wer du __
+	biſt. %90
+	
+	Du %103
+	biſt mein
+	Na -- za -- %105
+	re --
+	ner, du __
+	biſt \xE mein \x
+	Welt Ver --
+	ſöh -- %110
+	ner,
+	des Blut mein
+	höch -- _
+	_ _
+	_ %115
+	_ _
+	_
+	_ _ _
+	_ ſtes Lab -- ſaal
+	iſt, %120
+	du biſt mein
+	Na -- za --
+	re --
+	ner,
+	du biſt mein %125
+	Welt Ver --
+	ſöh --
+	ner,
+	des Blut mein
+	höch -- %130
+	
+	_ _
+	_ ſtes
+	Lab -- ſaal
+	iſt, mein %135
+	höch -- ſtes
+	Lab --
+	ſaal
+	iſt. %139 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

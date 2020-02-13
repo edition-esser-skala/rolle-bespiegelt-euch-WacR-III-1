@@ -343,3 +343,149 @@ JesusAberAntworteteViolinoII = {
 		R1\fermataMarkup \bar "|." %28 finis
 	}
 }
+
+GepriesnerWeibesViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/8 \tempoGepriesnerWeibes
+		\partial 8 g'8\fE \once \slurDashed e( g) f
+		e16.( f32 e8) d
+		c16( d) e8-\parenthesize-! r
+		c4 f8
+		f( e) e %5
+		e4( d8)
+		\appoggiatura d c4 r8
+		g'4 c8
+		c( h) r
+		h16.( c32 h8) a %10
+		a( g) r
+		c,4 f8
+		\once \slurDashed f( e) r
+		\tuplet 3/2 8 { e16([ d c)] } d8 c
+		h \tuplet 3/2 8 { d16([ f d)] c( e c) } %15
+		h8 d[-\parenthesize-! c-\parenthesize-!]
+		h \tuplet 3/2 8 { d16([ f d)] c( e c) }
+		h8 d[-\parenthesize-! c-\parenthesize-!]
+		c h r
+		c4 f8 %20
+		\once \slurDashed f( e16.) f32 g8
+		\tuplet 3/2 8 { f16([ e d)] } c8 h
+		h4( c8)
+		c4 f8
+		\once \slurDashed f( e16.) f32 g8 %25
+		\tuplet 3/2 8 { f16([ e d)] } c8 h
+		c4 r8
+		\once \slurDashed e(\p g) f
+		e16.( f32 e8) d
+		\once \slurDashed c16( d) e8-! r %30
+		c4 f8
+		\once \slurDashed f( e) e
+		\once \slurDashed e4( d8)
+		\appoggiatura d c4 r8
+		r e d~ %35
+		d c h
+		a fis' e~
+		e d c
+		h e c
+		a \tuplet 3/2 8 { a'16([\f c a)] g( h g) } %40
+		fis8 c'[\p h]
+		a \tuplet 3/2 8 { a16([\f c a)] g( h g) }
+		fis8 c'16[\p a] g8
+		g fis r
+		g r c~ %45
+		c h r
+		h16.( c32 h8) a
+		\appoggiatura a g4 r8
+		g4.~
+		g %50
+		\tuplet 3/2 8 { c16([ h a)] } g8 fis
+		fis4( g8)
+		a(\pocoF c) h
+		a( e') d
+		\tuplet 3/2 8 { c16([ h a)] } g8 fis %55
+		g4 d'8\f
+		\once \slurDashed h( d) c
+		h16.( c32 h8) a
+		g16( a) h8-! r
+		g4 c8 %60
+		\once \slurDashed c( h) h
+		\once \slurDashed h4( a8)
+		\appoggiatura a g4 r8
+		e(\p g) f
+		\once \slurDashed e16.( f32 e8) d %65
+		\once \slurDashed c16( d) e8-\parenthesize-! r
+		c4 f8
+		\once \slurDashed f( e) e
+		\once \slurDashed e4( d8)
+		\appoggiatura d c4 r8 %70
+		r e16. f32 g16. e32
+		c4 c8
+		b \once \slurDashed a( g)
+		g4( a8)
+		r fis'16. g32 a16. fis32 %75
+		d4 d8
+		c h! a
+		h \tuplet 3/2 8 { d16([\pocoF f! d)] c( e c) }
+		h8 d[-!\p c]-!
+		h \tuplet 3/2 8 { d16([\pocoF f d)] c( e c) } %80
+		h8 f'[\p e]
+		\tuplet 3/2 8 { d16([ c h)] } h8 r
+		\once \slurDashed c( f) e
+		\once \slurDashed d( a') g
+		\tuplet 3/2 8 { f16([ e d)] } c8 h %85
+		\once \slurDashed h4( c8)
+		c\pocoF f4~
+		f8 e g
+		\tuplet 3/2 8 { f16([ e d)] } c8 h
+		c4 r8 %90
+		r \tuplet 3/2 8 { d16([\fE f d)] c( e c) }
+		h8 d[-! c]-!
+		h \tuplet 3/2 8 { d16([ f d)] c( e c) }
+		h8 d[-! c]-!
+		c h r %95
+		c4 f8~
+		f e g
+		\tuplet 3/2 8 { f16([ e d)] } c8 h
+		h4( c8)
+		c4 f8~ %100
+		f e g
+		\tuplet 3/2 8 { f16([ e d)] } c8 h
+		c4\fermata r8
+		c\p e d
+		c d e %105
+		\appoggiatura e d4.\trillE
+		c4 e8~
+		e d c
+		h c' h
+		\appoggiatura h a4.\trill %110
+		gis4 r8
+		c c c
+		c c c
+		h h h
+		h h h %115
+		a a a
+		a a a
+		g a h
+		a g fis?
+		e \tuplet 3/2 8 { h'16([\f d h)] a( c a) } %120
+		gis8 a[\p gis]
+		gis c h
+		\appoggiatura h a4.
+		gis8 \tuplet 3/2 8 { h16([\f d h)] a( c a) }
+		gis8 c[\p h] %125
+		h e d
+		\appoggiatura d c4.
+		h16 e, gis h e gis,
+		a4 a8
+		a a a %130
+		a a a
+		gis gis gis
+		a gis a
+		h gis4\trill
+		a8\f c-! c-! %135
+		c-! a-! a-!
+		a4.
+		gis\trill
+		a4 \markDaCapo \bar "||" %139 finis
+	}
+}

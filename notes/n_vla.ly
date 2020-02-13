@@ -349,3 +349,149 @@ JesusAberAntworteteViola = {
 		R1\fermataMarkup \bar "|." %28 finis
 	}
 }
+
+GepriesnerWeibesViola = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 3/8 \tempoGepriesnerWeibes
+		\partial 8 r8 c4\fE r8
+		c e, g
+		c c, r
+		r f16. g32 a16. h32
+		c8 c16. d32 e16. f32 %5
+		g8 g, g
+		c c, c
+		r c'16. d32 e16. f32
+		g4 r8
+		g d' d, %10
+		g g, g
+		r f!16. g32 a16. h32
+		c4 r8
+		r g g
+		g4 g8 %15
+		g g g
+		g4 r8
+		r g g
+		g g r
+		a f16. g32 a16. h32 %20
+		c8 c16. d32 e16. c32
+		f,8 g g
+		a4.
+		r8 f16. g32 a16. h32
+		c8 c16. d32 e16. c32 %25
+		f,8 g g
+		c,4 r8
+		c'4\p r8
+		c e, g
+		c c, r %30
+		r f16. g32 a16. h32
+		c8 c16. d32 e16. f32
+		g8 g, g
+		c c, c
+		c4 r8 %35
+		c'4 r8
+		d4 r8
+		d,4 r8
+		e c' a
+		d d[\f d] %40
+		d4 r8
+		r d\f d
+		d4 r8
+		d4\p r8
+		e c16. d32 e16. fis32 %45
+		g4 r8
+		g d' fis,
+		g g, g
+		c e d
+		c4 h8 %50
+		c d c
+		h4.
+		c8\pocoF e d
+		c c' h
+		c d d, %55
+		g,4 r8
+		g4\fE r8
+		g h d
+		g g, r
+		r c16. d32 e16. fis32 %60
+		g8 g16. a32 h16. c32
+		d8 d, d
+		g g16.[\p f!32 e16. d32]
+		c4 r8
+		c e, g %65
+		c c, r
+		r f16. g32 a16. h32
+		c8 c16. d32 e16. f32
+		g8 g, g
+		c c, c %70
+		r c'16. d32 e16. c32
+		f4 a,8
+		b? c c,
+		f4.
+		r8 d'16. e32 fis16. d32 %75
+		g4 h,!8
+		e d d,
+		g g[\pocoF g]
+		g g[\pE g]
+		g g[\pocoF g] %80
+		g g8\p g]
+		g' g, r
+		a4 g'8
+		f4 e8
+		f g g, %85
+		a4.
+		r8 f16. g32 a16. h32
+		c8 c16. d32 e16. c32
+		f,8 g g
+		c16. e32\f d16. c32 h16. a32 %90
+		g8 g g
+		g g[-! g]-!
+		g g g
+		g g[-! g]-!
+		g g r %95
+		a f16. g32 a16. h32
+		c8 c16. d32 e16. c32
+		f,8 g g
+		a4.-\critnote
+		r8 f16. g32 a16. h32 %100
+		c8 c16. d32 e16. c32
+		f,8 g g
+		c\fermata e16 d c h
+		a4.~\pE
+		a8 h cis %105
+		r d d,
+		a'4 r8
+		d,4 r8
+		e4 gis8
+		r a a %110
+		e e' e
+		e e e
+		fis fis fis
+		g g g
+		e e e %115
+		fis fis fis
+		dis dis dis
+		e fis g
+		a h h,
+		e e[\f e] %120
+		e4 r8
+		e4\p r8
+		r a a,
+		e' e[\f e]
+		e4 r8 %125
+		e4\pE r8
+		r a a,
+		e' e e
+		f f e
+		d d e %130
+		fis fis fis
+		e e e
+		e d c
+		f! e e,
+		f\f f'-! e-! %135
+		dis-! dis-! dis-!
+		e4.
+		e,
+		a4 \markDaCapo \bar "||" %139 finis
+	}
+}

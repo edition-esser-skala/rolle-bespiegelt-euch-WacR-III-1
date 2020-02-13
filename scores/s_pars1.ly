@@ -630,48 +630,104 @@
 % 			\midi { \tempo 4 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "13" "R E C I T A T I V O" "Jeſus aber antwortete zu den Hohenprieſtern"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\JesusAberAntworteteViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\JesusAberAntworteteViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\JesusAberAntworteteViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Jeſus" } }
+% 					\new Voice = "Tenore" { \dynamicUp \JesusAberAntworteteTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \JesusAberAntworteteTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\JesusAberAntworteteOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \JesusAberAntworteteBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "13" "R E C I T A T I V O" "Jeſus aber antwortete zu den Hohenprieſtern"
+			movement = \movementTitle "14" "A R I A" "Geprißner Weibes Saamen"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
+			system-system-spacing.basic-distance = #20
+			system-system-spacing.minimum-distance = #20
 			systems-per-page = #2
 		}
 		\score {
 			<<
 				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = \markup { \center-column { "Flauto" "traverso I" } }
+							\GepriesnerWeibesFlautoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = \markup { \center-column { "Flauto" "traverso II" } }
+							\GepriesnerWeibesFlautoII
+						}
+					>>
+				>>
+				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\JesusAberAntworteteViolinoI
+							\GepriesnerWeibesViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\JesusAberAntworteteViolinoII
+							\GepriesnerWeibesViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\JesusAberAntworteteViola
+						\GepriesnerWeibesViola
 					}
 				>>
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Jeſus" } }
-					\new Voice = "Tenore" { \dynamicUp \JesusAberAntworteteTenoreNotes }
+				\new Staff \with { \smallerStaffDistance } {
+					\set Staff.instrumentName = \markup { \center-column { "Alto" "solo" } }
+					\new Voice = "Alto" { \dynamicUp \GepriesnerWeibesAltoNotes }
 				}
-				\new Lyrics \lyricsto Tenore \JesusAberAntworteteTenoreLyrics
+				\new Lyrics \lyricsto Alto \GepriesnerWeibesAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\JesusAberAntworteteOrgano
+						\GepriesnerWeibesOrgano
 					}
 				>>
-				\new FiguredBass { \JesusAberAntworteteBassFigures }
+				\new FiguredBass { \GepriesnerWeibesBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4. = 55 }
 		}
 	}
 }

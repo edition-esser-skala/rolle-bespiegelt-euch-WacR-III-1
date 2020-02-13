@@ -324,6 +324,7 @@ tempoLassMichAnAndern = \tempoMarkup "Choral"
 tempoJesusAberAntwortete = \tempoMarkup "[Recitativo]"
 	tempoJesusAberAntworteteB = \tempoMarkup "[Accompagnato]"
 	tempoJesusAberAntworteteC = \tempoMarkup "[Recitativo]"
+tempoGepriesnerWeibes = \tempoMarkup "[Aria]"
 
 
 

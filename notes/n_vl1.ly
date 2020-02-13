@@ -337,6 +337,152 @@ JesusAberAntworteteViolinoI = {
 	}
 }
 
+GepriesnerWeibesViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/8 \tempoGepriesnerWeibes
+		\partial 8 g'8\fE c( h) a
+		g16.( a32 g8) f
+		e16( f) g8-\parenthesize-! r
+		c, a' a
+		a( g) c %5
+		g4( f8)
+		\appoggiatura f e4 r8
+		g e' e
+		\once \slurDashed e( d) \tuplet 3/2 8 { g16([ fis e)] }
+		d16.( e32 d8) c %10
+		c( h) r
+		c, a' a
+		\once \slurDashed a( g) \tuplet 3/2 8 { c16([ h a)] }
+		\tuplet 3/2 8 { g([ f e)] } f8 e
+		d \tuplet 3/2 8 { f16([ d' f,)] e( c' e,) } %15
+		d8 f[-! e]-!
+		d \tuplet 3/2 8 { f16([ d' f,)] e( c' e,) }
+		d8 f[-! e]-!
+		e d r
+		c a' a %20
+		\once \slurDashed a( g) c
+		\tuplet 3/2 8 { a16([ g f)] } e8 d
+		d4( c8)
+		c a' a
+		a( g) c %25
+		\tuplet 3/2 8 { a16([ g f)] } e8 d
+		c4 g'8\p
+		c( h) a
+		g16.( a32 g8) f
+		e16( f) g8-\parenthesize-! r %30
+		c, a' a
+		a( g) c
+		\once \slurDashed g4( f8)
+		\appoggiatura f e4 r8
+		e c' h~ %35
+		h a g
+		fis d' c~
+		c h a
+		g a16( h) c( a)
+		fis8 \tuplet 3/2 8 { c'16([\f a' c,]) h( g' h,) } %40
+		a8 a'[\p g]
+		fis8 \tuplet 3/2 8 { c16([\f a' c,]) h( g' h,) }
+		a8 a'16[\p c, h g']
+		h,8 a r
+		g e'4~ %45
+		e8 d \tuplet 3/2 8 { g16([ fis e)] }
+		d16.( e32 d8) c
+		\appoggiatura c h4 r8
+		a( c) h
+		a( e') d %50
+		\tuplet 3/2 8 { e16([ d c)] } h8 a
+		a4( g8)
+		g'4.~\pocoF
+		g
+		\tuplet 3/2 8 { e16([ d c)] } h8 a\trill %55
+		g4 d'8\f
+		g( fis) e
+		d16.( e32 d8) c
+		h16( c) d8-! r
+		g, e' e %60
+		e( d) g
+		d4( c8)
+		\appoggiatura c h4 g8\p
+		c( h) a
+		g16.( a32 g8) f %65
+		e16( f) g8-! r
+		c, a' a
+		a( g) c
+		g4( f8)
+		\appoggiatura f e4 r8 %70
+		c b'4~
+		b8 a16( b) c( f,)
+		g8 f( e)
+		e4( f8)
+		d c'4~ %75
+		c8 h!16( c) d( g,)
+		a8 g( fis)
+		g \tuplet 3/2 8 { f16([\pocoF d' f,)] e( c' e,) }
+		d8 d'[-!\p c-!]
+		h \tuplet 3/2 8 { f16([\pocoF d' f,)] e( c' e,) } %80
+		d8 d'[\p c]
+		\tuplet 3/2 8 { h16([ a g)] } g8 r
+		c4.~
+		c
+		\tuplet 3/2 8 { \once \slurDashed a16([ g f)] } e8 d %85
+		d4( c8)
+		c\pocoF a'4~
+		a8 g c
+		\tuplet 3/2 8 { a16([ g f)] } e8 d
+		c4 r8 %90
+		r \tuplet 3/2 8 { f16([\fE d' f,)] e( c' e,) }
+		d8 f[-! e-!]
+		d \tuplet 3/2 8 { f16([ d' f,)] e( c' e,) }
+		d8 f[-! e-!]
+		e d r %95
+		c a'4~
+		a8 g c
+		\tuplet 3/2 8 { a16([ g f)] } e8 d
+		\once \slurDashed d4( c8)
+		c a'4~ %100
+		a8 g c
+		\tuplet 3/2 8 { a16([ g f)] } e8 d
+		c4\fermata r8
+		a'\p c h
+		a gis a %105
+		\appoggiatura g f4.\trillE
+		e4 c'8~
+		c h a
+		gis e' d
+		\appoggiatura d c4.\trill %110
+		h16 e, gis h e d
+		c4 r8
+		a' a a
+		a a a
+		g g g %115
+		g g g
+		fis fis fis
+		e dis e
+		fis e dis
+		e^\critnote \tuplet 3/2 8 { d16([\f h' d,)] c( a' c,) } %120
+		h8 c[\p h]
+		h e d
+		\appoggiatura d c4.
+		h8 \tuplet 3/2 8 { d16([\f h' d,)] c( a' c,) }
+		h8 a'[\p gis] %125
+		gis c h
+		\appoggiatura h a4.
+		gis4 r8
+		a a g
+		f f e %130
+		dis dis dis
+		d d d
+		c h a
+		d h4\trill
+		a8\f a'-! a-! %135
+		a-! c,-! c-!
+		c4.
+		h\trill
+		a4 \markDaCapo \bar "||" %139 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
