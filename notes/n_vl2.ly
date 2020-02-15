@@ -489,3 +489,54 @@ GepriesnerWeibesViolinoII = {
 		a4 \markDaCapo \bar "||" %139 finis
 	}
 }
+
+UndUeberEineViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoUndUeberEine
+		R1*3
+		\key b \major \time 3/8 \tempoUndUeberEineB d'4.
+		es %5
+		d8 c b
+		c b a
+		b16 c d8 r
+		c b a
+		b4 r8 %10
+		\time 4/4 \tempoUndUeberEineC c4 r r2
+		R1*5 %16
+		\tempoUndUeberEineD r4 b8 c d4 g,
+		g'2. c,4
+		d2. g,4
+		c2. d,4 %20
+		b'2. b4
+		a4. g8 fis4 a
+		g2 b
+		a fis
+		g4 g f8 es d c %25
+		b a g4 r2
+		\tempoUndUeberEineE R1*13 \bar "||" %39
+		\key c \minor \tempoUndUeberEineF c8\pE c4 c8 des des4 des8 %40
+		des des4 des8 c c4 c8
+		es-! es-! es-! es-! es4 r
+		r8 g! g g b4 r
+		r8 r16 f\f as16. c32 as16. f32 as4 r
+		r8 g,\pp g4\fermata r2 %45
+		r8 e'4\pE as8 g as c16. f32\f f8
+		r8 e16(\p g,) \appoggiatura f e8 r r e4 as8
+		\appoggiatura g16 f8 g c16. f32\f f8 r16 r32 e, g16. c32 c4^\tenuto
+		r16 r32 f, f16. b32 f'4^\tenuto r16 r32 c g16. e32 c16. g'32\p as16. g32
+		as4~ as16. as32 b16. as32 b4~ b8 c %50
+		c des b b as16. c32 c16. c32 b4
+		r16 g(-. g8-.)~ g16 g(-. g8-.)~ g16 b(-. b8-.)~ b16 b(-. b8-.)~
+		b16 b(-. b8-.)~ b16 b(-. b8-.)~ b16 as(-. as8-.)~ as16 as(-. as8-.)~
+		as16 g(-. g8-.)~ g16 as(-. as8-.)~ as16 g(-. g8-.)~ g32.-\critnote g64\f g32. g64 f32.[ es64 d32. c64]
+		\tempoUndUeberEineG h4 r r16 r32 c\f es16. g32 c8 c %55
+		\tempoUndUeberEineH c\p c b! a a g g b
+		r b( a) b g fis r d'
+		g,( as16 g) as8 g fis g16 fis g8 g
+		es4 r r <fis' a, d,>
+		<g b, d, g,> r r2 \bar "||" %60
+		R1*6 %66
+		R1\fermataMarkup \bar "|." %67 finis
+	}
+}

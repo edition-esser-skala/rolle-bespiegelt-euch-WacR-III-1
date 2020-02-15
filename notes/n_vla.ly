@@ -495,3 +495,54 @@ GepriesnerWeibesViola = {
 		a4 \markDaCapo \bar "||" %139 finis
 	}
 }
+
+UndUeberEineViola = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 4/4 \tempoUndUeberEine
+		R1*3
+		\key b \major \time 3/8 \tempoUndUeberEineB b8 d b
+		es g es %5
+		f4 b,8
+		es f f,
+		b b' b,
+		es f f,
+		b4 r8 %10
+		\time 4/4 \tempoUndUeberEineC a4 r r2
+		R1*5 %16
+		\tempoUndUeberEineD r4 g8 a b4 g
+		c2. es4
+		r a, g d'
+		r g d2 %20
+		r4 d es! d
+		c2 d~
+		d4 b es d
+		c2 d
+		g,4. g'8 f! es d c %25
+		b a g4 r2
+		\tempoUndUeberEineE R1*13 \bar "||" %39
+		\key c \minor \tempoUndUeberEineF c8\pE c4 c8 b b4 b8 %40
+		b b4 b8 as as4 as8
+		as-! as-! b-! b-! c4 r
+		r8 e e e des'4 r
+		r8 r16 f,\f as16. c32 as16. f32 d!4 r
+		r8 c\pp c,4\fermata r2 %45
+		r8c'\pE c,4 r8 c' c[ h]\f
+		r c\p c4 r8 c c4
+		r8 c c[ h]\f r16 r32 c\fE e16. g32 f4^\tenuto
+		r16 r32 des des16. des32 d4^\tenuto r16 r32 c g16. e32 c4
+		r16 r32 c'\pE des16. c32 des4 r16 r32 d e16. d32 e4 %50
+		f8 f g es es16. as,32 as16. as32 f'4
+		r16 es(-. es8-.)~ es16 es(-. es8-.)~ es16 g(-. g8-.)~ g16 g(-. g8-.)~
+		g16 g(-. g8-.)~ g16 g(-. g8-.)~ g16 d(-. d8-.)~ d16 d(-. d8-.)~
+		d16 c(-. c8-.)~ c16 f(-. f8-.)~ f16 d(-. d8-.)~ d32. g64\f g32. g64 f32.[ es64 d32. c64]
+		\tempoUndUeberEineG h4 r r16 r32 c\fE es16. g32 c8 es %55
+		\tempoUndUeberEineH fis,2\pE r8 g g, f'
+		es es4^\critnote e8 d4 d
+		d8 c16 b c8 c a b16 a b8 b
+		c4 r r d
+		g, r r2 \bar "||" %60
+		R1*6 %66
+		R1\fermataMarkup \bar "|." %67 finis
+	}
+}

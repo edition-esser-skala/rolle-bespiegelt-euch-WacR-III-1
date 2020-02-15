@@ -1192,6 +1192,139 @@ GepriesnerWeibesBassFigures = \figuremode {
 	r4 %139 finis
 }
 
+UndUeberEineOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoUndUeberEine
+		f1
+		a,~ \noBreak
+		a2 b
+		\key b \major \time 3/8 \tempoUndUeberEineB R4.*7 %10
+		\time 4/4 \tempoUndUeberEineC f4-\critnote r r2 \noBreak
+		g1
+		f'~
+		f~
+		f2 fis \noBreak %15
+		g4 r r2
+		\tempoUndUeberEineD R1 \noBreak
+		c,2 a'
+		fis g
+		e fis %20
+		g4 f es d
+		c2 d
+		g4 f es d
+		c2 d
+		g4. g8-\unisonoE f! es d c \noBreak %25
+		b a g4 r2
+		\tempoUndUeberEineE g'2 f \noBreak
+		es! d4 r
+		b2 gis'~
+		gis r4 a %30
+		fis1~
+		fis~
+		\once \tieDashed fis~
+		fis
+		g8. g16 b16. as32 g16. f32 es2 %35
+		c a!
+		r4 b h2~
+		h c4 r8 as'
+		fis2 r4 g \bar "||" \break
+		\key c \minor \tempoUndUeberEineF \newSpacingSection
+			c,\pE c c c %40
+		c c c c
+		c b a r
+		r8 b' b b e,4 r
+		r8 r16 f\fE as16. c32 as16. f32 h,4 r
+		r8 c\ppE c,4\fermata r2 %45
+		r8 c''\p c,4 r8 f as[ h,]\f
+		r c\p c4 r8 c' c,4
+		r8 c' as[ h,]\f r16 r32 c c'16. b32 a4^\tenuto
+		r16 r32 b, b'16. b32 h4^\tenuto r16 r32 c g16. e32 c4
+		r16 r32 c\pE des16. c32 des4 r16 r32 d e16. d32 e4 %50
+		f8 f g g as16. as32 as16. as32 d,!4
+		es8. es16 es8. es16 des8. des16 des8. des16
+		c8. c16 c8. c16 h8. h16 h8. h16
+		c8. c16 f8. f16 g8. g16 g,32. g'64\fE g32. g64 f32.[ es64 d32. c64]
+		\tempoUndUeberEineG h4 r r16 r32 c\f es16. g32 c4 %55
+		\tempoUndUeberEineH fis,2\pE r8 g g, f'
+		es4 r8 cis r d d' d
+		d c16 b c8 c c b16 a b8 b,
+		c4 r r d \noBreak
+		g, r r2 \bar "||" %60
+		\tempoUndUeberEineI g1 \noBreak
+		f'
+		fis
+		g2 c,
+		b1 %65
+		d2 es
+		r r8 f b,4\fermata \bar "|." %67 finis
+	}
+}
+
+UndUeberEineBassFigures = \figuremode {
+	r1
+	<6 5->
+	r
+	r4.*7 %10
+	r1
+	<6!>
+	r
+	r
+	r2 <7>4. <6>8 %15
+	r1
+	r
+	r2 <[7]>
+	<[6 5]>1
+	q2 q %20
+	<[9]>4 <[2]> <[5 3]> <[\t \t]>
+	<[6 5]>2 <[_+]>
+	r4 <[2]> <[5 3]> <[\t \t]>
+	<[6 5]>2 <[_+]>
+	r1 %25
+	r
+	<[6!]>
+	<6 4 2>2 <6>
+	r <7 _!>
+	r2. <[5!] _+>4 %30
+	<6>1
+	r
+	r
+	<6 5>
+	r %35
+	r2 <7>
+	r <6>
+	<6 5>1
+	<6 5>2. <[_!]>4
+	r2 <9- 7> %40
+	<9- 7 _!> <6 4>
+	<6 5->4 <6- 4> <7->2
+	r8 <[6! 4! _-]>4. <7->2
+	r <[7]>
+	r8 <[_!]> r2. %45
+	r8 <[5 _!]> <[\t \t]> <[6 4]> r4 <[6]>8 <[7]>
+	r <[_!]>4. r8 <[5 _!]> <[\t \t]> <[6 4]>
+	r <[_!]> <[6]> <[7]> r16. <[_!]>32 <[\t]>16. <[4! 2]>32 <[6]>4
+	r16. <[_-]>32 r8 <[7- _!]>4 r16. <[_!]>32 r4.
+	r16. <[6 4]>32 \bassFigureExtendersOn <6 4>8 q4 r16. <[6 4]>32 <6 4>8 q4 \bassFigureExtendersOff %50
+	<[5]>8 <[6-]> q <[5-]> r4 <[6 5]>
+	r2 <2>
+	<7 _!> <7 _!>
+	<_->4 <6!> <_!>2
+	<[6]>1 %55
+	<7 [5]>4 <6 [4]>8 <[5 3]> r4. <6 4>8
+	r4. <[7 _!]>8 <[6 4]> <[5! _+]>4.
+	<[2]>8 <[6-]>16 <[6 4]> <[6]>8 <[5]> <[4+ 2]> <[6]>16 <[6\\]> <[6]>4
+	r2. <[5! _+]>4
+	r1 %60
+	<5>2 <6!>
+	<[_!]>1
+	<6 _!>
+	r2 <7>4 <6!>
+	r1 %65
+	<6>
+	r2 r8 <[_!]>4. %67 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

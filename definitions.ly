@@ -282,10 +282,12 @@ markFermata = \mark \markup { \musicglyph #"scripts.ufermata" }
 scriptOut = \once \override Script.avoid-slur = #'outside
 alwaysScriptOut = \override Script.avoid-slur = #'outside
 
-Evangelist = \markup { \remark "Evangeliſt" }
-Jesus = \markup { \remark "Jeſus" }
-MagdI = \markup { \remark "Magd I" }
-Petrus = \markup { \remark "Petrus" }
+MagdI = \markup { \remark "Magd I" }          %S
+MagdII = \markup { \remark "Magd II" }        %S
+MagdIII = \markup { \remark "Magd III" }      %S
+Evangelist = \markup { \remark "Evangeliſt" } %T
+Petrus = \markup { \remark "Petrus" }         %T
+Jesus = \markup { \remark "Jeſus" }           %B
 
 
 
@@ -325,6 +327,15 @@ tempoJesusAberAntwortete = \tempoMarkup "[Recitativo]"
 	tempoJesusAberAntworteteB = \tempoMarkup "[Accompagnato]"
 	tempoJesusAberAntworteteC = \tempoMarkup "[Recitativo]"
 tempoGepriesnerWeibes = \tempoMarkup "[Aria]"
+tempoUndUeberEine = \tempoMarkup "[Recitativo]"
+	tempoUndUeberEineB = \tempoMarkup "[Accompagnato]"
+	tempoUndUeberEineC = \tempoMarkup "[Recitativo]"
+	tempoUndUeberEineD = \tempoMarkup "[Accompagnato]"
+	tempoUndUeberEineE = \tempoMarkup "[Recitativo]"
+	tempoUndUeberEineF = \tempoMarkup "[Accompagnato]"
+	tempoUndUeberEineG = \tempoMarkup "Recitativo"
+	tempoUndUeberEineH = \tempoMarkup "Arioſo"
+	tempoUndUeberEineI = \tempoMarkup "[Recitativo]"
 
 
 

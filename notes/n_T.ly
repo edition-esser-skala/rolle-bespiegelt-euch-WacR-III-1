@@ -703,6 +703,149 @@ JesusAberAntworteteTenoreLyrics = \lyricmode {
 	nicht. %28 finis
 }
 
+UndUeberEineTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoUndUeberEine
+		r8 a^\Evangelist a b c c c d
+		es es r4 es8 es16 es es8 g \noBreak
+		es es es d^\critnote d4 r
+		\clef treble \key b \major \time 3/8 \tempoUndUeberEineB f'4^\MagdII r8 \noBreak
+		g4 r8 %5
+		f es([ d)]
+		es d([ c)]
+		d16([ es)] f8 r
+		es d([ c)] \noBreak
+		d16([ c)] b8 r %10
+		\clef "treble_8" \time 4/4 \tempoUndUeberEineC r2 f8^\Evangelist f f g \noBreak
+		e4 r g^\Petrus b,8 c \noBreak
+		a4 r8 c^\Evangelist a a a b
+		c c r16 c c a f8 f r f
+		c' c16 c c8 c16 d es8. es16 es8 d \noBreak %15
+		b4 r r2
+		\tempoUndUeberEineD d2^\MagdIII g, \noBreak
+		es'2. d8 c
+		d4 a b2
+		c2. d8([ c)] %20
+		b4 d g2~
+		g4 f!8[( es]) d4 c
+		b8([ a)] g4 r g'~
+		g f!8[( es] d[ c]) b([ a])
+		b([ a)] g4 r2 \noBreak %25
+		R1
+		\tempoUndUeberEineE b8^\Evangelist b b c a4 c8^\Petrus r16 c \noBreak
+		f8 a, a b b f b^\Evangelist b
+		d d d f \appoggiatura e d8. d16 d4
+		d8 d cis d a4 r %30
+		r8 a a a d8. d16 d8 a
+		a a fis a d,4 r8 d
+		fis4 fis8 g a a a16 a a b
+		c8 r16 c c8 d es es es d
+		b b r4 b8 b16 b b8 b %35
+		es es r es g es es d16 es
+		es8 b r4 r r8 d
+		f f as g es d c4~
+		c h8([ c)] g8. g16 g4 \bar "||" \break
+		\key c \minor \tempoUndUeberEineF \newSpacingSection
+			R1*2 %41
+		r2 r8 es'^\Petrus ges f
+		\appoggiatura f e4 r r8 g g b,
+		\appoggiatura b as4 r r8 r16 f' f8. as,16
+		\appoggiatura as8 g4 r\fermata r r8 c %45
+		h16.([ c64 d)] c8 r f e16.([ f64 g)] f8 c16. as'32 as16. g64([ f)]
+		e32([ d)] c16 r8 r r16 des \appoggiatura c16 h8 c r f
+		\appoggiatura e16 d8 e c16. as'32 as16. g64([ f)]
+		e32([ d)] c16 r c c16. f,32 a16. c32 des32([ c)] b16 r16 b as'! f f \tuplet 3/2 16 { as32([ g f)] } e32([ d)] c16 r8 r16 r32 e f16. e32
+		f4 r16 r32 f g16. f32 g4 r16 r32 g c,16. g'32 %50
+		as16 c, des f es!8 des\trill c r16 r32 f f8.. as,32
+		g4 r r8 r16 b g'8 g
+		g4 r16 g g b, as8 as r16 f' f as,
+		g8 es'! d! c h4 r
+		\tempoUndUeberEineG r8 g h d es4 r8 es %55
+		\tempoUndUeberEineH es es d c c b r d
+		g g fis g b, a? r d
+		es4~ es16 es g es d4 r8 g
+		c, c c b \appoggiatura a g4 r \noBreak
+		R1 \bar "||" %60
+		\tempoUndUeberEineI r8 b b d b b b c \noBreak
+		a a r16 a a b c8 c d es
+		d8 r16 d d8 a c c es d
+		b r16 b a8 g es' es c f
+		d d r16 d d d f8 f f d %65
+		b b b d g,8. g16 g8 b
+		es es es d b4 r\fermata \bar "|." %67 finis
+	}
+}
+
+UndUeberEineTenoreLyrics = \lyricmode {
+	Und ü -- ber ei -- ne klei -- ne
+	Wei -- le ſa -- he ihn ei -- ne
+	an -- de -- re und ſprach:
+	Du,
+	du %5
+	biſt auch
+	de -- ren
+	Ei -- ner,
+	de -- ren
+	Ei -- ner. %10
+	Pe -- trus a -- ber
+	ſprach: Menſch, ich bins
+	nicht. Und ü -- ber ei -- ne
+	Wei -- le bey ei -- ner Stun -- de be --
+	kräf -- tig -- te es ei -- ne an -- de -- re und %15
+	ſprach:
+	War -- lich,
+	die -- ſer war
+	auch, war auch
+	mit Ihm, %20
+	denn er iſt __
+	ein Ga -- li --
+	lä -- er, ein __
+	Ga -- li --
+	lä -- er. %25
+	
+	Pe -- trus a -- ber ſprach: Menſch, ich
+	weiß nicht, was du ſa -- geſt. Und als --
+	bald, da er noch re -- de -- te,
+	krä -- he -- te der Hahn. %30
+	Und der HErr wand -- te ſich und
+	ſa -- he Pe -- trum an, und
+	Pe -- trus ge -- dach -- te an des HEr -- ren
+	Wort, als Er zu ihm ge -- ſa -- get
+	hat -- te: E -- he denn der Hahn %35
+	krä -- het, wirſt du mich drey -- mahl ver --
+	leug -- nen. Und
+	Pe -- trus ging hi -- naus und wein --
+	te __ bit -- ter -- lich.
+	
+	Er -- barm es, %42
+	Gott, wo geh ich
+	hin, wo ſoll ich
+	hin? Ich %45
+	Ar -- mer, ich Ar -- mer weiß mir nicht zu
+	ra -- then, ich Ar -- mer, ich
+	Ar -- mer weiß mir nicht zu ra -- then. Die -- weil, nach ſo ver --
+	fluch -- ten, nach ſo ver -- fluch -- ten Tha -- ten, in Gott ver --
+	haßt, in Gott ver -- haßt, in Gott ver -- %50
+	haßt und mir zu -- wie -- der bin, zu -- wie -- der
+	bin, vor Angſt er --
+	ſtarr: Mit Gram und Seh -- nen ge -- denck ich
+	nun an mei -- ne Schuld.
+	Er -- ſchrock -- nes Hertz, zer -- %55
+	flie -- ße doch in Thrä -- nen, zer --
+	flie -- ße doch in Thrä -- nen, du
+	bringſt, du bringſt dich ſelbſt, \xE dich
+	ſelbſt \x um Got -- tes Huld.
+	%60
+	Was a -- ber thut die höch -- ſte
+	Lie -- be, die jetzt ihr ei -- gen Leyd ver --
+	gißt, und um mein Heil be -- küm -- mert
+	iſt? Sie ſpü -- ret, daß ich mich be --
+	trü -- be, drum blickt ſie mich mit -- lei -- dig %65
+	an, und zei -- get mir da -- durch, wie
+	ſie mich lie -- ben kann. %67 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

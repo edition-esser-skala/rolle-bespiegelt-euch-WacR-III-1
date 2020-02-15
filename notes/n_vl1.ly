@@ -483,6 +483,57 @@ GepriesnerWeibesViolinoI = {
 	}
 }
 
+UndUeberEineViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoUndUeberEine
+		R1*3
+		\key b \major \time 3/8 \tempoUndUeberEineB f'4.
+		g %5
+		f8 es d
+		es d c
+		d16 es f8 r
+		es d c
+		d16 c b8 r %10
+		\time 4/4 \tempoUndUeberEineC f'4 r r2
+		R1*5 %16
+		\tempoUndUeberEineD r4 b,8 c d4 g,
+		r g' c2~
+		c4 d, b'2~
+		b4 c, a'2~ %20
+		a4 b, g'2~
+		g4 f!8 es d4 c
+		b d g2~
+		g4 f!8 es d c b a
+		g4 g f!8 es d c %25
+		b a g4 r2
+		\tempoUndUeberEineE R1*13 \bar "||" %39
+		\key c \minor \tempoUndUeberEineF R1 %40
+		<e' g,>8\pE q4 q8 f8 f4 f8
+		ges-! ges-! ges-! ges-! ges4 r
+		r8 des' des des g!4 r
+		r8 r16 f,\f as16. c32 as16. f32 f'4 r
+		r8 e,\pp e4\fermata r2 %45
+		r8 c'4\pE f8 e f c16. as'32\f as8
+		r g16(\p e) \appoggiatura d c8 r r c4 f8
+		\appoggiatura e16 d!8 e c16. as'32\f as8 r16 r32 g, c16. e32 f4^\tenuto
+		r16 r32 f, b16. f'32 as!4^\tenuto r16 r32 c, g16. e32 c16. e'32\p f16. e32
+		f4~ f16. f32 g16. f32 g4~ g8 b %50
+		as as b des, c16. es32 es16. as32 as4
+		r16 b,(-. b8-.)~ b16 b(-. b8-.)~ b16 es(-. es8-.)~ es16 es(-. es8-.)~
+		es16 e(-. e8-.)~ e16 e(-. e8-.)~ e16 f(-. f8-.)~ f16 f(-. f8-.)~
+		f16 es(-. es8-.)~ es16 d!(-. d8-.)~ d16 h(-. h8-.)~ h32. g64\f g32. g64 f32.[ es64 d32. c64]
+		\tempoUndUeberEineG h4 r r16 r32 c\f es16. g32 c8 es %55
+		\tempoUndUeberEineH es\p es d c c b! b d
+		r g( fis) g b, a? r d
+		es es es es d d d d
+		c4 r r <fis a, d,>
+		<g b, d, g,> r r2 \bar "||" %60
+		R1*6 %66
+		R1\fermataMarkup \bar "|." %67 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
