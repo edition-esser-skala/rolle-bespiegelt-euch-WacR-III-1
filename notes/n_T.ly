@@ -958,6 +958,48 @@ WerdetRuhigTenoreLyrics = \lyricmode {
 	wür -- ket in mir. %73 finis
 }
 
+IchFuehleZwarTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \minor \time 4/4 \autoBeamOff \tempoIchFuehleZwar
+		r4 b d d
+		d c a b
+		a2.\fermata fis'4
+		e d d d
+		d2.\fermata d4
+		d c b c
+		a b c2\fermata
+		r4 f es d
+		d d b2\fermata \bar "|."
+	}
+}
+
+IchFuehleZwarTenoreLyricsA = \lyricmode {
+	\set stanza = #"1 "
+	Ich füh -- le
+	zwar der Sün -- den
+	Schuld, die
+	mich bey dir klagt
+	an, doch %5
+	a -- ber dei -- nes
+	Soh -- nes Huld
+	hat gnug für
+	mich ge -- than. %9 finis
+}
+
+IchFuehleZwarTenoreLyricsB = \lyricmode {
+	\set stanza = #"2 "
+	Den ſatz ich
+	dir zum Bür -- gen
+	ein, wenn
+	ich ſoll vors Ge --
+	richt, ich %5
+	kann ja nicht ver --
+	loh -- ren ſeyn
+	in ſol -- cher
+	Zu -- ver -- ſicht. %9 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

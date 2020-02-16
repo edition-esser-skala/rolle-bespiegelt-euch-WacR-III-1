@@ -337,6 +337,7 @@ tempoUndUeberEine = \tempoMarkup "[Recitativo]"
 	tempoUndUeberEineH = \tempoMarkup "Arioſo"
 	tempoUndUeberEineI = \tempoMarkup "[Recitativo]"
 tempoWerdetRuhig = \tempoMarkup "Larghetto"
+tempoIchFuehleZwar = \tempoMarkup "Choral: 2 Vers."
 
 
 

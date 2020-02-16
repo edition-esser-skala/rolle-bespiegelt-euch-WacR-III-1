@@ -679,6 +679,48 @@ GepriesnerWeibesAltoLyrics = \lyricmode {
 	iſt. %139 finis
 }
 
+IchFuehleZwarAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \autoBeamOff \tempoIchFuehleZwar
+		r4 g' d fis
+		g g fis g
+		fis2.\fermata a4
+		g a \appoggiatura a8 g4. g8
+		fis2.\fermata a4 %5
+		g fis g es
+		d d fis2\fermata
+		r4 g g g
+		g fis d2\fermata \bar "|." %9 finis
+	}
+}
+
+IchFuehleZwarAltoLyricsA = \lyricmode {
+	\set stanza = #"1 "
+	Ich füh -- le
+	zwar der Sün -- den
+	Schuld, die
+	mich bey dir klagt
+	an, doch %5
+	a -- ber dei -- nes
+	Soh -- nes Huld
+	hat gnug für
+	mich ge -- than. %9 finis
+}
+
+IchFuehleZwarAltoLyricsB = \lyricmode {
+	\set stanza = #"2 "
+	Den ſatz ich
+	dir zum Bür -- gen
+	ein, wenn
+	ich ſoll vors Ge --
+	richt, ich %5
+	kann ja nicht ver --
+	loh -- ren ſeyn
+	in ſol -- cher
+	Zu -- ver -- ſicht. %9 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

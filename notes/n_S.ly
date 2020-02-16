@@ -597,6 +597,48 @@ LassMichAnAndernSopranoLyricsB = \lyricmode {
 	mann, __ %5 finis
 }
 
+IchFuehleZwarSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \autoBeamOff \tempoIchFuehleZwar
+		r4 d' g, a
+		b c d d
+		d2.\fermata d4
+		c d \appoggiatura c8 b4. b8
+		a2.\fermata d4 %5
+		b a g a
+		fis g a2\fermata
+		r4 d c b
+		b a g2\fermata \bar "|." %9 finis
+	}
+}
+
+IchFuehleZwarSopranoLyricsA = \lyricmode {
+	\set stanza = #"1 "
+	Ich füh -- le
+	zwar der Sün -- den
+	Schuld, die
+	mich bey dir klagt
+	an, doch %5
+	a -- ber dei -- nes
+	Soh -- nes Huld
+	hat gnug für
+	mich ge -- than. %9 finis
+}
+
+IchFuehleZwarSopranoLyricsB = \lyricmode {
+	\set stanza = #"2 "
+	Den ſatz ich
+	dir zum Bür -- gen
+	ein, wenn
+	ich ſoll vors Ge --
+	richt, ich %5
+	kann ja nicht ver --
+	loh -- ren ſeyn
+	in ſol -- cher
+	Zu -- ver -- ſicht. %9 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

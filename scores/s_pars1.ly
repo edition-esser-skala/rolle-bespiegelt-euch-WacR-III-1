@@ -774,60 +774,112 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "16" "A R I A" "Werdet ruhig, ihr Gedanken"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #20
+% 			system-system-spacing.minimum-distance = #20
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Basſono I"
+% 							\WerdetRuhigFagottoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Basſono II"
+% 							\WerdetRuhigFagottoII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\WerdetRuhigViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\WerdetRuhigViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\WerdetRuhigViola
+% 					}
+% 				>>
+% 				\new Staff \with { \smallerStaffDistance } {
+% 					\set Staff.instrumentName = "Petrus"
+% 					\new Voice = "Tenore" { \dynamicUp \WerdetRuhigTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \WerdetRuhigTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\WerdetRuhigOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \WerdetRuhigBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4. = 40 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "16" "A R I A" "Werdet ruhig, ihr Gedanken"
+			movement = \movementTitle "17" "C H O R A L" "Ich fühle zwar der Sünden Schuld"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #20
-			system-system-spacing.minimum-distance = #20
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
 			systems-per-page = #2
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Basſono I"
-							\WerdetRuhigFagottoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Basſono II"
-							\WerdetRuhigFagottoII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\WerdetRuhigViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\WerdetRuhigViolinoII
-						}
-					>>
+				\new ChoirStaff \with { \twoStanzaDistance } <<
 					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\WerdetRuhigViola
+						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
+						\new Voice = "Soprano" { \dynamicUp \IchFuehleZwarSopranoNotes }
 					}
+					\new Lyrics \lyricsto Soprano \IchFuehleZwarSopranoLyricsA
+					\new Lyrics \lyricsto Soprano \IchFuehleZwarSopranoLyricsB
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Alto" "Violino II" "Oboe II" } }
+						\new Voice = "Alto" { \dynamicUp \IchFuehleZwarAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \IchFuehleZwarAltoLyricsA
+					\new Lyrics \lyricsto Alto \IchFuehleZwarAltoLyricsB
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Tenore" "Viola" } }
+						\new Voice = "Tenore" { \dynamicUp \IchFuehleZwarTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \IchFuehleZwarTenoreLyricsA
+					\new Lyrics \lyricsto Tenore \IchFuehleZwarTenoreLyricsB
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \IchFuehleZwarBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \IchFuehleZwarBassoLyricsA
+					\new Lyrics \lyricsto Basso \IchFuehleZwarBassoLyricsB
 				>>
-				\new Staff \with { \smallerStaffDistance } {
-					\set Staff.instrumentName = "Petrus"
-					\new Voice = "Tenore" { \dynamicUp \WerdetRuhigTenoreNotes }
-				}
-				\new Lyrics \lyricsto Tenore \WerdetRuhigTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\WerdetRuhigOrgano
+						\IchFuehleZwarOrgano
 					}
 				>>
-				\new FiguredBass { \WerdetRuhigBassFigures }
+				\new FiguredBass { \IchFuehleZwarBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4. = 40 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

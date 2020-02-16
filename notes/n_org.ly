@@ -1483,6 +1483,34 @@ WerdetRuhigBassFigures = \figuremode {
 	r2. %74 finis
 }
 
+IchFuehleZwarOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \tempoIchFuehleZwar
+		r4 g b d
+		g es d d
+		d2.\fermata d4
+		e fis g g,
+		d'2.\fermata fis4 %5
+		g d es c
+		d g, d'2\fermata
+		r4 h c g'
+		d d g,2\fermata \bar "|." %9 finis
+	}
+}
+
+IchFuehleZwarBassFigures = \figuremode {
+	r2 <[6]>4 <[_+]>
+	r <[6]> <[5 _+]> <[6 4]>
+	<[5 _+]>2. <[\t \t]>4
+	<6> <6 5> <[9 4]> <[8 3]>
+	<[_+]>2. <[6]>4 %5
+	r <[7 _+]> r <[6]>
+	<[_+]>2 <[7 _+]>
+	r4 <6 5>2.
+	<[6 4]>4 <[5 3]>2. %9 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
