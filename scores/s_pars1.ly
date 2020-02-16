@@ -730,48 +730,104 @@
 % 			\midi { \tempo 4. = 55 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "15" "R E C I T A T I V O" "Und über eine kleine Weile"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\UndUeberEineViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\UndUeberEineViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\UndUeberEineViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Jeſus" "Magd II, III" } }
+% 					\new Voice = "Tenore" { \dynamicUp \UndUeberEineTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \UndUeberEineTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\UndUeberEineOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \UndUeberEineBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "15" "R E C I T A T I V O" "Und über eine kleine Weile"
+			movement = \movementTitle "16" "A R I A" "Werdet ruhig, ihr Gedanken"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
+			system-system-spacing.basic-distance = #20
+			system-system-spacing.minimum-distance = #20
 			systems-per-page = #2
 		}
 		\score {
 			<<
 				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Basſono I"
+							\WerdetRuhigFagottoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Basſono II"
+							\WerdetRuhigFagottoII
+						}
+					>>
+				>>
+				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\UndUeberEineViolinoI
+							\WerdetRuhigViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\UndUeberEineViolinoII
+							\WerdetRuhigViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\UndUeberEineViola
+						\WerdetRuhigViola
 					}
 				>>
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Jeſus" "Magd II, III" } }
-					\new Voice = "Tenore" { \dynamicUp \UndUeberEineTenoreNotes }
+				\new Staff \with { \smallerStaffDistance } {
+					\set Staff.instrumentName = "Petrus"
+					\new Voice = "Tenore" { \dynamicUp \WerdetRuhigTenoreNotes }
 				}
-				\new Lyrics \lyricsto Tenore \UndUeberEineTenoreLyrics
+				\new Lyrics \lyricsto Tenore \WerdetRuhigTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\UndUeberEineOrgano
+						\WerdetRuhigOrgano
 					}
 				>>
-				\new FiguredBass { \UndUeberEineBassFigures }
+				\new FiguredBass { \WerdetRuhigBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4. = 40 }
 		}
 	}
 }

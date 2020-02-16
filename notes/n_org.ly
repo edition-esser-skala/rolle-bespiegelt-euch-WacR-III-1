@@ -1325,6 +1325,164 @@ UndUeberEineBassFigures = \figuremode {
 	r2 r8 <[_!]>4. %67 finis
 }
 
+WerdetRuhigOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 6/8 \tempoWerdetRuhig
+		g8\fE b d g4 r8
+		r g g a f! b
+		es,4 e8 f4 fis8
+		g cis, cis d d, r
+		r cis' cis d8. c'16 b a %5
+		g4 es8 r16 f( g a b d) \bar "S-S"
+		es,4 c8 r16 d( e fis g b)
+		c,8 c c c b fis'
+		g b, c d d, r
+		R2. %10
+		c'8 d d, es4 r8
+		R2.
+		c'8 d d, g4 r8
+		g\p b d g4 r8
+		r g g a f! b %15
+		es,4 e8 f4 fis8
+		g cis, cis d d, r
+		r cis' cis d d, r
+		d' c b a' g f!
+		b g es f f,[\fE es'] %20
+		d g[\pE es] f f,[\fE es']
+		d g[\pE es] f4\fermata r8
+		g4\f es8 r16 \once \slurDashed f( g a b d)
+		g,4\p es8 r16 f( g a b d)
+		es,4 c8 r16 f,( g a b d) %25
+		es4 e8 f4 r8
+		e4 r8 f4 r8
+		g es c f g r
+		es f f, g4 r8
+		R2. %30
+		es'8 f f, b b' a
+		g4\f es8 r16 \once \slurDashed f( g a b d)
+		es,4 c8 r16 \once \slurDashed d( e fis g b)
+		c,8 c' c, c b fis'
+		g b, c d8. c16 b a %35
+		g8\pE b d g4 r8
+		r4 g,8 a! h c
+		a f c' f4 r8
+		r4 f,8 g a b
+		es4 r8 d d'[\f c] %40
+		b es,[\p c] d d'[\fE c]
+		b es,[\pE es] d4\fermata r8
+		g4\f es8 r16 f!( g a b d)
+		g,4\p es8 r16 f( g a b d)
+		es,4 c8-\critnote r16 d( e fis g b) %45
+		c,4 cis8 d4 r8
+		cis4 cis8 d r r
+		es4.( d8) r r
+		R2.
+		c8 d d, es4 r8 %50
+		es'4.( d8) r r
+		R2.
+		c8 d d, es4.
+		c'8\pocoFE d d, g' d b
+		g\fE b d g4 r8 %55
+		r g g a f! b
+		es,4 e8 f4 fis8
+		g cis, cis d d, r
+		r cis' cis d d, r
+		R2. %60
+		c'!8 d d, es4 r8
+		R2.
+		c'8 d d, g16\fermata g' f! es d c
+		b2.~\pE
+		b4. f'8 f, b %65
+		es2.
+		e4. f4 r8
+		r4 r8 f,4 r8
+		r4 r8 f f' es
+		d es c r16 \once \slurDashed f( g a b d) %70
+		es,8 es es f f f
+		g g, g r es'\pocoFE es
+		f4 f,8 b16 es'\fE d c b a
+		g4 es8 r16 \once \slurDashed f( g a b d) \bar "S-S" %74 finis
+	}
+}
+
+WerdetRuhigBassFigures = \figuremode {
+	r8 <6> <_+> r4.
+	r <6>
+	<6 5>4 <[\t \t]>8 <5 [3]> <[6 4]> <6 5>
+	r <7 _!>4 <6 4>8 <5 _+>4
+	r8 <7 _!>4 <6 4>8 <5 _+>4 %5
+	r2.
+	r4. r16 <_+> r4
+	<6->4. <6! 4+ 2>8 <6> <6 5>
+	r8 <6> r <_+>4.
+	r2. %10
+	r8 <6 4> <5 _+> <7 4 2+>4 <5 3>8
+	r2.
+	r8 <6 4> <5 _+> r4.
+	r8 <6> <_+> r4.
+	r <6> %15
+	<6 5>4 <\t \t>8 <5 3> <6 4> <6 5>
+	r <7 _!>4 <6 4>8 <5 _+>4
+	r8 <7 _!>4 <6 4>8 <5 _+>4
+	<6>4. q
+	r8 <6> r r4 <2>8 %20
+	<6>4. r4 <2>8
+	<6>4. <4>8 <3>4
+	r2.
+	r
+	r %25
+	<6 5>4 <\t \t>8 r4.
+	<6 5>2.
+	r8 <6>4 <7>4.
+	r8 <6 4> <5 3> <7+ 4 2>4 <8 3>8
+	r2. %30
+	r8 <6 4> <5 3> r4 <6\\>8
+	r2.
+	r4. r16 <_+> r4
+	<6->4. <6! 4+ 2>8 <6> <6 5>
+	r <6> r <_+>4. %35
+	r8 <6> <_+> r4.
+	r4 <8 6 _!>8 <7> <6 5> r
+	<6> r <_!> r4.
+	r4 <8 6>8 <\t \t> <6 5>4
+	<7>8 <6>4 <_+> <4+ 2>8 %40
+	<6> q4 <_+> <4+ 2>8
+	<6> q <6\\> <4> <_+>4
+	r2.
+	r
+	r4. r16 <_+> r4 %45
+	<6 5> <6 5 [_!]>8 <_+>4.
+	<6 5 [_!]> <_+>
+	<6\\> <_+>
+	r2.
+	r8 <6 4> <5 _+> <7 4 2+>4 <5 3>8 %50
+	<6\\>4. <[_+]>
+	r2.
+	r8 <6 4> <5 _+> <7 4 2+>4 <5 3>8
+	r8 <6 4> <5 _+> r4.
+	r8 <6> <_+> r4. %55
+	r <6>
+	<6 5>4 <\t \t>8 <5 3> <6 4> <6 5>
+	r <7 _!>4 <6 4>8 <5 _+>4
+	r8 <7 _!>4 <6 4>8 <5 _+>4
+	r2. %60
+	r8 <6 4> <5 _+> <7 4 2+>4 <5 3>8
+	r2.
+	r8 <6 4> <5 _+> r4.
+	r2.
+	r4. <8 6>8 <7 5>4 %65
+	r2.
+	<7>8 <6> <5> r4.
+	r2.
+	r4. r4 <2>8
+	<6> q4 r4. %70
+	r <6 4>8 <5 3>4
+	r2.
+	<6 4>8 <5 3>4 r4.
+	r2. %74 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

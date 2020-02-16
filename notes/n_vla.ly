@@ -546,3 +546,84 @@ UndUeberEineViola = {
 		R1\fermataMarkup \bar "|." %67 finis
 	}
 }
+
+WerdetRuhigViola = {
+	\relative c' {
+		\clef alto
+		\key g \minor \time 6/8 \tempoWerdetRuhig
+		b8\fE d d d4 r8
+		r g g a f! b
+		g4 g8 f4 d8
+		d cis cis d d, r
+		r cis' cis d8. c16 b a %5
+		g4 es8 r16 f( g a b d) \bar "S-S"
+		es4 c8 r16 d( e fis g b)
+		c,8 c c c b fis'
+		g b, c d d, r
+		R2. %10
+		c'8 d d, es4 r8
+		R2.
+		g'8 d d, g4 r8
+		b4\p d8 d4 r8
+		r g g a f! b %15
+		g4 g8 f4 d8
+		d cis cis d d, r
+		r cis' cis d d, r
+		f' es d c b a
+		b b' es, c a'[\fE c] %20
+		f, b,[\pE g'] f a[\fE c]
+		f, es16[\pE d es8] f4\fermata r8
+		g,4\fE es8 r16 \once \slurDashed f( g a b d)
+		g,4\pE^\critnote es8 r16 \once \slurDashed f( g a b d)
+		es4 c8 r16 \once \slurDashed f,( g a b d) %25
+		c4.( c8) r r
+		c4.( c8) r r
+		g' es! c c b r
+		es f f, g4 r8
+		R2. %30
+		es'8 f f, b b' a
+		g4\fE es8 r16 \once \slurDashed f,( g a b d)
+		es4 c8 r16 \once \slurDashed d,( e fis g b)
+		c8 es es d d d
+		d b es a,8. c16 b a %35
+		g8\p b d g,4 r8
+		r r g a! h c
+		a f-\critnote c' f4 r8
+		r r f, g a b
+		g'4 r8 a, fis'[\fE a] %40
+		d, g,[\pE^\critnote es'] a, fis'[\fE a]
+		d, es[\pE es] a,4\fermata r8
+		g4\fE es8 r16 \once \slurDashed f( g a b d)
+		g,4\p es8 r16 f( g a b d)
+		es4 c8 r16 d,( e fis g b) %45
+		c4 cis8 d4 r8
+		cis4 cis8 d4 r8
+		r es4(\f^\tenuto d8)\pE r r
+		R2.
+		g8 d d, es4 r8 %50
+		r es'4(\f^\tenuto d8)\pE r r
+		R2.
+		c8 d d, es4.
+		c'8\pocoFE d d, g d' b
+		b\f d d d4 r8 %55
+		r g g a f! b
+		g4 g8 f4 d8
+		d cis cis d d, r
+		r cis' cis d d, r
+		R2. %60
+		g'8 d d, es4 r8
+		R2.
+		g'8 d d, g16\fermata g' f! es d c
+		b2.~\pE
+		b4. f'8 f, b %65
+		es2.
+		e4. f4 r8
+		f,4 r8 f4 r8
+		f4 r8 f f' es
+		f g c, r16 \once \slurDashed f,( g a b d) %70
+		c4. d8 es es
+		d g, g r es'\pocoFE es
+		f4 es8 d16 es\fE d c b a
+		g4 es8 r16 \once \slurDashed f( g a b d) \bar "S-S" %74 finis
+	}
+}

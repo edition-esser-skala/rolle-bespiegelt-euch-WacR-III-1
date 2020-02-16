@@ -846,6 +846,118 @@ UndUeberEineTenoreLyrics = \lyricmode {
 	ſie mich lie -- ben kann. %67 finis
 }
 
+WerdetRuhigTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \minor \time 6/8 \autoBeamOff \tempoWerdetRuhig
+		R2.*6 \bar "S-S" %6
+		R2.*7 %13
+		g4 a8 b16([ c d8)] d
+		d([ g)] f f([ es)] d %15
+		r c c c16.([ es32 d8)] c
+		b([ g')] b, b a r
+		r g'8. b,16 b8 a r
+		b4 r8 c4 r8
+		d16^\critnote f es([ d)] c([ b)] a([ g)] f8 r %20
+		r16 f' es([ d)] c b \appoggiatura b8 a4 r8
+		r16 f' es([ d)] g b, \appoggiatura b8 a4\fermata r8
+		R2.
+		r8 b g' f([ es)] d
+		r g, es' d([ c)] b %25
+		r c c c16.([ es!32 d8)] c
+		r c c c16.([ es!32 d8)] c
+		r16 b c([ d)] es g a,8 b r
+		g' f16([ es)] d c c4( b8)
+		R2. %30
+		g'8 f16([ es)] d c b4 r8
+		R2.*4 %35
+		g4 a8 b16([ c d8)] d
+		d([ as')] g g([ f)] es
+		r f, g a!16([ b! c8)] c
+		c([ g')] f f([ es)] d
+		r16 d c16([ b)] a g fis([ g)] a8 r %40
+		r16 d c([ b)] a g fis4 r8
+		r16 d' c([ b)] a g \appoggiatura g8 fis4\fermata r8
+		R2.
+		r8 b g' f([ es)] d
+		r g, es' d([ c)] b %45
+		r a a a16.([ c!32 b8)] a
+		r a a a16.([ c!32 b8)] a
+		g16 g' g g g g \tuplet 3/2 8 { fis([ e d)] } d8 r
+		R2.
+		es!8 d16([ c)] b a a4( g8) %50
+		g' g16 g g g \tuplet 3/2 8 { fis([ e d)] } d8 r
+		R2.
+		es!8 d16([ c)] b a a4( g8)
+		es' d16([ c)] b a g4 r8
+		R2.*8 %62
+		R2.\fermataMarkup
+		f'8 f([ es)] es([ d)] g
+		g([ f)] \tuplet 3/2 8 { d16([ es f)] } f8([ es)] d %65
+		g g([ f)] f es([ d)]
+		d([ c)] b a[ c es]~
+		es[ d e] f[ c es]~
+		es[ d e] \appoggiatura g32 f16[ e] f8 r
+		r16 b, c([ d)] es g f8([ es)] d %70
+		g4. f16([ b,)] c8.\trill b16
+		b4 r8 g'4.
+		f16([ b,)] c8.\trill b16 b4 r8
+		R2. \bar "S-S" %74 finis
+	}
+}
+
+WerdetRuhigTenoreLyrics = \lyricmode {
+	Wer -- det ru -- hig, %14
+	ihr __ Ge -- dan -- ken, %15
+	mei -- ne Treu -- e
+	ſoll __ nicht wan -- ken,
+	ſoll nicht wan -- ken.
+	Wer, wer,
+	wer will mich ver -- dam -- men? %20
+	Mein Je -- ſus iſt hier,
+	mein Je -- ſus iſt hier.
+	
+	Wer -- det ru -- hig,
+	ihr Ge -- dan -- ken, %25
+	mei -- ne Treu -- e
+	ſoll nicht wan -- ken.
+	Wer will mich ver -- dam -- men?
+	Mein Je -- ſus iſt hier, __
+	%30
+	mein Je -- ſus iſt hier.
+	
+	Wer -- det ru -- hig, %36
+	ihr __ Ge -- dan -- ken,
+	mei -- ne Hoff -- nung
+	ſoll __ nicht wan -- ken.
+	Wer will mich ver -- dam -- men? %40
+	Mein Je -- ſus iſt hier,
+	mein Je -- ſus iſt \xE hier. \x
+	
+	Wer -- det ru -- hig,
+	ihr Ge -- dan -- ken, %45
+	mei -- ne Hoff -- nung
+	ſoll nicht wan -- ken.
+	Wer -- det ru -- hig, ihr Ge -- dan -- ken,
+	
+	mein Je -- ſus iſt hier. __ %50
+	Wer, wer will mich ver -- dam -- men?
+	
+	Mein Je -- ſus iſt hier, __
+	mein Je -- ſus iſt hier.
+	
+	Bin ich __ mit __ ver -- %64
+	lohr -- nen __ Scha -- fen %65
+	mir zum Scha -- den __
+	ein -- ge -- ſchla --
+	_
+	_ fen,
+	ſo wach ich doch wie -- der: %70
+	Gott wür -- ket in
+	mir, Gott
+	wür -- ket in mir. %73 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

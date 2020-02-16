@@ -540,3 +540,84 @@ UndUeberEineViolinoII = {
 		R1\fermataMarkup \bar "|." %67 finis
 	}
 }
+
+WerdetRuhigViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 6/8 \tempoWerdetRuhig
+		g'4\fE fis8 g16( a b8) b
+		b( es) d \appoggiatura d c4 b8
+		r b b \once \slurDashed a16.( c32 b8) a
+		g b8. g16 g8\trill fis \tuplet 3/2 8 { a16([ g fis)] }
+		g8 b8. g16 g8\trill fis r %5
+		r16 g( a b c es) \once \slurDashed d8( c b) \bar "S-S"
+		\once \slurDashed r16 g( fis g a b) b8( a g)
+		\slurDashed as16( c es c as g) fis( a?) g( b) a( c) \slurSolid
+		b( cis) d( b) a( g) fis e d8 r
+		a''16( b) fis( g) d( es) cis( d) a( b) fis( g) %10
+		c8 b16( a) g( fis) fis4( g8)
+		\tuplet 3/2 8 { b'16( a g) fis([ g a)] g( f es) d([ c b)] a( b c) b[( a g)] }
+		c8 b16( a) g( fis) g8 g, r
+		r d'\p fis g16( a b8) b
+		b( es) d \appoggiatura d c4 b8 %15
+		b4 b8 \once \slurDashed a16.( c32 b8) a
+		g b g g fis \tuplet 3/2 8 { a16([ g fis)] }
+		g8 b g g fis r
+		b4 r8 c4 r8
+		d es g r16 f\f f8.([\trill g32 a)] %20
+		b8 r r r16 f f8.([\trill g32 a)]
+		b8 b,[\p g] c,4\fermata r8
+		r16 g'(\f a b c es) d8( c b)
+		r16 \once \slurDashed b16(\pE a b c es) d8( c b)
+		r16 \slurDashed g( a b c g) f8( es d) \slurSolid %25
+		b'4.( a8) r r
+		b4.( a8) r r
+		b g g es d r
+		g f16 es d c \once \slurDashed c4( b8)
+		a''16(\f b) f( g) e( f) c( d) a( b) e,( f) %30
+		b8\pE d16 c b a b4 r8
+		r16 b(\f a b c es) \once \slurDashed d8( c b)
+		r16 g( fis g a c) b8( a g)
+		\once \slurDashed as?16( c es c as? g) fis( a) g( b) a( c)
+		b( cis) d( b) a( g) fis e d8 r %35
+		r d\p fis g16( a b8) a
+		g( f') es es( d) c
+		f,4 e8 f16( g a8) a
+		a( es') d \once \slurDashed d( c) b
+		d c16( b) a( g) r d'\f d8.([\trill e32 fis)] %40
+		g8 r r r16 d d8.([\trill e32 fis)]
+		g8 g,[\p g] \appoggiatura g fis4\fermata r8
+		r16 g(\f a b c es) d8( c b)
+		r16 b(\p a b c es) \slurDashed d8( c b)
+		r16 g( fis g a c) b8( a g) \slurSolid %45
+		a8 a4 a16.( c32 b8) a
+		r8 a4 a16.( c32 b8) a
+		g g4\f(^\tenuto fis8)\p r r
+		a'16( b) fis( g) d( es) cis( d) a( b) fis( g)
+		c8 b16( a) g( fis) fis4( g8) %50
+		r g4(\f^\tenuto fis8)\pE r r
+		\tuplet 3/2 8 { b'16( a g) fis([ g a)] g( f es) d([ c b)] a( b c) d[( c b)] }
+		es,8 d16( c) b( a) \once \slurDashed a4( g8)
+		c'8\pocoF b16( a) g( fis) g4 r8
+		g4\f fis8 g16( a b8) b %55
+		\once \slurDashed b( es) d \appoggiatura d c4 b8
+		r b b \once \slurDashed a16.( c32 b8) a
+		g8 b8. g16 g8\trillE fis \tuplet 3/2 8 { a16([ g fis)] }
+		g8 b8. g16 g8\trill fis r
+		a'16( b) fis( g) d( es) cis( d) a( b) fis( g) %60
+		c8 b16( a) g( fis) \once \slurDashed fis4( g8)
+		\tuplet 3/2 8 { b'16( a g) fis([ g a)] g( f es) d([ c b)] a( b c) b[( a g)] }
+		c8 b16( a) g( fis) g8 g, r\fermata
+		r f'(\pE es) \once \slurDashed es( d) es~
+		es d d' d( c)\trill b %65
+		b es( d) d( c) b~
+		b g g f a c~
+		c b g a a c~
+		c b g a a8.([ b32 c)]
+		b8 c16( d) es8 d( c b) %70
+		b4. b8 a8.[\trill b16]
+		b4 r8 g'4.\pocoF
+		d8 a8.[\trill b16] b4 r8
+		r16 \slurDashed b(\f a b c es) d8( c b) \bar "S-S" %74 finis
+	}
+}
