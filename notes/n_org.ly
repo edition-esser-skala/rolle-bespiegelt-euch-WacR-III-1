@@ -1511,6 +1511,114 @@ IchFuehleZwarBassFigures = \figuremode {
 	<[6 4]>4 <[5 3]>2. %9 finis
 }
 
+DieMaennerAberOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoDieMaennerAber
+		e1~
+		e~
+		e2 \once \tieDashed f~
+		f e
+		d1 \noBreak %5
+		r4 e4*3 \bar "||"
+		\tempoDieMaennerAberB a,4 r8 a' gis fis16 e c'8 c \noBreak
+		c h16 a h8 h a a, a'4
+		r8 a d d d c16 h c8 a
+		f f16. f32 f8 f e e16. e32 e'8 e %10
+		e e, e e e e16. e32 e'8 e
+		e e, e e e e e e \noBreak
+		e e gis a e4 r \bar "||"
+		\tempoDieMaennerAberC d1 \noBreak
+		gis, %15
+		a2 \once \tieDashed e'~
+		e1
+		e2 b'
+		a1
+		fis \noBreak %20
+		e2*2 \bar "||"
+		\key e \minor \time 3/8 \tempoDieMaennerAberD e8 g e \noBreak
+		h' g e
+		h' g e
+		h' g e %25
+		h' e d!
+		c c h
+		a a g
+		fis g e
+		h' h, r %30
+		r g' e
+		h'4 r8
+		r g e \noBreak
+		h4 r8 \bar "||"
+		\key c \major \time 4/4 \tempoDieMaennerAberE a'2 gis~ \noBreak %35
+		gis c,
+		fis1
+		g1
+		r4 fis? dis2~
+		dis1~ %40
+		dis
+		r4 e cis2 \noBreak
+		d2*2 \bar "||"
+		\key d \major \time 2/2 \tempoDieMaennerAberF d4 d'8 cis h4 h8 a \noBreak
+		gis e fis gis a4 a8 g? %45
+		fis4 cis'8 h ais fis gis ais
+		h4 r \bar "||" \tempoDieMaennerAberG h2
+		eis,1
+		fis2 cis \markAttacaE \bar "||" %49 finis
+	}
+}
+
+DieMaennerAberBassFigures = \figuremode {
+	<6>1
+	r2 <[5-]>
+	r <[5]>
+	<6> <6\\>
+	<[5 3]> <6 [4+] 2> %5
+	r4 <_+>2.
+	r2 <[6]>8. <[_+]>16 <[6]>4
+	<6 4 2> <6\\>2.
+	r8 <6 4> <[7]>4 <[4+] 2> <[6]>8 <[6 5]>
+	<[7]>4 <[6\\]> <[_+]>2 %10
+	<[5 _+]>4 <[6 4]>8 <[4 2+]> <[5 _+]>2
+	<[\t \t]>4 <[6 4]>8 <[4 2+]> <[5 _+]>2
+	<[6 4]>4 <[6 5]> <[_+]>2
+	<6 4+ 2>1
+	<6 5> %15
+	r2 <6>
+	r <6 5->
+	r1
+	<6>
+	<6\\> %20
+	r
+	r8 <[6]> r
+	<[_+]> <[6]> r
+	<[_+]> <[6]> r
+	<[_+]> <[6]> r %25
+	<[_+]> r <[6]>
+	q4 q8
+	q4 q8
+	<[6\\]> <[6]>4
+	<[_+]>4. %30
+	r8 <[6]>4
+	<[_+]>4.
+	r8 <[6]>4
+	<_+>4.
+	<[6+] 4+ 2>2 <6> %35
+	r <[6]>
+	<6>1
+	<5>2 <6>
+	r4 <[5+ _+]> <[6 _+]>2
+	r1 %40
+	<[6 5 _+]>
+	r2 <6 5>
+	<[_+]>1
+	r4. <[2]>8 r4. q8
+	<6 5> <[7 _+]> <[7]> <[6 5]> r4. <6>8 %45
+	<7 _+>4 <6\\>8 <6 4> <6 5> <[7 _+]> <[7]> <[6 5]>
+	r1
+	<6 _+>
+	r2 <[5+] _+> %49 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

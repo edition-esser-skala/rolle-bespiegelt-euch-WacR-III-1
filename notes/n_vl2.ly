@@ -621,3 +621,36 @@ WerdetRuhigViolinoII = {
 		r16 \slurDashed b(\f a b c es) d8( c b) \bar "S-S" %74 finis
 	}
 }
+
+DieMaennerAberViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoDieMaennerAber
+		R1*6 \bar "||" %6
+		\tempoDieMaennerAberB r8 a' c h16 a h8 a16 gis a8 a
+		a4 gis8 gis a a c h16 a
+		f'8 d, a'[ a] gis4 a8 c
+		a' dis,16. dis32 dis8 dis e4 r %10
+		r8 h c a16 a h4 r
+		h c8 a h gis gis gis16 gis
+		a4 h8 a gis4 r \bar "||"
+		\tempoDieMaennerAberC R1*8 \bar "||" %21
+		\key e \minor \time 3/8 \tempoDieMaennerAberD R4.
+		r8 \slurDashed h16( h') g( e) \slurSolid
+		dis( fis) e8 r
+		r \slurDashed h16( h') g( e) %25
+		dis( fis) \slurSolid e8 h
+		a a' g
+		c, c h
+		a h h
+		h fis'16( h) fis( dis) %30
+		h8 h-! h-!
+		h fis'16( h) fis( dis)
+		h8 h-! h-!
+		h4 r8 \bar "||"
+		\key c \major \time 4/4 \tempoDieMaennerAberE R1*9 \bar "||" %43
+		\key d \major \time 2/2 \tempoDieMaennerAberF R1*3 %46
+		r2 \bar "||" \tempoDieMaennerAberG r
+		R1*2 \bar "|." %49 finis
+	}
+}

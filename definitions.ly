@@ -338,6 +338,13 @@ tempoUndUeberEine = \tempoMarkup "[Recitativo]"
 	tempoUndUeberEineI = \tempoMarkup "[Recitativo]"
 tempoWerdetRuhig = \tempoMarkup "Larghetto"
 tempoIchFuehleZwar = \tempoMarkup "Choral: 2 Vers."
+tempoDieMaennerAber = \tempoMarkup "[Recitativo]"
+	tempoDieMaennerAberB = \tempoMarkup "[Coro]"
+	tempoDieMaennerAberC = \tempoMarkup "[Recitativo]"
+	tempoDieMaennerAberD = \tempoMarkup "[Coro]"
+	tempoDieMaennerAberE = \tempoMarkup "[Recitativo]"
+	tempoDieMaennerAberF = \tempoMarkup "Allegro"
+	tempoDieMaennerAberG = \tempoMarkup "[Recitativo]"
 
 
 

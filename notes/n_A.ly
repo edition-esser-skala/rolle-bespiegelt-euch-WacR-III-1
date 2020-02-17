@@ -721,6 +721,70 @@ IchFuehleZwarAltoLyricsB = \lyricmode {
 	Zu -- ver -- ſicht. %9 finis
 }
 
+DieMaennerAberAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoDieMaennerAber
+		R1*6 \bar "||" %6
+		\tempoDieMaennerAberB r4 r8 c' h a16 gis a8 a
+		a4 gis8 gis a4 r
+		r8 a a a16 a gis4( a8) c
+		a4 a8 a e4 r %10
+		r8 h' c a16 a h4 r
+		h c8 a h gis gis gis16 gis
+		a4 h8 a gis4 r \bar "||"
+		\tempoDieMaennerAberC R1*8 \bar "||" %21
+		\key e \minor \time 3/8 \tempoDieMaennerAberD r8 h h
+		h h r
+		r h h
+		h h r %25
+		r h h
+		a a h
+		c c h
+		a h h
+		h fis r %30
+		r h h
+		h4 r8
+		r h h
+		h4 r8 \bar "||"
+		\key c \major \time 4/4 \tempoDieMaennerAberE R1*9 \bar "||" %43
+		\key d \major \time 2/2 \tempoDieMaennerAberF r8 fis fis fis fis4 h
+		h a8 h a cis cis h %45
+		ais4. h8 cis4 h8 cis
+		h4 r \bar "||" \tempoDieMaennerAberG r2
+		R1*2 \bar "|." %49 finis
+	}
+}
+
+DieMaennerAberAltoLyrics = \lyricmode {
+	\xE Weis -- ſa -- ge, wer iſts, wer %7
+	iſts, der dich ſchlug,
+	weis -- ſa -- ge, wer iſts, __ wer
+	iſts, der dich ſchlug, %10
+	weis -- ſa -- ge, wer iſts,
+	wer iſts, wer iſts, weis -- ſa -- ge, wer
+	iſts, der dich ſchlug?
+	
+	Biſ -- tu %22
+	Chriſ -- tus?
+	Biſ -- tu
+	Chriſ -- tus? %25
+	Sag es
+	uns, sag es
+	uns, sag es
+	uns, biſ -- tu
+	Chriſ -- tus? %30
+	Sag es
+	uns,
+	sag es
+	uns!
+	
+	Biſ -- tu denn Got -- tes %44
+	Sohn, Got -- tes Sohn, biſ -- tu denn %45
+	Got -- tes Sohn, Got -- tes
+	Sohn? %47 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -449,6 +449,70 @@ IchFuehleZwarBassoLyricsB = \lyricmode {
 	Zu -- ver -- ſicht. %9 finis
 }
 
+DieMaennerAberBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoDieMaennerAber
+		R1*6 \bar "||" %6
+		\tempoDieMaennerAberB r4 r8 a' gis fis16 e c'8 c
+		c([ h16 a)] h8 h a4 a
+		r8 a d d16 d d8([ c16 h] c8) a
+		f4 f8 f e e e' e16 e %10
+		e4 r e, e'8 e
+		e4 r r8 e, e' e16 e
+		e4 gis,8 a e4 r \bar "||"
+		\tempoDieMaennerAberC R1*8 \bar "||" %21
+		\key e \minor \time 3/8 \tempoDieMaennerAberD r8 g e
+		h' e, r
+		r g e
+		h' e, r %25
+		r e' d!
+		c c h
+		a a g
+		fis g e
+		h' h, r %30
+		r g' e
+		h'4 r8
+		r g e
+		h'4 r8 \bar "||"
+		\key c \major \time 4/4 \tempoDieMaennerAberE R1*9 \bar "||" %43
+		\key d \major \time 2/2 \tempoDieMaennerAberF r2 r8 h h a
+		gis e fis gis a4 r %45
+		r8 cis cis h ais fis gis ais
+		h4 r \bar "||" \tempoDieMaennerAberG r2
+		R1*2 \bar "|." %49 finis
+	}
+}
+
+DieMaennerAberBassoLyrics = \lyricmode {
+	Weis -- ſa -- ge, wer iſts, wer %7
+	iſts, __ der dich ſchlug, wer,
+	weis -- ſa -- ge, wer iſts, __ wer
+	iſts, der dich ſchlug, weis -- ſa -- ge, wer %10
+	iſts, wer, der dich
+	schlug, weis -- ſa -- ge, wer
+	iſts, der dich ſchlug?
+	
+	Biſ -- tu %22
+	Chriſ -- tus?
+	Biſ -- tu
+	Chriſ -- tus? %25
+	Sag es
+	uns, sag es
+	uns, sag es
+	uns, biſ -- tu
+	Chriſ -- tus? %30
+	Sag es
+	uns,
+	sag es
+	uns!
+	
+	Biſ -- tu denn %44
+	Got -- tes, Got -- tes Sohn, %45
+	biſ -- tu denn Got -- tes, Got -- tes
+	Sohn? %47 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

@@ -639,6 +639,70 @@ IchFuehleZwarSopranoLyricsB = \lyricmode {
 	Zu -- ver -- ſicht. %9 finis
 }
 
+DieMaennerAberSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoDieMaennerAber
+		R1*6 \bar "||" %6
+		\tempoDieMaennerAberB r8 a' c h16 a e'4 r8 a,
+		d4 d8 d c a c h16 a
+		f'4 f8 f e4 r8 e
+		a4 a8 a gis4 r %10
+		r8 gis a fis16 fis gis4 r
+		gis a8 fis gis e e e16 e
+		e4 d8 c h4 r \bar "||"
+		\tempoDieMaennerAberC R1*8 \bar "||" %21
+		\key e \minor \time 3/8 \tempoDieMaennerAberD r8 h e
+		dis e r
+		r h g'
+		fis g r %25
+		r g fis
+		a a g
+		fis fis e
+		dis e g
+		fis h, r %30
+		r e g
+		fis4 r8
+		r e g
+		fis4 r8 \bar "||"
+		\key c \major \time 4/4 \tempoDieMaennerAberE R1*9 \bar "||" %43
+		\key d \major \time 2/2 \tempoDieMaennerAberF r8 a, a a d4 d
+		d e8 d cis e e e %45
+		e4 e e fis8 e
+		d4 r \bar "||" \tempoDieMaennerAberG r2
+		R1*2 \bar "|." %49 finis
+	}
+}
+
+DieMaennerAberSopranoLyrics = \lyricmode {
+	Weis -- ſa -- ge, wer iſts, wer %7
+	iſts, der dich ſchlug, weis -- ſa -- ge, wer
+	iſts, der dich ſchlug, wer
+	iſts, der dich \xE ſchlug, \x %10
+	weis -- ſa -- ge, wer iſts,
+	wer iſts, wer iſts, weis -- ſa -- ge, wer
+	iſts, der dich ſchlug?
+	
+	\xE Biſ -- tu %22
+	Chriſ -- tus?
+	Biſ -- tu
+	Chriſ -- tus? %25
+	Sag es
+	uns, sag es
+	uns, sag es
+	uns, biſ -- tu
+	Chriſ -- tus? %30
+	Sag es
+	uns,
+	sag es
+	uns! \x
+	
+	Biſ -- tu denn Got -- tes %44
+	Sohn, Got -- tes Sohn, biſ -- tu denn %45
+	Got -- tes Sohn, Got -- tes
+	Sohn? %47 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -615,6 +615,39 @@ WerdetRuhigViolinoI = {
 	}
 }
 
+DieMaennerAberViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoDieMaennerAber
+		R1*6 \bar "||" %6
+		\tempoDieMaennerAberB r8 a' c h16 a e'8 e, r a
+		d4 d8 d c a c h16 a
+		f'8 d, r f' e4 e8 e
+		a a16. a32 a8 a gis4 r %10
+		r8 gis a fis16 fis gis4 r
+		gis a8 fis gis e e e16 e
+		e4 d8 c h4 r \bar "||"
+		\tempoDieMaennerAberC R1*8 \bar "||" %21
+		\key e \minor \time 3/8 \tempoDieMaennerAberD R4.
+		r8 h16( h') g( e)
+		dis( fis) e8 r
+		r h16( h') g( e) %25
+		\once \slurDashed dis( fis) g8 fis
+		a a g
+		fis fis e
+		dis e g
+		fis fis16( h) fis( dis) %30
+		h8 e-! g-!
+		fis fis16( h) fis( dis)
+		h8 e-! g-!
+		fis4 r8 \bar "||"
+		\key c \major \time 4/4 \tempoDieMaennerAberE R1*9 \bar "||" %43
+		\key d \major \time 2/2 \tempoDieMaennerAberF R1*3 %46
+		r2 \bar "||" \tempoDieMaennerAberG r
+		R1*2 \bar "|." %49 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

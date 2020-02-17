@@ -1000,6 +1000,138 @@ IchFuehleZwarTenoreLyricsB = \lyricmode {
 	Zu -- ver -- ſicht. %9 finis
 }
 
+DieMaennerAberEvangelistNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoDieMaennerAber
+		r8 c^\Evangelist c e c c16 c e8 g
+		g c, r g b b16 b b4
+		r8 d d c a4 r8 a
+		d d d r16 d cis8 cis d e
+		f8. f16 f8 d gis,8. gis16 gis8 a %5
+		a e r4*3 \bar "||"
+		\tempoDieMaennerAberB R1*7 \bar "||" %13
+		\tempoDieMaennerAberC r4 h'8^\Evangelist h h h16 h h8 c
+		d8 d r4 d8^\critnote d16 e f8 e %15
+		c8 r16 c c8 e c c r4
+		g8 g16 g g8 a b b b d
+		b r16 b b8 g' e e16 e g8 a
+		f f r f f f16 f f8 e
+		dis dis dis fis a,4 r8 h %20
+		g g r4*3 \bar "||"
+		\key e \minor \time 3/8 \tempoDieMaennerAberD R4.*13 \bar "||" %34
+		\key c \major \time 4/4 \tempoDieMaennerAberE fis'8^\Evangelist dis dis e16 fis e8 e \clef bass h^\Jesus h16 gis %35
+		e8 r16 e d'8 d16 c a4 a8 a16 a
+		a8 d, r d c' c16 c c8 h
+		g4 r8 h h8 h16 h ais8 h
+		fis4 r r8 fis fis fis
+		h h h fis fis dis16 fis fis8 h, %40
+		r h a' a a4 c8 h
+		g g r4 \clef "treble_8" r8 e'^\Evangelist e fis16 g
+		fis8 fis r4*3 \bar "||"
+		\key d \major \time 2/2 \tempoDieMaennerAberF R1*3 %46
+		r2 \bar "||" \tempoDieMaennerAberG r8 d^\Evangelist d e
+		cis cis \clef bass r cis^\Jesus cis gis r gis16 a
+		fis8 \clef "treble_8" cis'^\Evangelist cis fis eis4 eis \markAttacaE \bar "||" %49 finis
+	}
+}
+
+DieMaennerAberEvangelistLyrics = \lyricmode {
+	Die Män -- ner a -- ber, die Je -- ſum
+	hiel -- ten, ver -- ſpot -- te -- ten Ihn
+	und ſchlu -- gen Ihn, ver --
+	deck -- ten Ihn und ſchlu -- gen Ihn ins
+	An -- ge -- ſicht und frag -- ten Ihn und %5
+	ſpra -- chen:
+	
+	Und viel an -- de -- re Läſ -- te -- %14
+	run -- gen ſag -- ten ſie wi -- der %15
+	Ihn. Und als es Tag ward,
+	ſam -- mel -- ten ſich die Ael -- teſ -- ten des
+	Volcks, die Ho -- hen -- prieſ -- ter und Schrifft -- ge --
+	lehr -- ten, und füh -- re -- ten Ihn hi --
+	\xE nauf vor ih -- ren \x Rath und %20
+	ſpra -- chen:
+	
+	Er ſprach a -- ber zu ih -- nen: Sa -- ge ichs %35
+	euch, ſo gläu -- bet ihrs nicht, fra -- ge ich
+	a -- ber, ſo ant -- wor -- tet ihr mir
+	nicht und la -- ßet mich doch nicht
+	los. Da -- rum von
+	nun an wird des Men -- ſchen Sohn ſit -- zen %40
+	zur rech -- ten Hand der Krafft
+	Got -- tes. Da ſpra -- chen ſie
+	al -- le:
+	
+	Er ſprach zu %47
+	ih -- nen: Ihr ſa -- gets, denn ich
+	bins. Sie a -- ber ſpra -- chen: %49 finis
+}
+
+DieMaennerAberTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoDieMaennerAber
+		R1*6 \bar "||" %6
+		\tempoDieMaennerAberB r4 r8 e e e16 e e8 e
+		f4 e8 e e4 r
+		r8 d d d16 d h8([ c16 d] e8) f
+		e4 dis8 dis e4 r %10
+		r8 e e e16 e e4 r
+		e e8 e e e e e16 h
+		c4 e8 e e4 r \bar "||"
+		\tempoDieMaennerAberC R1*8 \bar "||" %21
+		\key e \minor \time 3/8 \tempoDieMaennerAberD r8 e g
+		fis g r
+		r e e
+		dis e^\critnote r %25
+		r e fis
+		e e d!
+		c a e'
+		fis e e
+		dis dis r %30
+		r e e
+		dis4 r8
+		r e e
+		dis4 r8 \bar "||"
+		\key c \major \time 4/4 \tempoDieMaennerAberE R1*9 \bar "||" %43
+		\key d \major \time 2/2 \tempoDieMaennerAberF r8 d d cis h4 fis'
+		e e8 e e a, a g'! %45
+		fis4. g8 fis4 fis8 fis
+		fis4 r \bar "||" \tempoDieMaennerAberG r2
+		R1*2 \bar "|." %49 finis
+	}
+}
+
+DieMaennerAberTenoreLyrics = \lyricmode {
+	Weis -- ſa -- ge, wer iſts, wer %7
+	iſts, der dich ſchlug,
+	\xE weis -- ſa -- ge, wer iſts, __ wer
+	iſts, der dich ſchlug, %10
+	weis -- ſa -- ge, wer iſts,
+	wer iſts, wer iſts, weis -- ſa -- ge, wer
+	iſts, der dich ſchlug?
+	
+	Biſ -- tu %22
+	Chriſ -- tus?
+	Biſ -- tu
+	Chriſ -- tus? %25
+	Sag es
+	uns, sag es
+	uns, sag es
+	uns, biſ -- tu
+	Chriſ -- tus? %30
+	Sag es
+	uns,
+	sag es
+	uns! \x
+	
+	Biſ -- tu denn Got -- tes %44
+	Sohn, Got -- tes Sohn, biſ -- tu denn %45
+	Got -- tes Sohn, Got -- tes
+	Sohn? %47 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

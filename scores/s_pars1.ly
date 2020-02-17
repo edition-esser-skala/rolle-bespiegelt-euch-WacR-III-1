@@ -830,56 +830,133 @@
 % 			\midi { \tempo 4. = 40 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "17" "C H O R A L" "Ich fühle zwar der Sünden Schuld"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new ChoirStaff \with { \twoStanzaDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
+% 						\new Voice = "Soprano" { \dynamicUp \IchFuehleZwarSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \IchFuehleZwarSopranoLyricsA
+% 					\new Lyrics \lyricsto Soprano \IchFuehleZwarSopranoLyricsB
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Alto" "Violino II" "Oboe II" } }
+% 						\new Voice = "Alto" { \dynamicUp \IchFuehleZwarAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \IchFuehleZwarAltoLyricsA
+% 					\new Lyrics \lyricsto Alto \IchFuehleZwarAltoLyricsB
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Tenore" "Viola" } }
+% 						\new Voice = "Tenore" { \dynamicUp \IchFuehleZwarTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \IchFuehleZwarTenoreLyricsA
+% 					\new Lyrics \lyricsto Tenore \IchFuehleZwarTenoreLyricsB
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \IchFuehleZwarBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \IchFuehleZwarBassoLyricsA
+% 					\new Lyrics \lyricsto Basso \IchFuehleZwarBassoLyricsB
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\IchFuehleZwarOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \IchFuehleZwarBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "17" "C H O R A L" "Ich fühle zwar der Sünden Schuld"
+			movement = \movementTitle "18" "R E C I T A T I V O" "Die Männer aber, die Jeſum hielten"
 		}
-		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
-		}
+		\paper { systems-per-page = #1 }
 		\score {
 			<<
-				\new ChoirStaff \with { \twoStanzaDistance } <<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Oboe I"
+							\DieMaennerAberOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe II"
+							\DieMaennerAberOboeII
+						}
+					>>
+				>>
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\DieMaennerAberViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\DieMaennerAberViolinoII
+						}
+					>>
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
-						\new Voice = "Soprano" { \dynamicUp \IchFuehleZwarSopranoNotes }
+						\set Staff.instrumentName = "Viola"
+						\DieMaennerAberViola
 					}
-					\new Lyrics \lyricsto Soprano \IchFuehleZwarSopranoLyricsA
-					\new Lyrics \lyricsto Soprano \IchFuehleZwarSopranoLyricsB
+				>>
+				\new Staff {
+					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Jeſus" } }
+					\new Voice = "Evangelist" { \dynamicUp \DieMaennerAberEvangelistNotes }
+				}
+				\new Lyrics \lyricsto Evangelist \DieMaennerAberEvangelistLyrics
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Canto"
+						\new Voice = "Soprano" { \dynamicUp \DieMaennerAberSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \DieMaennerAberSopranoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Alto" "Violino II" "Oboe II" } }
-						\new Voice = "Alto" { \dynamicUp \IchFuehleZwarAltoNotes }
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \DieMaennerAberAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \IchFuehleZwarAltoLyricsA
-					\new Lyrics \lyricsto Alto \IchFuehleZwarAltoLyricsB
+					\new Lyrics \lyricsto Alto \DieMaennerAberAltoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Tenore" "Viola" } }
-						\new Voice = "Tenore" { \dynamicUp \IchFuehleZwarTenoreNotes }
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \DieMaennerAberTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \IchFuehleZwarTenoreLyricsA
-					\new Lyrics \lyricsto Tenore \IchFuehleZwarTenoreLyricsB
+					\new Lyrics \lyricsto Tenore \DieMaennerAberTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \IchFuehleZwarBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \DieMaennerAberBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \IchFuehleZwarBassoLyricsA
-					\new Lyrics \lyricsto Basso \IchFuehleZwarBassoLyricsB
+					\new Lyrics \lyricsto Basso \DieMaennerAberBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\IchFuehleZwarOrgano
+						\DieMaennerAberOrgano
 					}
 				>>
-				\new FiguredBass { \IchFuehleZwarBassFigures }
+				\new FiguredBass { \DieMaennerAberBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

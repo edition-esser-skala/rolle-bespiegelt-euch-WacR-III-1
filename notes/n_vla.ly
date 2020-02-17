@@ -627,3 +627,36 @@ WerdetRuhigViola = {
 		g4 es8 r16 \once \slurDashed f( g a b d) \bar "S-S" %74 finis
 	}
 }
+
+DieMaennerAberViola = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 4/4 \tempoDieMaennerAber
+		R1*6 \bar "||" %6
+		\tempoDieMaennerAberB r4 r8 e e e e e
+		f4 e8 e e4 r
+		r8 f c c h c16 d e8 a,
+		f' f16. f32 g8 a h4 r %10
+		r8 e, e e16 e e4 r
+		e e8 e e e e e16 h
+		c4 e8 e e4 r \bar "||"
+		\tempoDieMaennerAberC R1*8 \bar "||" %21
+		\key e \minor \time 3/8 \tempoDieMaennerAberD e8 g e
+		h' g e
+		h' g e
+		h' g^\critnote e %25
+		h' e, d!
+		e e d
+		c a e'
+		fis e e
+		dis dis r %30
+		r e e
+		dis4 r8
+		r e e
+		dis4 r8 \bar "||"
+		\key c \major \time 4/4 \tempoDieMaennerAberE R1*9 \bar "||" %43
+		\key d \major \time 2/2 \tempoDieMaennerAberF R1*3 %46
+		r2 \bar "||" \tempoDieMaennerAberG r
+		R1*2 \bar "|." %49 finis
+	}
+}
