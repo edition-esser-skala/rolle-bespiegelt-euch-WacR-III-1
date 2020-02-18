@@ -345,6 +345,7 @@ tempoDieMaennerAber = \tempoMarkup "[Recitativo]"
 	tempoDieMaennerAberE = \tempoMarkup "[Recitativo]"
 	tempoDieMaennerAberF = \tempoMarkup "Allegro"
 	tempoDieMaennerAberG = \tempoMarkup "[Recitativo]"
+tempoWasDuerfenWir = \tempoMarkup "Allegro"
 
 
 

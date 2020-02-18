@@ -660,3 +660,32 @@ DieMaennerAberViola = {
 		R1*2 \bar "|." %49 finis
 	}
 }
+
+WasDuerfenWirViola = {
+	\relative c' {
+		\clef alto
+		\key fis \minor \time 4/4 \tempoWasDuerfenWir
+		\partial 8 r8 r4 r8 a' gis eis cis cis'
+		cis ais fis fis fis dis h h'
+		h gis e! e e h' a cis
+		d4 cis cis8 fis fis h,
+		cis cis r4 r2 %5
+		R1*2
+		r2 r4 cis
+		cis8 fis16 fis fis8 cis cis cis r gis'
+		fis4 r8 fis fis dis dis fis %10
+		e4 r r2
+		r2 fis4 r8 fis
+		e! cis16 dis e8 cis dis gis, r gis'
+		eis gis cis, eis fis4 r8 e
+		dis fis h, dis e dis cis cis %15
+		cis4 his cis8 cis dis eis
+		fis fis, r4 r2
+		r4 r8 fis' eis gis cis, eis
+		fis4 fis8 fis d4. d8
+		d4 d cis cis8 cis %20
+		cis4 cis h gis'8 gis
+		eis cis4 d8 cis2
+		a4 r r r8\fermata \bar "|." %23 finis
+	}
+}

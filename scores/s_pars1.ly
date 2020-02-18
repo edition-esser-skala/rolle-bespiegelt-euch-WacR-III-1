@@ -882,81 +882,141 @@
 % 			\midi { \tempo 4 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "18" "R E C I T A T I V O" "Die Männer aber, die Jeſum hielten"
+% 		}
+% 		\paper { systems-per-page = #1 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe I"
+% 							\DieMaennerAberOboeI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe II"
+% 							\DieMaennerAberOboeII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\DieMaennerAberViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\DieMaennerAberViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\DieMaennerAberViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Jeſus" } }
+% 					\new Voice = "Evangelist" { \dynamicUp \DieMaennerAberEvangelistNotes }
+% 				}
+% 				\new Lyrics \lyricsto Evangelist \DieMaennerAberEvangelistLyrics
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Canto"
+% 						\new Voice = "Soprano" { \dynamicUp \DieMaennerAberSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \DieMaennerAberSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \DieMaennerAberAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \DieMaennerAberAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \DieMaennerAberTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \DieMaennerAberTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \DieMaennerAberBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \DieMaennerAberBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\DieMaennerAberOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \DieMaennerAberBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "18" "R E C I T A T I V O" "Die Männer aber, die Jeſum hielten"
+			movement = \movementTitle "19" "C O R O" "Was dürfen wir weiter Zeugnis?"
 		}
 		\paper { systems-per-page = #1 }
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Oboe I"
-							\DieMaennerAberOboeI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Oboe II"
-							\DieMaennerAberOboeII
-						}
-					>>
-				>>
-				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\DieMaennerAberViolinoI
+							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
+							\WasDuerfenWirViolinoI
 						}
 						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\DieMaennerAberViolinoII
+							\set Staff.instrumentName = \markup { \center-column { "Violino II" "Oboe II" } }
+							\WasDuerfenWirViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\DieMaennerAberViola
+						\WasDuerfenWirViola
 					}
 				>>
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Jeſus" } }
-					\new Voice = "Evangelist" { \dynamicUp \DieMaennerAberEvangelistNotes }
-				}
-				\new Lyrics \lyricsto Evangelist \DieMaennerAberEvangelistLyrics
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Canto"
-						\new Voice = "Soprano" { \dynamicUp \DieMaennerAberSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \WasDuerfenWirSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \DieMaennerAberSopranoLyrics
+					\new Lyrics \lyricsto Soprano \WasDuerfenWirSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \DieMaennerAberAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \WasDuerfenWirAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \DieMaennerAberAltoLyrics
+					\new Lyrics \lyricsto Alto \WasDuerfenWirAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \DieMaennerAberTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \WasDuerfenWirTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \DieMaennerAberTenoreLyrics
+					\new Lyrics \lyricsto Tenore \WasDuerfenWirTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \DieMaennerAberBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \WasDuerfenWirBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \DieMaennerAberBassoLyrics
+					\new Lyrics \lyricsto Basso \WasDuerfenWirBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\DieMaennerAberOrgano
+						\WasDuerfenWirOrgano
 					}
 				>>
-				\new FiguredBass { \DieMaennerAberBassFigures }
+				\new FiguredBass { \WasDuerfenWirBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 110 }
 		}
 	}
 }

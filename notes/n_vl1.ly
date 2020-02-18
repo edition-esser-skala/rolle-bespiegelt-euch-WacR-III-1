@@ -648,6 +648,36 @@ DieMaennerAberViolinoI = {
 	}
 }
 
+WasDuerfenWirViolinoI = {
+	\relative c' {
+		\clef treble
+		\key fis \minor \time 4/4 \tempoWasDuerfenWir
+		\partial 8 r8 r4 r8 fis' eis gis cis, eis
+		fis4 fis,8 e' dis fis h, dis
+		e4 e,8 d' cis eis fis a
+		gis2 fis4 r8 fis
+		e! cis16 dis e8 cis dis gis, r gis' %5
+		eis gis cis, eis fis4 r8 e
+		dis fis h, dis e dis cis cis
+		cis4 his cis8 cis dis eis
+		fis fis, r fis' eis gis cis, eis
+		fis4 r8 e dis fis h, dis %10
+		e4. d8 cis4 d
+		h2 a8 h cis d
+		gis, gis r4 r r8 gis'
+		gis eis eis gis cis,4 r8 fis
+		fis dis dis fis h, h a! fis' %15
+		e4 dis cis r
+		fis r8 fis eis gis cis, eis
+		fis4 a8 fis cis4. cis8
+		cis4 cis cis8 d16 cis h8 h
+		h4 h h8 cis16 h a8 a %20
+		a a r a a gis h d
+		cis eis fis h, a4 gis\trill
+		fis r r r8\fermata \bar "|." %23 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -513,6 +513,60 @@ DieMaennerAberBassoLyrics = \lyricmode {
 	Sohn? %47 finis
 }
 
+WasDuerfenWirBassoNotes = {
+	\relative c {
+		\clef bass
+		\key fis \minor \time 4/4 \autoBeamOff \tempoWasDuerfenWir
+		\partial 8 cis'8 a fis16 gis a8 fis gis cis, r cis'
+		ais cis fis, ais h4 r8 a
+		gis h e,! gis a gis fis fis
+		fis4( eis) fis8 gis a h
+		cis cis, r4 r2 %5
+		R1*2
+		r2 cis'4 r8 cis
+		a fis16 gis a8 fis gis cis, r cis'
+		ais cis fis, ais h4 r8 a %10
+		gis h e, gis a gis fis fis
+		fis4( eis) fis8 gis a h
+		cis cis, r cis' his dis gis, his
+		cis4 r8 h ais cis fis, ais
+		h4 r8 a gis4 a %15
+		gis4. fis8 eis cis r4
+		R1
+		r2 r4 r8 cis'
+		a cis fis, a h,4 r8 h'
+		gis h eis, gis cis,4 r8 cis' %20
+		a cis fis, a h,4 h'
+		h( a8) h cis4( cis,)
+		fis r r r8\fermata \bar "|." %23 finis
+	}
+}
+
+WasDuerfenWirBassoLyrics = \lyricmode {
+	Was dür -- fen wir wei -- ter Zeug -- nis? Wir
+	ha -- bens ſelbſt ge -- hört, wir
+	ha -- bens ſelbſt ge -- hört aus ſei -- nem
+	Mun -- de, aus ſei -- nem
+	Mun -- de. %5
+	
+	Was, was %8
+	dür -- fen wir wei -- ter Zeug -- nis? Wir
+	ha -- bens ſelbſt ge -- hört, wir %10
+	ha -- bens ſelbſt ge -- hört aus ſei -- nem
+	Mun -- de, aus ſei -- nem
+	Mun -- de, wir ha -- bens ſelbſt ge --
+	hört, wir ha -- bens ſelbſt ge --
+	hört aus ſei -- nem, %15
+	ſei -- nem Mun -- de.
+	
+	Wir
+	ha -- bens ſelbſt ge -- hört, wir
+	ha -- bens ſelbſt ge -- hört, wir %20
+	ha -- bens ſelbſt ge -- hört aus
+	ſei -- nem Mun --
+	de. %23 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

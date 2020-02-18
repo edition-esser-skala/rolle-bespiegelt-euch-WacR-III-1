@@ -654,3 +654,33 @@ DieMaennerAberViolinoII = {
 		R1*2 \bar "|." %49 finis
 	}
 }
+
+WasDuerfenWirViolinoII = {
+	\relative c' {
+		\clef treble
+		\key fis \minor \time 4/4 \tempoWasDuerfenWir
+		\partial 8 r8 r4 r8 fis' eis gis cis, eis
+		fis4 fis,8 e' dis fis h, dis
+		e4 e,8 d' cis eis fis cis
+		h2 a8 h cis d
+		cis cis, r cis' his dis gis, his %5
+		cis4 r8 h ais cis fis, ais
+		h4. a8 gis4 a
+		gis4. fis8 eis eis fis gis
+		a a16 h cis8 a gis^\critnote gis r cis
+		cis ais ais cis h4 r8 h %10
+		h gis gis h a h a a
+		gis2 fis8 fis fis fis
+		e! e gis gis gis his his dis
+		cis4 r8 cis cis ais ais cis
+		h4 r r2 %15
+		r cis4 r8 cis
+		a fis16 gis a8 fis gis cis, r cis'
+		a cis fis, a gis4 eis8 gis
+		a4 r8 a fis4 fis
+		gis gis8 gis gis4. fis16 eis %20
+		fis4 fis8 fis d4 d'
+		gis, a8 gis fis4 eis
+		fis r r r8\fermata \bar "|." %23 finis
+	}
+}

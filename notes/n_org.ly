@@ -1619,6 +1619,60 @@ DieMaennerAberBassFigures = \figuremode {
 	r2 <[5+] _+> %49 finis
 }
 
+WasDuerfenWirOrgano = {
+	\relative c {
+		\clef bass
+		\key fis \minor \time 4/4 \tempoWasDuerfenWir
+		\partial 8 cis'8 a fis r fis cis' cis, cis cis'
+		fis, fis, fis fis' h h, h h'
+		e,! e,! e e' a gis fis4
+		fis eis fis8 gis a h
+		cis cis, r4 r2 %5
+		R1*2
+		r2 cis'4 r8 cis
+		a fis16 gis a8 fis gis cis, r cis'
+		ais cis fis, ais h4 h,8 a' %10
+		gis h e, gis a gis fis fis
+		fis4 eis fis8 gis a h
+		cis cis, r cis' his dis gis, his
+		cis4 cis,8 h' ais cis fis, ais
+		h4 h, 8 a' gis4 a %15
+		gis4. fis8 eis? cis cis' cis
+		d2 cis~
+		cis2. r8 cis
+		a cis fis, a h,4. h'8
+		gis h eis, gis cis,4 r8 cis' %20
+		a cis fis, a h,4 h'~
+		h a8 h cis4 cis,
+		fis r r r8\fermata \bar "|." %23 finis
+	}
+}
+
+WasDuerfenWirBassFigures = \figuremode {
+	<[_+]>8 <[6]>2 <_+>
+	q q
+	r r8 <6\\>4.
+	<6 4 2>4 <6 5> r <[6]>
+	<[_!]>1 %5
+	r1*2
+	r2 <_+>
+	<6>4 q <6\\ 4>8 <[_+]> r <\t>
+	<6>4 <_+>8 <[6 5!]> <_+>4. <6 4+ 2>8 %10
+	<6>4. <6 5!>8 r <6\\>4.
+	<4 2>4 <6 5> r <[6]>
+	<[_!]>2 <[6 _+]>4 <[_+]>
+	<_+>4. <[4+ 2]>8 <[6]>4 <[_+]>
+	<_+>4. <[4+ 2]>8 <[6]>8 <[5+]> <5> <6> %15
+	<6 4>4 <5 _+>8 <\t \t> <6>4 <_+>
+	<7> <6> <_+>2
+	<6 4> <5 _+>
+	<6> <[9]>4 <[8]>
+	<5> <7> <7 _+>4 <[6 5]>8 <\l [4]> %20
+	<6>2 <[7]>8 <[6]> <[\t]>4
+	<[4+ 2]>4 <[6]>8 q <[6 4]>4 <[5 _+]>
+	r1 %23 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
