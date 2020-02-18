@@ -678,6 +678,139 @@ WasDuerfenWirViolinoI = {
 	}
 }
 
+MundDerViolinoI = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key d \major \time 2/4 \tempoMundDer
+		a'4.\fE g8
+		\appoggiatura a16 g8 fis h[ h]
+		h a16. g32 fis8 e
+		e16. g32 fis8 d' d
+		d cis16. h32 a8 g %5
+		\tuplet 3/2 8 { fis16[ e d] } d8 r4
+		e32 fis g16 a, cis e g h g
+		fis32 g a16 d, fis a d fis d
+		e,32 fis g16 a, cis e g h g
+		fis32 g a16 d, fis a c e c %10
+		h8 h16( a) a( g) g( fis)
+		fis8\trill e r4
+		d8 d'32( cis) e( d) d4~
+		d8 d32( cis) e( d) d4~
+		d8 h a g %15
+		fis d'32( cis) e( d) d4~
+		d8 d32( cis) e( d) d4~
+		d16. a32 \tuplet 3/2 8 { h16[ g e] } d8 e\trill
+		d4 fis16( a d fis) \bar "S-S"
+		a4.\p g8 %20
+		g fis h[ h]
+		h a16. g32 fis8 e
+		e16. g32 fis8 r \once \tieDashed d'~
+		d cis16. h32 a8 g
+		\tuplet 3/2 8 { fis16[ e d] } d8 r4 %25
+		d8. e16 \tuplet 3/2 8 { fis[ e d] a' g fis }
+		e8 a16.^\critnote gis32 a8 a
+		a a gis gis
+		\appoggiatura gis a4 r8 \once \tieDashed e~
+		e d16. e32 d8 cis %30
+		\appoggiatura cis h4 r8 d
+		\appoggiatura d cis4( h8) r
+		cis32\fE d e16 a, cis e a cis a
+		h8\p r d, r
+		cis32\fE d e16 a, cis e a cis a %35
+		h8\pE r d, r
+		cis\fE e,[\p fis g!]~
+		g fis gis \once \tieDashed a~
+		a gis gis'4\pocoF
+		a8 d, cis h %40
+		a4 gis\trill
+		e'4.\f d8
+		d cis fis[ fis]
+		fis e16. d32 cis8 h
+		h16. d32 cis8 a' a %45
+		a gis16. fis32 e8 d
+		cis a'32( gis) h( a) a4~
+		a8 a32( gis) h( a) a4~
+		a16. e32 \tuplet 3/2 8 { fis16[ d h] } a8 h\trill
+		a e a,4 %50
+		r fis''\p
+		e8 dis a'[ a]
+		a g16. fis32 e8 dis~
+		dis e r \once \tieDashed g~
+		g fis16. e32 d8 cis %55
+		\appoggiatura cis d4 r8 d
+		h'16. a32 g16. fis32 e8 d
+		\appoggiatura d cis4 r
+		a32 h c16 d,4 c'8
+		\tuplet 3/2 8 { h16 a g } fis4 g8 %60
+		\tuplet 3/2 8 { h16 cis! d } e,4 d'8
+		\tuplet 3/2 8 { cis!16 h a } gis4 a8
+		\tuplet 3/2 8 { cis16 d e } fis,4 e'8
+		d fis fis fis
+		g r g r %65
+		r e e e
+		fis r a, r
+		h h4 d8
+		d a4 h8
+		h e,4 d8 %70
+		\appoggiatura d cis4 r
+		d d'
+		d( cis8) g
+		g4( fis8) c'?
+		h4 r8 g %75
+		fis4 e\trill
+		d8 d'32(\pocoFE cis) e( d) d4~
+		d8 d32( cis) e( d) d4~
+		d8 h[\p a g]
+		fis d'32(\pocoF cis) e( d) d4~ %80
+		d8 d32( cis) e( d) d4~
+		d8 d32( cis) e( d) d4~
+		d8 fis,-! fis-! d-!
+		a4 r
+		R2 %85
+		e'32\f fis g16 a, cis e g h g
+		fis32 g a16 d, fis a d fis d
+		e,32 fis g16 a, cis e g h g
+		fis32 g a16 d, fis a c e c
+		h8 h16( a) a( g) g( fis) %90
+		fis8\trillE e r4
+		d8 d'32( cis) e( d) d4~
+		d8 d32( cis) e( d) d4~
+		d8 h a g
+		fis8 d'32( cis) e( d) d4~ %95
+		d8 d32( cis) e( d) d4~
+		d16. a32 \tuplet 3/2 8 { h16[ g e] } d8 e\trillE
+		d4\fermata r
+		r8 h'\p r d
+		r g, r g' %100
+		r a, r c
+		h a r d,
+		r h' r d
+		r g, r g'
+		r c, r h %105
+		r a d16(-. d-. d-. d-.)
+		\slurDashed d(\fp d) d( d) d( d) d( d) \slurSolid
+		d( d) c( c) c( c) c( c)
+		e(\fp e) e( e) e( e) e( e)
+		e8 d fis, d' %110
+		r cis! r h
+		r16 \slurDashed ais( ais ais) ais( ais) ais( ais) \slurSolid
+		h-!\fp h( h h) h( h) h( h)
+		h-!\fp h( h h) h( h) h( h)
+		h-!\fp h( h h) h( h) h( h) %115
+		ais8 g!-! fis-! e-!
+		d cis h d
+		e4\trill fis\trill
+		h, r
+		d8\f d'32( cis) e( d) d4~ %120
+		d8 d32( cis) e( d) d4~
+		d8 h a g
+		fis8 d'32( cis) e( d) d4~
+		d8 d32( cis) e( d) d4~
+		d16. a32 \tuplet 3/2 8 { h16[ g e] } d8 e\trill %125
+		d4 r \bar "S-S" %126 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

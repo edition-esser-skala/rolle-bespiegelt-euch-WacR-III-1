@@ -689,3 +689,136 @@ WasDuerfenWirViola = {
 		a4 r r r8\fermata \bar "|." %23 finis
 	}
 }
+
+MundDerViola = {
+	\relative c' {
+		\clef alto
+		\twofourtime \key d \major \time 2/4 \tempoMundDer
+		r8 d\fE a' a,
+		h4 r8 g
+		a4 a
+		a r8 gis'
+		a4 a, %5
+		r8 d fis d
+		r a cis cis
+		r d d d
+		r cis cis cis
+		r d d d %10
+		g,4. g8
+		a4 r
+		h r
+		a r
+		r8 g' a a, %15
+		a4 r
+		h r
+		a8 g a a
+		d d, r4 \bar "S-S"
+		r8 d'\p a' a, %20
+		h4 r8 g'
+		a4 a,
+		a r8 gis'
+		a4 a,
+		r8 d fis a %25
+		fis d d d
+		cis cis cis cis
+		h h e e
+		a,4 r8 a'
+		d,4. dis8 %30
+		r e gis e
+		e4 e16 d! cis h
+		a8\f e' e e
+		e\p r e r
+		e\f cis a e' %35
+		e\p r e r
+		e4 r8 a,~
+		a h r h
+		h4 h'\pocoFE
+		a8 h, cis d %40
+		e4 e,
+		r8 a\fE e' e
+		fis4 r8 d
+		e4 e
+		a, r8 dis %45
+		e4 e
+		e r
+		fis r
+		e8 d e e,
+		a4 r %50
+		r dis\pE
+		e8 h r4
+		r r8 h
+		e4 r
+		cis a %55
+		d! r8 d
+		g,4. gis8
+		a4 r
+		r8 a a a
+		g a a h %60
+		r h h h
+		a h h cis
+		r cis cis cis
+		h h' h h
+		h r h r %65
+		r a a a
+		a r d, r
+		g4 g
+		fis fis
+		g gis %70
+		r8 a, a a
+		b b b b
+		r a a a
+		r a a a
+		g4 r8 h %75
+		a4 a
+		d r
+		h\pocoFE r
+		a8\pE g a a
+		a4 r %80
+		h\pocoFE r
+		a r
+		gis8 gis gis gis
+		a4 r
+		r8 d\f fis d %85
+		a cis cis cis
+		a a a a
+		a cis cis cis
+		a a a d
+		g,4. g8 %90
+		r a a4
+		h r
+		a r
+		r8 g' a a,
+		a4 r %95
+		h r
+		a8 g a a
+		d8.\fermata e16 d c h a
+		g8\pE d' r fis
+		r h, r d %100
+		r e r d
+		d d d16 c h a
+		g8 d' r fis
+		r h, r d
+		r d r d %105
+		r d fis d
+		gis,16(\fp gis) gis( gis) gis( gis) gis( gis)
+		a( a) a( a) \slurDashed a( a) a( a)
+		ais(\fpE ais) ais( ais) ais( ais) ais( ais) \slurSolid
+		h8 h d h %110
+		r e r e
+		r fis, fis fis
+		g g g g
+		fis fis fis fis
+		eis eis eis eis %115
+		fis g'! fis e
+		d cis h d
+		e4\trill fis\trill
+		h, r
+		h\f r %120
+		a r
+		r8 g a a
+		a4 r
+		h r
+		a8 g a a %125
+		d,4 r \bar "S-S" %126 finis
+	}
+}

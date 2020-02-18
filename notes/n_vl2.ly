@@ -684,3 +684,136 @@ WasDuerfenWirViolinoII = {
 		fis r r r8\fermata \bar "|." %23 finis
 	}
 }
+
+MundDerViolinoII = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key d \major \time 2/4 \tempoMundDer
+		fis4.\fE e8
+		e d g[ g]
+		g fis16. e32 d8 cis
+		cis16. e32 d8 fis fis
+		fis e16. g32 fis8 e %5
+		d d r4
+		cis32 d e16 a, cis e e g e
+		d32 e fis16 d fis a fis a fis
+		cis32 d e16 a, cis e e g e
+		d32 e fis16 d fis fis a c a %10
+		g8 g16( fis) fis( e) e( d)
+		d8\trill cis r4
+		d8 fis32( e) g( fis) fis4~
+		fis8 fis32( e) g( fis) fis4~
+		fis8 g fis e %15
+		d fis32( e) g( fis) fis4~
+		fis8 fis32( e) g( fis) \once \tieDashed fis4~
+		fis16. a32 \tuplet 3/2 8 { h16[ g e] } d8 cis\trill
+		d4 r \bar "S-S"
+		fis'4.\p e8 %20
+		e d g[ g]
+		g fis16. e32 d8 cis
+		cis16. e32 d8 r fis~
+		fis e16. g32 fis8 e
+		d d, fis a %25
+		R2
+		a8. h16 \tuplet 3/2 8 { cis[ h a] e' d cis }
+		d8 d h h
+		\appoggiatura h cis4 r8 \once \tieDashed cis~
+		cis h16. cis32 h8 a %30
+		\appoggiatura a gis4 r8 h
+		\appoggiatura h a4( gis8) r
+		cis32\fE d e16 a, cis e cis e8
+		e\p r h r
+		cis32\fE d e16 a, cis e cis e8 %35
+		e\pE r h r
+		a\fE cis,[\p d e]~
+		e dis e \once \tieDashed fis~
+		fis e d'!4\pocoF
+		cis8 h a d, %40
+		cis4 h\trill
+		cis'4.\f h8
+		h a d[ d]
+		d cis16. h32 a8 gis
+		gis16. h32 a8 cis cis %45
+		cis h16. d32 cis8 h
+		a cis32( h) d( cis) cis4~
+		cis8 cis32( h) d( cis) cis4~
+		cis16. e32 \tuplet 3/2 8 { fis16[ d h] } a8 gis\trill
+		a e a,4 %50
+		r a'\p
+		g8 fis c'[ c]
+		c h16. a32 g8 fis~
+		fis g r \once \tieDashed h~
+		h a16. g32 fis8 e %55
+		\appoggiatura e fis4 r8 d'
+		d16. cis32 h16. a32 g8 fis
+		\appoggiatura fis e4 r
+		a32 h c16 d,4 d8
+		d c c d %60
+		\tuplet 3/2 8 { h'16 cis! d } e,4 e8
+		e d d e
+		\tuplet 3/2 8 { cis'16 d e } fis,4 fis8
+		fis d' d d
+		d r d r %65
+		r cis cis cis
+		d r fis, r
+		h h4 d8
+		d a4 h8
+		h e,4 d8 %70
+		\appoggiatura d cis4 r
+		d d'
+		d( cis8) g
+		g4( fis8) c'?
+		h4 r8 e, %75
+		d4 cis\trill
+		d8 fis32(\pocoFE e) g( fis) fis4~
+		fis8 fis32( e) g( fis) \once \tieDashed fis4~
+		fis8 g[\pE fis e]
+		d fis32(\pocoFE e) g( fis) fis4~ %80
+		fis8 fis32( e) g( fis) fis4~
+		fis8 fis32( e) g( fis) fis4~
+		fis8 d-! d-! d-!
+		a4 r
+		R2 %85
+		cis32\f d e16 a, cis e e g e
+		d32 e fis16 d fis a fis a fis
+		cis32 d e16 a, cis e e g e
+		d32 e fis16 d fis a a c a
+		g8 g16( fis) fis( e) e( d) %90
+		d8\trillE cis r4
+		d8 fis32( e) g( fis) fis4~
+		fis8 fis32( e) g( fis) fis4~
+		fis8 g fis e
+		d8 fis32( e) g( fis) fis4~ %95
+		fis8 fis32( e) g( fis) fis4~
+		fis16. a32 \tuplet 3/2 8 { h16[ g e] } d8 cis\trillE
+		d4\fermata r
+		r8 g\p r h
+		r g r g %100
+		r g r fis
+		g fis r d
+		r g r h
+		r g r g
+		r fis r g %105
+		r fis \once \slurDashed fis16(-. fis-. fis-. fis-.)
+		f(\fp f) f( f) f( f) f( f)
+		f( f) e( e) e( e) e( e)
+		\slurDashed g(\fp g) g( g) g( g) g( g) \slurSolid
+		g8 fis! r fis %110
+		r g r g
+		r16 \slurDashed cis,( cis cis) cis( cis) fis( fis) \slurSolid
+		d-!\fp d( d d) d( d) d( d)
+		d-!\fp d( d d) d( d) d( d)
+		d-!\fp d( d d) d( d) d( d) %115
+		cis8 g'!-! fis-! e-!
+		d cis h d
+		e4\trill fis\trill
+		h, r
+		d8\f fis32( e) g( fis) fis4~ %120
+		fis8 fis32( e) g( fis) fis4~
+		fis8 g fis e
+		d fis32( e) g( fis) fis4~
+		fis8 fis32( e) g( fis) fis4~
+		fis16. a32 \tuplet 3/2 8 { h16[ g e] } d8 cis\trill %125
+		d4 r \bar "S-S" %126 finis
+	}
+}

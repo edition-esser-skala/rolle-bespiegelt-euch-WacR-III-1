@@ -88,3 +88,82 @@ GepriesnerWeibesFlautoI = {
 		r4 \markDaCapo \bar "||" %139 finis
 	}
 }
+
+MundDerFlautoI = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key d \major \time 2/4 \tempoMundDer
+		a''4.\fE g8
+		g fis h[ h]
+		h a16. g32 fis8 e
+		e16. g32 fis8 d' d
+		d cis16. h32 a8 g %5
+		\tuplet 3/2 8 { fis16[ e d] } d8 r4
+		e32 fis g16 a, cis e g h g
+		fis32 g a16 d,, fis a d fis d
+		e32 fis g16 a, cis e g h g
+		fis32 g a16 d,, fis a c e c %10
+		h8 \slurDashed h'16( a) a( g) g( fis) \slurSolid
+		fis8\trillE e r4
+		d8 d'32( cis) e( d) d4~
+		d8 d32( cis) e( d) d4~
+		d8 h a g %15
+		fis d'32( cis) e( d) d4~
+		d8 d32( cis) e( d) d4~
+		d16. a32 \tuplet 3/2 8 { h16[ g e] } d8 e\trillE
+		d4 r \bar "S-S"
+		R2*11 %30
+		r8 e32(\p dis) fis( e) e4
+		R2
+		cis32\fE d e16 a, cis e a cis a
+		h32[\p cis d16] e,8-! r4
+		cis32\fE d e16 a, cis e a cis a %35
+		h32[\pE cis d16] e,8-! r4
+		R2*5 %41
+		e4.\fE d8
+		d cis fis[ fis]
+		fis e16. d32 cis8 h
+		h16. d32 cis8 a' a %45
+		a gis16. fis32 e8 d
+		cis a'32( gis) h( a) a4~
+		a8 a32( gis) h( a) a4~
+		a16. e32 \tuplet 3/2 8 { fis16[ d h] } a8 h\trill
+		a4 r %50
+		R2*7 %57
+		r8 a'32(\pE gis) h( a) a8 cis,
+		r d32( c?) e( d) d4
+		R2 %60
+		r8 e32( d?) fis( e) e4
+		R2
+		r8 fis32( e) g( fis) fis4
+		R2*13 %76
+		r8 d32(\pocoFE cis) e( d) d4~
+		d8 d32( cis) e( d) d4
+		R2
+		r8 d32(\pocoFE cis) e( d) d4~ %80
+		d8 d32( cis) e( d) d4~
+		d8 d32( cis) e( d) d4
+		R2*3 %85
+		e32\f fis g16 a, cis e g h g
+		fis32 g a16 d,, fis a d fis d
+		e32 fis g16 a, cis e g h g
+		fis32 g a16 d,, fis a c e c
+		h h' \slurDashed h( a) a( g) g( fis) \slurSolid %90
+		fis8\trillE e r4
+		d8 d'32( cis) e( d) d4~
+		d8 d32( cis) e( d) d4~
+		d8 h a g
+		fis8 d'32( cis) e( d) d4~ %95
+		d8 d32( cis) e( d) d4~
+		d16. a32 \tuplet 3/2 8 { h16[ g e] } d8 e\trillE
+		d4\fermata r
+		R2*21 %119
+		d8\f d'32( cis) e( d) d4~ %120
+		d8 d32( cis) e( d) d4~
+		d8 h a g
+		fis8 d'32( cis) e( d) d4~
+		d8 d32( cis) e( d) d4~
+		d16. a32 \tuplet 3/2 8 { h16[ g e] } d8 e\trillE %125
+		d4 r \bar "S-S" %126 finis
+	}
+}

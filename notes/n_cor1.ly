@@ -99,3 +99,78 @@ BespiegeltEuchCornoI = {
 		g16. c32\ff c16. d32 e4 d \bar "S-S" %124 finis
 	}
 }
+
+MundDerCornoI = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key c \major \time 2/4 \tempoMundDer
+		g''4.\fE f8
+		f e a[ a]
+		a g16. f32 e8 d
+		d e r c'
+		c h16. a32 g8 f %5
+		\tuplet 3/2 8 { e16[ d c] } c8 r4
+		d8 f f f
+		\tuplet 3/2 8 { e16 f g } g4 e8
+		d f f f
+		\tuplet 3/2 8 { e16 f g } g4 g8 %10
+		a \slurDashed a16( g) g( f) f( e) \slurSolid
+		e8\trillE d r4
+		c r16 e e e
+		e4 r16 e e e
+		e8 a g f %15
+		e4 r16 e e e
+		e4 r16 e e e
+		e8 f e d\trillE
+		c4 r \bar "S-S"
+		R2*11 %30
+		r8 a'\p a4
+		R2
+		h8\fE h h h
+		a4\pE r
+		h8\fE h h h %35
+		a4\pE r
+		R2*5 %41
+		r8 g,\fE d' d
+		e4 r8 c
+		d4 d
+		g, r %45
+		R2
+		r4 r16 h' h h
+		h4 r16 h h h
+		h8 c h a
+		g4 r %50
+		R2*7 %57
+		r8 d\pE d4
+		R2*18 %76
+		r4 r16 e\pocoFE e e
+		e4 r16 e e e
+		e8 a[\p g f]
+		e4 r16 e\pocoF e e %80
+		e4 r16 e e e
+		e4 r16 e e e
+		e4 r
+		R2*2 %85
+		d8\f f f f
+		\tuplet 3/2 8 { e16 f g } g4 e8
+		d f f f
+		\tuplet 3/2 8 { e16 f g } g4 g8
+		a \slurDashed a16( g) g( f) f( e) \slurSolid %90
+		e8\trillE d r4
+		r r16 e e e
+		e4 r16 e e e
+		e8 a g f
+		e4 r16 e e e %95
+		e4 r16 e e e
+		e8 f e d\trillE
+		c4\fermata r
+		R2*21 %119
+		r4 r16 e\f e e %120
+		e4 r16 e e e
+		e8 a g f
+		e4 r16 e e e
+		e4 r16 e e e
+		e8 f e d\trillE %125
+		c4 r \bar "S-S" %126 finis
+	}
+}

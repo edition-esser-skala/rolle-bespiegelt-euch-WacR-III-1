@@ -88,3 +88,82 @@ GepriesnerWeibesFlautoII = {
 		r4 \markDaCapo \bar "||" %139 finis
 	}
 }
+
+MundDerFlautoII = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key d \major \time 2/4 \tempoMundDer
+		fis'4.\fE e8
+		e d g[ g]
+		g fis16. e32 d8 cis
+		cis16. e32 d8 fis fis
+		fis e16. g32 fis8 e %5
+		d d r4
+		cis32 d e16 a, cis e e g e
+		d32 e fis16 d, fis a fis a d
+		cis32 d e16 a, cis e e g e
+		d32 e fis16 d, fis a a c a %10
+		g8 \slurDashed g'16( fis) fis( e) e( d) \slurSolid
+		d8\trillE cis r4
+		d8 fis32( e) g( fis) fis4~
+		fis8 fis32( e) g( fis) fis4~
+		fis8 g fis e %15
+		d fis32( e) g( fis) fis4~
+		fis8 fis32( e) g( fis) \once \tieDashed fis4~
+		fis16. a32 \tuplet 3/2 8 { h16[ g e] } d8 cis\trillE
+		d4 r \bar "S-S"
+		R2*11 %30
+		r8 e32(\p dis) fis( e) e4
+		R2
+		cis32\fE d e16 a, cis e cis e a
+		h32[\p cis d16] e,8-! r4
+		cis32\fE d e16 a, cis e cis e a %35
+		h32[\pE cis d16] e,8-! r4
+		R2*5 %41
+		cis4.\f h8
+		h a d[ d]
+		d cis16. h32 a8 gis
+		gis16. h32 a8 cis cis %45
+		cis h16. d32 cis8 h
+		a cis32( h) d( cis) cis4~
+		cis8 cis32( h) d( cis) cis4~
+		cis16. e32 \tuplet 3/2 8 { fis16[ d h] } a8 gis\trill
+		a4 r %50
+		R2*7 %57
+		r8 a'32(\pE gis) h( a) a8 cis,
+		r d32( c?) e( d) d4
+		R2 %60
+		r8 e32( d?) fis( e) e4
+		R2
+		r8 fis32( e) g( fis) fis4
+		R2*13 %76
+		r8 fis,32(\pocoFE e) g( fis) fis4~
+		fis8 fis32( e) g( fis) fis4
+		R2
+		r8 fis32(\pocoFE e) g( fis) fis4~ %80
+		fis8 fis32( e) g( fis) fis4~
+		fis8 fis32( e) g( fis) fis4
+		R2*3 %85
+		cis'32\f d e16 a, cis e e g e
+		d32 e fis16 d, fis a fis a d
+		cis32 d e16 a, cis e e g e
+		d32 e fis16 d, fis a a c a
+		g g' \slurDashed g( fis) fis( e) e( d) \slurSolid %90
+		d8\trillE cis r4
+		d8 fis32( e) g( fis) fis4~
+		fis8 fis32( e) g( fis) fis4~
+		fis8 g fis e
+		d8 fis32( e) g( fis) fis4~ %95
+		fis8 fis32( e) g( fis) fis4~
+		fis16. a32 \tuplet 3/2 8 { h16[ g e] } d8 cis\trillE
+		d4\fermata r
+		R2*21 %119
+		d8\f fis32( e) g( fis) fis4~ %120
+		fis8 fis32( e) g( fis) fis4~
+		fis8 g fis e
+		d fis32( e) g( fis) fis4~
+		fis8 fis32( e) g( fis) fis4~
+		fis16. a32 \tuplet 3/2 8 { h16[ g e] } d8 cis\trillE %125
+		d4 r \bar "S-S" %126 finis
+	}
+}

@@ -32,7 +32,7 @@
 % 				>>
 % 				\new StaffGroup <<
 % 					\new GrandStaff <<
-% 						\set GrandStaff.instrumentName = "[in D]"
+% 						\set GrandStaff.instrumentName = "in D"
 % 						\new Staff {
 % 							\set Staff.instrumentName = "Corno I"
 % 							\BespiegeltEuchCornoI
@@ -959,64 +959,129 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "19" "C O R O" "Was dürfen wir weiter Zeugnis?"
+% 		}
+% 		\paper { systems-per-page = #1 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
+% 							\WasDuerfenWirViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { \center-column { "Violino II" "Oboe II" } }
+% 							\WasDuerfenWirViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\WasDuerfenWirViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Canto"
+% 						\new Voice = "Soprano" { \dynamicUp \WasDuerfenWirSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \WasDuerfenWirSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \WasDuerfenWirAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \WasDuerfenWirAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \WasDuerfenWirTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \WasDuerfenWirTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \WasDuerfenWirBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \WasDuerfenWirBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\WasDuerfenWirOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \WasDuerfenWirBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 110 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "19" "C O R O" "Was dürfen wir weiter Zeugnis?"
+			movement = \movementTitle "20" "A R I A" "Mund der Wahrheit"
 		}
 		\paper { systems-per-page = #1 }
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
+					\new GrandStaff <<
 						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
-							\WasDuerfenWirViolinoI
+							\set Staff.instrumentName = "Flauto I"
+							\MundDerFlautoI
 						}
 						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Violino II" "Oboe II" } }
-							\WasDuerfenWirViolinoII
+							\set Staff.instrumentName = "Flauto II"
+							\MundDerFlautoII
+						}
+					>>
+				>>
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\set GrandStaff.instrumentName = "in D"
+						\new Staff {
+							\set Staff.instrumentName = "Corno I"
+							\MundDerCornoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Corno II"
+							\MundDerCornoII
+						}
+					>>
+				>>
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\MundDerViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\MundDerViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\WasDuerfenWirViola
+						\MundDerViola
 					}
 				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Canto"
-						\new Voice = "Soprano" { \dynamicUp \WasDuerfenWirSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \WasDuerfenWirSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \WasDuerfenWirAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \WasDuerfenWirAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \WasDuerfenWirTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \WasDuerfenWirTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \WasDuerfenWirBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \WasDuerfenWirBassoLyrics
-				>>
+				\new Staff \with { \smallerStaffDistance } {
+					\set Staff.instrumentName = \markup { \center-column { "Alto" "solo" } }
+					\new Voice = "Alto" { \dynamicUp \MundDerAltoNotes }
+				}
+				\new Lyrics \lyricsto Alto \MundDerAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\WasDuerfenWirOrgano
+						\MundDerOrgano
 					}
 				>>
-				\new FiguredBass { \WasDuerfenWirBassFigures }
+				\new FiguredBass { \MundDerBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 110 }
+			\midi { \tempo 4 = 70 }
 		}
 	}
 }

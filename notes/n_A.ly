@@ -841,6 +841,181 @@ WasDuerfenWirAltoLyrics = \lyricmode {
 	de. %23 finis
 }
 
+MundDerAltoNotes = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key d \major \time 2/4 \autoBeamOff \tempoMundDer
+		R2*19 \bar "S-S" %19
+		a'4. g8 %20
+		g fis h h
+		h8([ a16.)] g32 fis8 e
+		e16.([ g32)] fis8 d' d
+		d8([ cis16.)] h32 a8 g
+		\tuplet 3/2 8 { fis16([ e d)] } d8 r4 %25
+		d8. e16 \tuplet 3/2 8 { fis([ e)] d a'([ g)] fis }
+		e8 a16. gis32 a4~
+		a8[ gis16.] a32 h8 d,
+		\appoggiatura d cis4 e8 cis'~
+		cis h16. cis32 h8 a %30
+		\appoggiatura a gis4 e8 d'
+		\appoggiatura d cis4^\critnote h8 r
+		R2
+		e,16 fis gis a h([ cis)] d8
+		cis32([ h a16)] a8 r4 %35
+		e16 fis gis a h([ cis)] d8
+		cis8 e,([ fis)] g~
+		g fis([ gis)] a~
+		a gis([ h)] d
+		cis([ gis a)] fis %40
+		a4 gis
+		a r
+		R2*8 %50
+		a4. h8
+		g fis c' c
+		c8([ h16.)] a32 g8 fis
+		fis16.([ a32)] g8 h h
+		h([ a16.)] g32 fis8 e %55
+		\appoggiatura e fis4 d'~
+		d16. cis32 h16. a32 g8 fis
+		\appoggiatura fis e4^\critnote r
+		d c'
+		\tuplet 3/2 8 { h16([ a g)] } fis4( g8) %60
+		e4 d'
+		\tuplet 3/2 8 { cis!16([ h a)] } gis4( a8)
+		fis4 e'
+		\tuplet 3/2 8 { d16[ cis h] } d8~ d16[ cis h a!]
+		\tuplet 3/2 8 { g[ fis e] } g8[ h d] %65
+		\tuplet 3/2 8 { cis16[ h a] } cis8~ cis16[ h a g]
+		\tuplet 3/2 8 { fis[ e d] } fis8[ a] c
+		h h4( d8)
+		d( a4) h8
+		h( e,4) d8 %70
+		\appoggiatura d cis4 r
+		d d'
+		d( cis8) g
+		g4( fis8) c'
+		h g16 h a([ g)] fis([ e)] %75
+		d4 e
+		d r
+		r d'8 d,
+		d h' a g
+		fis4 r %80
+		R2
+		r4 d'8 d
+		d4. d,8
+		d4 e
+		d r %85
+		R2*12 %97
+		R2\fermataMarkup
+		g4( h16.[ g32)] d'16.([ h32)]
+		\appoggiatura a8 g4 r8 g %100
+		a8.[( \tuplet 3/2 16 { g32 fis e] } d8) c'
+		h a r4
+		g4( h16.[ g32)] d'16.([ h32)]
+		\appoggiatura a8 g4 r8 g
+		fis16([ a] c4) h8 %105
+		h a r d16 d
+		d8. f,16 f8 f
+		f([ e)] r e'
+		e8. g,16 g8 g
+		g([ fis!)] r fis16 d' %110
+		d8 cis cis h
+		ais4 r8 fis16 fis
+		h4. \tuplet 3/2 8 { d16[ cis h] }
+		h4. \tuplet 3/2 8 { d16[ cis h] }
+		h4. \tuplet 3/2 8 { d16[ cis h] } %115
+		ais8 g! fis e
+		d([ cis h)] d
+		e4\trill fis\trillE
+		h, r
+		R2*7 \bar "S-S" %126 finis
+	}
+}
+
+MundDerAltoLyrics = \lyricmode {
+	Mund der %20
+	Wahr -- heit, dei -- nes
+	ew -- gen Lich -- tes
+	Klar -- heit, dei -- nes
+	ew -- gen Lich -- tes
+	Klar -- heit %25
+	zeu -- get von der letz -- ten
+	Zeit in der tief --
+	ſten Nied -- rig --
+	keit, in der __
+	tief -- ſten Nied -- rig -- %30
+	keit, Mund der
+	Wahr -- heit,
+	
+	dei -- nes ew -- gen Lich -- tes
+	Klar -- heit %35
+	zeu -- get von der letz -- ten
+	Zeit in __ der __
+	tief -- ſten, __
+	in __ der
+	tief -- ſten %40
+	Nied -- rig --
+	keit.
+	
+	Mund der %51
+	Wahr -- heit, dei -- nes
+	ew -- gen Lich -- tes
+	Klar -- heit zeu -- get
+	von __ der letz -- ten %55
+	Zeit in __
+	der tief -- ſten Nied -- rig --
+	keit.
+	Mund der
+	Wahr -- heit, __ %60
+	dei -- nes
+	ew -- gen __
+	Lich -- tes
+	Klar -- _
+	_ _ %65
+	_ _
+	_ _ heit
+	zeu -- get __
+	von __ der
+	letz -- ten %70
+	Zeit
+	in der
+	tief -- ſten
+	Nied -- rig --
+	keit, in der tief -- ſten %75
+	Nied -- rig --
+	keit,
+	in der
+	tief -- ſten Nied -- rig --
+	keit, %80
+	
+	in der
+	tief -- ſten
+	Nied -- rig --
+	keit. %85
+
+	Laß __ uns %99
+	doch vor %100
+	dir __ be --
+	ſte -- hen,
+	wenn __ wir
+	dich in
+	Wol -- ken %105
+	ſe -- hen und des
+	letz -- ten Ta -- ges
+	Nacht, des
+	letz -- ten Ta -- ges
+	Nacht dei -- ne %110
+	Läſt -- rer zit -- ternd
+	macht, dei -- ne
+	Läſt -- _
+	_ _
+	_ _ %115
+	_ rer, dei -- ne
+	Läſt -- rer
+	zit -- ternd
+	macht. %119 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
