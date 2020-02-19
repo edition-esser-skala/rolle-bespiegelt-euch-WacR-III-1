@@ -1935,6 +1935,24 @@ MundDerBassFigures = \figuremode {
 	r2 %126 finis
 }
 
+UndDerGantzeOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \tempoUndDerGantze
+		b1~
+		b~
+		b~
+		b2. r4\fermata \bar "|." %4 finis
+	}
+}
+
+UndDerGantzeBassFigures = \figuremode {
+	<5 3>1
+	<\t \t>2 <7 4>
+	<7 4 2>1
+	<\t \t \t>2 <5 3> %4 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

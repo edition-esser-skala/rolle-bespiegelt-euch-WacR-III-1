@@ -1186,6 +1186,24 @@ WasDuerfenWirTenoreLyrics = \lyricmode {
 	de.
 }
 
+UndDerGantzeTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 4/4 \autoBeamOff \tempoUndDerGantze
+		b8 b b c d4 d8 es
+		f4 r8 f f c c c16 d
+		es8 es r16 es es c a8 a a b
+		c4 d8 es d d r4\fermata \bar "|." %4 finis
+	}
+}
+
+UndDerGantzeTenoreLyrics = \lyricmode {
+	Und der gant -- ze Hauf -- fe ſtund
+	auf und führ -- ten Ihn für Pi --
+	la -- tum, \xE und fin -- gen \x an, Ihn zu ver -- 
+	kla -- gen, und ſpra -- chen: %4 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

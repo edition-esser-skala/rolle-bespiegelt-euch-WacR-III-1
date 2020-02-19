@@ -302,7 +302,7 @@ tempoMarkup =
 
 tempoBespiegeltEuch = \tempoMarkup "Coro"
 tempoGuteNacht = \tempoMarkup "Choral con Instrum:"
-tempoJesusGingHinauf = \tempoMarkup "Evang: Luca XXII. 39."
+tempoJesusGingHinauf = \tempoMarkup "[Recitativo]"
 tempoLassetUnsZu = \tempoMarkup "Ebr: XIII. 13"
 tempoAlsErDahinKam = \tempoMarkup "[Recitativo]"
 	tempoAlsErDahinKamB = \tempoMarkup "Adagio"
@@ -347,6 +347,8 @@ tempoDieMaennerAber = \tempoMarkup "[Recitativo]"
 	tempoDieMaennerAberG = \tempoMarkup "[Recitativo]"
 tempoWasDuerfenWir = \tempoMarkup "Allegro"
 tempoMundDer = \tempoMarkup "[Aria]"
+
+tempoUndDerGantze = \tempoMarkup "[Recitativo]"
 
 
 
