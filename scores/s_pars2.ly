@@ -47,76 +47,104 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.2" "C O R O" "Dieſen finden wir, daß Er das Volck abwendet"
+% 		}
+% 		\paper { systems-per-page = #1 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe I"
+% 							\DiesenFindenWirOboeI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe II"
+% 							\DiesenFindenWirOboeII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\DiesenFindenWirViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\DiesenFindenWirViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\DiesenFindenWirViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Canto"
+% 						\new Voice = "Soprano" { \dynamicUp \DiesenFindenWirSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \DiesenFindenWirSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \DiesenFindenWirAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \DiesenFindenWirAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \DiesenFindenWirTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \DiesenFindenWirTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \DiesenFindenWirBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \DiesenFindenWirBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\DiesenFindenWirOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \DiesenFindenWirBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4. = 70 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.2" "C O R O" "Dieſen finden wir, daß Er das Volck abwendet"
+			movement = \movementTitle "2.3" "R E C I T A T I V O" "Pilatus aber fragte Ihn"
 		}
-		\paper { systems-per-page = #1 }
+		\paper {
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #4
+		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Oboe I"
-							\DiesenFindenWirOboeI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Oboe II"
-							\DiesenFindenWirOboeII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\DiesenFindenWirViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\DiesenFindenWirViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\DiesenFindenWirViola
-					}
-				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Canto"
-						\new Voice = "Soprano" { \dynamicUp \DiesenFindenWirSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \DiesenFindenWirSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \DiesenFindenWirAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \DiesenFindenWirAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \DiesenFindenWirTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \DiesenFindenWirTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \DiesenFindenWirBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \DiesenFindenWirBassoLyrics
-				>>
+				\new Staff {
+					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Pilatus" } }
+					\new Voice = "Tenore" { \dynamicUp \PilatusAberTenoreNotes }
+				}
+				\new Lyrics \lyricsto Tenore \PilatusAberTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\DiesenFindenWirOrgano
+						\PilatusAberOrgano
 					}
 				>>
-				\new FiguredBass { \DiesenFindenWirBassFigures }
+				\new FiguredBass { \PilatusAberBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4. = 70 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

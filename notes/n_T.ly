@@ -1293,6 +1293,36 @@ DiesenFindenWirTenoreLyrics = \lyricmode {
 	nig.
 }
 
+PilatusAberTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoPilatusAber
+		r4 r8 g^\Evangelist c c c d
+		b b b c a4 \clef bass r8 a^\Pilatus
+		a a gis a h h \clef "treble_8" r e16^\Evangelist e
+		e8 h16 h h8 c d4 \clef bass r8 c^\Jesus
+		a a \clef "treble_8" r c h fis fis4 %5
+		a8 a c h g g c c
+		h4 \clef bass r8 h^\Pilatus e e e cis
+		ais ais16 ais ais8 h fis fis r4
+		\clef "treble_8" r8 h^\Evangelist h cis d d d e
+		cis4 cis r2\fermata \bar "|." %10
+	}
+}
+
+PilatusAberTenoreLyrics = \lyricmode {
+	Pi -- la -- tus a -- ber
+	frag -- te Ihn und ſprach: Biſ --
+	tu der Jü -- den Kö -- nig? Er ant --
+	wor -- te -- te ihm und ſprach: Du
+	ſa -- geſts. Pi -- la -- tus ſprach %5
+	zu den Ho -- hen -- prieſ -- tern und zum
+	Volck: Ich fin -- de kei -- ne
+	Ur -- ſach an die -- ſem Men -- ſchen.
+	Sie a -- ber hiel -- ten an und
+	ſpra -- chen: %10 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

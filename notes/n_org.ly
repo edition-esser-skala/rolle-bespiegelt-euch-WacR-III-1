@@ -2053,6 +2053,36 @@ DiesenFindenWirBassFigures = \figuremode {
 	r2. %45 fini9s
 }
 
+PilatusAberOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoPilatusAber
+		e1~
+		e2 f~
+		f \once \tieDashed gis,~
+		gis1
+		a2 dis~ %5
+		dis e4 fis
+		g1
+		e2 r4 fis
+		h,2~ h
+		a r\fermata \bar "|." %10
+	}
+}
+
+PilatusAberBassFigures = \figuremode {
+	<6>1
+	<[5-]>
+	r2 <6 _!>
+	r <[5]>
+	r <[6 _+]> %5
+	r2. <[6 5]>4
+	<[5]>2 <6>
+	<[6\+] 4\+ 2>2. <[5+ _+]>4
+	<[5+]>2 <6\\>
+	<[_+]>1 %10 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -288,6 +288,7 @@ MagdIII = \markup { \remark "Magd III" }      %S
 Evangelist = \markup { \remark "Evangeliſt" } %T
 Petrus = \markup { \remark "Petrus" }         %T
 Jesus = \markup { \remark "Jeſus" }           %B
+Pilatus = \markup { \remark "Pilatus" }       %B
 
 
 
@@ -350,6 +351,7 @@ tempoMundDer = \tempoMarkup "[Aria]"
 
 tempoUndDerGantze = \tempoMarkup "[Recitativo]"
 tempoDiesenFindenWir = \tempoMarkup "Molto allegro"
+tempoPilatusAber = \tempoMarkup "[Recitativo]"
 
 
 
