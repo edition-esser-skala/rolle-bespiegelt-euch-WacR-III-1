@@ -327,3 +327,25 @@ DiesenFindenWirOboeII = {
 		g r\fermata \bar "|." %45 finis
 	}
 }
+
+ErHatDasVolckOboeII = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 4/4 \tempoErHatDasVolck
+		\partial 8 e8\fE a a a cis d cis r e,
+		d4. e8 gis32( a h16) a8 r e
+		d4. e8 gis32( a h16) a8 r a
+		h4 a gis r
+		r r8 \mvTr gis\pE-\solo fis4 fis %5
+		fis8 e16 dis e8 fis16 gis a4 a
+		a \once \tieDashed gis~ gis8 a16 gis \appoggiatura gis8 fis4
+		e4 r r r8 \mvTr e\fE-\tuttiE
+		e a a a a gis e g
+		g fis a h e, a cis e, %10
+		e4 a2 gis4~
+		gis fis2 e4~
+		e8 a a a a2~
+		a4 fis e8 gis a a
+		a4 gis\trill a r8\fermata \bar "|." %15 finis
+	}
+}

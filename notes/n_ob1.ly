@@ -320,3 +320,25 @@ DiesenFindenWirOboeI = {
 		g r\fermata \bar "|." %45 finis
 	}
 }
+
+ErHatDasVolckOboeI = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 4/4 \tempoErHatDasVolck
+		\partial 8 e8\fE a cis cis e fis e a,4~
+		a8 gis16 a h8 cis h32( cis d16) cis8 a4~
+		a8 gis16 a h8 cis h32( cis d16) cis8 r e
+		d4 cis h r8 \mvTr h\pE-\solo
+		e4 e e8 dis16 cis dis8 e16 fis %5
+		gis4 gis gis8 fis16 e fis gis a fis
+		dis8 cis16 h e4~ e8 fis \appoggiatura e dis4
+		e r r2
+		R1
+		r2 r8 \mvTr e\fE-\tuttiE a a %10
+		a gis e g g fis d fis
+		fis e cis e e d h d
+		d cis cis cis cis2
+		h4 a gis8 d' cis h
+		a4 h\trill a r8\fermata \bar "|." %15 finis
+	}
+}

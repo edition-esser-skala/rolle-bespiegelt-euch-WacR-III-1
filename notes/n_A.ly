@@ -1116,6 +1116,46 @@ DiesenFindenWirAltoLyrics = \lyricmode {
 	nig. %45 finis
 }
 
+ErHatDasVolckAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 4/4 \autoBeamOff \tempoErHatDasVolck
+		\partial 8 \mvTr e8\fE^\tuttiE e a a a a a a4~
+		a8 gis16 a gis8 a gis32([ a h16)] a8 a4~
+		a8 gis16 a gis8 a gis32([ a h16)] a8 r a
+		h4 a gis r
+		r r8 \mvTr gis\pE^\soloE fis4 fis %5
+		fis8([ e16 dis] e8) fis16([ gis)] a4 a8 a
+		a a gis gis fis a16 gis \appoggiatura gis8 fis4^\critnote
+		e r r r8 \mvTr e\fE^\tutti
+		e a a a a gis e g
+		g fis a h e, a cis e, %10
+		e e r a a a r gis
+		gis gis r a cis h r h
+		h a r4 r8 a a a
+		a fis fis fis e([ gis)] a a
+		a4( gis)\trill a r8\fermata %15 finis
+	}
+}
+
+ErHatDasVolckAltoLyrics = \lyricmode {
+	\xE Er hat das Volck er -- re -- get, \x Er __
+	hat das Volck er -- re -- get, Er __
+	hat das Volck er -- re -- get da --
+	\xE mit, da -- mit,
+	\x daß er ge -- %5
+	leh -- ret hat hin und
+	her im gant -- zen jü -- di -- ſchen Lan --
+	de, und
+	hat in Ga -- li -- lä -- a an -- ge -- 
+	fan -- gen, an -- ge -- fan -- gen, an -- ge -- %10
+	fan -- gen bis hie -- her, bis
+	hie -- her, bis \xE hie -- her, bis
+	hie -- her, in Ga -- li --
+	lä -- a an -- ge -- fan -- gen bis
+	hie -- her. %15 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

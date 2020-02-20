@@ -841,6 +841,46 @@ DiesenFindenWirSopranoLyrics = \lyricmode {
 	nig. %45 finis
 }
 
+ErHatDasVolckSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 4/4 \autoBeamOff \tempoErHatDasVolck
+		\partial 8 \mvTr e8\fE^\tuttiE a cis cis e fis e a,4~
+		a8 gis16 a h8 cis h32([ cis d16)] cis8 a4~
+		a8 gis16 a h8 cis h32([ cis d16)] cis8 r e
+		d4 cis h r8 \mvTr h\pE^\solo
+		e4 e e8([ dis16 cis] dis8) e16([ fis)]
+		gis4 gis8 gis gis fis16([ e)] fis([ gis)] a([ fis)]
+		dis8([ cis16 h]) e4~ e8 fis \appoggiatura e dis4
+		e r r2
+		R1
+		r2 r8 \mvTr e\fE^\tutti a a
+		a gis e g g fis r fis
+		fis e r e e d r d
+		d cis r4 r8 fis fis fis
+		fis a, a a gis([ d')] cis h
+		a4( h)\trill a r8\fermata \bar "|."
+	}
+}
+
+ErHatDasVolckSopranoLyrics = \lyricmode {
+	\xE Er hat das Volck er -- re -- get, Er __
+	hat das Volck er -- re -- get, Er __
+	hat das Volck er -- re -- get \x da --
+	\xE mit, da -- mit, \x daß
+	er ge -- leh -- ret %5
+	hat hin und her im gant -- zen
+	jü -- di -- ſchen Lan --
+	de,
+	
+	in Ga -- li -- %10
+	lä -- a an -- ge -- fan -- gen bis
+	hie -- her, bis \xE hie -- her, bis
+	hie -- her, in Ga -- li --
+	lä -- a an -- ge -- fan -- gen bis
+	hie -- her. %15 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -869,3 +869,24 @@ DiesenFindenWirViolinoII = {
 		g r\fermata \bar "|." %45 finis
 	}
 }
+
+ErHatDasVolckViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 4/4 \tempoErHatDasVolck
+		\partial 8 e8\fE cis'16 a e' a, a' e cis a d8 cis a4~
+		a8 gis16 a gis8-\critnote a \once \slurDashed gis32( a h16) a8 a4~
+		a8 gis16 a gis8 a \once \slurDashed gis32( a h16) a8 r a
+		h4 a gis r
+		R1*2 %6
+		r2 r4 r8 h,\fE
+		e e16 fis gis fis gis a h8 h16 a gis fis gis e
+		a8 a,16 h cis h cis d! e8 e16 d cis h cis a
+		d cis d e fis e fis gis a8 cis16 a cis e a a %10
+		a8 gis a,2 gis!4~
+		gis fis2 e4~
+		e8 a a a a2~
+		a4 fis e8 gis a a
+		a4 gis\trill a r8\fermata \bar "|." %15 finis
+	}
+}

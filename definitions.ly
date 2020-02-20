@@ -352,6 +352,7 @@ tempoMundDer = \tempoMarkup "[Aria]"
 tempoUndDerGantze = \tempoMarkup "[Recitativo]"
 tempoDiesenFindenWir = \tempoMarkup "Molto allegro"
 tempoPilatusAber = \tempoMarkup "[Recitativo]"
+tempoErHatDasVolck = \tempoMarkup "Vivace"
 
 
 

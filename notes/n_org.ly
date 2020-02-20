@@ -2083,6 +2083,46 @@ PilatusAberBassFigures = \figuremode {
 	<[_+]>1 %10 finis
 }
 
+ErHatDasVolckOrgano = {
+	\relative c {
+		\clef bass
+		\key a \major \time 4/4 \tempoErHatDasVolck
+		\partial 8 \mvTr a'8\fE-\tuttiE a a a a a a, r cis'
+		h4. a8 e a, r cis'
+		h4. a8 e a, r cis'
+		gis e a a, e'4 r
+		r8 \mvTr e\p-\soloE gis e h' h, h h' %5
+		r e, gis cis, fis fis, fis fis'
+		h h, h cis' a fis h h,
+		e4 r8 \mvTr e\f-\tuttiE h4 e
+		a, r8 a e'4 a,
+		d!8 d fis gis! a a, a a' %10
+		e e'16 d cis h cis a d,8 d'16 cis h a h gis
+		cis,8 cis'16 h a gis a fis h,8 h'16 a gis fis gis e
+		a,8 a'16 gis fis gis fis e dis2~
+		dis e4 a8 dis,
+		e4 e, a r8\fermata \bar "|." %15 finis
+	}
+}
+
+ErHatDasVolckBassFigures = \figuremode {
+	r8 r2 <[6] 4>8 <[5] 3> r <[6]>
+	<7>4 <6> <[7]>4. <6>8
+	<7>4 <6> <[7]>4. <[6]>8
+	<[6 5]>1
+	r4 <6> <[4]> <[_+]> %5
+	<[9]> <[6]> <[9]> <[8]>
+	<[7 _+]>4 <[6 4]>4 <[6 5]> <[6 4]>8 <[5 _+]>
+	r2 <4>8 <_+> <7!>4
+	<4>8 <3>4. <[4]>8 <[3]> <[7!]>4
+	<[4!]>8 <[3]> <[6]> <[6 5]> <[4]> <[3]>4. %10
+	<[6 4]>8 <[5 3]> <[6 5!]>4 <[9 4!]>8 <[8 3]> <[6+ 5]>4
+	<[9 4]>8 <[8 3]> <[6 5]>4 <[9 4]>8 <[8 3]> <[6 5]>4
+	<[9 4]>8 <[8 3]>4. <7>2
+	<6 5>2 <[7]>4. <[6 5]>8
+	<[6] 4>4 <[7!] 3> r4. %15 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

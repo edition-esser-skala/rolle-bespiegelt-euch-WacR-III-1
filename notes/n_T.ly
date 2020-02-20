@@ -1323,6 +1323,40 @@ PilatusAberTenoreLyrics = \lyricmode {
 	ſpra -- chen: %10 finis
 }
 
+ErHatDasVolckTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \major \time 4/4 \autoBeamOff \tempoErHatDasVolck
+		\partial 8 \mvTr cis8\fE^\tuttiE cis e e cis d cis r e
+		d4. e8 e e r e
+		d4. e8 e e r e
+		e4 e e r
+		R1*4 %8
+		r2 r4 r8 \mvTr a,\fE^\tutti
+		a d d d d cis a cis %10
+		cis h r e e d r d
+		d cis r fis fis fis r e
+		e e r4 r8 dis dis dis
+		dis h h h e4 e8 fis
+		e4( d) cis r8\fermata \bar "|."
+	}
+}
+
+ErHatDasVolckTenoreLyrics = \lyricmode {
+	\xE Er hat das Volck er -- re -- get, \x das
+	Volck er -- re -- get, das
+	Volck er -- re -- get da --
+	\xE mit, da -- mit, \x
+	
+	und %9
+	hat in Ga -- li -- lä -- a an -- ge -- %10
+	fan -- gen bis hie -- her, bis
+	hie -- her, \xE bis hie -- her, bis
+	hie -- her, in Ga -- li --
+	lä -- a an -- ge -- fan -- gen bis
+	hie -- her. %15 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

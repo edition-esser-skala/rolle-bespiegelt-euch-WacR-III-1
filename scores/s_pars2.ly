@@ -119,32 +119,104 @@
 % 			\midi { \tempo 4. = 70 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.3" "R E C I T A T I V O" "Pilatus aber fragte Ihn"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #4
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Pilatus" } }
+% 					\new Voice = "Tenore" { \dynamicUp \PilatusAberTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \PilatusAberTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\PilatusAberOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \PilatusAberBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.3" "R E C I T A T I V O" "Pilatus aber fragte Ihn"
+			movement = \movementTitle "2.4" "C O R O" "Er hat das Volck erreget"
 		}
-		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #4
-		}
+		\paper { systems-per-page = #1 }
 		\score {
 			<<
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Pilatus" } }
-					\new Voice = "Tenore" { \dynamicUp \PilatusAberTenoreNotes }
-				}
-				\new Lyrics \lyricsto Tenore \PilatusAberTenoreLyrics
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Oboe I"
+							\ErHatDasVolckOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe II"
+							\ErHatDasVolckOboeII
+						}
+					>>
+				>>
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\ErHatDasVolckViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\ErHatDasVolckViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\ErHatDasVolckViola
+					}
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Canto"
+						\new Voice = "Soprano" { \dynamicUp \ErHatDasVolckSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \ErHatDasVolckSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \ErHatDasVolckAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \ErHatDasVolckAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \ErHatDasVolckTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \ErHatDasVolckTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \ErHatDasVolckBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \ErHatDasVolckBassoLyrics
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\PilatusAberOrgano
+						\ErHatDasVolckOrgano
 					}
 				>>
-				\new FiguredBass { \PilatusAberBassFigures }
+				\new FiguredBass { \ErHatDasVolckBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 100 }
 		}
 	}
 }

@@ -869,3 +869,24 @@ DiesenFindenWirViola = {
 		b4. r\fermata \bar "|." %45 finis
 	}
 }
+
+ErHatDasVolckViola = {
+	\relative c' {
+		\clef alto
+		\key a \major \time 4/4 \tempoErHatDasVolck
+		\partial 8 cis8\fE cis e e a a a, r e'
+		d4. e8 e e r e
+		d4. e8 e e r e
+		e4 e e r
+		R1*2 %6
+		r2 r4 r8 h\fE
+		e e16 fis gis fis gis a h8 h16 a gis fis gis e
+		a8 a,16 h cis d! cis d e8 e16 d cis h cis a
+		d cis d e fis e fis gis a8 cis, e cis %10
+		cis h cis'16 h cis a d,8 d'16 cis h a h gis
+		cis,8 cis'16 h a gis a fis h,8 h'16 a gis fis gis e
+		a,8 a'16 gis fis gis fis e dis2~
+		dis e4 e8 fis^\critnote
+		cis4 d cis r8\fermata \bar "|." %15 finis
+	}
+}

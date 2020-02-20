@@ -854,6 +854,27 @@ DiesenFindenWirViolinoI = {
 	}
 }
 
+ErHatDasVolckViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 4/4 \tempoErHatDasVolck
+		\partial 8 e8\fE cis'16 a e' a, a' e cis a fis'8 e a,4~
+		a8 gis16 a h8 cis h32( cis d16) cis8 a4~
+		a8 gis16 a h8 cis h32( cis d16) cis8 r e
+		d4 cis h r
+		R1*2 %6
+		r2 r4 r8 h,\fE
+		e e16 fis gis fis gis a h8 h16 a gis fis gis e
+		a8 a,16 h cis h cis d! e8 e16 d cis h cis a
+		d cis d e fis e fis gis a8 cis16 a cis e a a %10
+		a8 gis e g g fis d fis
+		fis e cis e e d h d
+		d cis cis cis cis2
+		h4 a gis8 d' cis h
+		a4 h\trill a r8\fermata \bar "|." %15 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

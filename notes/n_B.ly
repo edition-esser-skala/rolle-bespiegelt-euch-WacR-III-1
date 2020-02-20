@@ -644,6 +644,44 @@ DiesenFindenWirBassoLyrics = \lyricmode {
 	nig. %45 finis
 }
 
+ErHatDasVolckBassoNotes = {
+	\relative c {
+		\clef bass
+		\key a \major \time 4/4 \autoBeamOff \tempoErHatDasVolck
+		\partial 8 \mvTr a'8\fE^\tuttiE a a a a a a, r cis'
+		h4. a8 e a, r cis'
+		h4. a8 e a, r cis'
+		gis4 a e r
+		R1*2 %6
+		r2 r4 r8 \mvTr h'\fE^\tutti
+		h e e e e dis h d
+		d cis a cis h e, r cis'
+		d! d, fis gis! a a a a %10
+		e e r cis' d d, r h'
+		cis cis, r a' h h, r gis'
+		a a, r4 r8 dis dis dis
+		dis dis dis dis e4 a8 dis,
+		e2 a,4 r8\fermata \bar "|." %15 finis
+	}
+}
+
+ErHatDasVolckBassoLyrics = \lyricmode {
+	Er hat das Volck er -- re -- get, das
+	Volck er -- re -- get, das
+	Volck er -- re -- get da --
+	mit, da -- mit,
+	
+	und %7
+	hat in Ga -- li -- lä -- a an -- ge --
+	fan -- gen, an -- ge -- fan -- gen, und
+	hat in Ga -- li -- lä -- a an -- ge -- %10
+	fan -- gen bis hie -- her, bis
+	hie -- her, bis hie -- her, bis
+	hie -- her, in Ga -- li --
+	lä -- a an -- ge -- fan -- gen bis
+	hie -- her. %15 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass
