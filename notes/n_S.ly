@@ -759,6 +759,88 @@ WasDuerfenWirSopranoLyrics = \lyricmode {
 	de. %23 finis
 }
 
+DiesenFindenWirSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 6/8 \autoBeamOff \tempoDiesenFindenWir
+		d4. d
+		d8 d d d d d
+		es4. fis
+		g4 d8 a'4 d,8
+		b'4. fis %5
+		g4 d8 a' a d,
+		b' a g es' d c
+		b16([ a)] g8 r r4.
+		R2.*10 %18
+		g4. g
+		g8 g g g g g %20
+		b4. cis
+		d4 a8 e'4 a,8
+		f'4. cis
+		d4 a8 e' e a,
+		f' e d g f e %25
+		f16([ e)] d8 r r4.
+		r8 c b a d c
+		b4. fis
+		g a4 d8
+		b4.( fis) %30
+		g8 g' f! es d c
+		h16([ a)] g8 r r4.
+		r8 f' es d g f
+		es4. h
+		c d4 g8 %35
+		es4.( h)
+		c4 es8 d4 r8
+		r d c b a g
+		fis4. g
+		r8 d' c b a g %40
+		fis4. g
+		r8 g' f! es d c
+		fis4. g4 c,8
+		b4.( a)
+		g r\fermata \bar "|." %45 finis
+	}
+}
+
+DiesenFindenWirSopranoLyrics = \lyricmode {
+	\xE Die -- ſen
+	fin -- den wir, daß Er das
+	Volck ab --
+	wen -- det und ver --
+	beut, den %5
+	Schos dem Kay -- ſer zu
+	ge -- ben, und ſpricht, Er ſey
+	Chri -- ſtus. \x
+	
+	Die -- ſen %19
+	fin -- den wir, daß Er das %20
+	Volck ab --
+	wen -- det und ver --
+	beut, den
+	Schos dem Kay -- ſer zu
+	ge -- ben, und ſpricht, Er ſey %25
+	Chri -- ſtus,
+	Er ſey Chri -- ſtus, ein
+	Kö -- nig,
+	Chri -- ſtus, ein
+	Kö -- %30
+	nig, Er ſey Chri -- ſtus, ein
+	\xE Kö -- nig, \x
+	Er ſey Chri -- ſtus, ein
+	Kö -- nig,
+	Chri -- ſtus, ein %35
+	Kö --
+	nig, und ſpricht,
+	\xE Er ſey Chri -- ſtus, ein
+	Kö -- nig,
+	Er ſey Chri -- ſtus, ein %40
+	Kö -- \x nig,
+	Er ſey Chri -- ſtus, ein
+	Kö -- nig, ein
+	Kö --
+	nig. %45 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

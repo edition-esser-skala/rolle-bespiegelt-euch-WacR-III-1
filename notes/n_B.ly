@@ -567,6 +567,83 @@ WasDuerfenWirBassoLyrics = \lyricmode {
 	de. %23 finis
 }
 
+DiesenFindenWirBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 6/8 \autoBeamOff \tempoDiesenFindenWir
+		R2.*12 %12
+		d4. d
+		d8 d d d d d
+		es!4. fis %15
+		g4 d8 a'4 d,8
+		b'4. fis
+		g4 d8 a' a d,
+		b' a g es' d c
+		b([ a)] g r4. %20
+		r8 g f e a g
+		f4. cis
+		d e4 a8
+		f4.( cis)
+		d r %25
+		r8 d' c! b a g
+		c,4. d4 d8
+		g4 b8 d4 d8
+		d4. d,4 r8
+		R2. %30
+		g4. g
+		g8 g g g g g
+		as4. h
+		c4 g8 d'4 g,8
+		es'4. h %35
+		c4 g8 d' d g,
+		es' d c b! a g
+		d' d, r r4.
+		r8 d' c b a g
+		fis4. g %40
+		r8 d' c b a g
+		c2.~
+		c8[ b a] b4 c8
+		d4.( d,)
+		g r\fermata \bar "|." %45 finis
+	}
+}
+
+DiesenFindenWirBassoLyrics = \lyricmode {
+	Die -- ſen %13
+	fin -- den wir, daß Er das
+	Volck ab -- %15
+	wen -- det und ver --
+	beut, den
+	Schos dem Kay -- ſer zu
+	ge -- ben, und ſpricht, Er ſey
+	Chri -- ſtus, %20
+	Er ſey Chri -- ſtus, ein
+	Kö -- nig,
+	Chri -- ſtus, ein
+	Kö --
+	nig, %25
+	die -- ſen fin -- den wir,
+	daß Er das
+	Volck, \xE das Volck \x ab --
+	wen -- det.
+	%30
+	Die -- ſen
+	fin -- den wir, daß Er das
+	Volck ab --
+	wen -- det und ver --
+	beut, den %35
+	Schos dem Kay -- ſer zu
+	ge -- ben, und ſpricht, Er ſey
+	Chri -- ſtus,
+	Er ſey Chri -- ſtus, ein
+	Kö -- nig, %40
+	Er ſey Chri -- ſtus, ein
+	Kö --
+	nig, ein
+	Kö --
+	nig. %45 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

@@ -822,3 +822,50 @@ MundDerViola = {
 		d,4 r \bar "S-S" %126 finis
 	}
 }
+
+DiesenFindenWirViola = {
+	\relative c' {
+		\clef alto
+		\key g \minor \time 6/8 \tempoDiesenFindenWir
+		R2.*6 %6
+		g4. g
+		g8 g g g g g
+		b4. cis
+		d4 a8 e'4 a,8 %10
+		f'4 a,8 cis4 a8
+		d4 a8 e'4 a,8
+		f' e d g f e
+		f16 e? d8 r r4.
+		r8 c b a d c %15
+		b d, b' fis d fis
+		g d g a d, d'
+		b d, b' fis d fis
+		g4 r8 g' f! es
+		d c b r4. %20
+		d4. e4 e8
+		f4. e
+		d4 r8 r4.
+		R2.
+		d4. d %25
+		d8 d d d d d
+		es!4. fis
+		g4 d8 a'4 d,8
+		b'4 d,8 fis4 d8
+		d4 d8 d d d %30
+		d g, r r4 g'8
+		g d es f es d
+		c4. d
+		c f
+		es d %35
+		es8 d c f4.
+		es8 d c d fis g
+		<d a'>4 r8 <d b'>4 r8
+		<d a'>4 r8 <d b'>4 r8
+		<d a'>4 r8 <d b'>4 r8 %40
+		<d a'>4 r8 <d b'>4 g,8
+		es'2.
+		\once \tieDashed d4.~ d4 es8
+		d2.
+		b4. r\fermata \bar "|." %45 finis
+	}
+}

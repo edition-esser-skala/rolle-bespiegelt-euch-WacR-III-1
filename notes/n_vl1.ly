@@ -811,6 +811,49 @@ MundDerViolinoI = {
 	}
 }
 
+DiesenFindenWirViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 6/8 \tempoDiesenFindenWir
+		d4. d
+		d8 d d d d d
+		es4. fis
+		g4 d8 a'4 d,8
+		b'4 d,8 fis4 d8 %5
+		g4 d8 a'4 d,8
+		b' a g es' d c
+		b16 a g8 r r4.
+		R2.*10 %18
+		g4. g
+		g8 g g g g g %20
+		b4. cis
+		d4 a8 e'4 a,8
+		f'4 a,8 cis4 a8
+		d4 a8 e'4 a,8
+		f' e d g f e %25
+		f16 e d8 r r4.
+		r8 c b a d c
+		b d, b' fis d fis
+		g d g a d, d'
+		b d, b' fis d fis %30
+		g g' f! es d c
+		h16 a g8 r r4.
+		r8 f' es d g f
+		es g, es' h g h
+		c g c d g, g' %35
+		es g, es' h g h
+		c d es d c b
+		<fis' a, d,>4 d,8 <d b' g'>4 d8
+		<d a' fis'>4 d8 <d b' g'>4 d8
+		<d a' fis'>4 d8 <d b' g'>4 d8 %40
+		<d a' fis'>4 d8 <g, d' b'>4 g8
+		r8 g'' f! es d c
+		fis4. g4 c,8
+		b4. a\trill
+		g r\fermata \bar "|." %45 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

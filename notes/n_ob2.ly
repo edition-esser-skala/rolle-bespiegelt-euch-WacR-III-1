@@ -292,3 +292,38 @@ DieMaennerAberOboeII = {
 		R1*2 \bar "|." %49 finis
 	}
 }
+
+DiesenFindenWirOboeII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 6/8 \tempoDiesenFindenWir
+		R2.*18 %18
+		g'4. g
+		g8 g g g g g %20
+		g4.~ g8 e a
+		a4. a
+		a a
+		a a
+		a8 g f b a g %25
+		a d, r g a b
+		a4. fis
+		g4 d8 a'4 d,8
+		b'4 d,8 fis4 d8
+		g4 d8 a'4 d,8 %30
+		b' g g c d es
+		r h c d c h
+		c4. g
+		g g
+		g g %35
+		g g
+		g g8 fis g
+		fis4 a8 b4 g8
+		fis4 r8 g4 r8
+		a4 d8 d4 g,8 %40
+		fis4 r8 g4 r8
+		g2.
+		a4. g8 a4
+		g4. fis\trill
+		g r\fermata \bar "|." %45 finis
+	}
+}

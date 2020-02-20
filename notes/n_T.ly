@@ -1204,6 +1204,95 @@ UndDerGantzeTenoreLyrics = \lyricmode {
 	kla -- gen, und ſpra -- chen: %4 finis
 }
 
+DiesenFindenWirTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \minor \time 6/8 \autoBeamOff \tempoDiesenFindenWir
+		R2.*6 %6
+		g4. g
+		g8 g g g g g
+		b4. cis
+		d4 a8 e'4 a,8 %10
+		f'4. cis
+		d4 a8 e' e a,
+		f' e d g f e
+		f16([ e?)] d8 r r4.
+		r8 c b a d c %15
+		b4. fis
+		g a4 d8
+		b4.( fis)
+		g4 r8 g' f! es
+		d([ c)] b r4. %20
+		d4. e4 e8
+		f4.( e)
+		d4 r8 r4.
+		R2.
+		d4. d %25
+		d8 d d d d d
+		es!4. fis
+		g4 d8 d4 d8
+		d4. d
+		d4 d8 d d d %30
+		d g, r r4 g'8
+		g d es f es d
+		c4. d
+		c f4 f8
+		es4. d %35
+		c f4 f8
+		es([ d)] c d fis g
+		fis d r r4.
+		r8 d c b a g
+		fis4. g %40
+		r8 d' c b a g
+		es'2.
+		d4.~ d4 es8
+		d2.
+		b4. r\fermata \bar "|." %45 finis
+	}
+}
+
+DiesenFindenWirTenoreLyrics = \lyricmode {
+	Die -- ſen %7
+	fin -- den wir, daß Er das
+	Volck ab --
+	wen -- det und ver -- %10
+	beut, den
+	Schos dem Kay -- ſer zu
+	ge -- ben, und ſpricht, Er ſey
+	Chri -- ſtus,
+	Er ſey Chri -- ſtus, ein %15
+	Kö -- nig,
+	Chri -- ſtus, ein
+	Kö --
+	nig, Chri -- ſtus, ein
+	Kö -- nig, %20
+	Chri -- ſtus, ein
+	Kö --
+	nig.
+	
+	Die -- ſen %25
+	fin -- den wir, daß Er das
+	Volck ab --
+	wen -- det und ver --
+	beut, den
+	Schos dem Kay -- ſer zu %30
+	ge -- ben, und
+	ſpricht, Er ſey Chri -- ſtus, ein
+	Kö -- nig,
+	Chri -- ſtus, ein
+	Kö -- nig, %35
+	Chri -- ſtus, ein
+	Kö -- nig, Chri -- ſtus, ein
+	Kö -- nig,
+	\xE Er ſey Chri -- ſtus, ein
+	Kö -- nig, %40
+	Er ſey Chri -- ſtus, ein \x
+	Kö --
+	nig, __ \xE ein
+	Kö --
+	nig.
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

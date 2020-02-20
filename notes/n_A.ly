@@ -1016,6 +1016,106 @@ MundDerAltoLyrics = \lyricmode {
 	macht. %119 finis
 }
 
+DiesenFindenWirAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 6/8 \autoBeamOff \tempoDiesenFindenWir
+		d4. d
+		d8 d d d d d
+		es4. fis
+		g4 d8 a'4 d,8
+		b'4. fis %5
+		g4 d8 a' a d,
+		b' a g es' d c
+		b16([ a)] g8 r r4.
+		r8 g f! e a g
+		f4. cis %10
+		d e4 a8
+		f4.( cis)
+		d4 r8 b' a g
+		a16([ g)] f8 r d4 d'8
+		g,4. a %15
+		d, c'8 c a
+		d4. d
+		d d,4 r8
+		g4. g
+		g8 g g g g g %20
+		g4. r4 a8
+		a4 a8 a4 a8
+		a4. a
+		a4 a8 a a a
+		a g f b a g %25
+		a d, r g a b
+		a4. fis
+		g4 g8 a4 d,8
+		b'4. fis
+		g4 d8 a' a d, %30
+		b' g g c d es
+		r h? c d c h?
+		c4. g
+		r8 g g g g g
+		g g g g4 g8 %35
+		g4. g4 g8
+		g4 r8 r4.
+		r8 d' c b a g
+		fis4. g
+		r8 d' c b a g %40
+		fis4. g4 g8
+		g2.
+		a4.( g4) a8
+		g4.( fis)
+		g r\fermata \bar "|." %45 finis
+	}
+}
+
+DiesenFindenWirAltoLyrics = \lyricmode {
+	Die -- ſen
+	fin -- den wir, daß Er das
+	Volck ab --
+	wen -- det und ver --
+	beut, den %5
+	Schos dem Kay -- ſer zu
+	ge -- ben, und ſpricht, Er ſey
+	Chri -- ſtus,
+	Er ſey Chri -- ſtus, ein
+	Kö -- nig, %10
+	Chri -- ſtus, ein
+	Kö --
+	nig, Chri -- ſtus, ein
+	Kö -- nig, die -- ſen
+	fin -- den %15
+	wir, daß Er das
+	Volck ab --
+	wen -- det.
+	Die -- ſen
+	\xE fin -- den wir, daß Er das %20
+	Volck \x ab --
+	wen -- det und ver --
+	beut, den
+	\xE Schos dem Kay -- ſer zu
+	ge -- ben, und ſpricht, Er ſey %25
+	Chri -- ſtus, \x daß Er das
+	Volck ab --
+	wen -- det und ver --
+	beut, den
+	Schos dem Kay -- ſer zu %30
+	ge -- ben, und ſpricht, Er ſey,
+	Er ſey Chri -- ſtus, ein
+	Kö -- nig,
+	die -- ſen fin -- den wir,
+	daß Er das Volck ab -- %35
+	wen -- det und
+	ſpricht,
+	Er ſey Chri -- ſtus,
+	ein Kö -- nig,
+	Er ſey Chri -- ſtus, %40
+	ein Kö -- nig, ein
+	Kö --
+	nig, __ ein
+	\xE Kö --
+	nig. %45 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

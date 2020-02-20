@@ -349,6 +349,7 @@ tempoWasDuerfenWir = \tempoMarkup "Allegro"
 tempoMundDer = \tempoMarkup "[Aria]"
 
 tempoUndDerGantze = \tempoMarkup "[Recitativo]"
+tempoDiesenFindenWir = \tempoMarkup "Molto allegro"
 
 
 

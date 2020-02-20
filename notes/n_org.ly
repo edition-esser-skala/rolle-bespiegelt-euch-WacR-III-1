@@ -1953,6 +1953,106 @@ UndDerGantzeBassFigures = \figuremode {
 	<\t \t \t>2 <5 3> %4 finis
 }
 
+DiesenFindenWirOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 6/8 \tempoDiesenFindenWir
+		\clef treble d'4.-\critnote d
+		d8 d d d d d
+		es4. fis
+		g4 d8 a'4 d,8
+		b'4. fis %5
+		g4 d8 a' a d,
+		\clef "treble_8" g,4. g
+		g8 g g g g g
+		b4. cis
+		d4 a8 e'4 a,8 %10
+		f'4 a,8 cis4 a8
+		d4 a8 e'4 a,8
+		\clef bass d,4. d
+		d8 d d d d d
+		es!4. fis %15
+		g4 d8 a'4 d,8
+		b'4 d,8 fis4 d8
+		g4 d8 a'4 d,8
+		b' a g es' d c
+		b a g r4. %20
+		r8 g f e a g
+		f a, f' cis a cis
+		d a d e a, a'
+		f a, f' cis a cis
+		d4. r %25
+		r8 d' c! b a g
+		c,4. d
+		g4 b8 d4 d8
+		d4. d,4 r8
+		R2. %30
+		g4. g
+		g8 g g g g g
+		as4. h
+		c4 g8 d'4 g,8
+		es'4 g,8 h4 g8 %35
+		c4 g8 d'4 g,8
+		es' d c b! a g
+		d4 r8 d4 r8
+		d4 r8 d4 r8
+		d4 r8 d4 r8 %40
+		d4 r8 g4 g8
+		c,4. c'~
+		c8 b a b4 c8
+		d4. d,
+		g, r\fermata \bar "|." %45 finis
+	}
+}
+
+DiesenFindenWirBassFigures = \figuremode {
+	r2.
+	r
+	r
+	r
+	r %5
+	r
+	<[5 3]>4. <[6 4]>
+	<[5 3]>2.
+	<6>4. <6 [_!]>
+	r <6\\> %10
+	<6> <6 [_!]>
+	r <[6\\]>
+	r <6 4>
+	<5 3>2.
+	<6>4. q %15
+	r <6\\>
+	<6> q
+	r <6\\ 4>
+	<6> <[6]>
+	<[6]>2. %20
+	r4. <[6\\]>
+	<[6]> <[6 5 _!]>
+	r <[6\\] 4>
+	<[6]> <[6 5 _!]>
+	r2. %25
+	r4 <[4+ 2]>8 <6> <6\\> r
+	<6>4. <_+>
+	r4 <6>8 <_+>4.
+	<6 4> <5 _+>
+	r2. %30
+	<5 3>4. <6 4>
+	<5 _!>4 <6 4>8 <5 _!> <6 4> <5 _!>
+	<6>4. q
+	r <6!>
+	<6> <6> %35
+	r <6!>
+	<[6]> q8 <[6\\]>4
+	<_+>4. <6 4>
+	<5 _+> <6 4>
+	<5 _+> <6 4> %40
+	<5 _+>2.
+	r
+	<6 [4+] 2>4. <6>4 q8
+	<6 4>4. <5 _+>
+	r2. %45 fini9s
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -817,3 +817,55 @@ MundDerViolinoII = {
 		d4 r \bar "S-S" %126 finis
 	}
 }
+
+DiesenFindenWirViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 6/8 \tempoDiesenFindenWir
+		d4. d
+		d8 d d d d d
+		es4. fis
+		g4 d8 a'4 d,8
+		b'4 d,8 fis4 d8 %5
+		g4 d8 a'4 d,8
+		b' a g es' d c
+		b16 a g8 r r4.
+		r8 g f! e a g
+		f a, f' cis a cis %10
+		d a d e a, a'
+		f a, f' cis a cis
+		d4 r8 b' a g
+		a16([ g)] f8 r d4 d'8
+		g,4. a %15
+		d, c'8 c a
+		d4. d
+		d d,4 r8
+		d' c b g4.
+		g8 g g g g g %20
+		\once \tieDashed g4.~ g8 e a
+		a4 a,8 a'4 a,8
+		a'4 a,8 a'4 a,8
+		a'4. a
+		a8 g f b a g %25
+		a d, r g a b
+		a4. fis
+		g4 d8 a'4 d,8
+		b'4 d,8 fis4 d8
+		g4 d8 a'4 d,8 %30
+		b' g g c d es
+		r h c d c h
+		c4. g
+		es'8 g, es' h g h
+		c g c d g, g' %35
+		es g, es' h g h
+		c d es d fis, g
+		<d a' fis'>4 d8 <d b' g'>4 d8
+		<d a' fis'>4 d8 <d b' g'>4 d8
+		<d a' fis'>4 d8 <d b' g'>4 d8 %40
+		<d a' fis'>4 d8 <g, d' b'>4 g8
+		g'2.
+		a4. g8 a4
+		g4. fis\trill
+		g r\fermata \bar "|." %45 finis
+	}
+}
