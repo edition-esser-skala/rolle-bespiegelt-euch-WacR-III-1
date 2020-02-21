@@ -342,3 +342,29 @@ ErHatDasVolckOboeI = {
 		a4 h\trill a r8\fermata \bar "|." %15 finis
 	}
 }
+
+HinwegMitDiesemOboeI = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key b \major \time 2/4 \tempoHinwegMitDiesem
+		\partial 8 b'8 f'4. b,8
+		f'4. b,8
+		f' es16 d es8 d16 c
+		d c b4 d8
+		c f b, g' %5
+		a,4 r8 a'
+		g[ \appoggiatura { f32[ g] } a8] g f
+		e[ \appoggiatura { d32[ e] } f8] e d
+		c a b a16 g
+		a g f4 g'8 %10
+		f es!16 d es8 d16 c
+		d16 c b8 f'4~
+		f es~
+		es d~
+		d c8 es, %15
+		d b'' g4
+		f8 b es,4
+		d8 b g4-!
+		f-! r\fermata \bar "|." %19 finis
+	}
+}

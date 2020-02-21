@@ -1533,6 +1533,55 @@ PilatusAberRiefTenoreLyrics = \lyricmode {
 	ſprach: %24 finis
 }
 
+HinwegMitDiesemTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\twofourtime \key b \major \time 2/4 \autoBeamOff \tempoHinwegMitDiesem
+		\partial 8 r8 r f f4
+		r8 f f g
+		f g g f
+		f16([ es)] d8 r f
+		f c d16 d c8 %5
+		c4 r8 f
+		e f e d
+		c d c f
+		f f d c
+		c16([ b)] a8 r b %10
+		d g g f
+		f16([ es)] d8 r b
+		g' g g16 g g8
+		f4 r8 f
+		es es es16 es es8 %15
+		d4 es16 es es8
+		d4 g16 g g8
+		f4 es16 es es8
+		b4 r\fermata \bar "|." %19 finis
+		
+	}
+}
+
+HinwegMitDiesemTenoreLyrics = \lyricmode {
+	Hin -- weg,
+	hin -- weg, hin --
+	weg, hin -- weg mit
+	die -- ſem, und
+	\xE gib uns Bar -- ra -- bam %5
+	loß, \x hin --
+	weg, hin -- weg, hin --
+	weg, hin -- weg, hin --
+	weg, hin -- weg mit
+	die -- ſem, hin -- %10
+	weg, hin -- weg mit
+	die -- ſem, und
+	gib uns Bar -- ra -- bam
+	loß, und
+	gib uns Bar -- ra -- bam %15
+	loß, Bar -- ra -- bam
+	loß, Bar -- ra -- bam
+	loß, Bar -- ra -- bam
+	loß! %19 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

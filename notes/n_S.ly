@@ -927,6 +927,54 @@ IstGottFuerSopranoLyricsB = \lyricmode {
 	ſich. %5 finis
 }
 
+HinwegMitDiesemSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key b \major \time 2/4 \autoBeamOff \tempoHinwegMitDiesem
+		\partial 8 b'8 f'4 r8 b,
+		f'4 r8 b,
+		f' es16([ d)] es8 d16([ c)]
+		d([ c)] b8 r d
+		c f b,16 b b8 %5
+		a4 r8 a'
+		g a g f
+		e f e d
+		c a b a16([ g)]
+		a([ g)] f8 r g' %10
+		f es!16([ d)] es8 d16([ c)]
+		d([ c)] b8 r f'
+		f g, es'16 es es8
+		es4 r8 d
+		d es, c'16 c c8 %15
+		b4 g'16 g g8
+		f4 es16 es es8
+		d4 b16 b g8
+		f4 r\fermata \bar "|." %19 finis
+	}
+}
+
+HinwegMitDiesemSopranoLyrics = \lyricmode {
+	Hin -- weg, hin --
+	weg, hin --
+	weg, hin -- weg mit
+	die -- ſem, und
+	gib uns Bar -- ra -- bam %5
+	loß, hin --
+	weg, hin -- weg, hin --
+	weg, hin -- weg, hin --
+	weg, hin -- weg mit
+	die -- ſem, hin -- %10
+	weg, hin -- weg mit
+	die -- ſem, und
+	gib uns Bar -- ra -- bam
+	loß, und
+	gib uns Bar -- ra -- bam %15
+	loß, Bar -- ra -- bam
+	loß, Bar -- ra -- bam
+	loß, Bar -- ra -- bam
+	loß! %19 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

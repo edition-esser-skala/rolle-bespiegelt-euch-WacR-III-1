@@ -2291,6 +2291,54 @@ PilatusAberRiefBassFigures = \figuremode {
 	r1 %24 finis
 }
 
+HinwegMitDiesemOrgano = {
+	\relative c {
+		\clef bass
+		\twofourtime \key b \major \time 2/4 \tempoHinwegMitDiesem
+		\partial 8 r8 r b' a g
+		f g f es
+		d g c, f
+		b b,16 a b8 b'
+		a a g c, %5
+		f4 r8 f
+		e f e d
+		c d c b'
+		a f g c,
+		f, f'16 e f8 es %10
+		d b' c f,
+		b b, r b
+		es4 c'
+		d,8. d16 b'4
+		c,8. c16 f4 %15
+		b,8 b' b4-!
+		b,8 b' b4-!
+		b,8 b' b b,
+		b4-! r\fermata \bar "|."  %19 finis
+	}
+}
+
+HinwegMitDiesemBassFigures = \figuremode {
+	r8 r4 <6>8 <7>
+	r <7> r <5>
+	<[6]>4 <[7]>8 q
+	r2
+	<[6]>4 <7>8 <[7] _!> %5
+	r2
+	<[6]>4 q8 <[7]>
+	<_!> <[7]> <[_!]> <[5]>
+	<[6]>4 <[7]>8 <[7 _!]>
+	r4. <[5 3]>8 %10
+	<[6]> q <[7]> q
+	r2
+	<9 7>4 <7>
+	<9 7> <7>
+	<9 7> <7> %15
+	r <6 4>
+	<5 3> <6 4>
+	<5 3> <6 4>
+	<5 3>2 %19 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

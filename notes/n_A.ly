@@ -1202,6 +1202,54 @@ IstGottFuerAltoLyricsB = \lyricmode {
 	ſich. %5 finis
 }
 
+HinwegMitDiesemAltoNotes = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key b \major \time 2/4 \autoBeamOff \tempoHinwegMitDiesem
+		\partial 8 r8 r d' c b
+		a b a g
+		b b b a
+		b f r b
+		c f, f16 f e8 %5
+		f4 r8 c'
+		c4 r8 c
+		c4 r8 d
+		c f, f e
+		f c r es %10
+		b' b b a
+		b f r d'
+		d d c16 c c8
+		c4 r8 b
+		b b a16 a a8 %15
+		b4 b16 b b8
+		b4 b16 b b8
+		b4 g16 g es8
+		d4 r\fermata \bar "|." %19 finis
+	}
+}
+
+HinwegMitDiesemAltoLyrics = \lyricmode {
+	Hin -- weg, hin --
+	weg, hin -- weg, hin --
+	weg, hin -- weg mit
+	die -- ſem, und
+	\xE gib uns Bar -- ra -- bam %5
+	loß, \x hin --
+	weg, hin --
+	weg, hin --
+	weg, hin -- weg mit
+	die -- ſem, hin -- %10
+	weg, hin -- weg mit
+	die -- ſem, und
+	\xE gib uns Bar -- ra -- bam
+	loß, und
+	gib uns Bar -- ra -- bam %15
+	loß, Bar -- ra -- bam
+	loß, Bar -- ra -- bam
+	loß, Bar -- ra -- bam
+	loß! %19 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -890,3 +890,29 @@ ErHatDasVolckViola = {
 		cis4 d cis r8\fermata \bar "|." %15 finis
 	}
 }
+
+HinwegMitDiesemViola = {
+	\relative c' {
+		\clef alto
+		\twofourtime \key b \major \time 2/4 \tempoHinwegMitDiesem
+		\partial 8 r8 r b' a g
+		f g f es
+		d g g f
+		f4 f8 f
+		f c d c %5
+		c4 r8 f
+		e f e d
+		c d c f
+		f f d c
+		c16 b a4 es'!8 %10
+		f g g f
+		f16 es d8 r4
+		g2
+		f
+		es4. a,8 %15
+		b b' b4
+		b,8 b' b4
+		b,8 b' b b,
+		b4-! r\fermata \bar "|." %19 finis
+	}
+}

@@ -728,6 +728,54 @@ IstGottFuerBassoLyricsB = \lyricmode {
 	ſich. %5 finis
 }
 
+HinwegMitDiesemBassoNotes = {
+	\relative c {
+		\clef bass
+		\twofourtime \key b \major \time 2/4 \autoBeamOff \tempoHinwegMitDiesem
+		\partial 8 r8 r b' a g
+		f g f es
+		d g c, f
+		b b, r b'
+		a a g16 g c,8 %5
+		f8 f c'4
+		r8 f, c'4
+		r8 f, c' b
+		a f g c,
+		f f r es! %10
+		d b' c f,
+		b b, r b
+		es4 c'
+		d,8. d16 b'4
+		c,8. c16 f4 %15
+		b, b'16 b b8
+		b4 r
+		r b16 b b8
+		b,4 r\fermata \bar "|." %19 finis
+	}
+}
+
+HinwegMitDiesemBassoLyrics = \lyricmode {
+	Hin -- weg, hin --
+	weg, hin -- weg, hin --
+	weg, hin -- weg mit
+	die -- ſem, und
+	gib uns Bar -- ra -- bam %5
+	loß, hin -- weg,
+	hin -- weg,
+	hin -- weg, hin --
+	weg, hin -- weg mit
+	die -- ſem, hin -- %10
+	weg, hin -- weg mit
+	die -- ſem, und
+	gib uns
+	Bar -- ra -- bam,
+	Bar -- ra -- bam %15
+	loß, Bar -- ra -- bam
+	loß,
+	Bar -- ra -- bam
+	loß! %19 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

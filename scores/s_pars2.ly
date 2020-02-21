@@ -299,32 +299,104 @@
 % 			\midi { \tempo 4 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.7" "R E C I T A T I V O" "Pilatus aber rief die Hohenprieſter"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #4
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Pilatus" } }
+% 					\new Voice = "Tenore" { \dynamicUp \PilatusAberRiefTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \PilatusAberRiefTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\PilatusAberRiefOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \PilatusAberRiefBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.7" "R E C I T A T I V O" "Pilatus aber rief die Hohenprieſter"
+			movement = \movementTitle "2.8" "C O R O" "Hinweg mit dieſem"
 		}
-		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #4
-		}
+		\paper { systems-per-page = #1 }
 		\score {
 			<<
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Pilatus" } }
-					\new Voice = "Tenore" { \dynamicUp \PilatusAberRiefTenoreNotes }
-				}
-				\new Lyrics \lyricsto Tenore \PilatusAberRiefTenoreLyrics
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Oboe I"
+							\HinwegMitDiesemOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe II"
+							\HinwegMitDiesemOboeII
+						}
+					>>
+				>>
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\HinwegMitDiesemViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\HinwegMitDiesemViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\HinwegMitDiesemViola
+					}
+				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Canto"
+						\new Voice = "Soprano" { \dynamicUp \HinwegMitDiesemSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \HinwegMitDiesemSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \HinwegMitDiesemAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \HinwegMitDiesemAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \HinwegMitDiesemTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \HinwegMitDiesemTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \HinwegMitDiesemBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \HinwegMitDiesemBassoLyrics
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\PilatusAberRiefOrgano
+						\HinwegMitDiesemOrgano
 					}
 				>>
-				\new FiguredBass { \PilatusAberRiefBassFigures }
+				\new FiguredBass { \HinwegMitDiesemBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 100 }
 		}
 	}
 }

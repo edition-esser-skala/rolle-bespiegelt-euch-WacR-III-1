@@ -890,3 +890,29 @@ ErHatDasVolckViolinoII = {
 		a4 gis\trill a r8\fermata \bar "|." %15 finis
 	}
 }
+
+HinwegMitDiesemViolinoII = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key b \major \time 2/4 \tempoHinwegMitDiesem
+		\partial 8 r8 r d' c b
+		a[ \appoggiatura { g32[ a] } b8] a g
+		b b4 a8
+		b d,4 b'8
+		c f, f e %5
+		f4 r8 c'
+		c4. c8
+		c4. d8
+		c f,4 e8
+		f f4 b8 %10
+		b b4 a8
+		b f d'4~
+		d c~
+		c b~
+		b a8 c, %15
+		b b'' es,4
+		d8 b' g,4
+		f8 b es,4-!
+		d-! r\fermata \bar "|." %19 finis
+	}
+}
