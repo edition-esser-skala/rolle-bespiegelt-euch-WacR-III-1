@@ -147,76 +147,104 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.4" "C O R O" "Er hat das Volck erreget"
+% 		}
+% 		\paper { systems-per-page = #1 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe I"
+% 							\ErHatDasVolckOboeI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe II"
+% 							\ErHatDasVolckOboeII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\ErHatDasVolckViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\ErHatDasVolckViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\ErHatDasVolckViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Canto"
+% 						\new Voice = "Soprano" { \dynamicUp \ErHatDasVolckSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \ErHatDasVolckSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \ErHatDasVolckAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \ErHatDasVolckAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \ErHatDasVolckTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \ErHatDasVolckTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \ErHatDasVolckBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \ErHatDasVolckBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\ErHatDasVolckOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \ErHatDasVolckBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 100 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.4" "C O R O" "Er hat das Volck erreget"
+			movement = \movementTitle "2.5" "R E C I T A T I V O" "Da aber Pilatus Galiläam hörete"
 		}
-		\paper { systems-per-page = #1 }
+		\paper {
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #5
+		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Oboe I"
-							\ErHatDasVolckOboeI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Oboe II"
-							\ErHatDasVolckOboeII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\ErHatDasVolckViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\ErHatDasVolckViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\ErHatDasVolckViola
-					}
-				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Canto"
-						\new Voice = "Soprano" { \dynamicUp \ErHatDasVolckSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \ErHatDasVolckSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \ErHatDasVolckAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \ErHatDasVolckAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \ErHatDasVolckTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \ErHatDasVolckTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \ErHatDasVolckBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \ErHatDasVolckBassoLyrics
-				>>
+				\new Staff {
+					\set Staff.instrumentName = "Evangeliſt"
+					\new Voice = "Tenore" { \dynamicUp \DaAberPilatusTenoreNotes }
+				}
+				\new Lyrics \lyricsto Tenore \DaAberPilatusTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\ErHatDasVolckOrgano
+						\DaAberPilatusOrgano
 					}
 				>>
-				\new FiguredBass { \ErHatDasVolckBassFigures }
+				\new FiguredBass { \DaAberPilatusBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 100 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

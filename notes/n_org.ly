@@ -2123,6 +2123,78 @@ ErHatDasVolckBassFigures = \figuremode {
 	<[6] 4>4 <[7!] 3> r4. %15 finis
 }
 
+DaAberPilatusOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoDaAberPilatus
+		fis1~
+		fis~
+		fis~
+		fis~
+		fis2 gis~ %5
+		gis1
+		a2 ais
+		h1
+		e,
+		r4 fis h,2~ %10
+		h e4 fis
+		g2 h,
+		e1~
+		e2 f~
+		f f %15
+		r r4 g
+		c,2 r4 h
+		ais2 r
+		r4 h e, g~
+		g1~ %20
+		g
+		r4 g' e2~
+		e r
+		gis1
+		a %25
+		fis
+		g!
+		a
+		r2 r4 h
+		ais2 h %30
+		e, r8 fis h,4\fermata \bar "|." %31 finis
+	}
+}
+
+DaAberPilatusBassFigures = \figuremode {
+	<6>1
+	r
+	r
+	r
+	r2 <6> %5
+	r1
+	<_+>2 <6 _+>
+	<[5+]>1
+	r
+	r4 <[5+ _+]> <[5+]>2 %10
+	r2 <[6!]>4 <[6]>
+	r2 <6 5!>
+	<6>1
+	<6 5->
+	r2 <6 4! 2> %15
+	r1
+	r2. <6 4>4
+	<7 _+>1
+	r4 <[5+] _+> r <5 3>
+	r2 <6 4> %20
+	<7+ 4 2>1
+	r2 <6>
+	r1
+	<7>
+	r %25
+	<6\\>
+	<6>
+	r
+	r2. <[5+ _+]>4
+	<[6+ _+]>2 <[5+ _!]> %30
+	r2 r8 <[5+ _+]> <[5+]>4 %31 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

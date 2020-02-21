@@ -1357,6 +1357,78 @@ ErHatDasVolckTenoreLyrics = \lyricmode {
 	hie -- her. %15 finis
 }
 
+DaAberPilatusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoDaAberPilatus
+		r8 a a a16 a d4 d
+		d8 d d fis d8. d16 d4
+		d8. a16 a4 r8 a a a
+		a fis g a a d, r4
+		a'8 a a d h4 h8 h %5
+		gis gis16 gis gis8 a h h h e
+		cis cis cis cis16 cis fis8 fis16 fis fis8 fis16 cis
+		d8 d d d d d d cis16 h
+		g'8 g r g e e e e16 d
+		\appoggiatura cis8 h4 r r8 h h h16 cis %10
+		d8 d d e c c r16 a h c
+		h8 h16 c d8 d16 g, f'!4 f8 f16 e
+		c8 c r4 c8 c c d
+		b b b c a a r c
+		f8. f16 f8 d h4 h8 h %15
+		h h h c g4 r
+		e'8 e e e16 g e8. e16 e4
+		r8 e16 e e8 e16 e e4 dis8 e
+		h4 r r8 h h h
+		d d d g,16 d' e8 e e c %20
+		fis fis r4 c8 c c c16 h
+		g4 r c8 g r g
+		c c r c e e e f!
+		d d16 d d8 d16 d f8 f f f16 e
+		c4 r c8 c16 c c8 a %25
+		dis dis r e fis fis16 fis fis fis fis g
+		e8 e r e e h h h16 c
+		c8 c c a e' e r4
+		e8 e dis e h h r4
+		r fis'8 cis d4 d8 h %30
+		g' e e d h4 r\fermata \bar "|." %31 finis
+	}
+}
+
+DaAberPilatusTenoreLyrics = \lyricmode {
+	Da a -- ber Pi -- la -- tus
+	Ga -- li -- lä -- am hö -- re -- te,
+	frag -- te er, ob Er aus
+	Ga -- li -- lä -- a wä -- re.
+	Und als er ver -- nahm, daß Er %5
+	un -- ter He -- ro -- des Ob -- rig -- keit ge --
+	hö -- re -- te, ü -- ber -- ſand -- te er Ihn zu He --
+	ro -- des, wel -- cher in den -- ſel -- bi -- gen
+	Ta -- gen auch zu Je -- ru -- ſa -- lem
+	war. Da a -- ber He -- %10
+	ro -- des Je -- ſum ſa -- he, ward er ſehr
+	froh, denn er hät -- te Ihn längſt ger -- ne ge --
+	ſe -- hen, denn er hat -- te
+	viel von Ihm ge -- hö -- ret und
+	hof -- fe -- te, er wür -- de ein %15
+	Zei -- chen von Ihm ſehn.
+	Und er frag -- te Ihn man -- cher -- ley.
+	Er ant -- wor -- te -- te ihm a -- ber
+	nicht. Die Ho -- hen --
+	prieſ -- ter a -- ber und Schrift -- ge -- lehrt -- en %20
+	ſtun -- den und ver -- klag -- ten Ihn
+	hart. A -- ber He --
+	ro -- des mit ſei -- nem Hof -- ge --
+	ſin -- de ver -- ach -- te -- te und ver -- ſpot -- te -- te
+	Ihn, leg -- te Ihm ein weiß %25
+	Kleid an, und ſand -- te Ihn wie -- der zu Pi --
+	la -- to. Auf dem Tag wur -- den Pi --
+	la -- tus und He -- ro -- des
+	Freun -- de mit -- ei -- nan -- der,
+	denn zu -- vor wa -- ren %30
+	ſie ei -- nan -- der Feind. %31 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
