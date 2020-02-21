@@ -1429,6 +1429,52 @@ DaAberPilatusTenoreLyrics = \lyricmode {
 	ſie ei -- nan -- der Feind. %31 finis
 }
 
+IstGottFuerTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key h \minor \time 2/2 \autoBeamOff \tempoIstGottFuer
+		r4 a e' e
+		d a a2
+		a2.\fermata ais4
+		h fis' g fis
+		d1\fermata \bar ":|." %5
+		r4 e e d
+		d e fis2
+		d2.\fermata d4
+		d d h h
+		h2.\fermata e4 %10
+		e g! fis e
+		e2 e\fermata
+		r4 cis d a
+		a a a2\fermata \bar "|." %14 finis
+	}
+}
+
+IstGottFuerTenoreLyricsA = \lyricmode {
+	Iſt Gott für
+	mich, ſo tre --
+	te gleich
+	al -- les wi -- der
+	mich. %5
+	Hab ich das
+	Haupt zum Freun --
+	de, und
+	bin ge -- liebt bey
+	Gott, was %10
+	kann mir thun der
+	Fein -- de
+	und Wi -- der --
+	ſa -- cher Spott? %14 finis
+}
+
+IstGottFuerTenoreLyricsB = \lyricmode {
+	\xE So oft ich
+	ruf und be --
+	te, weicht
+	al -- les hin -- ter
+	ſich. %5 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -682,6 +682,52 @@ ErHatDasVolckBassoLyrics = \lyricmode {
 	hie -- her. %15 finis
 }
 
+IstGottFuerBassoNotes = {
+	\relative c {
+		\clef bass
+		\key h \minor \time 2/2 \autoBeamOff \tempoIstGottFuer
+		r4 d gis, a
+		h8([ cis)] d4 a'( a,)
+		d2.\fermata cis4
+		h d e fis
+		h,1\fermata \bar ":|." %5
+		r4 gis' a! d,
+		g e d2
+		d2.\fermata c'4
+		h8([ g)] d4 e e
+		h2.\fermata h'4 %10
+		a cis, d a'
+		e2 a,\fermata
+		r4 a h8([ cis)] d4
+		a a d2\fermata \bar "|." %14 finis
+	}
+}
+
+IstGottFuerBassoLyricsA = \lyricmode {
+	Iſt Gott für
+	mich, ſo tre --
+	te gleich
+	al -- les wi -- der
+	mich. %5
+	Hab ich das
+	Haupt zum Freun --
+	de, und
+	bin ge -- liebt bey
+	Gott, was %10
+	kann mir thun der
+	Fein -- de
+	und Wi -- der --
+	ſa -- cher Spott? %14 finis
+}
+
+IstGottFuerBassoLyricsB = \lyricmode {
+	\xE So oft ich
+	ruf und be --
+	te, weicht
+	al -- les hin -- ter
+	ſich. %5 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

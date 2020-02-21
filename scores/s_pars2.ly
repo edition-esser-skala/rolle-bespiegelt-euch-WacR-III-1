@@ -219,32 +219,84 @@
 % 			\midi { \tempo 4 = 100 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.5" "R E C I T A T I V O" "Da aber Pilatus Galiläam hörete"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #5
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Evangeliſt"
+% 					\new Voice = "Tenore" { \dynamicUp \DaAberPilatusTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \DaAberPilatusTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\DaAberPilatusOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \DaAberPilatusBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.5" "R E C I T A T I V O" "Da aber Pilatus Galiläam hörete"
+			movement = \movementTitle "2.6" "C H O R A L" "Iſt Gott für mich, ſo trete"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #5
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
 		}
 		\score {
 			<<
-				\new Staff {
-					\set Staff.instrumentName = "Evangeliſt"
-					\new Voice = "Tenore" { \dynamicUp \DaAberPilatusTenoreNotes }
-				}
-				\new Lyrics \lyricsto Tenore \DaAberPilatusTenoreLyrics
+				\new ChoirStaff \with { \twoStanzaDistance } <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
+						\new Voice = "Soprano" { \dynamicUp \IstGottFuerSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \IstGottFuerSopranoLyricsA
+					\new Lyrics \lyricsto Soprano \IstGottFuerSopranoLyricsB
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Alto" "Violino II" "Oboe II" } }
+						\new Voice = "Alto" { \dynamicUp \IstGottFuerAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \IstGottFuerAltoLyricsA
+					\new Lyrics \lyricsto Alto \IstGottFuerAltoLyricsB
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Tenore" "Viola" } }
+						\new Voice = "Tenore" { \dynamicUp \IstGottFuerTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \IstGottFuerTenoreLyricsA
+					\new Lyrics \lyricsto Tenore \IstGottFuerTenoreLyricsB
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \IstGottFuerBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \IstGottFuerBassoLyricsA
+					\new Lyrics \lyricsto Basso \IstGottFuerBassoLyricsB
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\DaAberPilatusOrgano
+						\IstGottFuerOrgano
 					}
 				>>
-				\new FiguredBass { \DaAberPilatusBassFigures }
+				\new FiguredBass { \IstGottFuerBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

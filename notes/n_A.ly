@@ -1156,6 +1156,52 @@ ErHatDasVolckAltoLyrics = \lyricmode {
 	hie -- her. %15 finis
 }
 
+IstGottFuerAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 2/2 \autoBeamOff \tempoIstGottFuer
+		r4 d d cis
+		d d d( cis)
+		d2.\fermata fis4
+		fis h h ais
+		fis1\fermata \bar ":|." %5
+		r4 h a! fis
+		g g a2
+		fis2.\fermata fis4
+		g fis fis e
+		d2. gis4 %10
+		a a a a
+		a( gis) a2\fermata
+		r4 fis g d
+		d cis d2\fermata \bar "|." %14 finis
+	}
+}
+
+IstGottFuerAltoLyricsA = \lyricmode {
+	Iſt Gott für
+	mich, ſo tre --
+	te gleich
+	al -- les wi -- der
+	mich. %5
+	Hab ich das
+	Haupt zum Freun --
+	de, und
+	bin ge -- liebt bey
+	Gott, was %10
+	kann mir thun der
+	Fein -- de
+	und Wi -- der --
+	ſa -- cher Spott? %14 finis
+}
+
+IstGottFuerAltoLyricsB = \lyricmode {
+	\xE So oft ich
+	ruf und be --
+	te, weicht
+	al -- les hin -- ter
+	ſich. %5 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

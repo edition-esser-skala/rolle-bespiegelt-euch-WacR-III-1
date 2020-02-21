@@ -881,6 +881,52 @@ ErHatDasVolckSopranoLyrics = \lyricmode {
 	hie -- her. %15 finis
 }
 
+IstGottFuerSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 2/2 \autoBeamOff \tempoIstGottFuer
+		r4 fis h a
+		g fis e2
+		fis2.\fermata cis'4
+		d d cis cis
+		h1\fermata \bar ":|." %5
+		r4 d cis a^\critnote
+		h cis d2
+		a2.\fermata a4
+		h a g g
+		fis2.\fermata d'4 %10
+		cis e d cis
+		h2 cis\fermata
+		r4 fis, g fis
+		e a fis2\fermata \bar "|." %14 finis
+	}
+}
+
+IstGottFuerSopranoLyricsA = \lyricmode {
+	Iſt Gott für
+	mich, ſo tre --
+	te gleich
+	al -- les wi -- der
+	mich. %5
+	Hab ich das
+	Haupt zum Freun --
+	de, und
+	bin ge -- liebt bey
+	Gott, was %10
+	kann mir thun der
+	Fein -- de
+	und Wi -- der --
+	ſa -- cher Spott? %14 finis
+}
+
+IstGottFuerSopranoLyricsB = \lyricmode {
+	\xE So oft ich
+	ruf und be --
+	te, weicht
+	al -- les hin -- ter
+	ſich. %5 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -2195,6 +2195,44 @@ DaAberPilatusBassFigures = \figuremode {
 	r2 r8 <[5+ _+]> <[5+]>4 %31 finis
 }
 
+IstGottFuerOrgano = {
+	\relative c {
+		\clef bass
+		\key h \minor \time 2/2 \tempoIstGottFuer
+		r4 d gis, a
+		h8( cis) d4 a'( a,)
+		d2.\fermata cis4
+		h d e fis
+		h,1\fermata \bar ":|." %5
+		r4 gis' a! d,
+		g e d2
+		d,2.\fermata c''4
+		h8([ g)] d4 e e
+		h2.\fermata h'4 %10
+		a cis, d a'
+		e2 a,\fermata
+		r4 a h8([ cis)] d4
+		a a d,2\fermata \bar "|." %14 finis
+	}
+}
+
+IstGottFuerBassFigures = \figuremode {
+	r2 <[6 5]>
+	<[6]>2 <[4]>4 <[3]>
+	r2. <6\\>4
+	r <6> <6 5> <_+>
+	r1 %5
+	r4 <6 5>2.
+	r4 <[6]>2.
+	r2. <[2]>4
+	<[6]>2 <[9]>4 <[8]>
+	r2. <6\\>4 %10
+	r <[6 5!]>2.
+	<[4]>4 <[_+]>2.
+	r4 <[6]> q2
+	<[4]>4 <[3]>2. %14 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
