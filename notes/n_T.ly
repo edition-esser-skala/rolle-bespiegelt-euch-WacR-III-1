@@ -1475,6 +1475,64 @@ IstGottFuerTenoreLyricsB = \lyricmode {
 	ſich. %5 finis
 }
 
+PilatusAberRiefTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoPilatusAberRief
+		r8 a^\Evangelist a d h4 h
+		h8 h h h e e h h
+		gis gis gis4 r8 gis16 a h8 c?
+		d d r4 r8 d h e
+		c! c r4 \clef bass a8^\Pilatus a a b %5
+		g g16 g g8 a b4 r8 b
+		d g, b b a a r4
+		r r8 a a e r e
+		a a a4 r8 g g a
+		f f r a d d d h %10
+		gis gis16 gis gis8 a h h r4
+		d8 d16 d d8 c a a a4^\critnote
+		r8 g g d e4 e
+		r e8 f g g g a
+		b b b r16 d d8 g, r g16 g %15
+		b8 b b g e4 r
+		g8 g b a f f r c'
+		c f, g a d,8. d16 d4
+		r b'8 a f f r4
+		\clef "treble_8" a8^\Evangelist a a b c4 c %20
+		c8 c d es a, a r a
+		c4 c8 d b b r f'
+		f f16 d c8 b g' g r a,
+		b4 r r2\fermata \bar "|." %24 finis
+	}
+}
+
+PilatusAberRiefTenoreLyrics = \lyricmode {
+	Pi -- la -- tus a -- ber
+	rief die Ho -- hen -- prieſ -- ter und die
+	O -- ber -- ſten und das Volck zu --
+	ſam -- men und ſprach zu
+	ih -- nen: Ihr habt die -- ſen %5
+	Men -- ſchen zu mir ge -- bracht, als
+	der das Volck ab -- wen -- de.
+	Und ſie -- he, ich
+	ha -- be Ihn für euch ver --
+	hö -- ret, und fin -- de an dem %10
+	Men -- ſchen der Sa -- chen kei -- ne,
+	de -- ren ihr Ihn be -- ſchul -- di -- get.
+	He -- ro -- des auch nicht,
+	denn ich ha -- be euch zu
+	ihm ge -- ſandt, und ſie -- he, man hat %15
+	nichts auf Ihm ge -- bracht,
+	das des To -- des werth ſey. Da --
+	rum will ich Ihn züch -- ti -- gen
+	und loß la -- ßen.
+	Denn er muß -- te ih -- nen %20
+	ei -- nen nach Ge -- wohn -- heit des
+	Feſ -- tes los ge -- ben. Da
+	ſchri -- e der gant -- ze Hauf -- fe und
+	ſprach: %24 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

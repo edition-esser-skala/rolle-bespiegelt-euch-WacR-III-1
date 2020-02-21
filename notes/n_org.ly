@@ -2233,6 +2233,64 @@ IstGottFuerBassFigures = \figuremode {
 	<[4]>4 <[3]>2. %14 finis
 }
 
+PilatusAberRiefOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoPilatusAberRief
+		fis,2 g~
+		g gis~
+		gis1~
+		gis
+		a4~ a16 c' a e f2~ %5
+		f1~
+		f
+		cis~
+		cis
+		d~ %10
+		d2 gis,~
+		gis c
+		h c~
+		c1
+		b~ %15
+		\once \tieDashed b~
+		b2 a~
+		a b4~ b16 d' b f
+		g4 r r a8 c
+		f,1~ %20
+		f2 es~
+		es \once \tieDashed d~
+		d es4 f
+		b, r r2\fermata \bar "|." %24 finis
+	}
+}
+
+PilatusAberRiefBassFigures = \figuremode {
+	<[6]>1
+	r2 <[6]>
+	r1
+	r
+	r %5
+	<7 4- 2>
+	<\t \t \t>2 <[8 3]>
+	<[6]>1
+	r
+	r %10
+	<[4+ 2]>2 <[6]>
+	<[5]> <6>
+	<[6]>1
+	r
+	<6> %15
+	<6 4 2>
+	r2 <6>
+	r1
+	<[6 _-]>2. <[6]>8 <[3]>
+	r1 %20
+	r2 <4 2>
+	r <6->
+	r <[5-]>2
+	r1 %24 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
