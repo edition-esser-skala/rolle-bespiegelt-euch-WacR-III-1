@@ -916,3 +916,16 @@ HinwegMitDiesemViolinoII = {
 		d-! r\fermata \bar "|." %19 finis
 	}
 }
+
+WelcherWarUmViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoWelcherWarUm
+		\key b \major \time 4/4 \tempoWelcherWarUm
+		R1*7 \bar "||" %7
+		\key f \major \tempoWelcherWarUmB f16 f8 a c f16 e, g8 b b g16
+		f a8 c f a,16 b2 \bar "||"
+		\key c \major \tempoWelcherWarUmC R1*19 %28
+		R1\fermataMarkup \bar "|." %29 finis
+	}
+}

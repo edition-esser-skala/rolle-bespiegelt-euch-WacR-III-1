@@ -901,6 +901,18 @@ HinwegMitDiesemViolinoI = {
 	}
 }
 
+WelcherWarUmViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoWelcherWarUm
+		R1*7 \bar "||" %7
+		\key f \major \tempoWelcherWarUmB f16 a8 c f a16 g, b8 e g b,16
+		a c8 f a f16 e2 \bar "||"
+		\key c \major \tempoWelcherWarUmC R1*19 %28
+		R1\fermataMarkup \bar "|." %29 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

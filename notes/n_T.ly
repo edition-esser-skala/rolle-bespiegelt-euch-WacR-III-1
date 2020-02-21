@@ -1582,6 +1582,89 @@ HinwegMitDiesemTenoreLyrics = \lyricmode {
 	loß! %19 finis
 }
 
+WelcherWarUmEvangelistNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 4/4 \autoBeamOff \tempoWelcherWarUm
+		r4 d8^\Evangelist d d d d es
+		c c r c c g a b
+		a a a16 a c d es4 es8 es
+		es es es es16 d b8 b r16 b b c
+		d8 d d16 d d g e8 e r16 e e f %5
+		g4 g8 e c c r c
+		g a b b16 c a8 a r4 \bar "||"
+		\key f \major \tempoWelcherWarUmB R1*2 \bar "||"
+		\key c \major \tempoWelcherWarUmC r8 a^\Evangelist a h cis4 r8 d %10
+		e e e f d4 d
+		\clef bass r8 a^\Pilatus a a d a a h16 c
+		h4 r8 h h fis fis g
+		a a16 a a8 a16 g e4 r8 g
+		g g a h e,8. e16 e4 %15
+		r fis8 g d d r4
+		\clef "treble_8" h'8^\Evangelist h r g d'4 d8 d
+		f! d h h16 c c8 c e c
+		a r16 a a8 h c4 h8 c
+		c g r4 r8 a d d16 d %20
+		fis8 d d a16 h c8 c e d
+		h4 r8 g c4 c
+		c8 g r g b8. b16 b8 b
+		d d d d16 c a8 a r16 a a b
+		c4 c8 d es es es c %25
+		a4 a8 f c' c c c16 d
+		b8 b16 b b8 c16 d g,8 g r b16 g
+		es'8 es es c fis fis fis g
+		d d r4 r2\fermata \bar "|." %29 finis
+	}
+}
+
+WelcherWarUmEvangelistLyrics = \lyricmode {
+	Wel -- cher war um ei -- nen
+	Auf -- ruhr, der in der Stadt ge --
+	ſcha -- he, und um ei -- nes Mords wil -- len
+	ins Ge -- fäng -- nis ge -- worf -- fen. Da rief Pi --
+	la -- tus a -- ber -- mahl zu ih -- nen und wol -- te %5
+	Je -- ſum loß -- la -- ßen. Sie
+	rie -- fen a -- ber und ſpra -- chen:
+
+	Er a -- ber ſprach zum %10
+	drit -- ten -- mal zu ih -- nen:
+	Was hat denn die -- ſer Ü -- bels ge --
+	than? Ich fin -- de kei -- ne
+	Ur -- ſach des To -- des an Ihm. Da --
+	rum will ich Ihn züch -- ti -- gen %15
+	und los la -- ßen.
+	A -- ber ſie la -- gen ihn
+	an mit gro -- ßem Ge -- ſchrey und for -- der --
+	ten, daß er ge -- creut -- zi -- get
+	wür -- de. Und ihr und der %20
+	Ho -- hen -- prieſ -- ter Ge -- ſchrey nahm ü -- ber --
+	hand. Pi -- la -- tus
+	a -- ber ur -- thei -- le -- te, daß
+	ih -- re Bit -- te ge -- ſche -- he, und ließ den
+	los, der um Auf -- ruhr und Mords %25
+	wil -- len war ins Ge -- fäng -- niß ge --
+	wor -- fen, um wel -- chen ſie ba -- ten. A -- ber
+	Je -- ſum ü -- ber -- gab er ih -- rem
+	Wil -- len. %29 finis
+}
+
+WelcherWarUmTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 4/4 \autoBeamOff \tempoWelcherWarUm
+		R1*7 \bar "||" %7
+		\key f \major \tempoWelcherWarUmB r4 f8 f16 f g8 g16 g g4
+		r f8 f16 f g8 g16 g g4 \bar "||"
+		\key c \major \tempoWelcherWarUmC R1*19 %28
+		R1\fermataMarkup \bar "|." %29 finis
+	}
+}
+
+WelcherWarUmTenoreLyrics = \lyricmode {
+	\xE Creut -- zi -- ge, creut -- zi -- ge Ihn! %8
+	Creut -- zi -- ge, creut -- zi -- ge Ihn! %9 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -975,6 +975,23 @@ HinwegMitDiesemSopranoLyrics = \lyricmode {
 	loß! %19 finis
 }
 
+WelcherWarUmSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoWelcherWarUm
+		R1*7 \bar "||" %7
+		\key f \major \tempoWelcherWarUmB r4 c'8 c16 f e8 e16 e e4
+		r c8 c16 f e8 e16 e e4 \bar "||"
+		\key c \major \tempoWelcherWarUmC R1*19 %28
+		R1\fermataMarkup \bar "|." %29 finis
+	}
+}
+
+WelcherWarUmSopranoLyrics = \lyricmode {
+	Creut -- zi -- ge, creut -- zi -- ge Ihn! %8
+	Creut -- zi -- ge, creut -- zi -- ge Ihn! %9 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

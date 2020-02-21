@@ -776,6 +776,23 @@ HinwegMitDiesemBassoLyrics = \lyricmode {
 	loß! %19 finis
 }
 
+WelcherWarUmBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \autoBeamOff \tempoWelcherWarUm
+		R1*7 \bar "||" %7
+		\key f \major \tempoWelcherWarUmB r4 f8 f16 f f8 f16 f f4
+		r f8 f16 f cis8 cis16 cis cis4 \bar "||"
+		\key c \major \tempoWelcherWarUmC R1*19 %28
+		R1\fermataMarkup \bar "|." %29 finis
+	}
+}
+
+WelcherWarUmBassoLyrics = \lyricmode {
+	Creut -- zi -- ge, creut -- zi -- ge Ihn! %8
+	Creut -- zi -- ge, creut -- zi -- ge Ihn! %9 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

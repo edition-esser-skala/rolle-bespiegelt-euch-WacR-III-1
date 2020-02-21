@@ -357,6 +357,9 @@ tempoDaAberPilatus = \tempoMarkup "[Recitativo]"
 tempoIstGottFuer = \tempoMarkup "Choral"
 tempoPilatusAberRief = \tempoMarkup "[Recitativo]"
 tempoHinwegMitDiesem = \tempoMarkup "Vivace"
+tempoWelcherWarUm = \tempoMarkup "[Recitativo]"
+	tempoWelcherWarUmB = \tempoMarkup "Allegro"
+	tempoWelcherWarUmC = \tempoMarkup "[Recitativo]"
 
 
 

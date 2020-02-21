@@ -1250,6 +1250,23 @@ HinwegMitDiesemAltoLyrics = \lyricmode {
 	loß! %19 finis
 }
 
+WelcherWarUmAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoWelcherWarUm
+		R1*7 \bar "||" %7
+		\key f \major \tempoWelcherWarUmB r4 a'8 a16 a b8 b16 b b4
+		r a8 a16 a b8 b16 b b4 \bar "||"
+		\key c \major \tempoWelcherWarUmC R1*19 %28
+		R1\fermataMarkup \bar "|." %29 finis
+	}
+}
+
+WelcherWarUmAltoLyrics = \lyricmode {
+	\xE Creut -- zi -- ge, creut -- zi -- ge Ihn! %8
+	Creut -- zi -- ge, creut -- zi -- ge Ihn! %9 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

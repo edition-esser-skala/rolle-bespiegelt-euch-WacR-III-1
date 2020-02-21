@@ -916,3 +916,16 @@ HinwegMitDiesemViola = {
 		b4-! r\fermata \bar "|." %19 finis
 	}
 }
+
+WelcherWarUmViola = {
+	\relative c' {
+		\clef alto
+		\key b \major \time 4/4 \tempoWelcherWarUm
+		\key b \major \time 4/4 \tempoWelcherWarUm
+		R1*7 \bar "||" %7
+		\key f \major \tempoWelcherWarUmB a16 c8 f a c16 b, e8 g e e16
+		c f8 a f a16 g2 \bar "||"
+		\key c \major \tempoWelcherWarUmC R1*19 %28
+		R1\fermataMarkup \bar "|." %29 finis
+	}
+}

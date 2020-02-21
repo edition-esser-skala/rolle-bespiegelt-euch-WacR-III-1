@@ -2339,6 +2339,74 @@ HinwegMitDiesemBassFigures = \figuremode {
 	<5 3>2 %19 finis
 }
 
+WelcherWarUmOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \tempoWelcherWarUm
+		b1
+		e
+		f2 fis~
+		fis g~
+		g b,~ %5
+		b e~ \noBreak
+		e f \bar "||"
+		\key f \major \tempoWelcherWarUmB f4 f f f \noBreak
+		f f cis2 \bar "||"
+		\key c \major \tempoWelcherWarUmC cis1~ \noBreak %10
+		cis2 f?~
+		f1
+		dis~
+		dis2 e
+		h \once \tieDashed c~ %15
+		c r4 h8 d
+		g,2 f'!~
+		f e
+		f fis
+		r4 g fis2~ %20
+		fis1
+		g4 \once \tieDashed e2.~
+		e1~
+		e2 f
+		es1~ %25
+		es
+		d2 es
+		\once \tieDashed c~ c
+		r4 d g,2\fermata \bar "|." %29 finis
+	}
+}
+
+WelcherWarUmBassFigures = \figuremode {
+	r1
+	<6>
+	r2 <7>
+	r1
+	r2 <4! 2> %5
+	r <6>
+	r1
+	<[8 3]>2 <[7 4- 2]>
+	<[8 3]> <7>
+	<6>1 %10
+	r2 <[6]>
+	r1
+	<6 _+>
+	r
+	<6> %15
+	r2. <[6]>8 <[5 _+]>
+	r2 <6 4 2>
+	r <6>
+	r <[5]>
+	r <[6]> %20
+	r <[5]>
+	r4 <6>2.
+	r2 <5->
+	<7 [5-]>4. <6 \t>8 r2
+	<[6 4 2]>1 %25
+	r
+	<6->2 <[5-]>
+	<_-> <4+ 2>
+	r4 <[_+]> <[_-]>2 %29 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
