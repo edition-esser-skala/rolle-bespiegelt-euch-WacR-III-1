@@ -2407,6 +2407,76 @@ WelcherWarUmBassFigures = \figuremode {
 	r4 <[_+]> <[_-]>2 %29 finis
 }
 
+EsSollDerOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 3/4 \tempoEsSollDer
+		\partial 4 \clef "treble_8" \tiny r4 g'\pE^\vla b d
+		g d4. g8
+		es c fis4 d
+		g, d' r8. g16
+		cis,4 cis8. e64\f d cis h a4 %5
+		d\p d8. a'64\f g f e? d4
+		g,4\pE a2
+		d,8 \clef bass \normalsize es[\f^\bassi d c b a]
+		g4 b d
+		g d r8 g %10
+		es c fis4 d
+		g, d' r8. g16
+		cis,4 cis8. e64 d cis h) a8. cis16
+		d4 d8. a'64 g f e d8 d
+		g4 a a, %15
+		d d, r
+		\clef "treble_8" \tiny d''4\pE^\vla d8. a'64\f g fis e d4
+		d'\p d,8. a'64\f g fis e d8 c!
+		b\pE b a a g g
+		d'4 d d %20
+		es! es d
+		c c b
+		a b g
+		d' d g,
+		c^\critnote d d, %25
+		\clef bass \normalsize g,4\fE^\bassi b d
+		d' d,8. a'64 g fis e d8. d'16
+		d4 d,8. a'64 g fis e d8. c'16
+		b8 b a a g g
+		d4 d d %30
+		es! es' d
+		c, c' b
+		a b g
+		d2 g4
+		c, d d, %35
+		g b es
+		c d d,
+		g2\fermata \bar "|." %38 finis
+	}
+}
+
+EsSollDerBassFigures = \figuremode {
+	r4 r2.*8 %8
+	r4 <6> <[_+]>
+	<[9 4]>8 <[8 3]> <_+>2 %10
+	<6>4 q <7 _+>
+	<[9 4]>8 <[8 3]> <_+>2
+	<[7 _!]>4 <[6 5 _!]> <[7 5! _+]>
+	<[9 4!]> <[8 _!]>2
+	<[6!]>4 <[6 4]> <[5! _+]> %15
+	r2.*10 %25
+	r4 <[6]> <[_+]>
+	<6 4> <5 _+>2
+	<[6 4]>4 <[5 _+]>2
+	<[6]>4 <[6\\]>2
+	<[6 4]>4 <[5 _+]>2 %30
+	<[3]> <[4 3]>4
+	r2 <6>4
+	<7 _+>2.
+	<_+>
+	<6 5>4 <6 4> <5 _+> %35
+	r <[6]>2
+	<[6 5]>4 <[4]> <[_+]>
+	r2 %38 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

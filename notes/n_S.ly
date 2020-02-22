@@ -992,6 +992,91 @@ WelcherWarUmSopranoLyrics = \lyricmode {
 	Creut -- zi -- ge, creut -- zi -- ge Ihn! %9 finis
 }
 
+EsSollDerSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \autoBeamOff\tempoEsSollDer
+		\partial 4 d4\pE^\solo g2 a8([ b16 c)]
+		\appoggiatura c8 b4 a r8 b
+		c es d4 c
+		\appoggiatura c8 b4 a4 r8. b16
+		b8. a16 a4 r8. g16 %5
+		g8. f!16 f4 r8 d'
+		b([ g]) f4( e)
+		d2 \mvTr d4\fE^\tutti
+		g2 a8([ b16 c)]
+		\appoggiatura c8 b4 a r8 b^\critnote %10
+		c es d4 c
+		\appoggiatura c8 b4 a r8. b16
+		b8. a16 a4 r8. g16
+		g8. f!16 f4. d'8
+		b([ g]) f4( e) %15
+		d2 r8. \mvTr a'16\pE^\solo
+		b4( a) r8. a16
+		b4( a) r8. a16
+		d4( c) b
+		\appoggiatura b a2 r4 %20
+		g4 g g
+		g2.~
+		g2 b4
+		a4. c8 b4
+		c^\critnote b( a) %25
+		g2 r8. \mvTr a16\fE^\tutti
+		b4( a) r8. a16
+		b4( a) r8. a16
+		d4( c) b
+		\appoggiatura b a2 r4 %30
+		g g g
+		g2.~
+		g2 b4
+		a4. c8 b4
+		c^\critnote b( a) %35
+		g2 r4
+		R2.
+		r2\fermata \bar "|." %38 finis
+		
+	}
+}
+
+EsSollDerSopranoLyrics = \lyricmode {
+	Es ſoll der __
+	from -- me, der
+	from -- me Je -- ſus
+	ſter -- ben, die
+	Ra -- ſe -- rey, die %5
+	Ra -- ſe -- rey häuft
+	Sei -- ne __
+	Noth, es
+	ſoll der __
+	from -- me, der %10
+	from -- me Je -- ſus
+	ſter -- ben, die
+	Ra -- ſe -- rey, die
+	Ra -- ſe -- rey häuft
+	Sei -- ne __ %15
+	Noth, man
+	reißt, man
+	führt Ihn
+	in __ den
+	Todt, %20
+	das ſchwe -- re
+	Creutz __
+	mit
+	Blut, mit Blut
+	zu fär -- %25
+	ben, man
+	reißt, man
+	führt Ihn
+	in __ den
+	Todt, %30
+	das ſchwe -- re
+	Creutz __
+	mit
+	Blut, mit Blut
+	zu fär -- %35
+	ben. %36 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

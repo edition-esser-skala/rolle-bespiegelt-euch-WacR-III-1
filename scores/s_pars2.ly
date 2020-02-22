@@ -399,69 +399,141 @@
 % 			\midi { \tempo 4 = 100 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.9" "R E C I T A T I V O" "Welcher war um einen Aufruhr"
+% 		}
+% 		\paper { systems-per-page = #1 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\WelcherWarUmViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\WelcherWarUmViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\WelcherWarUmViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Pilatus" } }
+% 					\new Voice = "Evangelist" { \dynamicUp \WelcherWarUmEvangelistNotes }
+% 				}
+% 				\new Lyrics \lyricsto Evangelist \WelcherWarUmEvangelistLyrics
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Canto"
+% 						\new Voice = "Soprano" { \dynamicUp \WelcherWarUmSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \WelcherWarUmSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \WelcherWarUmAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \WelcherWarUmAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \WelcherWarUmTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \WelcherWarUmTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \WelcherWarUmBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \WelcherWarUmBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\WelcherWarUmOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \WelcherWarUmBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.9" "R E C I T A T I V O" "Welcher war um einen Aufruhr"
+			movement = \movementTitle "2.10" "C O R O" "Es ſoll der fromme Jeſus ſterben"
 		}
 		\paper { systems-per-page = #1 }
 		\score {
 			<<
 				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Oboe I"
+							\EsSollDerOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe II"
+							\EsSollDerOboeII
+						}
+					>>
+				>>
+				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\WelcherWarUmViolinoI
+							\EsSollDerViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\WelcherWarUmViolinoII
+							\EsSollDerViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\WelcherWarUmViola
+						\EsSollDerViola
 					}
 				>>
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Pilatus" } }
-					\new Voice = "Evangelist" { \dynamicUp \WelcherWarUmEvangelistNotes }
-				}
-				\new Lyrics \lyricsto Evangelist \WelcherWarUmEvangelistLyrics
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Canto"
-						\new Voice = "Soprano" { \dynamicUp \WelcherWarUmSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \EsSollDerSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \WelcherWarUmSopranoLyrics
+					\new Lyrics \lyricsto Soprano \EsSollDerSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \WelcherWarUmAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \EsSollDerAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \WelcherWarUmAltoLyrics
+					\new Lyrics \lyricsto Alto \EsSollDerAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \WelcherWarUmTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \EsSollDerTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \WelcherWarUmTenoreLyrics
+					\new Lyrics \lyricsto Tenore \EsSollDerTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \WelcherWarUmBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \EsSollDerBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \WelcherWarUmBassoLyrics
+					\new Lyrics \lyricsto Basso \EsSollDerBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\WelcherWarUmOrgano
+						\EsSollDerOrgano
 					}
 				>>
-				\new FiguredBass { \WelcherWarUmBassFigures }
+				\new FiguredBass { \EsSollDerBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 100 }
 		}
 	}
 }

@@ -913,6 +913,51 @@ WelcherWarUmViolinoI = {
 	}
 }
 
+EsSollDerViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \tempoEsSollDer
+		\partial 4 r4 g\p b d
+		g d4. g8
+		es c fis4 d
+		g, d' r8. g16
+		cis,4 cis8. e64\f d cis h a4 %5
+		d\p d8. a'64\f g f e? d4
+		g,\pE a2
+		d2 d4\f
+		g2 a8 b16 c
+		\appoggiatura c8 b4 a r8 b %10
+		c es d4 c
+		\appoggiatura c8 b4 a r8. b16
+		b8. a16 a8. e64 d cis h a8. g'16
+		g8. f!16 f8. a64 g f e? d8 d'
+		b g f4 e %15
+		d2 r4
+		d'\p d,8. a'64\f g fis e d4
+		d'\p d,8. a'64\f g fis e d8 c!
+		b\pE b a a g g
+		d'4 d d %20
+		es! es d
+		c c b
+		a b g
+		d' d g,
+		c-\critnote d2 %25
+		g,4\fE b d8. a'16
+		b4 a8. a64 g fis e d8. a'16
+		b4 a8. a64 g fis e d8. a'16
+		d4 c b
+		\appoggiatura b a2 r4 %30
+		g g g
+		g2.~
+		g2 b4
+		a4. c8 b4
+		c b a %35
+		g g g
+		g g fis
+		g2\fermata \bar "|." %38 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

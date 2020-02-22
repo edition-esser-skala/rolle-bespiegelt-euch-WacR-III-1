@@ -929,3 +929,48 @@ WelcherWarUmViolinoII = {
 		R1\fermataMarkup \bar "|." %29 finis
 	}
 }
+
+EsSollDerViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \tempoEsSollDer
+		\partial 4 r4 g\p b d
+		g d4. g8
+		es c fis4 d
+		g, d' r8. g16
+		cis,4 cis8. e64\f d cis h a4 %5
+		d\p d8. a'64\f g f e? d4
+		g,\pE a2
+		d2 d4\f
+		d g fis8 g16 a
+		\appoggiatura a8 g4 fis r8 g %10
+		g4 a a
+		\appoggiatura a8 g4 fis r8. g16
+		g8.-\critnote g16 g8. e64 d cis h a8. e'16
+		e8. d16 d8. a'64 g f e? d8 a'
+		g e d4 cis %15
+		d2 r4
+		d'\p d,8. a'64\f g fis e d4
+		d'\p d,8. a'64\f g fis e d8 c!
+		b\pE b a a g g
+		d'4 d d %20
+		es! es d
+		c c b
+		a b g
+		d' d g,
+		c-\critnote d2 %25
+		g,4\fE b d8. fis16
+		g4 fis8. a64 g fis e d8. fis16
+		g4 fis8. a64 g fis e d8. fis16
+		g4 fis g
+		\appoggiatura g fis2 r4 %30
+		g g f
+		es es d
+		cis d g
+		fis4. a8 g4
+		a g fis %35
+		g d es
+		es d d
+		d2\fermata \bar "|." %38 finis
+	}
+}

@@ -929,3 +929,48 @@ WelcherWarUmViola = {
 		R1\fermataMarkup \bar "|." %29 finis
 	}
 }
+
+EsSollDerViola = {
+	\relative c' {
+		\clef alto
+		\key g \minor \time 3/4 \tempoEsSollDer
+		\partial 4 r4 g\p b d
+		g d4. g8
+		es c fis4 d
+		g, d' r8. g16
+		cis,4 cis8. e64\f d cis h a4 %5
+		d\p d8. a'64\f g f e? d4
+		g,\pE a2
+		d,8 es'\f d c b a
+		b4 d d
+		d d r8 d %10
+		c^\critnote c d4 fis
+		d d r8. d16
+		e8. e16 e8. e64 d cis h a8. a16
+		a8. a16 a8. a64 g f e? d8 f'
+		e4 a, a %15
+		d,2 r4
+		d'\p d8. a'64\f g fis e d4
+		d'\p d,8. a'64\f g fis e d8 c!
+		b\pE b a a g g
+		d'4 d d %20
+		es! es d
+		c c b
+		a b g
+		d' d g,
+		c-\critnote d d, %25
+		g\fE b d
+		d4 d8. a'64 g fis e d8. d16
+		d4 d8. a'64 g fis e d8. d16
+		d4 d d
+		d2 r4 %30
+		es!4 es d
+		c c b
+		a b d
+		d2 d4
+		es d c %35
+		b b b
+		a a a
+		b2\fermata \bar "|." %38 finis
+	}
+}

@@ -368,3 +368,48 @@ HinwegMitDiesemOboeI = {
 		f-! r\fermata \bar "|." %19 finis
 	}
 }
+
+EsSollDerOboeI = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \tempoEsSollDer
+		\partial 4 \mvTr d4\p-\soloE-\markup { \remark "con ſordini" } g2 a8 b16 c
+		\appoggiatura c8 b4 a r8 b
+		c es d4 c
+		\appoggiatura c8 b4 a r8. b16
+		b8. a16 a4 r8. g16 %5
+		g8. f16 f4 r8 d'
+		b g f4 e
+		d2 \mvTr d4\f-\tutti
+		g2 a8 b16 c
+		\appoggiatura c8 b4 a r8 b %10
+		c es d4 c
+		\appoggiatura c8 b4 a r8. b16
+		b8. a16 a4 r8. g16
+		g8. f!16 f4 r8 d'
+		b g f4 e %15
+		d2 r8. \mvTr a'16\pE-\solo
+		b4( a) r8. a16
+		b4( a) r8. a16
+		d4 c b
+		\appoggiatura b a2 r4 %20
+		g4 g g
+		\once \tieDashed g2.~
+		g2 b4
+		a4. c8 b4
+		c b a %25
+		g2 r8. \mvTr a16\fE-\tutti
+		b4( a) r8. a16
+		b4( a) r8. a16
+		d4 c b
+		\appoggiatura b a2 r4 %30
+		g g g
+		g2.~
+		g2 b4
+		a4. c8 b4
+		c b a %35
+		g g g
+		g g fis
+		g2\fermata \bar "|." %38 finis
+	}
+}

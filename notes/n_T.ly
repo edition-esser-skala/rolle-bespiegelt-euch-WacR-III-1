@@ -1665,6 +1665,90 @@ WelcherWarUmTenoreLyrics = \lyricmode {
 	Creut -- zi -- ge, creut -- zi -- ge Ihn! %9 finis
 }
 
+EsSollDerTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \minor \time 3/4 \autoBeamOff\tempoEsSollDer
+		\partial 4 \mvTr d4\pE^\soloE g,( b) d
+		g d r8 g
+		es c fis4 d
+		g, d' r8. g16
+		cis,8. cis16 cis4 r8. a16 %5
+		d8. d,16 d4 r8 d'
+		g,4 a2
+		d,2 \mvTr d'4\fE^\tutti
+		b( d) d
+		d d r8 d %10
+		c c d4 fis
+		d d r8. d16^\critnote
+		e8. e16 e4 r8. a,16
+		a8. a16 a4 r8 f'
+		e4 d( cis) %15
+		d2 r8. \mvTr d16\pE^\solo
+		d2 r8. d16
+		d2 r8. c!16
+		b4( a) g
+		d'2 r4 %20
+		es! es d
+		c2 b4
+		a( b) g
+		d'2( g,4)
+		c d2 %25
+		g, r8. \mvTr d'16\fE^\tutti
+		d2 r8. d16
+		d2 r8. d16
+		d2 d4
+		d2 r4 %30
+		R2.
+		es4 es d^\critnote
+		cis( d) d
+		d2.
+		es!4 d( c) %35
+		b2 r4
+		R2.
+		r2\fermata \bar "|." %38 finis
+	}
+}
+
+EsSollDerTenoreLyrics = \lyricmode {
+	Es ſoll __ der
+	from -- me, der
+	from -- me Je -- ſus
+	ſter -- ben, die
+	Ra -- ſe -- rey, die %5
+	Ra -- ſe -- rey häuft
+	Sei -- ne
+	Noth, \xE es
+	ſoll __ der
+	from -- me, der %10
+	from -- me Je -- ſus
+	ſter -- ben, die
+	Ra -- ſe -- rey, die
+	Ra -- ſe -- rey häuft
+	Sei -- ne __ %15
+	Noth, \x man
+	reißt, man
+	führt Ihn
+	in __ den
+	Todt, %20
+	das ſchwe -- re
+	Creutz mit
+	Blut, mit
+	Blut __
+	zu fär -- %25
+	ben, \xE man
+	reißt, man
+	führt Ihn
+	in den
+	Todt, %30
+	
+	das ſchwe -- re
+	Creutz mit
+	Blut
+	zu fär -- %35
+	ben. %36 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

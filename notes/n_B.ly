@@ -793,6 +793,59 @@ WelcherWarUmBassoLyrics = \lyricmode {
 	Creut -- zi -- ge, creut -- zi -- ge Ihn! %9 finis
 }
 
+EsSollDerBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 3/4 \autoBeamOff\tempoEsSollDer
+		\partial 4 r4 R2.*8 %8
+		\mvTr g'4\fE^\tuttiE b, d
+		g d r8 g %10
+		es c fis4 d
+		g d r8. g16
+		cis,8. cis16 cis4 r8. cis16
+		d8. d16 d4 r8 d
+		g4 a( a,) %15
+		d2 r4
+		R2.*9 %25
+		r4 r r8. \mvTr d16\fE^\tuttiE
+		d2 r8. d16
+		d2 r8. c'16
+		b4( a) g
+		d2 r4 %30
+		es! es' d
+		c2 b4
+		a( b) g
+		d2( g4)
+		c, d2 %35
+		g, r4
+		R2.
+		r2\fermata \bar "|." %38 finis
+	}
+}
+
+EsSollDerBassoLyrics = \lyricmode {
+	Es ſoll der %9
+	from -- me, der %10
+	from -- me Je -- ſus
+	ſter -- ben, die
+	Ra -- ſe -- rey, die
+	Ra -- ſe -- rey häuft
+	Sei -- ne __ %15
+	Noth.
+	
+	Man %26
+	reißt, man
+	führt Ihn
+	in __ den
+	Todt, %30
+	das ſchwe -- re
+	Creutz mit
+	Blut, mit
+	Blut __
+	zu fär -- %35
+	ben. %36 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

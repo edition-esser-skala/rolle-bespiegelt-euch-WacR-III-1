@@ -1267,6 +1267,90 @@ WelcherWarUmAltoLyrics = \lyricmode {
 	Creut -- zi -- ge, creut -- zi -- ge Ihn! %9 finis
 }
 
+EsSollDerAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \autoBeamOff\tempoEsSollDer
+		\partial 4 \mvTr d4\pE^\soloE g2 fis8([ g16 a)]
+		\appoggiatura a8 g4 fis r8 g
+		g g a4 a
+		\appoggiatura a8 g4 fis r8. g16
+		e8. e16 e4 r8. e16 %5
+		e8. d16 d4 r8 f!
+		g([ e]) d4( cis)
+		d2 \mvTr d4\fE^\tutti
+		d( g) fis8([ g16 a)]
+		\appoggiatura a8 g4^\critnote fis r8 g %10
+		g g a4 a
+		\appoggiatura a8 g4 fis r8. g16
+		g8. g16 g4 r8. e16
+		e8. d16 d4 r8 a'
+		g8([ e]) d4( cis) %15
+		d2 r8. \mvTr fis16\pE^\solo
+		g4( fis) r8. fis16
+		g4( fis) r8. fis16
+		g4( fis) g
+		\appoggiatura g fis2 r4 %20
+		g4 g f
+		es es d
+		cis( d) g
+		fis4. a8 g4
+		a g( fis) %25
+		g2 r8. \mvTr fis16\fE^\tuttiE
+		g4( fis) r8. fis16
+		g4( fis?) r8. fis16
+		g4( fis) g
+		\appoggiatura g fis2 r4 %30
+		g4 g g
+		g2.~
+		g2 g4
+		fis4. a8 g4
+		a g( fis) %35
+		g2 r4
+		R2.
+		r2\fermata \bar "|." %38 finis
+	}
+}
+
+EsSollDerAltoLyrics = \lyricmode {
+	Es ſoll \xE der __
+	from -- me, der
+	from -- me Je -- ſus
+	ſter -- ben, die
+	Ra -- ſe -- rey, die %5
+	Ra -- ſe -- rey häuft
+	Sei -- ne __
+	Noth, es
+	ſoll __ der __
+	from -- me, der %10
+	from -- me Je -- ſus
+	ſter -- ben, die
+	Ra -- ſe -- rey, die
+	Ra -- ſe -- rey häuft
+	Sei -- ne __ %15
+	Noth, man
+	reißt, man
+	führt Ihn
+	in __ den
+	Todt, \x %20
+	das ſchwe -- re,
+	das ſchwe -- re
+	Creutz mit
+	\xE Blut, mit Blut
+	zu fär -- %25
+	ben, man
+	reißt, man
+	führt Ihn
+	in __ den
+	Todt, %30
+	das ſchwe -- re
+	Creutz __
+	mit
+	Blut, mit Blut
+	zu fär -- %35
+	ben. %36 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
