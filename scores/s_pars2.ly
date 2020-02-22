@@ -464,9 +464,109 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.10" "C O R O" "Es ſoll der fromme Jeſus ſterben"
+% 		}
+% 		\paper { systems-per-page = #1 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe I"
+% 							\EsSollDerOboeI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe II"
+% 							\EsSollDerOboeII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\EsSollDerViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\EsSollDerViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\EsSollDerViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Canto"
+% 						\new Voice = "Soprano" { \dynamicUp \EsSollDerSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \EsSollDerSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \EsSollDerAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \EsSollDerAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \EsSollDerTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \EsSollDerTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \EsSollDerBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \EsSollDerBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\EsSollDerOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \EsSollDerBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 100 }
+% 		}
+% 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.11" "R E C I T A T I V O" "Und als ſie Ihn hinführeten"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #3
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Evangeliſt"
+% 					\new Voice = "Tenore" { \dynamicUp \UndAlsSieTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \UndAlsSieTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\UndAlsSieOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \UndAlsSieBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.10" "C O R O" "Es ſoll der fromme Jeſus ſterben"
+			movement = \movementTitle "2.10" "C O R O" "Es ſoll der fromme Jeſus ſterben [da capo]"
 		}
 		\paper { systems-per-page = #1 }
 		\score {
@@ -474,12 +574,12 @@
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
-							\set Staff.instrumentName = "Oboe I"
-							\EsSollDerOboeI
+							\set Staff.instrumentName = \markup { \center-column { "Flauto" "traverso I" } }
+							\EsSollDerBFlautoI
 						}
 						\new Staff {
-							\set Staff.instrumentName = "Oboe II"
-							\EsSollDerOboeII
+							\set Staff.instrumentName = \markup { \center-column { "Flauto" "traverso II" } }
+							\EsSollDerBFlautoII
 						}
 					>>
 				>>
@@ -487,50 +587,56 @@
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\EsSollDerViolinoI
+							\EsSollDerBViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\EsSollDerViolinoII
+							\EsSollDerBViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\EsSollDerViola
+						\EsSollDerBViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Canto"
-						\new Voice = "Soprano" { \dynamicUp \EsSollDerSopranoNotes }
+						\set Staff.instrumentName = "Canto I"
+						\new Voice = "SopranoI" { \dynamicUp \EsSollDerBSopranoINotes }
 					}
-					\new Lyrics \lyricsto Soprano \EsSollDerSopranoLyrics
+					\new Lyrics \lyricsto SopranoI \EsSollDerBSopranoILyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Canto II"
+						\new Voice = "SopranoII" { \dynamicUp \EsSollDerBSopranoIINotes }
+					}
+					\new Lyrics \lyricsto SopranoII \EsSollDerBSopranoIILyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \EsSollDerAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \EsSollDerBAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \EsSollDerAltoLyrics
+					\new Lyrics \lyricsto Alto \EsSollDerBAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \EsSollDerTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \EsSollDerBTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \EsSollDerTenoreLyrics
+					\new Lyrics \lyricsto Tenore \EsSollDerBTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \EsSollDerBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \EsSollDerBBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \EsSollDerBassoLyrics
+					\new Lyrics \lyricsto Basso \EsSollDerBBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\EsSollDerOrgano
+						\EsSollDerBOrgano
 					}
 				>>
-				\new FiguredBass { \EsSollDerBassFigures }
+				\new FiguredBass { \EsSollDerBBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 100 }

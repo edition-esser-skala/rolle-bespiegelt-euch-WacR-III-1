@@ -1077,6 +1077,174 @@ EsSollDerSopranoLyrics = \lyricmode {
 	ben. %36 finis
 }
 
+EsSollDerBSopranoINotes = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 3/4 \autoBeamOff \tempoEsSollDerB
+		\partial 4 \mvTr g'4\pE^\solo c2 d8([ es16 f)]
+		\appoggiatura f8 es4 d r8 es
+		f as g4 f
+		\appoggiatura f8 es4 d r8. es16
+		es8. d16 d4 r8. c16 %5
+		c8. b!16 b4 r8 g'
+		es([ c)] b4( a)
+		g2 \mvTr g4\fE^\tutti
+		c2 d8([ es16 f)]
+		\appoggiatura f8 es4^\critnote d r8 es %10
+		f as g4 f
+		\appoggiatura f8 es4^\critnote d r8. es16
+		es8. d16 d4 r8. c16
+		c8. b!16 b4 r8 g'
+		es([ c)] b4( a) %15
+		g2 r8. \mvTr d'16\pE^\solo
+		es4( d) r8. d16
+		es4( d) r8. d16
+		g4( f) es
+		\appoggiatura es d2 r4 %20
+		c c c
+		c2.~
+		c2 es4
+		d4. f8 es4
+		f es( d) %25
+		c2 r8. \mvTr d16\fE^\tutti
+		es4( d) r8. d16
+		es4( d) r8. d16
+		g4( f) es
+		\appoggiatura es d2 r4 %30
+		c c c
+		c2.~
+		c2 es4
+		d4. f8 es4
+		d c( h) %35
+		c2 r4
+		R2.
+		r2\fermata \bar "|." %38 finis
+	}
+}
+
+EsSollDerBSopranoILyrics = \lyricmode {
+	Es ſoll der __
+	from -- me, der
+	from -- me Je -- ſus
+	ſter -- ben, die
+	Ra -- ſe -- rey, die %5
+	Ra -- ſe -- rey häuft
+	Sei -- ne __
+	Noth, es
+	ſoll der __
+	from -- me, der %10
+	from -- me Je -- ſus
+	ſter -- ben, die
+	Ra -- ſe -- rey, die
+	Ra -- ſe -- rey häuft
+	Sei -- ne __ %15
+	Noth, man
+	reißt, man
+	führt Ihn
+	in __ den
+	Todt, %20
+	das ſchwe -- re
+	Creutz __
+	mit
+	Blut, mit Blut
+	zu fär -- %25
+	ben, man
+	reißt, man
+	führt Ihn
+	in __ den
+	Todt, %30
+	das ſchwe -- re
+	Creutz __
+	mit
+	Blut, mit Blut
+	zu fär -- %35
+	ben. %36 finis
+}
+
+EsSollDerBSopranoIINotes = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 3/4 \autoBeamOff \tempoEsSollDerB
+		\partial 4 \mvTr g'4\pE^\solo c2 h8([ c16 d)]
+		\appoggiatura d8 c4 h r8 c
+		c c d4 h
+		\appoggiatura d8 c4^\critnote h r8. c16
+		a8. a16 a4 r8. a16 %5
+		a8. g16 g4 r8 b!
+		a4 g( fis)
+		g2 \mvTr g4\fE^\tutti
+		c2 d8([ es16 f)]
+		\appoggiatura f8 es4^\critnote d r8 es %10
+		f as g4 f
+		\appoggiatura f8 es4^\critnote d r8. es16
+		es8. d16 d4 r8. c16
+		c8. b!16 b4 r8 g'
+		es([ c)] b4( a) %15
+		g2 r8. \mvTr h16\pE^\solo
+		c4( h) r8. h16
+		c4( h) r8. h16
+		c4( h) c
+		\appoggiatura c h2 r4 %20
+		c c b
+		as as g
+		fis( g) c
+		h4. d8 c4
+		d c( h) %25
+		c2 r8. \mvTr d16\fE^\tutti
+		es4( d) r8. d16
+		es4( d) r8. d16
+		g4( f) es
+		\appoggiatura es d2 r4 %30
+		c c c
+		c2.~
+		c2 es4
+		d4. f8 es4
+		d c( h) %35
+		c2 r4
+		R2.
+		r2\fermata \bar "|." %38 finis
+	}
+}
+
+EsSollDerBSopranoIILyrics = \lyricmode {
+	Es \xE ſoll der __
+	from -- me, der
+	from -- me Je -- ſus
+	ſter -- ben, die
+	Ra -- ſe -- rey, die %5
+	Ra -- ſe -- rey häuft
+	Sei -- ne __
+	Noth, es
+	ſoll der __
+	from -- me, der %10
+	from -- me Je -- ſus
+	ſter -- ben, die
+	Ra -- ſe -- rey, die
+	Ra -- ſe -- rey häuft
+	Sei -- ne __ %15
+	Noth, man
+	reißt, man
+	führt Ihn
+	in __ den
+	Todt, %20
+	das ſchwe -- re,
+	\x das ſchwe -- re
+	Creutz mit
+	Blut, mit Blut
+	zu fär -- %25
+	ben, man
+	reißt, \xE man
+	führt Ihn
+	in __ den
+	Todt, %30
+	das ſchwe -- re
+	Creutz __
+	mit
+	Blut, mit Blut
+	zu fär -- %35
+	ben. %36 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

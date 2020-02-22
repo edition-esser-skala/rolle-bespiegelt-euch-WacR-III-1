@@ -974,3 +974,48 @@ EsSollDerViola = {
 		b2\fermata \bar "|." %38 finis
 	}
 }
+
+EsSollDerBViola = {
+	\relative c' {
+		\clef alto
+		\key c \minor \time 3/4 \tempoEsSollDerB
+		\partial 4 r4 c\pE es g
+		c g r8 c
+		as f h4 g
+		c, g' r8. c16
+		fis,4 fis8. a?64\fE g fis e? d8. fis16 %5
+		g4\pE g8. d64\fE c b! a? g8 g'
+		c,4\pE d d
+		g,8 g'\fE g f es d
+		es4 g g
+		g g r8 g %10
+		f f g4 g
+		g g r8. g16
+		a8. a16 a8. a64 g fis e d8. d16
+		d8. d16 d8. d64 c b! a? g8 d'
+		c es d2 %15
+		d2 r4
+		g4\pE g8. d64\f c h? a? g8. g'16
+		g4\p g8. d64\f c h? a? g8 f'
+		es\p es d d c c
+		g'4 g, g'
+		as! as g
+		f f es
+		d es c
+		g' g, c
+		f g g, %25
+		c4\fE es g
+		g~ g8. d64 c h a g8. g'16
+		g4~ g8. d64 c h a g8. f'16
+		es8 es d d c c
+		g'4 g, g %30
+		as! as' g
+		f f es
+		d es g
+		g g g
+		as g g, %35
+		g g as
+		as g g
+		g2\fermata \bar "|." %38 finis
+	}
+}

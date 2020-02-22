@@ -1749,6 +1749,89 @@ EsSollDerTenoreLyrics = \lyricmode {
 	ben. %36 finis
 }
 
+UndAlsSieTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \minor \time 4/4 \autoBeamOff \tempoUndAlsSie
+		b8 b16 b b8 b es8. es16 es8 g
+		f c16 c c8 d es es r es16 d
+		b8 b r16 b d f f8 b, r f
+		as as16 as c8 b g4 es'8 c
+		a4 a8 b b f r4 %5
+		r r8 d' d16 d d d d8 h
+		g4 r8 g d' d es f
+		es4 r8 g g c, r b
+		des4( c) as as8 f
+		es'!4 es8 d h4 r\fermata \bar "|." %10 finis
+	}
+}
+
+UndAlsSieTenoreLyrics = \lyricmode {
+	Und als ſie Ihn hin -- füh -- re -- ten, er --
+	grif -- fen ſie ei -- nen Si -- mon von Cy --
+	re -- nen, der kam vom Fel -- de, und
+	leg -- ten das Creutz auf ihn, daß ers
+	Je -- ſu nach -- trü -- ge. %5
+	Es fol -- ge -- ten Ihm a -- ber
+	nach ein gro -- ßer Hauf -- fe
+	Volck und Wei -- ber, die
+	klag -- ten und be --
+	wei -- ne -- ten Ihn. %10 finis
+}
+
+EsSollDerBTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \minor \time 3/4 \autoBeamOff \tempoEsSollDerB
+		\partial 4 r4 R2.*7 %7
+		r4 r  \mvTr g'4\fE^\tuttiE
+		es( g) g
+		g g r8 g %10
+		f f g4 g
+		g g r8. g16
+		a8. a16 a4 r8. d,16
+		d8. d16 d4 r8 d
+		c([ es)] d2 %15
+		d2 r4
+		R2.*9 %25
+		r4 r r8. \mvTr g16\fE^\tuttiE
+		g2 r8. g16
+		g2 r8. g16
+		g2 g4
+		g2 r4 %30
+		R2.*2
+		d4 c g'
+		g4. g8 g4
+		f es( d) %35
+		es2 r4
+		R2.
+		r2\fermata \bar "|." %38 finis
+	}
+}
+
+EsSollDerBTenoreLyrics = \lyricmode {
+	Es %8
+	ſoll __ der
+	from -- me, der %10
+	from -- me Je -- ſus
+	ſter -- ben, die
+	Ra -- ſe -- rey, die
+	\xE Ra -- ſe -- rey häuft
+	Sei -- ne %15
+	Noth.
+	
+	Man %26
+	reißt, man
+	führt Ihn
+	in den
+	Todt, \x %30
+	
+	das ſchwe -- re %33
+	Creutz mit Blut
+	zu fär -- %35
+	ben. %36 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

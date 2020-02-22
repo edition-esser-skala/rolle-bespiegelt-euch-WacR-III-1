@@ -958,6 +958,51 @@ EsSollDerViolinoI = {
 	}
 }
 
+EsSollDerBViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 3/4 \tempoEsSollDerB
+		\partial 4 r4 c\pE es g
+		c g r8 c
+		as f h4 g
+		c, g' r8. c16
+		fis,4 fis8. a?64\fE g fis e? d8. fis16 %5
+		g4\pE g8. d64\fE c b! a? g8 g'
+		c,4\pE d d
+		g,2 g'4\fE
+		c2 d8 es16 f
+		\appoggiatura f8 es4 d r8 es %10
+		f as g4 f
+		\appoggiatura f8 es4 d r8. es16
+		es8. d16 d8. a?64 g fis e? d8. c'16
+		c8. b!16 b8. d,64 c b! a? g8 g''
+		es c b4 a %15
+		g2 r4
+		g\p g8. d64\f c h a? g8. g'16
+		g4\pE g8. d64\fE c h? a? g8. f'16
+		es8\pE es d d c c
+		g'4 g, g' %20
+		as! as g
+		f f es
+		d es c
+		g' g, c
+		f g g, %25
+		c\fE es g8. d'16
+		es4 d8. d,64 c h a? g8. d''16
+		es4 d8. d,64 c h? a? g8. d''16
+		g4 f es
+		\appoggiatura es d2 r4 %30
+		c c c
+		c2.~
+		c2 es4
+		d4. f8 es4
+		d c h %35
+		c c c
+		c c h
+		c2\fermata \bar "|." %38 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -846,6 +846,60 @@ EsSollDerBassoLyrics = \lyricmode {
 	ben. %36 finis
 }
 
+EsSollDerBBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \minor \time 3/4 \autoBeamOff\tempoEsSollDerB
+		\partial 4 r4 R2.*7 %7
+		r4 r \mvTr es8([\fE^\tuttiE d)]
+		c4( es) g
+		c g r8 c %10
+		as f h4 g
+		c g r8. c16
+		fis,8. fis16 fis4 r8. fis16
+		g8. g16 g4 r8 g
+		c,4 d2 %15
+		g,2 r4
+		R2.*9 %25
+		r4 r r8. \mvTr g'16\fE^\tuttiE
+		g2 r8. g16
+		g2 r8. f16
+		es4( d) c
+		g'2 r4 %30
+		as! as g
+		f2 es4
+		d( es) c
+		g'2 c,4
+		f g2 %35
+		c, r4
+		R2.
+		r2\fermata \bar "|." %38 finis
+	}
+}
+
+EsSollDerBBassoLyrics = \lyricmode {
+	Es ſoll __ der %9
+	\xE from -- me, der %10
+	from -- me Je -- ſus
+	ſter -- ben, die
+	Ra -- ſe -- rey, die
+	\x Ra -- ſe -- rey häuft
+	Sei -- ne %15
+	Noth.
+	
+	Man %26
+	reißt, man
+	führt Ihn
+	in __ den
+	Todt, %30
+	das ſchwe -- re
+	Creutz mit
+	Blut __ zu
+	fär -- ben,
+	zu fär -- %35
+	ben. %36 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

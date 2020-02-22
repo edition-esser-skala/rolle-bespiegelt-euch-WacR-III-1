@@ -1351,6 +1351,90 @@ EsSollDerAltoLyrics = \lyricmode {
 	ben. %36 finis
 }
 
+EsSollDerBAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 3/4 \autoBeamOff \tempoEsSollDerB
+		\partial 4 \mvTr g'4\pE^\soloE c,( es) g
+		c g r8 c
+		as f h4 g
+		c, g' r8. c16
+		fis,8. fis16 fis4 r8. fis16 %5
+		g8. g16 g4 r8 g
+		c,4 d2
+		g \mvTr g4\fE^\tuttiE
+		g2 h8([ c16 d)]
+		\appoggiatura d8 c4^\critnote h r8 c %10
+		c c d4 h
+		\appoggiatura d8 c4^\critnote h r8. c16
+		c8. c16 c4 r8. a16
+		a8. g16 g4 r8 b!
+		a4 g( fis) %15
+		g2 r8. \mvTr g16\pE^\soloE
+		g2 r8. g16
+		g2 r8. f16
+		es4( d) c
+		g'2 r4 %20
+		as! as g
+		f2 es4
+		d( es) c
+		g'2( c,4)
+		f g2 %25
+		c, r8. \mvTr h'16\fE^\tutti
+		c4( h) r8. h16
+		c4( h) r8. h16
+		c4( h) c
+		\appoggiatura c h2 r4
+		R2.
+		as!4 as g
+		fis( g) c
+		h4. d8 c4
+		as g2
+		g r4
+		R2.
+		r2\fermata \bar "|."
+	}
+}
+
+EsSollDerBAltoLyrics = \lyricmode {
+	Es ſoll __ der
+	from -- me, der
+	from -- me Je -- ſus
+	ſter -- ben, die
+	Ra -- ſe -- rey, die %5
+	Ra -- ſe -- rey häuft
+	Sei -- ne
+	Noth, \xE es
+	ſoll der __
+	from -- me, der %10
+	from -- me Je -- ſus
+	ſter -- ben, die
+	Ra -- ſe -- rey, die
+	Ra -- ſe -- rey häuft
+	Sei -- ne __ %15
+	Noth, \x man
+	reißt, man
+	führt Ihn
+	in __ den
+	Todt, %20
+	das ſchwe -- re
+	Creutz mit
+	Blut, mit
+	Blut __
+	zu fär -- %25
+	ben, \xE man
+	reißt, man
+	führt Ihn
+	in __ den
+	Todt, %30
+	das ſchwe -- re
+	Creutz __
+	mit
+	Blut, mit Blut
+	zu fär -- %35
+	ben. %36 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

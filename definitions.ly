@@ -362,6 +362,8 @@ tempoWelcherWarUm = \tempoMarkup "[Recitativo]"
 	tempoWelcherWarUmB = \tempoMarkup "Allegro"
 	tempoWelcherWarUmC = \tempoMarkup "[Recitativo]"
 tempoEsSollDer = \tempoMarkup "Coro"
+tempoUndAlsSie = \tempoMarkup "[Recitativo]"
+tempoEsSollDerB = \tempoMarkup "[Coro]"
 
 
 

@@ -167,3 +167,48 @@ MundDerFlautoII = {
 		d4 r \bar "S-S" %126 finis
 	}
 }
+
+EsSollDerBFlautoII = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 3/4 \tempoEsSollDerB
+		\partial 4 g'4\pE c2 h8 c16 d
+		\appoggiatura d8 c4 h r8 c
+		c4 d h8 c16 d
+		\appoggiatura d8 c4^\critnote h r8. c16
+		a2 r8. a16 %5
+		a8. g16 g4 r8 b!
+		c a g4 fis
+		g2 g4\fE
+		c2 d8 es16 f
+		\appoggiatura f8 es4 d r8 es %10
+		f as g4 f
+		\appoggiatura f8 es4 d r8. es16
+		es8. d16 d4 r8. c16
+		c8. b!16 b4 r8 g'
+		es c b4 a %15
+		g2 r8. h16\pE
+		c4( h) r8. h16
+		c4( h) r8. h16
+		c4 h c
+		\appoggiatura c4 h2^\critnote r4 %20
+		c4 c b
+		as as g
+		fis g c
+		h4. d8 c4
+		d c h %25
+		c2 r8. h16\fE
+		c4( h) r8. h16
+		c4( h) r8. h16
+		c4 h c
+		\appoggiatura c h2 r4 %30
+		c4 c b
+		as! as g
+		fis g c
+		h4. d8 c4
+		as es d %35
+		es es es
+		d d d
+		es2\fermata \bar "|." %38 finis
+	}
+}

@@ -974,3 +974,48 @@ EsSollDerViolinoII = {
 		d2\fermata \bar "|." %38 finis
 	}
 }
+
+EsSollDerBViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 3/4 \tempoEsSollDerB
+		\partial 4 r4 c\pE es g
+		c g r8 c
+		as f h4 g
+		c, g' r8. c16
+		fis,4 fis8. a?64\fE g fis e? d8. fis16 %5
+		g4\pE g8. d64\fE c b! a? g8 g'
+		c,4\pE d d
+		g,2 g'4\fE
+		g2 h8 c16 d
+		\appoggiatura d8 c4^\critnote h r8 c %10
+		c4 d h
+		\appoggiatura d8 c4^\critnote h r8. c16
+		c8. c16 c8. a?64 g fis e? d8. a'16
+		a8. g16 g8. d64 c b! a? g8 b'
+		a4 g fis %15
+		g2 r4
+		g\p g8. d64\f c h a? g8. g'16
+		g4\pE g8. d64\fE c h? a? g8. f'16
+		es8\pE es d d c c
+		g'4 g, g' %20
+		as! as g
+		f f es
+		d es c
+		g' g, c
+		f g g, %25
+		c\fE es g8. h16
+		c4 h8. d,64 c h a? g8. h'16
+		c4 h8. d,64 c h? a? g8. h'16
+		c4 h c
+		\appoggiatura c h2 r4 %30
+		c4 c b
+		as! as g
+		fis g c
+		h4. d8 c4
+		as es d %35
+		es es es
+		d d d
+		es2\fermata \bar "|." %38 finis
+	}
+}

@@ -2477,6 +2477,106 @@ EsSollDerBassFigures = \figuremode {
 	r2 %38 finis
 }
 
+UndAlsSieOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \tempoUndAlsSie
+		es1
+		a,
+		d1~
+		d2 \once \tieDashed es~
+		es r4 f %5
+		b,4 \once \tieDashed h2.~
+		h1
+		c2 e~
+		e f
+		fis g4 r\fermata \bar "|." %10 finis
+	}
+}
+
+UndAlsSieBassFigures = \figuremode {
+	r1
+	<6>
+	<6>
+	<6 5->2 <5>4 <6>
+	<4! 2>1 %5
+	r4 <[6]>2.
+	r1
+	r2 <6>
+	<7->4 <6> <[_-]>2
+	<7->4 <6> <_!>2 %10
+}
+
+EsSollDerBOrgano = {
+	\relative c {
+		\clef bass
+		\key c \minor \time 3/4 \tempoEsSollDerB
+		\partial 4 \clef "treble_8" \tiny r4 c'\pE^\vla es g
+		c g r8 c
+		as f h4 g
+		c, g' r8. c16
+		fis,4 fis8. a?64\fE g fis e? d8. fis16 %5
+		g4\pE g8. d64\fE c b! a? g8 g'
+		c,4\pE d d
+		g,8 \clef bass \normalsize g[\fE^\bassi g f es d]
+		c4 es g
+		c g r8 c %10
+		as f h4 g
+		c g r8. c16
+		fis,8. fis16 fis8. a?64 g fis e d8. fis16
+		g8. g16 g8. d64 c b! a? g8 g'
+		c,4 d d, %15
+		g2 r4
+		\clef "treble_8" \tiny g''4\pE^\vla g8. d64\f c h? a? g8. g'16
+		g4\p g8. d64\f c h? a? g8 f'
+		es\p es d d c c
+		g'4 g, g'
+		as! as g
+		f f es
+		d es c
+		g' g, c
+		f g g, %25
+		\clef bass \normalsize c,4\fE^\bassi es g
+		g~ g8. d64 c h a g8. g'16
+		g4~ g8. d64 c h a g8. f'16
+		es8 es d d c c
+		g'4 g, g %30
+		as! as' g
+		f, f' es
+		d es c
+		g' g, c
+		f g g, %35
+		c es as
+		f g g,
+		c2\fermata \bar "|." %38 finis
+	}
+}
+
+EsSollDerBBassFigures = \figuremode {
+	r4 r2.*8 %8
+	r4 <6> <_!>
+	<[9 4]>8 <[8 3]> <_!>2 %10
+	<6>4 q <7 _!>
+	<9 4>8 <8 3> <_!>2
+	<7 _!>4 <6 5 _!> <7 5! _+>
+	<9! 4> <8 _->2
+	<6!>4 <6 4> <5! _+> %15
+	r2.*10 %25
+	r4 <6> <_!>
+	<6 4> <5 _!>2
+	<6 4>4 <5 _!>2
+	<6>4 <6!>2
+	<6 4>4 <5 _!>2 %30
+	<3> <4 3>4
+	r2 <6>4
+	<7 _+> <[6]>2
+	<_!>2.
+	<6 5>4 <6 4> <5 _!> %35
+	r <6>2
+	<6 5>4 <4> <_!>
+	r2 %38 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
