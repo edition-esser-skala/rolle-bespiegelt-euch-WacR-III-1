@@ -364,6 +364,10 @@ tempoWelcherWarUm = \tempoMarkup "[Recitativo]"
 tempoEsSollDer = \tempoMarkup "Coro"
 tempoUndAlsSie = \tempoMarkup "[Recitativo]"
 tempoEsSollDerB = \tempoMarkup "[Coro]"
+tempoJesusAberWandte = \tempoMarkup "[Recitativo]"
+	tempoJesusAberWandteB = \tempoMarkup "[Accompagnato]"
+	tempoJesusAberWandteC = \tempoMarkup "Recitativo"
+	tempoJesusAberWandteD = \tempoMarkup "Largo"
 
 
 

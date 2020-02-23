@@ -2577,6 +2577,59 @@ EsSollDerBBassFigures = \figuremode {
 	r2 %38 finis
 }
 
+JesusAberWandteOrgano = {
+	\relative c {
+		\clef bass
+		\key c \minor \time 4/4 \tempoJesusAberWandte
+			\set Staff.timeSignatureFraction = 4/4
+		as1
+		as
+		\tempoJesusAberWandteB as4\pE as as g
+		as f' des es
+		as,8 as[\pocoFE c f] des des es es %5
+		as as g g f f b, b
+		es8..^\critnote es32\f es8 es \tempoJesusAberWandteC e2~\pE
+		e1~
+		e
+		\tempoJesusAberWandteD f4 f f f %10
+		f8 r r4 des4\fE des
+		c2 e4\pE e
+		e2 f4 f
+		f,8. a16\f a2.~\fp
+		\once \tieDashed a1~ %15
+		a2 r
+		b4 r32 g'\fE^\unisonoE f es d[ es d c] b[ es d c] b c b a g4
+		\time 2/4 r4 c
+		\time 4/4 f, r16.^\critnote f32\pE f16. f32 es!2~
+		es d' %20
+		es r8 d d,4\fermata \bar "|." %21 finis
+	}
+}
+
+JesusAberWandteBassFigures = \figuremode {
+	<5 3>1
+	<7 4- 2>2 <5 3>
+	<5 3>2 <4- 2>4 <6 5->
+	r2 <6 5>4 <[7-]>
+	r <6> <[6 5]>2 %5
+	r4 <[6]> <[7]> <[7 _!]>
+	r2 <6 5>
+	r1
+	r
+	r4 <7! 2> <8 [3]> <7! 2> %10
+	<8 3>2 <7 [6 4] _!>
+	<7 _!>2 <[6]>
+	<6 5>1
+	r8. <[6]>16 r2.
+	<6>1 %15
+	r1
+	r2. <[5 3]>4
+	r <7 _!>
+	<[_!]>2 <6 4! 2>
+	r <[6]> %20
+	<7>4 <[6\\]> r8 <[5!] _+>4. %21 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

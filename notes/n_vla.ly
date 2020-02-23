@@ -1019,3 +1019,31 @@ EsSollDerBViola = {
 		g2\fermata \bar "|." %38 finis
 	}
 }
+
+JesusAberWandteViola = {
+	\relative c' {
+		\clef alto
+		\key c \minor \time 4/4 \tempoJesusAberWandte
+			\set Staff.timeSignatureFraction = 4/4
+		R1*2
+		\tempoJesusAberWandteB as4\pE as f' es
+		es r8 f f f es es
+		es es[\pocoFE es f] f f es es %5
+		es es es es f f f f
+		es es16. es32\f es8 es \tempoJesusAberWandteC c2~\p
+		c1~
+		c
+		\tempoJesusAberWandteD c4 c c c %10
+		c8 r r4 r8 b-\parenthesize-!\fE b-\parenthesize-! b-\parenthesize-!
+		b2 r8 e\pE g e
+		c2^\critnote r8 c f c
+		as8. a16\fE a2.~\fpE
+		\once \tieDashed a1~ %15
+		a2 r
+		b4 r32 g'\fE f es d[ es d c] b es d c b[ c b a] g4
+		\time 2/4 r g'-!
+		\time 4/4 f4 r16.-\critnote f,32\pE f16. f32 \once \tieDashed f2~
+		f1 %20
+		es2 r8 d d4\fermata \bar "|."
+	}
+}

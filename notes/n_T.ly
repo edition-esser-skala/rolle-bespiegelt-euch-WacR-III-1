@@ -1832,6 +1832,59 @@ EsSollDerBTenoreLyrics = \lyricmode {
 	ben. %36 finis
 }
 
+JesusAberWandteTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \minor \time 4/4 \autoBeamOff \tempoJesusAberWandte
+			\set Staff.timeSignatureFraction = 4/4
+		c8^\Evangelist c c des es es16 es es8 as,
+		des4 f8 es c4 r
+		\clef bass \tempoJesusAberWandteB r8 es,^\Jesus as c b8. \tuplet 3/2 16 { as32([ g f)] } es8 des
+		c4 as'~ as8 g16. f32 es8 des'
+		c4 r8 as16 c b8. \tuplet 3/2 16 { as32([ g f)] } es8 b'16 des %5
+		\appoggiatura des16 c8 r16 as b8 es, as8.([ c16] b8) as
+		g es r4 \tempoJesusAberWandteC r r8 c'
+		c g r4 g8 g e g
+		g c, r c b' b16 b b8 c
+		\tempoJesusAberWandteD as4 c~ c8 as b g %10
+		as f e f g16([ as)] b8 r b16 b
+		b8 b16 b b g g e c8 c r c16 c
+		g'8 g16 g b b as g as8 as r4
+		r r8 c, f f f e
+		f f r g a a a b %15
+		c c r4 c8 es,! es f
+		d4 r r r16 b' b d
+		\time 2/4 d8 g, r b16 a
+		\time 4/4 f4 r c'8 c c c
+		a a c f, b4 r8 d
+		d g, fis g a a r4\fermata \bar "|."
+	}
+}
+
+JesusAberWandteTenoreLyrics = \lyricmode {
+	Je -- ſus a -- ber wand -- te ſich um zu
+	ih -- nen und ſprach:
+	Ihr Töch -- ter von Je -- ru -- ſa --
+	lem, wei -- net nicht ü -- ber
+	mich, ſon -- dern wei -- net ü -- ber euch %5
+	ſelbſt und ü -- ber eu -- re
+	Kin -- der. Denn
+	ſie -- he, es wird die Zeit
+	kom -- men, in wel -- chen man ſa -- gen
+	wird: ſee -- lig, ſee -- lig %10
+	ſind die Un -- frucht -- bah -- ren und die
+	Lei -- ber, die nicht ge -- boh -- ren ha -- ben, und die
+	Brüſ -- te, die nicht ge -- ſäu -- get ha -- ben.
+	Denn wer -- den ſie an --
+	fa -- hen zu ſa -- gen zu den %15
+	Ber -- gen: fal -- let ü -- ber
+	uns, und zu den
+	Hü -- geln: de -- cket
+	uns. Denn ſo man das
+	thut am grü -- nen Holtz, was %20
+	will am dür -- ren wer -- den? %21 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

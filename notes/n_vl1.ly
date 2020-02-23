@@ -1003,6 +1003,34 @@ EsSollDerBViolinoI = {
 	}
 }
 
+JesusAberWandteViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 4/4 \tempoJesusAberWandte
+			\set Staff.timeSignatureFraction = 4/4
+		R1*2
+		\tempoJesusAberWandteB es4\pE c' b b
+		as8 c c c b b b b
+		r16 as'(-.\pocoF as-. as-.) as(-. as-. as-. as-.) as(-. as-. as-. as-.) g(-. g-. g-. g-.) %5
+		as(-. as-. as-. as-.) es(-. es-. es-. es-.) es(-. es-. es-. es-.) d!(-. d-. d-. d-.)
+		es8 b16. g'32\f g8 g \tempoJesusAberWandteC g2~\p
+		g1~
+		g
+		\tempoJesusAberWandteD r8 as( g e) f c( b g) %10
+		as r r4 r8 e'-!\f e-! e,-!
+		e2 r8 g'(\pE e c)
+		b2 r8 f'( c as)
+		f8. c'16\f c2.~\fpE
+		\once \tieDashed c1~ %15
+		c2 r
+		r32 b\f a? g f[ g f es] d g f es d[ es d c] b es d c b[ c b a] g4
+		\time 2/4 r4 e''-!
+		\time 4/4 r16 f f16. f32 f16. c,32\p c16. c32 \once \tieDashed c2~
+		c d~ %20
+		d4 cis r8 d d4\fermata \bar "|." %21 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

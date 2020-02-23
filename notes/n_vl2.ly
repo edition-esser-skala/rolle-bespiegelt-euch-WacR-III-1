@@ -1019,3 +1019,31 @@ EsSollDerBViolinoII = {
 		es2\fermata \bar "|." %38 finis
 	}
 }
+
+JesusAberWandteViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 4/4 \tempoJesusAberWandte
+			\set Staff.timeSignatureFraction = 4/4
+		R1*2
+		\tempoJesusAberWandteB c4\pE es des des
+		c8 as' as as as as g g
+		r16 c(-.\pocoF c-. c-.) c(-. c-. c-. c-.) \slurDashed b(-. b-. b-. b-.) b(-. b-. b-. b-.) %5
+		c(-. c-. c-. c-.) b(-. b-. b-. b-.) as(-. as-. as-. as-.) as(-. as-. as-. as-.) \slurSolid
+		g8 g16. b32\f b8 b \tempoJesusAberWandteC b2~\p
+		b1~
+		b
+		\tempoJesusAberWandteD as8 c( b g) as as( g e) %10
+		f r r4 r8 g-!\f g-! g,-!
+		g2 r8 c'\pE c( g)
+		g2 r8 as as( f)
+		c8. f16\fE f2.~\fpE
+		\once \tieDashed f1~ %15
+		f2 r
+		r32 b\f a? g f[ g f es] d g f es d[ es d c] b es d c b[ c b a] g4
+		\time 2/4 r4 b'-!
+		\time 4/4 r16 a? a16. a32 a16. a,32\p a16. a32 \once \tieDashed a2~
+		a b %20
+		g r8 d' d4\fermata \bar "|." %21 finis
+	}
+}
