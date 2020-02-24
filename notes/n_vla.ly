@@ -1047,3 +1047,126 @@ JesusAberWandteViola = {
 		es2 r8 d d4\fermata \bar "|."
 	}
 }
+
+NimmSichrerViola = {
+	\relative c' {
+		\clef alto
+		\key b \major \time 3/4 \tempoNimmSichrer
+		b8\fE b es es d d
+		b4 c f
+		f f r
+		b,8\p b es es d d
+		b4 c f %5
+		f\fE f r
+		f b,8 b g' g
+		c, c b' b c c
+		f, f es es f b
+		b b b b g g %10
+		c,4 r16 r32^\critnote f e16.([ f64 g)] f16. a,32 g16.([ a64 b)]
+		a8 c c c f f
+		f4 r16 r32^\critnote b a16.([ b64 c)] b16. d,32 c16.([ d64 es)]
+		d8 f f f b b
+		r g g g f es %15
+		d r r4 r8 f
+		r g g g f es
+		\appoggiatura es d4 r r
+		b8(\p b) es( es) d( d)
+		b4 c f %20
+		f\fE f r
+		f8\p f es es d d
+		b4 c8 es d c
+		f4\fE f r
+		b,8\pE b b b b b %25
+		a a a a a a
+		d d d d c c
+		c c c c c c
+		b b b b h h
+		c4\fE r r %30
+		g'\pE f g
+		c, des des\fE
+		g, r r
+		g'\pE f g
+		c, des des\f %35
+		c r8 c-! d-! e-!
+		f g as e f g
+		as h c f,\pE g e
+		c c b! b g g
+		f4\pocoFE r r8 f'\pE %40
+		r d d d c b
+		a8\pocoFE r r4 r8 f'\pE
+		r d d d c b
+		c\fE c b b c c
+		b4 g c %45
+		c r f16 es! d c
+		d8\pE d c c b b
+		b4 c f
+		f r r8 f
+		b, b c c b b %50
+		es g f4 d
+		b8 b es es es es
+		a a a a a a
+		a a g g g g
+		g g g g g g %55
+		g g f f, b b
+		es4 es es,
+		f r16 r32 f'\fE e16.([ f64 g)] f16. a,32 g16.([ a64 b)]
+		a8\p a a a a a
+		b4 r16 r32 b'\fE a16.([ b64 c)] b16. d,32 c16.([ d64 es)] %60
+		d8\pE f f d d f
+		es g g es es g
+		c, c c f f f
+		f f f f f b,
+		r g' g g g g %65
+		r f f f f f
+		es c f f f, f
+		b4 r r8 f'
+		r g g g f es
+		d8 r r4 r8 f %70
+		r g g g g d
+		d2 c4
+		b b'8\fE b g g
+		c, c b' b c c
+		f, f es es f f %75
+		es es es es g g
+		c, c c f f f
+		r g g g f es
+		d r r4 r8 f
+		r g g g f es %80
+		\appoggiatura es d4 r r\fermata \bar "||"
+		\time 3/8 \tempoNimmSichrerB R4.
+		b4\pE r8
+		b c des
+		es4 r8 %85
+		es,4 r8
+		f b r
+		g'4 r8
+		c, b c
+		b des des %90
+		g,4 c8
+		des d e
+		f c r
+		des d e
+		f c des %95
+		b c c
+		f as g
+		f4 r8
+		d! f g
+		g4 g8~ %100
+		g f es
+		d16.([ es64 f)] es8 r
+		a!4 r8
+		d, c d
+		g g es %105
+		d4 d8
+		es! e fis
+		g d r
+		es! e fis
+		g fis g %110
+		g g fis
+		g4\fermata r8
+		R4.
+		g8\f es b
+		c d4\trill %115
+		g, r8 \markDaCapo \bar "||" %116 finis
+	}
+}

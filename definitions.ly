@@ -368,6 +368,8 @@ tempoJesusAberWandte = \tempoMarkup "[Recitativo]"
 	tempoJesusAberWandteB = \tempoMarkup "[Accompagnato]"
 	tempoJesusAberWandteC = \tempoMarkup "Recitativo"
 	tempoJesusAberWandteD = \tempoMarkup "Largo"
+tempoNimmSichrer = \tempoMarkup "Andante"
+	tempoNimmSichrerB = \tempoMarkup "Larghetto"
 
 
 

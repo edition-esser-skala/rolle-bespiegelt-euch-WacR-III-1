@@ -413,3 +413,71 @@ EsSollDerOboeI = {
 		g2\fermata \bar "|." %38 finis
 	}
 }
+
+NimmSichrerOboeI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/4 \tempoNimmSichrer
+		b'4\fE a8.( b32 c) b4
+		\appoggiatura as16 g8 \appoggiatura f16 es8 es'8[ c b a?]
+		b16. b'32 a16.([ b64 c)] b16. d,32 c16.([ d64 es)] d16. b32 a16.([ b64 c)]
+		b4\p a8.( b32 c) b4
+		\appoggiatura as16 g8 \appoggiatura f16 es8 es'8[ c b a?] %5
+		b16. b'32\f a16.([ b64 c)] b16. d,32 c16.([ d64 es)] d16. b32 a16.([ b64 c)]
+		b8. f'16 f8 g32( f es d) c8 b
+		b a16 es' es8.( f32 g) f8 es
+		es d16 as' as8.( b32 c) b8 as
+		as4 g16. f32 es16. d32 c8 b %10
+		a!16. f'32 e16.([ f64 g)] f16. c32 c4.~
+		c16 f, f( g) a a a( b) c c d( es)
+		d16. b'32 a16.([ b64 c)] b16. f32 f4.~
+		f16 b, b( c) d d d( es) f f g( as)
+		g16. h,32 h4 c16 es \tuplet 3/2 8 { d[ c b] } f'16. a,!32 %15
+		b16. b'32 a16.([ b64 c)] b16. d,32 c16.([ d64 es)] d16. f32 b,16. as'32
+		g16. h,32 h4 c16 es d8 f16. a,!32
+		\appoggiatura a8 b4 r r
+		R2.*2 %20
+		r16 r32 b'\f a16.([ b64 c)] b16. d,32 c16.([ d64 es)] d16. b32 a16.([ b64 c)]
+		b8 r r4 r
+		R2.
+		r16 r32 b'\fE a16.([ b64 c)] b16. d,32 c16.([ d64 es)] d16. b32 a16.([ b64 c)]
+		b8 r r4 r %25
+		R2.*4
+		r16 r32 c'\fE h16.([ c64 d)] c16. e,32 d16.([ e64 f)] e16. c32 h16.([ c64 d)] %30
+		c8 r r4 r
+		R2.
+		r16 r32 c'\fE h16.([ c64 d)] c16. e,32 d16.([ e64 f)] e16. c32 h16.([ c64 d)]
+		c8 r r4 r
+		R2.*5 %39
+		r16 r32 f32\pocoF e16.([ f64 g)] f16. a,32 g16.([ a64 b)] a8 r %40
+		R2.
+		r16 r32 f'\pocoFE e16.([ f64 g)] f16. a,32 g16.([ a64 b)] a8 r
+		R2.
+		f'4\f e8.( f32 g) f4
+		\appoggiatura es16 d8 \appoggiatura c16 b8 b'[ g f e?] %45
+		f16. f32 e16.([ f64 g)] f16. a,32 g16.([ a64 b)] a8 r
+		R2.*2
+		r16 r32 b'\fE a16.([ b64 c)] b16. d,32 c16.([ d64 es)] d8 r
+		R2.*8 %57
+		r16 r32 f32\fE e16.([ f64 g)] f16. c32 c4.
+		R2.
+		r16 r32 b'\f a16.([ b64 c)] b16. f32 f4. %60
+		R2.*7 %67
+		r16 r32 b\f a16.([ b64 c)] b16. d,32 c16.([ d64 es)] d8 r
+		R2.
+		r16 r32 b'32\fE a16.([ b64 c)] b16. d,32 c16.([ d64 es)] d8 r %70
+		R2.*2
+		r8 r16 f16\fE f8 g32( f es d) c8 b
+		b a16 es' es8.([ f32 g)] f8 es
+		es d16 as' as8.([ b32 c)] b8 as %75
+		as4 g16. f32 es16. d32 c8 b
+		\appoggiatura b a4 r16 f g16. a32 b16. f'32 g16. as32
+		g16. h,32 h4 c16 es d8 f16. a,32
+		b16. b'32 a16.([ b64 c)] b16. d,32 c16.([ d64 es)] d16. f32 b,16. as'32
+		g16. h,32 h4 c16 es d8 f16. a,!32 %80
+		\appoggiatura a8 b4 r r\fermata \bar "||"
+		\time 3/8 \tempoNimmSichrerB R4.*30 %111
+		R4.\fermataMarkup %112
+		R4.*4 \markDaCapo \bar "||" %116 finis
+	}
+}

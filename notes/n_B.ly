@@ -900,6 +900,198 @@ EsSollDerBBassoLyrics = \lyricmode {
 	ben. %36 finis
 }
 
+NimmSichrerBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 3/4 \autoBeamOff \tempoNimmSichrer
+		R2.*18 %18
+		b'4 a8.([ b32 c)] b4
+		\appoggiatura as16 g8 \appoggiatura f16 es8 es' c b a? %20
+		b b, r4 r
+		b' a8.([ b32 c)] b4
+		\appoggiatura as16 g8 \appoggiatura f16 es8 es' c b a?
+		b b, r4 r
+		r8 d' b a g4~ %25
+		g8 c a g f4~
+		f8 g16([ a)] b8 a16([ b)] c8 b
+		b4( a) r8 c
+		c8.([ d32 c] b8) a g f
+		c4 r r %30
+		c' h b
+		as8 g f des'16([ c)] b([ as)] g([ f)]
+		e([ d)] c8 r4 r
+		c' h8([ g)] b4
+		as8 g f des'16([ c)] b([ as)] g([ f)] %35
+		e([ d)] c8 r c d e
+		f([ g as)] e f g
+		as([ h c] b4) a16([ g)]
+		\appoggiatura b16 a8 g16([ f)] d'4 e,
+		f r r8 c' %40
+		d( fis,4) g8 c, e
+		f4 r r8 c'
+		d( fis,4) g8 c, e
+		f4 r r
+		R2.*2 %46
+		b4 a8.([ b32 c)] b4
+		\appoggiatura as16 g8 \appoggiatura f16 es8 es' c b a?
+		b b, r4 r
+		es'4 b as\trill %50
+		g8 c c b b, as'
+		g16([ f)] es8 r g c c
+		c16[ b a! g] fis8[ es' d c]
+		c4 b8[ g16 fis?] g[ a b8]
+		b16[ a g f!] e8[ des' c b] %55
+		b4 as16[ b c8] b[ as]
+		g8 es' es d! c b
+		a!4 r r8 c,
+		f4~ f16[ g] a([ b)] c8 es,!
+		d4 r r8 f %60
+		b4~ b8[ d16 c] b8[ as]
+		g[ h] c[ es16 d] c8[ b?]
+		a!16[ g] f4 c'32[ b a16] b8[ d32 c b16]
+		a16[ g] f4 c'32[ b a16] b8[ f]
+		g h4 c8[ d es] %65
+		f, a4 b8[ c d]
+		g, es'32[( d c16]) b4 c\trill
+		b r r8 f
+		g( h4) c8 f, a
+		b4 r r8 f %70
+		g h4 c b32[ a g16]
+		f8 b f4.\trill f8
+		b,4 r r
+		R2.*7 %80
+		R2.\fermataMarkup \bar "||"
+		\time 3/8 \tempoNimmSichrerB r8 r f'
+		b([ des)] c
+		b4 b8
+		b([ es)] des~ %85
+		des c b
+		a16.([ b64 c)] b8 r
+		des c b
+		as g f
+		des'16([ c)] b([ as)] g([ f)] %90
+		e([ d)] c8 c'
+		f,4 g8
+		as([ g)] c
+		f,4 g8
+		as g f %95
+		des' c16([ b)] as([ g)]
+		f4 r8
+		f as f
+		h4 c8
+		g([ d'!)] es~ %100
+		es d c
+		h16.([ c64 d)] c8 r
+		es d c
+		b! a g
+		es'16([ d)] c([ b)] a([ g)] %105
+		fis([ e)] d8 d'
+		g,4 a8
+		b([ a)] d
+		g,4 a8
+		b a g %110
+		es' d16([ c)] b([ a)]
+		g4\fermata r8
+		R4.
+		g8 es b
+		c d4\trill %115
+		g4 r8 \markDaCapo \bar "||" %116 finis
+	}
+}
+
+NimmSichrerBassoLyrics = \lyricmode {
+	Nimm, ſich -- rer %19
+	Menſch, des Höchſ -- ten Rath zu %20
+	Hert -- zen,
+	wir mü -- ßen
+	nicht mit de -- nen Sün -- den
+	ſchert -- zen,
+	weil die -- ſer Greul, __ %25
+	weil die -- ſer Greul __
+	den Ei -- fer Got -- tes
+	mehrt, __ den
+	Ei -- fer Got -- tes
+	mehrt, %30
+	nimm, ſich -- rer
+	Menſch, des Höchſ -- ten Rath zu
+	Hert -- zen,
+	wir mü -- ßen
+	nicht mit de -- nen Sün -- den %35
+	ſchert -- zen, weil die -- ſer
+	Greul, __ weil die -- ſer
+	Greul __ den
+	Ei -- fer Got -- tes
+	mehrt, den %40
+	Ei -- fer Got -- tes
+	mehrt, den
+	Ei -- fer Got -- tes
+	mehrt.
+	
+	Nimm, ſich -- rer %47
+	Menſch, des Höchſ -- ten Rath zu
+	Hert -- zen,
+	wir mü -- ßen %50
+	nicht mit de -- nen Sün -- den
+	ſchert -- zen, weil die -- ſer
+	Greul, __ _
+	_ _ _
+	_ _ %55
+	_ _ _
+	_ den Ei -- fer Got -- tes
+	mehrt, den
+	Ei -- fer Got -- tes
+	mehrt, den %60
+	Ei -- _
+	_ _ _
+	_ _ _ _
+	_ _ _ _
+	_ _ _ %65
+	_ _ _
+	_ fer __ Got -- tes
+	mehrt, den
+	Ei -- fer Got -- tes
+	mehrt, den %70
+	Ei -- _ _ _
+	_ fer Got -- tes
+	mehrt.
+	
+	Die %82
+	Un -- ſchuld
+	hat ent --
+	ſetz -- lich __ %85
+	lei -- den
+	mü -- ßen,
+	dich a -- ber
+	ſagt dein bei --
+	ßen -- des Ge -- %90
+	wi -- ßen, daß
+	dür -- res
+	Holtz, daß
+	dür -- res
+	Holtz dem Feu -- %95
+	er zu -- ge --
+	hört,
+	die Un -- ſchuld
+	hat ent --
+	ſetz -- lich __ %100
+	lei -- den
+	mü -- ßen,
+	dich a -- ber
+	ſagt dein bei --
+	ßen -- des Ge -- %105
+	wi -- ßen, daß
+	dür -- res
+	Holtz, daß
+	dür -- res
+	Holtz dem Feu -- %110
+	er zu -- ge --
+	hört,
+	
+	dem Feu -- er
+	zu -- ge -- %115
+	hört. %116 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

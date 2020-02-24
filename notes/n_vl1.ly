@@ -1031,6 +1031,129 @@ JesusAberWandteViolinoI = {
 	}
 }
 
+NimmSichrerViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/4 \tempoNimmSichrer
+		b'4\fE a8.( b32 c) b4
+		\appoggiatura as16 g8 \appoggiatura f16 es8 es'8[ c b a?]
+		b16. b'32 a16.([ b64 c)] b16. d,32 c16.([ d64 es)] d16. b32 a16.([ b64 c)]
+		b4\p a8.( b32 c) b4
+		\appoggiatura as16 g8 \appoggiatura f16 es8 es'8[ c b a?] %5
+		b16. b'32\f a16.([ b64 c)] b16. d,32 c16.([ d64 es)] d16. b32 a16.([ b64 c)]
+		b8. f'16 f8 g32( f es d) c8 b
+		b a16 es' es8.( f32 g) f8 es
+		es d16 as' as8.( b32 c) b8 as
+		as4 g16. f32 es16. d32 c8 b %10
+		a!16. f'32 e16.([ f64 g)] f16. c32 c4.~
+		c16 f, f( g) a a a( b) c c d( es)
+		d16. b'32 a16.([ b64 c)] b16. f32 f4.~
+		f16 b, b( c) d d d( es) f f g( as)
+		g16. h,32 h4 c16 es \tuplet 3/2 8 { d[ c b] } f'16. a,!32 %15
+		b16. b'32 a16.([ b64 c)] b16. d,32 c16.([ d64 es)] d16. f32 b,16. as'32
+		g16. h,32 h4 c16 es d8 f16. a,!32
+		\appoggiatura a8 b4 b, r
+		b'8(\p b) a( a) b( b)
+		\appoggiatura as16 g8 \appoggiatura f16 es8 es'[ c b a?] %20
+		b16. b'32\f a16.([ b64 c)] b16. d,32 c16.([ d64 es)] d16. b32 a16.([ b64 c)]
+		b8\p b a a b b
+		\appoggiatura as16 g8 \appoggiatura f16 es8 es'[ c b a?]
+		b16. b'32\f a16.([ b64 c)] b16. d,32 c16.([ d64 es)] d16. b32 a16.([ b64 c)]
+		b8\p d d d d d %25
+		c c c c c c
+		b b b b b b
+		b b a c32 b a g f16. c'32 es,!16. c'32
+		d,4 d'2\f
+		c16. c'32 h16.([ c64 d)] c16. e,32 d16.([ e64 f)] e16. c32 h16.([ c64 d)] %30
+		c4\p^\tenuto h b
+		as8 g f4 f'\f
+		e16. c'32 h16.([ c64 d)] c16. e,32 d16.([ e64 f)] e16. c32 h16.([ c64 d)]
+		c4\p^\tenutoE h b
+		as8 g f4 f'\f %35
+		e16. c32 h16.([ c64 d)] c8 c,-! d-! e-!
+		f g as e f g
+		as h c b4\pE a16 g
+		\appoggiatura b16 a8 g16 f d'4 e,\trill
+		f16. f'32\pocoF e16.([ f64 g)] f16. a,32 g16.([ a64 b)] a8 c\p %40
+		d16. fis,32 fis4 g16 b a8 c16. e,32
+		f16. f'32\pocoF e16.([ f64 g)] f16. a,32 g16.([ a64 b)] a8 c\p
+		d16. fis,32 fis4 g16 b a8 g
+		f'4\f e8.( f32 g) f4
+		\appoggiatura es16 d8 \appoggiatura c16 b8 b'[ g f e?] %45
+		f16. f32 e16.([ f64 g)] f16. a,32 g16.([ a64 b)] a8 r
+		b4\p a b
+		\appoggiatura as16 g8 \appoggiatura f16 es8 es'[ c b a?]
+		b16. b'32\fE a16.([ b64 c)] b16. d,32 c16.([ d64 es)] d8 d
+		es\p b b b as as %50
+		g c c b b, as'
+		g g c c c g'
+		fis fis fis fis fis fis
+		r4 g8 g f f
+		e e e e e e %55
+		r4 f8 c b as
+		g es'4 d!8 c b
+		a!16. f'32\f e16.([ f64 g)] f16. c32 c4.
+		r8 c\p c c c c
+		r16 r32 b'\f a16.([ b64 c)] b16. f32 f4. %60
+		r8 f,\p b f'4 as,8
+		g[ h] c g'4 b,8
+		a!16. f'32\f e16.([ f64 g)] f8 a,[\p b d]
+		c16. f32\f e16.([ f64 g)] f8 a,[\pE b f]
+		g h4 c8 d es %65
+		f, a4 b8 c d
+		g, es' d d c c
+		d16. b'32\f a16.([ b64 c)] b16. d,32 c16.([ d64 es)] d16. f32 b,16.\p as'32
+		g16. h,32 h4 c16 es d8 f16. a,!32
+		b16. b'32\f a16.([ b64 c)] b16. d,32 c16.([ d64 es)] d16. f32 b,16.\p as'32 %70
+		g16. h,32 h4 c b8
+		b2 a4
+		b8. f'16\fE f8 g32( f es d) c8 b
+		b a16 es' es8.([ f32 g)] f8 es
+		es d16 as' as8.([ b32 c)] b8 as %75
+		as4 g16. f32 es16. d32 c8 b
+		\appoggiatura b a4 r16 f g16. a32 b16. f'32 g16. as32
+		g16. h,32 h4 c16 es d8 f16. a,32
+		b16. b'32 a16.([ b64 c)] b16. d,32 c16.([ d64 es)] d16. f32 b,16. as'32
+		g16. h,32 h4 c16 es d8 f16. a,!32 %80
+		\appoggiatura a8 b4 b, r\fermata \bar "||"
+		\time 3/8 \tempoNimmSichrerB r8 r f'\pE
+		b des c
+		b4 b8
+		b( es) des~ %85
+		des c b
+		a16.([ b64 c)] b8 r
+		des c b
+		as g f
+		des'16 c b as g f %90
+		e[ d c8] c'
+		f,4 g8
+		as([ g)] c
+		f,4 g8
+		as g f %95
+		des' c16 b as g
+		f4 r8
+		f as f
+		h4 c8
+		g( d') es~ %100
+		es d c
+		h16.([ c64 d)] c8 r
+		es d c
+		b! a g
+		es'16 d c b a g %105
+		fis[ e d8] d'
+		g,4 a8
+		\once \slurDashed b([ a)] d
+		g,4 a8
+		b a g %110
+		es' d16 c b a
+		g4\fermata r8
+		R4.
+		g8\f es b
+		c d4\trill %115
+		g,4 r8 \markDaCapo \bar "||" %116 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

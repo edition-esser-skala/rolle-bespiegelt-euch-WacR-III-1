@@ -642,48 +642,104 @@
 % 			\midi { \tempo 4 = 100 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.13" "R E C I T A T I V O" "Jeſus aber wandte ſich um zu ihnen"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\JesusAberWandteViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\JesusAberWandteViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\JesusAberWandteViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Jeſus" } }
+% 					\new Voice = "Tenore" { \dynamicUp \JesusAberWandteTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \JesusAberWandteTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\JesusAberWandteOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \JesusAberWandteBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.13" "R E C I T A T I V O" "Jeſus aber wandte ſich um zu ihnen"
+			movement = \movementTitle "2.14" "A R I A" "Nimm, ſichrer Menſch, des Höchſten Rath zu Hertzen"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
+			system-system-spacing.basic-distance = #20
+			system-system-spacing.minimum-distance = #20
 			systems-per-page = #2
 		}
 		\score {
 			<<
 				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Oboe I"
+							\NimmSichrerOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe II"
+							\NimmSichrerOboeII
+						}
+					>>
+				>>
+				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\JesusAberWandteViolinoI
+							\NimmSichrerViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\JesusAberWandteViolinoII
+							\NimmSichrerViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\JesusAberWandteViola
+						\NimmSichrerViola
 					}
 				>>
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Jeſus" } }
-					\new Voice = "Tenore" { \dynamicUp \JesusAberWandteTenoreNotes }
+				\new Staff \with { \smallerStaffDistance } {
+					\set Staff.instrumentName = \markup { \center-column { "Basſo" "solo" } }
+					\new Voice = "Basso" { \dynamicUp \NimmSichrerBassoNotes }
 				}
-				\new Lyrics \lyricsto Tenore \JesusAberWandteTenoreLyrics
+				\new Lyrics \lyricsto Basso \NimmSichrerBassoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\JesusAberWandteOrgano
+						\NimmSichrerOrgano
 					}
 				>>
-				\new FiguredBass { \JesusAberWandteBassFigures }
+				\new FiguredBass { \NimmSichrerBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }
