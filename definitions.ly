@@ -371,6 +371,7 @@ tempoJesusAberWandte = \tempoMarkup "[Recitativo]"
 tempoNimmSichrer = \tempoMarkup "Andante"
 	tempoNimmSichrerB = \tempoMarkup "Larghetto"
 tempoWieHeftig = \tempoMarkup "[Choral]"
+tempoEsWurdenAber = \tempoMarkup "[Recitativo]"
 
 
 

@@ -2912,6 +2912,52 @@ WieHeftigBassFigures = \figuremode {
 	r1
 }
 
+EsWurdenAberOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \tempoEsWurdenAber
+		g'1~
+		g~
+		g4 b,2.
+		c2 r4 d
+		h?1~ %5
+		\once \tieDashed h~
+		h
+		e
+		f1
+		r4 g c,2 %10
+		\key c \major h8. c'16 h a g fis e4 g,
+		a r r2
+		r4 h e,2~
+		e1
+		ais~ %15
+		ais2 h
+		\once \tieDashed eis1~
+		eis2 fis\fermata \bar "|." %18 finis
+	}
+}
+
+EsWurdenAberBassFigures = \figuremode {
+	r1
+	<4 2>
+	<[5 3]>4 <6>2.
+	r <_+>4
+	<[6]>1 %5
+	r
+	<6>2 <6 5>
+	<6>1
+	<[5 3]>2 <6 4! 2>
+	r4 <[_!]> <[5] _!>4. <6 [4\+]>8 %10
+	<[_+]>2. <[6]>4
+	r1
+	r4 <[5+ _+]>2.
+	r1
+	<[6+] _+> %15
+	<[5 \t]>2 <[5+ _!]>
+	<[6+ _+]> <[5 \t]>
+	<[7 5+ _+]>4. <[6+ \t \t]>8 <[5+ _!]>2 %18 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

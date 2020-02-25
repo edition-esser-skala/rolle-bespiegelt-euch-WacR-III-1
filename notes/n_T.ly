@@ -1925,6 +1925,52 @@ WieHeftigTenoreLyrics = \lyricmode {
 	ſehn. %15 finis
 }
 
+EsWurdenAberTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \minor \time 4/4 \autoBeamOff \tempoEsWurdenAber
+		r8 g^\Evangelist g a b b16 b c8 d
+		d a a a c c16 c c8 d
+		b b r4 r8 d d g,
+		es'4 c8 c16 b g8 g r4
+		r8 g g a h h h c %5
+		d d r d16 d d8 d d h
+		g g r4 f'16 f f f f8 e
+		c4 c8 c c g b! b16 b
+		a4 a8 g16 f f'8 f16 d h8 h16 c
+		c8 g r4 e'8 e g fis %10
+		\key c \major dis4 r \clef bass h8^\Jesus e, r16 e h'8
+		c c c a fis16 fis fis8 a g
+		e4 r \clef "treble_8" r h'8^\Evangelist h
+		e e16 e e8 dis e e16 e fis8 fis16 g
+		fis8. fis16 fis4 r8 cis cis cis %15
+		e e e fis d!4 h8 d
+		cis8. cis16 cis8 gis h h h h16 cis
+		d4 r8 cis a4 a\fermata \bar "|." %18 finis
+	}
+}
+
+EsWurdenAberTenoreLyrics = \lyricmode {
+	Es wur -- den a -- ber auch hin -- ge --
+	füh -- ret zwey -- en an -- de -- re Ü -- bel --
+	thä -- ter, daß ſie mit
+	Ihm ab -- ge -- than wür -- den.
+	Und als ſie ka -- men an die %5
+	Städ -- te, die da hei -- ßet Schä -- del
+	Städ -- te, creut -- zig -- ten ſie Ihn da --
+	ſelbſt und die Ü -- bel -- thä -- ter mit
+	Ihm, ei -- nen zur Rech -- ten und ei -- nen zur
+	Lin -- ken. Je -- ſus a -- ber %10
+	ſprach: Va -- ter, ver -- gib
+	ih -- nen, denn ſie wi -- ßen nicht, was ſie
+	thun. Und ſie
+	thei -- le -- ten ſei -- ne Klei -- der, und wur -- fen das
+	Loos da -- rum. Und das Volck %15
+	ſtund und ſa -- he zu. Und die
+	O -- berſ -- ten ſamt ih -- nen ſpot -- te -- ten
+	Sein und ſpra -- chen: %18 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

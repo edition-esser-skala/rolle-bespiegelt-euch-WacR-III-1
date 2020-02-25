@@ -742,52 +742,80 @@
 % 			\midi { \tempo 4 = 80 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.15" "C H O R A L" "Wie heftig unſre Sünden"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
+% 						\new Voice = "Soprano" { \dynamicUp \WieHeftigSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \WieHeftigSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Alto" "Violino II" "Oboe II" } }
+% 						\new Voice = "Alto" { \dynamicUp \WieHeftigAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \WieHeftigAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Tenore" "Viola" } }
+% 						\new Voice = "Tenore" { \dynamicUp \WieHeftigTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \WieHeftigTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \WieHeftigBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \WieHeftigBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\WieHeftigOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \WieHeftigBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.15" "C H O R A L" "Wie heftig unſre Sünden"
+			movement = \movementTitle "2.16" "R E C I T A T I V O" "Es wurden aber auch hingeführet"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #4
 		}
 		\score {
 			<<
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
-						\new Voice = "Soprano" { \dynamicUp \WieHeftigSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \WieHeftigSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Alto" "Violino II" "Oboe II" } }
-						\new Voice = "Alto" { \dynamicUp \WieHeftigAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \WieHeftigAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Tenore" "Viola" } }
-						\new Voice = "Tenore" { \dynamicUp \WieHeftigTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \WieHeftigTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \WieHeftigBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \WieHeftigBassoLyrics
-				>>
+				\new Staff {
+					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Jeſus" } }
+					\new Voice = "Tenore" { \dynamicUp \EsWurdenAberTenoreNotes }
+				}
+				\new Lyrics \lyricsto Tenore \EsWurdenAberTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\WieHeftigOrgano
+						\EsWurdenAberOrgano
 					}
 				>>
-				\new FiguredBass { \WieHeftigBassFigures }
+				\new FiguredBass { \EsWurdenAberBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }
