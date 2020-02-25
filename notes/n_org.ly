@@ -2872,6 +2872,46 @@ NimmSichrerBassFigures = \figuremode {
 	r4. %116 finis
 }
 
+WieHeftigOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \tempoWieHeftig
+		r4 b d f
+		b g c,( f)
+		b,2.\fermata g'4
+		d d f fis
+		g2 d\fermata %5
+		r4 d g f!
+		b b, f'2\fermata
+		r4 fis g f
+		b g c,( f)
+		b,2.\fermata g'4 %10
+		d d f fis
+		g c, f2\fermata
+		r4 es d c
+		b g' f f
+		b,1\fermata \bar "|." %15 finis
+	}
+}
+
+WieHeftigBassFigures = \figuremode {
+	r2 <[6]>
+	r4 <[7]> <[7 4]> <[7]>
+	r1
+	<[6]>2. q4
+	<[9 4]> <[8 3]> <[_+]>2 %5
+	r4 q2.
+	r1
+	r4 <[6]>2.
+	r4 <[7]> <[7 4]> <[7]>
+	r1 %10
+	<6>2. <[6]>4 
+	<[9 4]> <7>2.
+	r4 <[2]> <[6]> q
+	r q <[6 4]> <[5 3]>
+	r1
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

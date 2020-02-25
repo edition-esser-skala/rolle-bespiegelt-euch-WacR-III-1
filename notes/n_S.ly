@@ -1245,6 +1245,46 @@ EsSollDerBSopranoIILyrics = \lyricmode {
 	ben. %36 finis
 }
 
+WieHeftigSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoWieHeftig
+		r4 d' b c
+		d f f( es)
+		d2.\fermata d4
+		f f c d
+		\appoggiatura c4 b2 a\fermata %5
+		r4 a b c
+		d d c2\fermata
+		r4 d b c
+		d f f( es)
+		d2.\fermata d4 %10
+		f f c d
+		\appoggiatura c4 b2 a\fermata
+		r4 f b c
+		d es d c
+		b1\fermata \bar "|." %15 finis
+	}
+}
+
+WieHeftigSopranoLyrics = \lyricmode {
+	Wie hef -- tig
+	unſ -- re Sün --
+	den den
+	from -- men Gott ent --
+	zün -- den, %5
+	wie Rach und
+	Ei -- fer gehn,
+	wie grau -- ſam
+	ſei -- ne Ru --
+	then, wie %10
+	zor -- nig ſei -- ne
+	Flu -- then,
+	will ich aus
+	die -- ſen Lei -- den
+	ſehn. %15 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

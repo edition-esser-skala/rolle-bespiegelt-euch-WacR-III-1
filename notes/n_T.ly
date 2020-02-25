@@ -1885,6 +1885,46 @@ JesusAberWandteTenoreLyrics = \lyricmode {
 	will am dür -- ren wer -- den? %21 finis
 }
 
+WieHeftigTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 4/4 \autoBeamOff \tempoWieHeftig
+		r4 f f f
+		f g g( f)
+		f2.\fermata g4
+		f f f d
+		d2 d\fermata %5
+		r4 d d f!
+		f f f2\fermata
+		r4 d d f!
+		f g g( f)
+		f2.\fermata g4 %10
+		f f f d
+		d es c2\fermata
+		r4 a b es
+		f es f f
+		d1\fermata \bar "|." %15 finis
+	}
+}
+
+WieHeftigTenoreLyrics = \lyricmode {
+	Wie hef -- tig
+	unſ -- re Sün --
+	den den
+	from -- men Gott ent --
+	zün -- den, %5
+	wie Rach und
+	Ei -- fer gehn,
+	wie grau -- ſam
+	ſei -- ne Ru --
+	then, wie %10
+	zor -- nig ſei -- ne
+	Flu -- then,
+	will ich aus
+	die -- ſen Lei -- den
+	ſehn. %15 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

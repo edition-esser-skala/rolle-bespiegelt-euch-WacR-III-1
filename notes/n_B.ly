@@ -1092,6 +1092,46 @@ NimmSichrerBassoLyrics = \lyricmode {
 	hört. %116 finis
 }
 
+WieHeftigBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \autoBeamOff \tempoWieHeftig
+		r4 b d f
+		b g c( f,)
+		b,2.\fermata g'4
+		d d f fis
+		g2 d\fermata %5
+		r4 d g f!
+		b b, f'2\fermata
+		r4 fis g f
+		b g c( f,)
+		b,2.\fermata g'4 %10
+		d d f fis
+		g c, f2\fermata
+		r4 es d c
+		b g' f f
+		b,1\fermata \bar "|." %15 finis
+	}
+}
+
+WieHeftigBassoLyrics = \lyricmode {
+	Wie hef -- tig
+	unſ -- re Sün --
+	den den
+	from -- men Gott ent --
+	zün -- den, %5
+	wie Rach und
+	Ei -- fer gehn,
+	wie grau -- ſam
+	ſei -- ne Ru --
+	then, wie %10
+	zor -- nig ſei -- ne
+	Flu -- then,
+	will ich aus
+	die -- ſen Lei -- den
+	ſehn. %15 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

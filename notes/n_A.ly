@@ -1435,6 +1435,46 @@ EsSollDerBAltoLyrics = \lyricmode {
 	ben. %36 finis
 }
 
+WieHeftigAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoWieHeftig
+		r4 b' b a
+		b b b( a)
+		b2.\fermata b4
+		b b a a
+		\appoggiatura a g2 fis\fermata %5
+		r4 fis g a
+		b b a2\fermata
+		r4 a g a
+		b b b( a)
+		b2.\fermata b4 %10
+		b b a a
+		\appoggiatura a g2 f2\fermata
+		r4 c f a
+		b b b a
+		f1\fermata \bar "|." %15 finis
+	}
+}
+
+WieHeftigAltoLyrics = \lyricmode {
+	Wie hef -- tig
+	unſ -- re Sün --
+	den den
+	from -- men Gott ent --
+	zün -- den, %5
+	wie Rach und
+	Ei -- fer gehn,
+	wie grau -- ſam
+	ſei -- ne Ru --
+	then, wie %10
+	zor -- nig ſei -- ne
+	Flu -- then,
+	will ich aus
+	die -- ſen Lei -- den
+	ſehn. %15 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
