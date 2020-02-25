@@ -818,22 +818,113 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.17" "C O R O" "Er hat andern geholfen"
+% 		}
+% 		\paper { systems-per-page = #1 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe I"
+% 							\ErHatAndernOboeI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe II"
+% 							\ErHatAndernOboeII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\ErHatAndernViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\ErHatAndernViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\ErHatAndernViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Evangeliſt"
+% 					\new Voice = "Evangelist" { \dynamicUp \ErHatAndernEvangelistNotes }
+% 				}
+% 				\new Lyrics \lyricsto Evangelist \ErHatAndernEvangelistLyrics
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Canto"
+% 						\new Voice = "Soprano" { \dynamicUp \ErHatAndernSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \ErHatAndernSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \ErHatAndernAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \ErHatAndernAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \ErHatAndernTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \ErHatAndernTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \ErHatAndernBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \ErHatAndernBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\ErHatAndernOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \ErHatAndernBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 110 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.17" "C O R O" "Er hat andern geholfen"
+			movement = \movementTitle "2.18" "A R I A" "Verdamliche Bosheit, entſetzliche Wuth"
 		}
-		\paper { systems-per-page = #1 }
+		\paper {
+			systems-per-page = #1
+		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
+							\set Staff.instrumentName = \markup { \center-column { "Flauto" "traverso I" } }
+							\VerdamlicheBosheitFlautoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = \markup { \center-column { "Flauto" "traverso II" } }
+							\VerdamlicheBosheitFlautoII
+						}
+					>>
+				>>
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
 							\set Staff.instrumentName = "Oboe I"
-							\ErHatAndernOboeI
+							\VerdamlicheBosheitOboeI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Oboe II"
-							\ErHatAndernOboeII
+							\VerdamlicheBosheitOboeII
 						}
 					>>
 				>>
@@ -841,58 +932,33 @@
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\ErHatAndernViolinoI
+							\VerdamlicheBosheitViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\ErHatAndernViolinoII
+							\VerdamlicheBosheitViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\ErHatAndernViola
+						\VerdamlicheBosheitViola
 					}
 				>>
 				\new Staff {
-					\set Staff.instrumentName = "Evangeliſt"
-					\new Voice = "Evangelist" { \dynamicUp \ErHatAndernEvangelistNotes }
+					\set Staff.instrumentName = \markup { \center-column { "Canto" "solo" } }
+					\new Voice = "Soprano" { \dynamicUp \VerdamlicheBosheitSopranoNotes }
 				}
-				\new Lyrics \lyricsto Evangelist \ErHatAndernEvangelistLyrics
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Canto"
-						\new Voice = "Soprano" { \dynamicUp \ErHatAndernSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \ErHatAndernSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \ErHatAndernAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \ErHatAndernAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \ErHatAndernTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \ErHatAndernTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \ErHatAndernBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \ErHatAndernBassoLyrics
-				>>
+				\new Lyrics \lyricsto Soprano \VerdamlicheBosheitSopranoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\ErHatAndernOrgano
+						\VerdamlicheBosheitOrgano
 					}
 				>>
-				\new FiguredBass { \ErHatAndernBassFigures }
+				\new FiguredBass { \VerdamlicheBosheitBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 110 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

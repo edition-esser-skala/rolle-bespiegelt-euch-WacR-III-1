@@ -520,3 +520,36 @@ ErHatAndernOboeI = {
 		b8 a r\fermata \bar "|." %36 finis
 	}
 }
+
+VerdamlicheBosheitOboeI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoVerdamlicheBosheit
+		\partial 8 e8\fE a a4 a8 a gis r e
+		c' c4 c8 c h r a
+		e' e4 e8 e16 f32 e d8 d d
+		d16 e32 d c8 c c c16 h f' e d c h a
+		gis8 h'16. d,32 c8 a'16. c,32 h8 \noBeam e\p d32 c h16 c a %5
+		gis8 h'16.[\f d,32] c8 a'16. c,32 h8 \noBeam e\p d32 c h16 c a
+		gis e[\f e fis32 gis] a8 a'16. c,32 h4 r
+		R1*4 %11
+		r8 h'16.\fE d,32 c8 a'16. c,32 h8-! r r4
+		r8 h'16.\fE d,32 c8 a'16. c,32 h8-! r r4
+		r16 e,[\fE e fis32 gis] a8 a'16. c,32 h4 r\fermata \bar "||"
+		\time 3/4 R2.*16 %30
+		R2.\fermataMarkup \bar "||"
+		\time 4/4 r4 r8 h\f e e4 e8
+		e8\trill dis r h g' g4 g8
+		g8 fis r4 r2
+		R1*2 %36
+		gis,2\fE r
+		r a
+		R1*3 %41
+		r2 r8 h'16.\fE d,32 c8 a'16. c,32
+		h16 e, e fis32 gis a8 a'16. c,32 h4 r\fermata \bar "||"
+		\time 3/4 R2.*16 %59
+		R2.\fermataMarkup %60
+		R2.*5 %65
+		R2.\fermataMarkup \bar "|." %66 finis
+	}
+}

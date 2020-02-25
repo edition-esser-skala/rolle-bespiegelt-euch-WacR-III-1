@@ -1209,3 +1209,76 @@ ErHatAndernViola = {
 		c c r\fermata \bar "|." %36 finis
 	}
 }
+
+VerdamlicheBosheitViola = {
+	\relative c' {
+		\clef alto
+		\key a \minor \time 4/4 \tempoVerdamlicheBosheit
+		\partial 8 e8\fE c16 c c c c c c c c8 h e16 d c h
+		a8 a' f dis r16 e e e e d? cis h
+		cis?8 cis cis a d a h g
+		c g a c d4 r8 d
+		e16 e e fis32 gis a16 a, a32 h c d e16 e[\p e e] e e e e %5
+		r e\f e fis32 gis a16 a, a32 h c d e16 e[\p e e] e e e e
+		e e[\f e fis32 gis] a16 a, a32 h c d e4 r
+		r8 a,\p f' dis r16 e\f e e e d? c h
+		a4 f'8\p dis r16 e\fE e e e d? c h
+		a8 cis[\pE cis a] d a h g %10
+		c g a c d4 r8 d
+		e16 e[\f e fis32 gis] a16 a, a32 h c d e16 e[\pE e e] e e e e
+		e e[\fE e fis32 gis] a16 a, a32 h c d e16 e[\pE e e] e e e e
+		e e[\fE e fis32 gis] a16 a, a32 h c d e4 r\fermata \bar "||"
+		\time 3/4 e8(\p^\markup { \remark "con ſordino" } e) d( d) c( c) %15
+		c c c c h h
+		c c[\fE c c g g]
+		c c[\pE c c h h]
+		e e d d d d
+		c c c c cis cis %20
+		d d[\fE d d a a]
+		d4 d\pE d
+		d8 d[\fE d d a a]
+		d4 r8 d,\pE d d
+		e e fis fis g g %25
+		a a h h c c
+		d e d c h a
+		g2 r8 d'
+		e e d d c c
+		h h16\fE d d4 d %30
+		d4. r8 r4\fermata \bar "||"
+		\time 4/4 r2 r8 e\f^\markup { \remark "ſenza ſordino" } c ais
+		r16 h h' h h a! g fis e8 e c ais
+		r16 h h' h h a! g fis e4\p c8 ais
+		r16 h\f h' h h a! g fis e4\p c8 ais %35
+		r16 h\fE h' h h a gis fis? gis2
+		r16 h, h h h h h h h8 c h4
+		a r r16 a a a a a a a
+		a8 h a4 g16 d'[\p d d] d d d d
+		d d d d d d d d d\f d d d d d d d %40
+		d\p d d d d d d d c\f c c c c c c c
+		c\p c c c c c c c h e[\fE e fis32 gis] a16 a, a32 h c d
+		e16 e, e fis32 gis a16 a a32 h c d e4 r\fermata \bar "||"
+		\time 3/4 g8\pE^\markup { \remark "con ſordino" } g f f cis cis
+		d4 g, a %45
+		d d a
+		d d\fE a
+		d d8\pE d e e
+		fis fis e h h h
+		a a f! f dis dis %50
+		e4 r e'
+		e r e
+		e r e
+		e e e
+		f f fis %55
+		g g gis
+		a gis e
+		f8 f e e c c
+		c4 r a'\fE
+		h2.\fermata %60
+		r4 r gis\pE
+		e8 e d d c c
+		d d e e e e
+		c c16 e e8 e e e
+		e16 c\f c e e8 e e e %65
+		e2 r4\fermata \bar "|." %66 finis
+	}
+}

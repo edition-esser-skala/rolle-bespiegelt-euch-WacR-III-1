@@ -1193,6 +1193,79 @@ ErHatAndernViolinoI = {
 	}
 }
 
+VerdamlicheBosheitViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoVerdamlicheBosheit
+		\partial 8 e8\fE a16 a a a a a a a a8 gis r e32 fis gis a64 h
+		c16 c c c c c c c c8 h r a32 h cis d
+		e16 e e e e e e e e f32 e d16 d d d d d
+		d e32 d c16 e, c' c c c c h f' e d c h a
+		gis8 h'16. d,32 c8 a'16. c,32 h8 \noBeam e\p d32 c h16 c a %5
+		gis8 h'16.[\f d,32] c8 a'16. c,32 h8 \noBeam e\p d32 c h16 c a
+		gis e[\f e fis32 gis] a16 a, a 32 h c d e4 r8 e\p
+		a16 a a a a a a a a8\trill gis r e32 fis gis a64 h
+		c16 c c c c c c c c8\trill h r a32 h cis d
+		e16 e e e e e e e e f32 e d16 f, d' d d d %10
+		d e32 d c16 e, c' c c c c h f' e d c h a
+		gis8 h'16.[\f d,32] c8 a'16. c,32 h8 \noBeam e\p d32 c h16 c a
+		gis8 h'16.[\f d,32] c8 a'16. c,32 h8 \noBeam e\p d32 c h16 c a
+		gis e[\f e fis32 gis] a16 a, a 32 h c d e4 r\fermata \bar "||"
+		\time 3/4 c'8\p(^\markup { \remark "con ſordino" } c) h( h) c( c) %15
+		a( a) g( g) f( f)
+		e16 g\f g( c) c( e) e( g) g( d) d( f)
+		e8 e[\p e e d d]
+		c c c c h h
+		h gis a c e g, %20
+		fis16 a\f a( d) d( fis) fis( a) a( e) e( g)
+		fis8 a,[\p a fis'] g h,
+		a a16([\f d)] d( fis) fis( a) a( e) e( g)
+		fis8 a,[\pE a d] d c!32 h a16
+		g8 g a8.( h32 c) h8 h %25
+		c8.( d32 e) d8 d e fis
+		g c,( h) e( d c)
+		h g'( fis e d c)
+		h c h h a a
+		g16 d\fE d( g) g( h) h( d) d( a) a( c) %30
+		c4( h8) r r4\fermata \bar "||"
+		\time 4/4 r4 r8 h\f^\markup { \remark "ſenza ſordino" } e16 e e e e e e e
+		e8\trill dis r h32 cis dis e64 fis g16 g g g g g g g
+		g8 fis r h,\p e16 e e e e e e e
+		e8 dis r h32 cis dis e64 fis g16 g g g g g g g %35
+		g8 fis r e32 fis gis? a h2\fE
+		r16 gis, gis gis gis gis gis gis gis8 a d4
+		c r r16 fis, fis fis fis fis fis fis
+		fis8 g c4 h16 h[\p h h] h h h h
+		h h h h h h h h h\f h h h h h h h %40
+		h\p h h h h h h h a\f c c c c c c c
+		c\p c c c c c c c h8 h'16.[\f d,32] c8 a'16. c,32
+		h16 e, e fis32 gis a16 a, a32 h c d e4 r\fermata \bar "||"
+		\time 3/4 cis'8\pE(^\markup { \remark "con ſordino" } cis) d( d) e( e)
+		f[ f] e d4 cis8 %45
+		d16 a a( d) d( f) f( a) a( e) e( g)
+		f a,\f a( d) d( f) f( a) a( e) e( g)
+		\appoggiatura g8 f4 f8\pE f e e
+		dis dis e e d d
+		c c h h a a %50
+		gis( h d gis) a c,
+		h h( e gis) a c,
+		h \once \slurDashed h( e gis) a c,
+		h16 gis e8 r c'4 h8
+		a cis4 d c8 %55
+		h dis4 e d8
+		c c h h a a
+		d d c c b b
+		a4 r8 a'\fE a a
+		gis2.\fermata %60
+		f8(\pE e) e( d) d( c)
+		c c h h a a
+		h h a a gis gis
+		a16 e e( a) a( c) c( e) e( h) h( d)
+		c e,\f e( a) a( c) c( e) e( h) h( d) %65
+		\appoggiatura d4 c2 r4\fermata \bar "|." %66 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

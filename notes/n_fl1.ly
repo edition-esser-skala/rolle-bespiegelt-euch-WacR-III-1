@@ -212,3 +212,39 @@ EsSollDerBFlautoI = {
 		c2\fermata \bar "|." %38 finis
 	}
 }
+
+VerdamlicheBosheitFlautoI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoVerdamlicheBosheit
+		\partial 8 r8 R1*13 %13
+		R1\fermataMarkup \bar "||"
+		\time 3/4 R2.*2 %16
+		r16 g'\fE g( c) c( e) e( g) g( d) d( f)
+		e4 r r
+		R2.*2 %20
+		r16 a,\fE a( d) d( fis) fis( a) a( e) e( g)
+		fis4 r r
+		r16 a,\fE a( d) d( fis) fis( a) a( e) e( g)
+		fis4 r r
+		R2.*5 %29
+		r16 d,\fE d( g) g( h) h( d) d( a) a( c) %30
+		c4( h8) r r4\fermata \bar "||"
+		R1*11 %42
+		R1\fermataMarkup \bar "||"
+		\time 3/4 R2.*2 %45
+		r16 a\p a( d) d( f) f( a) a( e) e( g)
+		f a,\f a( d) d( f) f( a) a( e) e( g)
+		\appoggiatura g8 f4 r r
+		R2.*3 %51
+		r16 h,\p h( e) e( gis) gis( h) a8-! r
+		r16 h, h( e) e( gis) gis( h) a8-! r
+		h,4 r r
+		R2.*5 %59
+		R2.\fermataMarkup %60
+		R2.*3
+		r16 e,\p e( a) a( c) c( e) e( h) h( d)
+		c e,\f e( a) a( c) c( e) e( h) h( d) %65
+		\appoggiatura d4 c2 r4\fermata \bar "|." %66 finis
+	}
+}

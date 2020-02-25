@@ -375,6 +375,7 @@ tempoEsWurdenAber = \tempoMarkup "[Recitativo]"
 tempoErHatAndern = \tempoMarkup "Vivace"
 	tempoErHatAndernB = \tempoMarkup "[Recitativo]"
 	tempoErHatAndernC = \tempoMarkup "[Coro]"
+tempoVerdamlicheBosheit = \tempoMarkup "[Aria]"
 
 
 

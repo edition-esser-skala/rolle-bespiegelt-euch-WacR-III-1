@@ -1359,6 +1359,133 @@ ErHatAndernSopranoLyrics = \lyricmode {
 	ſel -- ber.
 }
 
+VerdamlicheBosheitSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \autoBeamOff \tempoVerdamlicheBosheit
+		\partial 8 r8 R1*6 %6
+		r2 r4 r8 e
+		a a4 a8 a\trill gis r e
+		c' c4 c8 c([\trill h)] r a
+		g'! g4 g8 g16([ a32 g)] f8 f4 %10
+		r e r8 f16([ e)] d([ c)] h a
+		e4 r r8 e' d32([ c h16)] c16 a
+		gis32([ fis e16)] e8 r4 r8 e' d32([ c h16)] c16 a
+		e4 r8 a e' e,16. e32 e4\fermata
+		\time 3/4 c'4 h8.([ c32 d)] c4 %15
+		a8 \tuplet 3/2 8 { c16([ h a)] } g4 f\trill
+		e r r
+		g( e') d
+		g,( fis8) c' h4~
+		h8[ gis a] e'4 g,8 %20
+		fis16([ e)] d8 r4 r
+		r8 d d'4. c32([ h a g)]
+		fis4 r r
+		r8 d d'4. c!32([ h a16)]
+		g8 g a8.([ h32 c)] h8 r16 h %25
+		c8.([ d32 e)] d4 e8 fis
+		g g, g4. c8
+		h[ g' fis e d] fis,
+		g e'32([ d c16)] h4( a)\trill
+		g r r %30
+		R2.\fermataMarkup
+		\time 4/4 R1*2
+		r4 r8 h e e e e16 e
+		e8 dis r4 r8 h g' g16 g %35
+		g8 fis r4 r8 d d d16 e
+		f4 gis, r8 e'8 d c16 h
+		c8 a16 h c8 c16 d e4 fis,
+		r8 d' c h16 a h8[ a16 g] d'4
+		r8 d16.[ e32] d16[ c h a] gis4 f'! %40
+		r8 e16.[ f32] e16[ d c h] c8.([\trill h32 a)] e'4
+		r8 d16.[ e32] d16[ c h a] gis[ fis] e8 r4
+		R1\fermataMarkup
+		\time 3/4 cis'4 d8.([ e32 f)] e4
+		f8 \tuplet 3/2 8 { a16([ g f)] } e8( d4) cis8 %45
+		d a r4 a8 g'
+		f16([ e)] d8 r4 r
+		r f e
+		dis8.([ e32 fis)] e4 d
+		c( h) a %50
+		gis e'4. d32([ c h a)]
+		gis16([ fis)] e8 r e'4 d32([ c h a)]
+		gis16([ fis)] e8 r gis'[( a)] c,
+		h16([ gis)] e8 r c'4 h8
+		a cis4 d c8 %55
+		h dis4 e d8
+		c4 h a
+		f'8.([ e32 d)] c4( b)
+		a d d
+		d2.\fermata %60
+		r4 e8([ d)] d([ c)]
+		c4( h) a
+		h( a) gis
+		a e'4. gis,8
+		a2 r4 %65
+		R2.\fermataMarkup \bar "|." %66 finis
+	}
+}
+
+VerdamlicheBosheitSopranoLyrics = \lyricmode {
+	Ver -- %7
+	dam -- li -- che Bos -- heit, ent --
+	ſetz -- li -- che Wuth, __ ſtraf,
+	gött -- li -- che Ra -- che, ſtraf, %10
+	ſtraf die mörd -- ri -- ſche
+	Brut, ſtraf, gött -- li -- che
+	Ra -- che die mörd -- ri -- ſche
+	Brut, die mörd -- ri -- ſche Brut!
+	Doch __ _ ich %15
+	ſelbſt, un -- ſchul -- digs
+	Lamm,
+	ha -- be
+	Dich ans Creutz __
+	_ ge -- %20
+	ſchla -- gen,
+	un -- ſchul -- digs __
+	Lamm,
+	un -- ſchul -- digs __
+	Lamm, ich ſelbſt, __ _ ich %25
+	ſelbſt __ _ ha -- be
+	Dich ans Creutz, __ _
+	_ ans
+	Creutz ge -- ſchla --
+	gen. %30
+	
+	Ich muß, ich muß mich ver -- %34
+	dam -- men zu e -- wi -- gen %35
+	Pla -- gen, mir dro -- het der
+	Ab -- grund mit Zit -- tern und
+	Za -- gen, mir dro -- het der Ab -- grund
+	mit Zit -- tern und Za -- _
+	_ _ _ _ %40
+	_ _ _ _
+	_ _ _ gen.
+	
+	Doch, __ _ mein
+	Je -- ſu, __ Dein __ Er -- %45
+	bar -- men hilft mir
+	ar -- men,
+	Du er --
+	löſt __ _ mich
+	durch __ Dein %50
+	Blut, doch, mein __
+	Je -- ſu, Dein Er --
+	bar -- men hilft __ mir
+	ar -- men, Du er --
+	löſt __ _ _ _ %55
+	_ _ _ _
+	_ _ mich
+	durch __ Dein __
+	Blut, durch Dein
+	Blut, %60
+	Du __ er --
+	löſt __ mich
+	durch __ Dein
+	Blut, durch Dein
+	Blut. %65 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

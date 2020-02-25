@@ -1207,3 +1207,76 @@ ErHatAndernViolinoII = {
 		g f r\fermata \bar "|." %36 finis
 	}
 }
+
+VerdamlicheBosheitViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoVerdamlicheBosheit
+		\partial 8 e8\fE c16 c c c c c c c c8 h r e32 fis gis a64 h
+		a16 a a a a a a a a8 gis r a32 h cis d
+		e16 g, g g g g g g g a32 g f16 f f f f f
+		f g32 f e16 e e e e e f4 r8 f
+		e d'16. h32 a8 c16. a32 gis8 \noBeam c\p h32 a gis16 a fis %5
+		e8 d'16.[\f h32] a8 c16. a32 gis8 \noBeam c\p h32 a gis16 a fis
+		e e[\f e fis32 gis] a16 a, a32 h c d e4 r8 e\p
+		c16 c c c c c c c c8\trill h r e32 fis gis a64 h
+		c16 a a a a a a a a8\trill gis r a32 h cis d
+		e16 g, g g g g g g g a32 g f16 f f f f f %10
+		f g32 f e16 e e e e e f4 r8 f
+		e d'16.[\f h32] a8 c16. a32 gis8 \noBeam c\p h32 a gis16 a fis
+		e8 d'16.[\f h32] a8 c16. a32 gis8 \noBeam c\p h32 a gis16 a fis
+		e e[\f e fis32 gis] a16 a, a32 h c d e4 r\fermata \bar "||"
+		\time 3/4 g8\p(^\markup { \remark "con ſordino" } g) f( f) g( g) %15
+		f( f) e( e) d( d)
+		c16 e\f e( g) g( c) c( e) e( h) h( d)
+		c8 g[\p g g g g]
+		g g fis fis g g
+		e e e e e e %20
+		d16 fis\f fis( a) a( d) d( fis) fis( cis) cis( e)
+		d8 fis,[\p fis a] h g
+		fis fis16(\f a) a( d) d( fis) fis( cis) cis( e)
+		d8 fis,[\pE fis fis fis fis]
+		e e d d d g %25
+		fis fis d g g a
+		g2 r8 fis
+		g e'( d c h a)
+		g g g g fis fis
+		g16 h,\fE h( d) d( g) g( h) h( fis) fis( a) %30
+		a4( g8) r r4\fermata \bar "||"
+		\time 4/4 r4 r8 h\f^\markup { \remark "ſenza ſordino" } g16 g g g g g g g
+		g8\trill fis r h32 cis dis e64 fis e16 e e e e e e e
+		e8 dis r4 g,16\p g g g g g g g
+		g8 fis r h32 cis dis e64 fis e16 e e e e e e e %35
+		e8 dis r4 d?2\fE
+		r16 f,! f f f f f f f8 e gis4
+		a r r16 e e e e e e e
+		d8 d fis4 g16 g[\p g g] g g g g
+		gis gis gis gis gis gis gis gis gis\f gis gis gis gis gis gis gis %40
+		gis\p gis gis gis gis gis gis gis e\f a a a a a a a
+		a\p a a a a a a a gis8 d'16.[\f h32] a8 c16. a32
+		gis16 e e fis32 gis a16 a, a32 h c d e4 r\fermata \bar "||"
+		\time 3/4 \slurDashed e8\pE(^\markup { \remark "con ſordino" } e) f( f) a( a) \slurSolid
+		a[ a] g f4 e8 %45
+		f f16( a) a( d) d( f) f( cis) cis( e)
+		d f,\f f( a) a( d) d( f) f( cis) cis( e)
+		\appoggiatura e8 d4 a8\pE a a a
+		a a gis gis e e
+		e e d d c c %50
+		h gis' gis h c a
+		gis gis gis h c a
+		gis gis gis h c a
+		gis4 gis gis
+		a a a %55
+		h h h
+		e,8 e d d c c
+		h' h a a g! g
+		f4 r8 d'\fE d d
+		d2.\fermata %60
+		d8(\pE c) c( h) h( a)
+		a a gis gis e e
+		f f c c h h
+		c c16( e) e( a) a( c) c( gis) gis( h)
+		a c,\f c( e) e( a) a( c) c( gis) gis( h) %65
+		\appoggiatura h4 a2 r4\fermata \bar "|." %66 finis
+	}
+}

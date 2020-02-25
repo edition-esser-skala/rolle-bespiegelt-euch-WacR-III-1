@@ -3048,6 +3048,148 @@ ErHatAndernBassFigures = \figuremode {
 	<[9] 4>8 <[8] 3>4 %36 finis
 }
 
+VerdamlicheBosheitOrgano = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 4/4 \tempoVerdamlicheBosheit
+		\partial 8 r8 r a'\fE f dis r16 e e e e d? c h
+		a8 a' f dis r16 e e e e d? cis h
+		a8 a' cis a d, a' h g
+		c,! g' a c, d4 r8 d
+		e16 e e fis32 gis a16 a a32 h c d e16 e,[\p e e] e e e e %5
+		r e\f e fis32 gis a16 a a32 h c d e16 e,[\p e e] e e e e
+		e e[\f^\unisonoE e fis32 gis] a16 a, a32 h c d e4 r
+		r8 a\p f dis r16 e\f e e e d? c h
+		a8 a'[\p f dis] r16 e\f e e e d? c h
+		a8 a'[\p cis a] d, a' h g %10
+		c,! g' a c, d4 r8 d
+		e16 e[\f e fis32 gis] a16 a a32 h c d e4 r
+		r16 e,\fE e fis32 gis a16 a a32 h c d e4 r \noBreak
+		r16 e,\fE^\unisonoE e fis32 gis a16 a, a32 h c d e4 r\fermata \bar "||"
+		\time 3/4 \newSpacingSection c4\p d e \noBreak %15
+		f g g,
+		c c'\fE g
+		c, c'\pE h
+		a a, g
+		c c cis %20
+		d d\f a'
+		d, d\p d
+		d d'\f a
+		d, d\pE d
+		e fis g %25
+		a h c
+		h8 e d c h a
+		g2 r8 d
+		e c d4 d,
+		g g'\fE d \noBreak %30
+		g,4. r8 r4\fermata \bar "||"
+		\time 4/4 \newSpacingSection r2 r8 e''\f c ais \noBreak
+		r16 h h h h a g fis e8 e' c ais
+		r16 h h h h a g fis e8\p e' c ais
+		r16 h \f h h h a g fis e8\p e' c ais %35
+		r16 h\f h h h a gis fis? e2
+		r16 d d d d d d d d8 c h4
+		a r r16 c c c c c c c
+		c8 h a4 g8 g'[\p g g]
+		f! f f f e\f e e e %40
+		e\p e e e e\f e e e
+		e\p e e e r16 e\f e fis32 gis a16 a a32 h c d \noBreak
+		e16 e,^\unisonoE e fis32 gis a16 a, a32 h c d e4 r\fermata \bar "||"
+		\time 3/4 \newSpacingSection a,4\pE a a \noBreak
+		d g a %45
+		d, d a'
+		d d,\fE a'
+		d d,\pE c!
+		h e gis
+		a d, dis %50
+		e e e
+		e e e
+		e e e
+		e e e
+		f f fis %55
+		g g gis
+		a, h c
+		d e e
+		f2 f4\f
+		e2.\fermata %60
+		r4 r e\pE
+		a, h c
+		d e e,
+		a r e'
+		a, a'\f e %65
+		a,2 r4\fermata \bar "|." %66 finis
+	}
+}
+
+VerdamlicheBosheitBassFigures = \figuremode {
+	r8 r4. <7 [_+]>8 <[6 4]> <[5 _+]>4.
+	r4. <7 [_+]>8 <[6 4]> <[5 _+]>4.
+	<7! _+>4 <[6 5]> <[9 4]>8 <6 4> <6 5> <[7]>
+	<[9 4]> <[6 4]> r <[6]> q4. q8
+	<_+>2 <[5 _+]>8 <[8 6]> <[7 5]> <[6 4]> %5
+	<[5 _+]>2 <[5 _+]>8 <[8 6]> <[7 5]> <[6 4]>
+	<[5 _+]>1
+	r4. <[7 _+]>8 <[6 4]> <[5 _+]>4.
+	r4. <[7 _+]>8 <[6 4]> <[5 _+]>4.
+	<[7! _+]>4 <6 5> <[9 4]>8 <[6 4]> <[6 5]> <[7]> %10
+	<[9 4]> <[6 4]> r <[6]> q4. q8
+	<[_+]>2 q
+	r16 q4.. q2
+	r1
+	r4 <6> q %15
+	r <6 4> <5 3>
+	r2.
+	r2 <6>4
+	<7> <6\\>2
+	<7>4 <6> <[5!]> %20
+	<_+>2 q4
+	<5 _+>2 <6 4>4
+	<[5 _+]>2 <6+ 4>8 <5 _+>
+	<[5] _+>2 <6 \t>4
+	<[6]> <6>2 %25
+	<6\\>4 <6> <[3]>8 <[4\+]>
+	<6>8 q <6 4> r <6> <6\\>
+	r2 r8 <[7 _+]>
+	r4 <6 4> <5 _+>
+	r2 <_+>4 %30
+	<[9 4]> <[8 3]>2
+	r2.. <[7 _+]>8
+	<[6 4]>8 <[5+ _+]>4. r <[7 _+]>8
+	<[6 4]>8 <[5+ _+]>4. r <[7 _+]>8
+	<[6 4]>8 <[5+ _+]>4. r <[7 _+]>8 %35
+	<[6 4]>8 <[5+ _+]>4. <[7! _+]>2
+	r16 <4+ [_!]>4.. r8 <[6]> <6\\>4
+	r2 r16 <[4+ 3]>4..
+	<4+ 2>8 <6> <6\\>4 r2
+	<4 2+> <[7] _+> %40
+	q <6 4>
+	<\t \t> <5 _+>
+	<[_+]>1
+	<7! _+>4 <6 4> <5 _+>
+	r <[8 6] _->8 <[7 5] \t> <[6] 4> <[5] _+> %45
+	r2 <_+>4
+	r2 <_+>4
+	<[9 4]>8 <[8 3]> r4 <6>
+	<7 [5+ _+]> <_+> <6 5!>
+	r <6 _!> <[7 _+]> %50
+	<5 _+>2 <6 4>4
+	<5 _+>2 <6 4>4
+	<5 _+>2 <6 4>4
+	<5 _+>2 <6 5 _+>4
+	<[5]>8 <[5+]>4 <[6]> <[5!]>8 %55
+	<[5]>8 <[5+]>4 <[6]> <[5!]>8
+	r4 <6\\> <[6]>
+	q <6 4> <6 5->
+	<[5]>4 <[6]>2
+	<7 5! _+>2. %60
+	r2 <7 _+>4
+	r <6\\> <6>
+	q <6 4> <5 _+>
+	r2 <_+>4
+	r2 <_+>4 %65
+	<[9 4]>4 <[8 3]>2 %66 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
