@@ -1971,6 +1971,100 @@ EsWurdenAberTenoreLyrics = \lyricmode {
 	Sein und ſpra -- chen: %18 finis
 }
 
+ErHatAndernEvangelistNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key h \minor \time 4/4 \autoBeamOff \tempoErHatAndern
+		R1*23 \bar "||" %23
+		\key c \major \tempoErHatAndernB h8 h e16 e e dis e8 e g e
+		c c r4 c g8 a %25
+		b b b a16 g e'8 e r f
+		f c r4 r2 \bar "||"
+		\key f \major \time 3/8 \tempoErHatAndernC R4.*8 %35
+		R4.\fermataMarkup \bar "|." %36 finis
+	}
+}
+
+ErHatAndernEvangelistLyrics = \lyricmode {
+	Es ver -- ſpot -- te -- ten Ihn auch die Krie -- ges -- %24
+	knech -- te, tra -- ten zu %25
+	Ihm und brach -- ten Ihn E -- ßig und
+	ſpra -- chen: %27 finis
+}
+
+ErHatAndernTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key h \minor \time 4/4 \autoBeamOff \tempoErHatAndern
+		R1
+		r2 h4 d
+		cis e d fis
+		e g ais, h~
+		h ais h8 cis d e %5
+		fis4 fis fis( eis)
+		fis r r2
+		R1*2
+		fis4. e!8 d([ cis)] h d %10
+		cis4 fis8 e d([ cis)] h fis'
+		e([ d)] cis g' fis([ e)] d a'!
+		g([ fis)] e e e4 d8 e
+		cis2\trillE h4 r
+		r4 cis h gis %15
+		r fis' fis eis8 gis
+		gis4 fis r fis8 fis
+		cis4 cis h cis8 h
+		a fis r4 r h~
+		h ais h r %20
+		R1
+		r8 h e e fis4. e8
+		d4( cis) d2 \bar "||"
+		\key c \major \tempoErHatAndernB R1*4 \bar "||" %27
+		\key f \major \time 3/8 \tempoErHatAndernC c8 b c
+		b4 c8
+		c c r %30
+		a b c
+		c4 c8
+		c c r
+		f e f
+		g4 c,8 %35
+		c c r\fermata \bar "|." %36 finis
+	}
+}
+
+ErHatAndernTenoreLyrics = \lyricmode {
+	Iſt Er %2
+	Chriſt, der Aus -- er --
+	wähl -- te Got -- _
+	_ tes, der Aus -- er -- %5
+	wähl -- te Got --
+	tes,
+	
+	Er hat an -- dern, hat %10
+	an -- dern ge -- hol -- fen, Er
+	hel -- fe Ihm ſel -- ber, Er
+	hel -- fe, Er hel -- fe Ihm
+	ſel -- ber,
+	Er hel -- fe, %15
+	Er hel -- fe Ihm
+	ſel -- ber, iſt Er
+	Chriſt, Er hel -- fe Ihm
+	ſel -- ber, iſt __
+	Er Chriſt, %20
+	
+	der Aus -- er -- wähl -- te
+	Got -- tes.
+	
+	\xE Biſt du der %28
+	Jü -- den
+	Kö -- nig, %30
+	ſo hilf, ſo
+	hilf dir
+	ſel -- ber,
+	\x ſo hilf, ſo
+	hilf dir
+	ſel -- ber.
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -1132,6 +1132,69 @@ WieHeftigBassoLyrics = \lyricmode {
 	ſehn. %15 finis
 }
 
+ErHatAndernBassoNotes = {
+	\relative c {
+		\clef bass
+		\key h \minor \time 4/4 \autoBeamOff \tempoErHatAndern
+		R1*6 %6
+		fis4 a gis h
+		a cis h d
+		eis, fis2 eis4
+		fis8 fis gis ais h4 h %10
+		h( ais) h r
+		R1*2
+		r2 h4. h8
+		a!([ gis)] fis a gis4 cis8 h %15
+		a([ gis)] fis cis'([ h)] a gis d'
+		cis([ h)] a e'! d([ cis)] h h
+		h4 a8 h gis2\trillE
+		fis4 gis8 ais h4 r
+		r2 h,4 d %20
+		cis e d fis
+		e g fis( h8) e,
+		fis2 h, \bar "||"
+		\key c \major \tempoErHatAndernB R1*4 \bar "||" %27
+		\key f \major \time 3/8 \tempoErHatAndernC f'8 g a
+		b([ a)] g
+		a16([ g)] f8 r %30
+		a g f
+		e4 c8
+		f f r
+		r r d'
+		c4 c,8 %35
+		f f r\fermata \bar "|." %36 finis
+	}
+}
+
+ErHatAndernBassoLyrics = \lyricmode {
+	Iſt Er Chriſt, der %7
+	Aus -- er -- wähl -- te
+	Got -- _ _
+	tes, der Aus -- er -- wähl -- te %10
+	Got -- tes,
+	
+	Er hat %14
+	an -- dern, hat an -- dern ge -- %15
+	hol -- fen, Er hel -- fe Ihm
+	ſel -- ber, Er hel -- fe, Er
+	hel -- fe Ihm ſel --
+	ber, iſt Er Chriſt,
+	iſt Er %20
+	Chriſt, der Aus -- er --
+	wähl -- te Got -- tes,
+	Got -- tes.
+	
+	Biſt du der %28
+	Jü -- den
+	Kö -- nig, %30
+	ſo hilf, ſo
+	hilf dir
+	ſel -- ber,
+	ſo
+	hilf dir
+	ſel -- ber.
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

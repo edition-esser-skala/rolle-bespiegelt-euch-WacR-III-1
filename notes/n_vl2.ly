@@ -1170,3 +1170,40 @@ NimmSichrerViolinoII = {
 		g,4 r8 \markDaCapo \bar "||" %116 finis
 	}
 }
+
+ErHatAndernViolinoII = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \tempoErHatAndern
+		R1*4
+		r2 h'4. h8 %5
+		a! gis fis a gis4 cis8 h
+		a gis fis cis' h a gis d'
+		cis h a e'! d cis h h
+		h4 a8 h gis2\trillE
+		fis r4 fis %10
+		e! cis r h'
+		h ais8 cis cis4 h
+		r e8 d cis4 h
+		e, fis8 e d e fis gis
+		a!4 r r2 %15
+		fis4 a gis h
+		a cis h d
+		eis, fis2 eis4
+		fis h8 cis h4 r
+		r2 r4 h %20
+		h ais8 cis cis4 h~
+		h h ais h8 g
+		fis2 fis \bar "||"
+		\key c \major \tempoErHatAndernB R1*4 \bar "||" %27
+		\key f \major \time 3/8 \tempoErHatAndernC f8 e f
+		f4 b8
+		a16 b c8 r %30
+		c b a
+		b g4
+		g8 f r
+		c' c c
+		c4 g8 %35
+		g f r\fermata \bar "|." %36 finis
+	}
+}

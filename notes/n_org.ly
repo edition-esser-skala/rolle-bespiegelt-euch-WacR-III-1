@@ -2958,6 +2958,96 @@ EsWurdenAberBassFigures = \figuremode {
 	<[7 5+ _+]>4. <[6+ \t \t]>8 <[5+ _!]>2 %18 finis
 }
 
+ErHatAndernOrgano = {
+	\relative c {
+		\clef bass
+		\key h \minor \time 4/4 \tempoErHatAndern
+		\clef treble fis''4. e8 d cis h d
+		<< {
+			cis4 fis8 e d cis h fis'
+			e d cis g' fis e d a'
+			g fis e e e4 d8 e
+			cis2\trill h4. h8 %5
+			a!8 gis fis a gis4 cis8 h
+		} \\ {
+			r2 h,4 d
+			cis e d fis
+			e g ais, h~
+			h ais h8 cis d e %5
+			fis4 fis fis eis
+		} >>
+		\clef bass fis,4 a gis h
+		a cis h d
+		eis, fis2 eis4
+		fis8 fis gis ais? h4 h %10
+		h ais h \clef "treble_8" h8 fis'
+		e d cis g' fis e d a'!
+		g fis e e e4 d8 e
+		cis2 \clef bass h4. h8
+		a! gis fis a gis4 cis8 h %15
+		a gis fis cis' h a gis d'
+		cis h a e'! d cis h h
+		h4 a8 h gis2
+		fis8 fis gis ais h4 \clef "treble_8" h~
+		h ais \clef bass h, d %20
+		cis e d fis
+		e g fis h8 e, \noBreak
+		fis4 fis, h2 \bar "||"
+		\key c \major \tempoErHatAndernB \newSpacingSection \once \tieDashed e1~ \noBreak
+		\once \tieDashed e~ %25
+		e2 b \noBreak
+		r8 c f,4 r2 \bar "||"
+		\key f \major \time 3/8 \tempoErHatAndernC \newSpacingSection f'8 g a \noBreak
+		b a g
+		f f, r %30
+		a' g f
+		e4 c8
+		f f, r
+		r r d''
+		c4 c,8 %35
+		f f, r\fermata \bar "|." %36 finis
+	}
+}
+
+ErHatAndernBassFigures = \figuremode {
+	r1
+	r
+	r
+	r
+	r %5
+	r
+	r4 <6> <7> <6\+ 4\+ 3>
+	<7+> <6 4> r <6>
+	<6 5 [_+]> <3> <2+> <6 5 _+>
+	r <7>8 <6 5 _!> r2 %10
+	<2>4 <[6]>2.
+	<[6 5]>4 <[6\\]> <[6 5]> <[6]>
+	<[6]>2 <[4\+ 2]>4 <[6]>
+	<[7]> <[6\\]> <[5 3]>4. <[6+ 4]>8
+	<6>4. <6>8 <7>4 <[5+] _+> %15
+	<6>2 <6+ 5>4 <6\\>
+	<6 [5+]> <6> <6>2
+	<[6+] 4+ 2>4 <6> <7> <6\\>
+	r <7>8 <6 5!> r2
+	<[2]>4 <[6]>2 <6>4 %20
+	<7> <6 4\+ 2> <7> <6 4>
+	r <6> <7 _+> r
+	<6 4> <5 _+> r2
+	r1
+	<6> %25
+	<6 5->2 <6 4 2>
+	r1
+	r8 <6> q
+	r <[\t]> <6>
+	r4. %30
+	<6>8 q <[8]>
+	<6 [5]>4 <7>8
+	<[9] 4> <[8] 3>4
+	r <7>8
+	<4> <3>4 %35
+	<[9] 4>8 <[8] 3>4 %36 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

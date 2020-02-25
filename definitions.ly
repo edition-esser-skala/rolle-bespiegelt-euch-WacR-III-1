@@ -372,6 +372,9 @@ tempoNimmSichrer = \tempoMarkup "Andante"
 	tempoNimmSichrerB = \tempoMarkup "Larghetto"
 tempoWieHeftig = \tempoMarkup "[Choral]"
 tempoEsWurdenAber = \tempoMarkup "[Recitativo]"
+tempoErHatAndern = \tempoMarkup "Vivace"
+	tempoErHatAndernB = \tempoMarkup "[Recitativo]"
+	tempoErHatAndernC = \tempoMarkup "[Coro]"
 
 
 

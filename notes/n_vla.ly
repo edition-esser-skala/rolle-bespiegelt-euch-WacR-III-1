@@ -1170,3 +1170,42 @@ NimmSichrerViola = {
 		g, r8 \markDaCapo \bar "||" %116 finis
 	}
 }
+
+ErHatAndernViola = {
+	\relative c' {
+		\clef alto
+		\key h \minor \time 4/4 \tempoErHatAndern
+		R1
+		r2 h4 d
+		cis e d fis
+		e g ais, h~
+		h ais h8 cis d e %5
+		fis4 fis2 eis4
+		fis r r2
+		R1*2
+		fis4. e!8 d cis h d %10
+		cis4 fis8 e d cis h fis'
+		e d cis g' fis e d a'!
+		g fis e e e4 d8 e
+		cis2\trillE h4 r
+		r4 cis h gis %15
+		r fis' fis eis8 gis
+		gis4 fis r fis8 fis
+		cis4 cis h cis8 h
+		a fis r4 r h~
+		h ais h d %20
+		cis e d fis
+		e8 h g' e fis4. e8
+		d4 cis d2 \bar "||"
+		\key c \major \tempoErHatAndernB R1*4 \bar "||" %27
+		\key f \major \time 3/8 \tempoErHatAndernC c8 b c
+		b4 c8
+		c c r %30
+		a b c
+		c4 c8
+		c c r
+		f e f
+		g4 c,8 %35
+		c c r\fermata \bar "|." %36 finis
+	}
+}

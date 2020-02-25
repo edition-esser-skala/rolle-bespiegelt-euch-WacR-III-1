@@ -1475,6 +1475,75 @@ WieHeftigAltoLyrics = \lyricmode {
 	ſehn. %15 finis
 }
 
+ErHatAndernAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \autoBeamOff \tempoErHatAndern
+		R1*4
+		r2 h'4. h8 %5
+		a! gis fis a gis4 cis8([ h)]
+		a[( gis)] fis cis' h([ a)] gis d'
+		cis([ h)] a e'! d([ cis)] h h
+		h4 a8 h gis2\trillE
+		fis r4 fis %10
+		e! cis r h'
+		h ais8 cis cis4 h
+		r e8 d cis4 h
+		e, fis8 e d e fis gis
+		a!4 r r2 %15
+		fis4 a gis h
+		a cis h d
+		eis, fis2 eis4
+		fis h8 cis h4 r
+		r2 r4 h %20
+		h( ais8) cis cis4 h~
+		h h8 h ais4( h8) g
+		fis2 fis \bar "||"
+		\key c \major \tempoErHatAndernB R1*4 \bar "||" %27
+		\key f \major \time 3/8 \tempoErHatAndernC f8 e f
+		f4 b8
+		a16([ b)] c8 r %30
+		c b a
+		b g4
+		g8 f r
+		c'  c c
+		c4 g8 %35
+		g f r\fermata \bar "|." %36 finis
+	}
+}
+
+ErHatAndernAltoLyrics = \lyricmode {
+	Er hat %5
+	an -- dern, hat an -- dern ge --
+	hol -- fen, Er hel -- fe Ihm
+	ſel -- ber, Er hel -- fe, Er
+	hel -- fe Ihm ſel --
+	ber, Er %10
+	hel -- fe, Er
+	hel -- fe Ihm ſel -- ber, 
+	iſt Er Chriſt, Er
+	hel -- fe Ihm ſel -- ber, iſt Er
+	Chriſt, %15
+	iſt Er Chriſt, der
+	Aus -- er -- wähl -- te
+	Got -- _ _
+	tes, iſt Er Chriſt,
+	der %20
+	Aus -- er -- wähl -- te, __
+	Aus -- er -- wähl -- te
+	Got -- tes.
+	
+	\xE Biſt du der %28
+	Jü -- den
+	Kö -- nig, %30
+	ſo hilf, ſo
+	hilf dir
+	ſel -- ber,
+	\x ſo hilf, ſo
+	hilf dir
+	ſel -- ber.
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -1154,6 +1154,45 @@ NimmSichrerViolinoI = {
 	}
 }
 
+ErHatAndernViolinoI = {
+	\relative c' {
+		\clef treble
+		\key h \minor \time 4/4 \tempoErHatAndern
+		fis'4. e8 d cis h d
+		cis4 fis8 e d cis h fis'
+		e d cis g' fis e d a'!
+		g fis e e e4 d8 e
+		cis2\trill h4 r %5
+		R1
+		r4 fis' fis eis8 gis
+		gis4 fis r h,8 a
+		gis4 fis h cis8 h
+		a fis h cis d4 r %10
+		r2 h4 d
+		cis e d fis
+		e g ais, \once \tieDashed h~
+		h ais h8 cis d e
+		fis4 fis2 eis4 %15
+		fis r r2
+		R1*2
+		fis4. e!8 d cis h d
+		cis4 fis8 e d cis h fis' %20
+		e d cis g' fis e d a'!
+		g fis e e e d16 cis d8 h
+		h4 ais h2 \bar "||"
+		\key c \major \tempoErHatAndernB R1*4 \bar "||" %27
+		\key f \major \time 3/8 \tempoErHatAndernC a8 g f
+		d'4 e8
+		f16 g a8 r %30
+		f e f
+		g b,4
+		b8 a r
+		a' g f
+		f e16 d c b %35
+		b8 a r\fermata \bar "|." %36 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
