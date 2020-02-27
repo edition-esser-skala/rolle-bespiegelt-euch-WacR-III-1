@@ -2191,6 +2191,57 @@ IchBinEinTenoreLyrics = \lyricmode {
 	ben. %18 finis
 }
 
+UndEsWarTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoUndEsWar
+		r8 c^\Evangelist c f b, b d c
+		a a r4 r8 a cis cis
+		e e g e cis4 cis8 cis16 d
+		e8 cis a g b b b a
+		f f r4 r h8 h %5
+		e e r h d4 d8 c
+		a4 r r2
+		r a8 a a a16 h!
+		cis4 cis8 d e4 cis8 h16 a
+		d4 r8 h c4 c8 d %10
+		es4 d b r
+		\clef bass \key g \minor \tempoUndEsWarB g4^\Jesus d r g8 b
+		a4 es es es
+		d4. d8 c'4. b16([ a)]
+		b([ a)] g8 r4 g4. h8 %15
+		c4 r cis4. g8
+		\appoggiatura g fis4. g8 a4 c,!
+		b16([ a)] g8 r4 \clef "treble_8" r8 g'^\Evangelist g h
+		c8. c16 c4 r r8 g'
+		g d r4 r2 %20
+		R1\fermataMarkup \bar "|." %21 finis
+	}
+}
+
+UndEsWarTenoreLyrics = \lyricmode {
+	Und es war um die ſechſ -- te
+	Stun -- de, und es ward
+	ei -- ne Finſ -- ter -- niß ü -- ber das
+	gant -- ze Land bis an die neun -- te
+	Stun -- de, und die %5
+	Son -- ne ver -- lohr ih -- ren
+	Schein.
+	Und der Für -- hang des
+	Tem -- pels zu -- riß mit -- ten ent --
+	zwey. Und Je -- ſus ſchrie %10
+	laut und ſprach:
+	Va -- ter, ich be --
+	feh -- le mei -- nen
+	Geiſt in dei -- ne
+	Hän -- de, mei -- nen %15
+	Geiſt, mei -- nen
+	Geiſt in dei -- ne
+	Hän -- de. Und als Er
+	das ge -- ſagt, ver --
+	ſchied Er. %20 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

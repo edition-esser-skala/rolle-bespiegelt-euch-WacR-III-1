@@ -1284,6 +1284,24 @@ EsWarAuchViolinoI = {
 	}
 }
 
+UndEsWarViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoUndEsWar
+		R1*11 %11
+		\key g \minor \tempoUndEsWarB r8 b(\pE d g) r b,( d g)
+		\slurDashed r c,( es a) r c,( es a)
+		r d,( fis a) r d,( a' c)
+		r d,( g b) \slurSolid r h( d g) %15
+		r g,( c g') r g,( cis g')
+		r \slurDashed d,( a' c) r c,( fis a) \slurSolid
+		g d d d d2\f
+		r8 es\p es es g2\f
+		r8 g g g g g fis fis %20
+		g2 r\fermata \bar "|." %21 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

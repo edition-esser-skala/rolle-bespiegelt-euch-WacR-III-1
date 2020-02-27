@@ -1300,3 +1300,21 @@ EsWarAuchViola = {
 		R1\fermataMarkup \bar "|." %35 finis
 	}
 }
+
+UndEsWarViola = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 4/4 \tempoUndEsWar
+		R1*11 %11
+		\key g \minor \tempoUndEsWarB b4\pE b b b
+		c c c c
+		c c c c
+		b b d d %15
+		c g' g g
+		d d d d
+		b8 g g b g2\fE
+		r8 g\pE g g g2\fE
+		r8 b b b a a a a %20
+		g2 r\fermata \bar "|." %21 finis
+	}
+}

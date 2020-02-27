@@ -1280,3 +1280,21 @@ VerdamlicheBosheitViolinoII = {
 		\appoggiatura h4 a2 r4\fermata \bar "|." %66 finis
 	}
 }
+
+UndEsWarViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoUndEsWar
+		R1*11 %11
+		\key g \minor \tempoUndEsWarB r4 r8 b(\pE d g) r b,(
+		c es) r \slurDashed c( es a) r c,(
+		d a') r \slurSolid d,( a' c) r \slurDashed d,(
+		g b) r d,( h' d) r d,( \slurSolid %15
+		g c) r \slurDashed g( cis g') r a,(
+		a d) r d,( fis a) r d, \slurSolid
+		d b b b h2\fE
+		r8 c\pE c c cis2\fE
+		r8 d d d c c c c %20
+		g2 r\fermata \bar "|." %21 finis
+	}
+}

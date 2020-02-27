@@ -3316,6 +3316,58 @@ IchBinEinBassFigures = \figuremode {
 	r1 %18 finis
 }
 
+UndEsWarOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoUndEsWar
+		f1
+		f8. f16 a16. c32 f,16. a32 cis,2~
+		cis1~
+		cis
+		d8. f16 d16. f32 h,16. d32 gis,2~ %5
+		gis1
+		a8. a32 h cis16 cis32 d e16 e32 f g16 g32 a b16 b32 a g16 g32 f e16 e32 d
+		cis1
+		g'
+		fis~ %10
+		fis2 g4 r
+		\key g \minor \tempoUndEsWarB g,4\pE g g g
+		g g g g
+		fis fis fis fis
+		g g f f' %15
+		e e es es
+		d d d d,
+		g g f'!2\fE
+		es4\pE es e\fE e
+		d d d, d %20
+		g2 r\fermata \bar "|." %21 finis
+	}
+}
+
+UndEsWarBassFigures = \figuremode {
+	<5>2 <4- 2>
+	<[5 3]> <6>
+	r1
+	<6>2 <7->
+	r <6 _!> %5
+	r <7>4 <6>
+	<_+>4... \bassFigureExtendersOn q32 \bassFigureExtendersOff <4+ 2>8 <6 4 [2+]> <6 4\+ _->8.. \bassFigureExtendersOn q32 \bassFigureExtendersOff
+	<[6]>1
+	<[4+ 2]>
+	<6>2 <[7- 5!]> %10
+	<\t \t>4 <6> <_->2
+	r1
+	<6 4 2>
+	<6>2 <6 5>
+	r <4! 2> %15
+	<6> <6\\>
+	<[7! _+]>1
+	r2 <[4! 2]>
+	<[6]> <6\\>
+	<[6 4]>2 <[7! 5 4]>4 <[\t \t _+]> %20
+	r1 %21 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
