@@ -1486,6 +1486,52 @@ VerdamlicheBosheitSopranoLyrics = \lyricmode {
 	Blut. %65 finis
 }
 
+IchBinEinSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoIchBinEin
+		r4 c' g c
+		h c d e
+		c2.\fermata e8([ f)]
+		g4 g e g
+		f2 e\fermata %5
+		r4 e f e
+		d c e e
+		c2.\fermata e8([ f)]
+		g4 g e g
+		f2 e\fermata %10
+		r4 e f e
+		d c d e
+		c2.\fermata d4
+		e e a, h
+		c a g2\fermata %15
+		r4 g c d
+		e f e( d)
+		c1\fermata \bar "|." %18 finis
+	}
+}
+
+IchBinEinSopranoLyrics = \lyricmode {
+	Ich bin ein
+	Glied an Dei -- nem
+	Leib, des
+	tröſt ich mich von
+	Hert -- zen. %5
+	Von Dir ich
+	un -- ge -- ſchie -- den
+	bleib in
+	To -- des -- noth und
+	Schmert -- zen. %10
+	Wenn ich gleich
+	ſterb, ſo ſterb ich
+	Dir, Dein
+	e -- wig Le -- ben
+	haſt Du mir %15
+	durch Dei -- nen
+	Todt er -- wor --
+	ben. %18 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

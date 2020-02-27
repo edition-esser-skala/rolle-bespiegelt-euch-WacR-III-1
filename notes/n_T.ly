@@ -2145,6 +2145,52 @@ EsWarAuchTenoreLyrics = \lyricmode {
 	die -- ſe ſeyn. %35 finis
 }
 
+IchBinEinTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoIchBinEin
+		r4 e d c
+		d e f g
+		f2.\fermata g4
+		g g g e
+		d2 c\fermata %5
+		r4 c d g
+		g e g g
+		f2.\fermata g4
+		e g g e
+		e( d) c2\fermata %10
+		r4 c d g
+		g e g g
+		f2.\fermata f4
+		g g c, d
+		e d h2\fermata %15
+		r4 h c f
+		g f g2
+		e1\fermata \bar "|." %18 finis
+	}
+}
+
+IchBinEinTenoreLyrics = \lyricmode {
+	Ich bin ein
+	Glied an Dei -- nem
+	Leib, des
+	tröſt ich mich von
+	Hert -- zen. %5
+	Von Dir ich
+	un -- ge -- ſchie -- den
+	bleib in
+	To -- des -- noth und
+	Schmert -- zen. %10
+	Wenn ich gleich
+	ſterb, ſo ſterb ich
+	Dir, Dein
+	e -- wig Le -- ben
+	haſt Du mir %15
+	durch Dei -- nen
+	Todt er -- wor --
+	ben. %18 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

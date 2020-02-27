@@ -1544,6 +1544,52 @@ ErHatAndernAltoLyrics = \lyricmode {
 	ſel -- ber.
 }
 
+IchBinEinAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoIchBinEin
+		r4 g' g fis
+		g g h c
+		a2.\fermata c4
+		c d c a
+		a( h) g2\fermata %5
+		r4 a a c
+		h a h c
+		a2.\fermata c4
+		c d c a
+		a2^\critnote a\fermata %10
+		r4 a a c
+		h a h c
+		a2.\fermata h4
+		c c a f
+		g fis d2\fermata %15
+		r4 d g h
+		c c c( h)
+		g1\fermata \bar "|." %18 finis
+	}
+}
+
+IchBinEinAltoLyrics = \lyricmode {
+	Ich bin ein
+	Glied an Dei -- nem
+	Leib, des
+	tröſt ich mich von
+	Hert -- zen. %5
+	Von Dir ich
+	un -- ge -- ſchie -- den
+	bleib in
+	To -- des -- noth und
+	Schmert -- zen. %10
+	Wenn ich gleich
+	ſterb, ſo ſterb ich
+	Dir, Dein
+	e -- wig Le -- ben
+	haſt Du mir %15
+	durch Dei -- nen
+	Todt er -- wor --
+	ben. %18 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

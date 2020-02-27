@@ -961,42 +961,90 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.19" "R E C I T A T I V O" "Es war auch oben über Ihn geſchrieben"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #22
+% 			system-system-spacing.minimum-distance = #22
+% 			systems-per-page = #3
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Violino I, II"
+% 						\EsWarAuchViolinoI
+% 					}
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\EsWarAuchViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Übelthäter I, II" "Jeſus" } }
+% 					\new Voice = "Tenore" { \dynamicUp \EsWarAuchTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \EsWarAuchTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\EsWarAuchOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \EsWarAuchBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.19" "R E C I T A T I V O" "Es war auch oben über Ihn geſchrieben"
+			movement = \movementTitle "2.20" "C H O R A L" "Ich bin ein Glied an Deinem Leib"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #22
-			system-system-spacing.minimum-distance = #22
-			systems-per-page = #3
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
 		}
 		\score {
 			<<
-				\new StaffGroup <<
+				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Violino I, II"
-						\EsWarAuchViolinoI
+						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
+						\new Voice = "Soprano" { \dynamicUp \IchBinEinSopranoNotes }
 					}
+					\new Lyrics \lyricsto Soprano \IchBinEinSopranoLyrics
+					
 					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\EsWarAuchViola
+						\set Staff.instrumentName = \markup { \center-column { "Alto" "Violino II" "Oboe II" } }
+						\new Voice = "Alto" { \dynamicUp \IchBinEinAltoNotes }
 					}
+					\new Lyrics \lyricsto Alto \IchBinEinAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Tenore" "Viola" } }
+						\new Voice = "Tenore" { \dynamicUp \IchBinEinTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \IchBinEinTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \IchBinEinBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \IchBinEinBassoLyrics
 				>>
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Übelthäter I, II" "Jeſus" } }
-					\new Voice = "Tenore" { \dynamicUp \EsWarAuchTenoreNotes }
-				}
-				\new Lyrics \lyricsto Tenore \EsWarAuchTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\EsWarAuchOrgano
+						\IchBinEinOrgano
 					}
 				>>
-				\new FiguredBass { \EsWarAuchBassFigures }
+				\new FiguredBass { \IchBinEinBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

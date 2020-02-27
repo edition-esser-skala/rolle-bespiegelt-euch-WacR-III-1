@@ -1195,6 +1195,52 @@ ErHatAndernBassoLyrics = \lyricmode {
 	ſel -- ber.
 }
 
+IchBinEinBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoIchBinEin
+		r4 c' h a
+		g e d c
+		f2.\fermata e8([ d)]
+		c4 h c cis
+		d( g) c,2\fermata %5
+		r4 a' d, e8([ f)]
+		g4 a g e
+		f2.\fermata e8([ d)]
+		c4 h c cis
+		d2 a'\fermata %10
+		r4 a d, e8([ f)]
+		g4 a g e
+		f2.\fermata d4
+		c e f d
+		c d g2\fermata %15
+		r4 f! e d
+		c a' g2
+		c,1\fermata \bar "|." %18 finis
+	}
+}
+
+IchBinEinBassoLyrics = \lyricmode {
+	Ich bin ein
+	Glied an Dei -- nem
+	Leib, des
+	tröſt ich mich von
+	Hert -- zen. %5
+	Von Dir ich
+	un -- ge -- ſchie -- den
+	bleib in
+	To -- des -- noth und
+	Schmert -- zen. %10
+	Wenn ich gleich
+	ſterb, ſo ſterb ich
+	Dir, Dein
+	e -- wig Le -- ben
+	haſt Du mir %15
+	durch Dei -- nen
+	Todt er -- wor --
+	ben. %18 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

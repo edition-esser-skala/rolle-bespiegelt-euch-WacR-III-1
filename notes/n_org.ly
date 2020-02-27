@@ -3270,6 +3270,52 @@ EsWarAuchBassFigures = \figuremode {
 	r1 %35 finis
 }
 
+IchBinEinOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoIchBinEin
+		r4 c' h a
+		g e d c
+		f2.\fermata e8([ d)]
+		c4 h c cis
+		d g c,2\fermata %5
+		r4 a' d, e8([ f)]
+		g4 a g e
+		f2.\fermata e8([ d)]
+		c4 h c cis
+		d2 a\fermata %10
+		r4 a' d, e8([ f)]
+		g4 a g e
+		f2.\fermata d4
+		c e f d
+		c d g,2\fermata %15
+		r4 f'! e d
+		c a' g g,
+		c1\fermata \bar "|." %18 finis
+	}
+}
+
+IchBinEinBassFigures = \figuremode {
+	r2 <6>4 <6\\>
+	r <6> q2
+	r2. <[6]>4
+	r q r <[6 5]>
+	r <[7]>2. %5
+	r2. <6>4
+	r2 <[6]>4 q
+	r2. q4
+	r <6> r <[6 5]>
+	<[9]> <[8]> r2 %10
+	r2. <[6]>4
+	r2. q4
+	r2. q4
+	r q r q
+	r <_+>2. %15
+	r4 <4 2> <[6]> q
+	r <6> <[6 4]> <[5 3]>
+	r1 %18 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
