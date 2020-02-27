@@ -288,8 +288,10 @@ MagdII = \markup { \remark "Magd II" }        %S
 MagdIII = \markup { \remark "Magd III" }      %S
 Evangelist = \markup { \remark "Evangeliſt" } %T
 Petrus = \markup { \remark "Petrus" }         %T
+UebelII = \markup { \remark "Übelthäter II" } %T
 Jesus = \markup { \remark "Jeſus" }           %B
 Pilatus = \markup { \remark "Pilatus" }       %B
+UebelI = \markup { \remark "Übelthäter I" }   %B
 
 
 
@@ -376,6 +378,11 @@ tempoErHatAndern = \tempoMarkup "Vivace"
 	tempoErHatAndernB = \tempoMarkup "[Recitativo]"
 	tempoErHatAndernC = \tempoMarkup "[Coro]"
 tempoVerdamlicheBosheit = \tempoMarkup "[Aria]"
+tempoEsWarAuch = \tempoMarkup "[Recitativo]"
+	tempoEsWarAuchB = \tempoMarkup "[Accompagnato]"
+	tempoEsWarAuchC = \tempoMarkup "Recitativo"
+	tempoEsWarAuchD = \tempoMarkup "[Arioſo]"
+	tempoEsWarAuchE = \tempoMarkup "[Recitativo]"
 
 
 

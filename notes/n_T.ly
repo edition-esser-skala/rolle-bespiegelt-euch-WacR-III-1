@@ -2065,6 +2065,86 @@ ErHatAndernTenoreLyrics = \lyricmode {
 	ſel -- ber.
 }
 
+EsWarAuchTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoEsWarAuch
+		r4 r8 a^\Evangelist a a a h
+		c c d e e h r h
+		d8. d16 d8 h gis8. gis16 gis4
+		r gis8 a h8. h16 h4
+		d8 d d d16 c a8.^\critnote a16 a4 %5
+		r r8 e' cis cis cis d
+		d a r4 d8 d r d
+		d a a h c! c r c
+		e e e d h h r4
+		c8 c16 c c8 h g4 r %10
+		\clef bass \key e \minor \tempoEsWarAuchB h4^\UebelI h h8 h, r h
+		e4 e a16([ h)] c8 r a,
+		d4 d g16([ a)] h8 r h
+		h([ a16 g)] fis8 e dis8 fis a4~
+		a8[ h16 c] h8 a g e a4~ %15
+		a8[ h16 c] h8 a g4 r
+		\clef "treble_8" \key c \major \tempoEsWarAuchC r4 h8^\Evangelist h h h h h
+		e8. e16 e4 d8 d f e
+		c4 r8 a^\UebelII c4 c8 h16 a
+		dis8 dis16 e fis4 r a,8 h %20
+		c4 r8 c c c16 c c8 h
+		g g h4 e8 e e h
+		c c r16 c h a dis4 dis8 fis
+		dis dis dis e e h r4
+		g'4 e cis8 cis cis e %25
+		ais, ais ais ais16 h h8 fis? r16 ais^\Evangelist h cis
+		\key h \phrygian d4 r \tempoEsWarAuchD h^\UebelII r
+		g' r8 g fis([ e)] d cis
+		d4 r8 d cis fis fis d
+		h16([ ais)] h8 r h ais fis' d h %30
+		a4( g) fis4 r
+		\tempoEsWarAuchE r4 r8 a^\Evangelist d a h c
+		h4 \clef bass g8^\Jesus h16 d d8 h g4
+		g8 g g g16 h e,8 fis fis g
+		g8. d16 d4 r2\fermata \bar "|." %35 finis
+	}
+}
+
+EsWarAuchTenoreLyrics = \lyricmode {
+	Es war auch o -- ben
+	ü -- ber Ihn ge -- ſchrie -- ben die
+	Ü -- ber -- ſchrift mit grie -- chi -- ſchen
+	und la -- tei -- ni -- ſchen
+	und he -- brä -- i -- ſchen Buch -- ſta -- ben: %5
+	Dies iſt der Jü -- den
+	Kö -- nig. A -- ber der
+	Ü -- bel -- thä -- ter ei -- ner, die
+	da ge -- hen -- cket wa -- ren,
+	läſ -- ter -- te Ihn und ſprach: %10
+	Biſt Du Chriſ -- tus, ſo
+	hilf Dir ſel -- ber, so
+	hilf Dir ſel -- ber, Dir
+	ſel -- ber und uns, Dir ſel --
+	ber und uns, Dir ſel -- %15
+	ber und uns.
+	Da ant -- wor -- te -- te der
+	an -- de -- re, ſtraf -- te ihn und
+	ſprach: Und du fürch -- teſt dich
+	auch nicht vor Gott, der du %20
+	doch in glei -- cher Ver -- dam -- niß
+	biſt? Und zwar wir ſind bil -- lig
+	drin -- nen, denn wir em -- pfa -- hen was
+	un -- ſer Tha -- ten werth ſind;
+	die -- ſer a -- ber hat nichts %25
+	un -- ge -- ſchick -- tes ge -- han -- delt. Und ſprach zu
+	Ihm: HErr,
+	HErr, ge -- den -- cke an
+	mich, wenn Du in Dein Reich
+	kom -- meſt, wenn Du in Dein Reich %30
+	kom -- meſt.
+	Und Je -- ſus ſprach zu
+	ihm: War -- lich, ich ſa -- ge dir,
+	heu -- te wirſt du mit mir im Pa -- ra --
+	die -- ſe ſeyn. %35 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

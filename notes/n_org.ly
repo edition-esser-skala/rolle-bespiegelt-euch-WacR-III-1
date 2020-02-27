@@ -3190,6 +3190,86 @@ VerdamlicheBosheitBassFigures = \figuremode {
 	<[9 4]>4 <[8 3]>2 %66 finis
 }
 
+EsWarAuchOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoEsWarAuch
+		a1~
+		a2 a~
+		a1~
+		a~
+		a2~ a4. a'8 %5
+		g1
+		r4 a fis2~
+		fis1~
+		fis2 g4~ g16 g fis e
+		dis2 e %10
+		\key e \minor \tempoEsWarAuchB r8 e dis cis h a' g fis
+		e d c h a g' fis e
+		d c h a g fis' e d
+		c2 h4 r8 h
+		cis h cis dis e4 r8 h %15
+		cis h cis dis e fis g a
+		\key c \major \tempoEsWarAuchC gis1
+		r2 gis
+		a,1
+		fis'2 dis~ %20
+		dis1
+		e2 gis
+		a a,~
+		a r4 h'4
+		e,1~ %25
+		e2 r4 fis
+		\key h \phrygian  h, r \tempoEsWarAuchD h8 h'16. a32 h8 h,
+		e, e'16. d32 e8 e, fis fis'16. e32 fis8 fis,
+		h h'16. a32 h8 h, a a'16. g32 a8 a,
+		g g'16. fis32 g8 g, fis fis'16. e32 fis8 fis, %30
+		e e'16. d32 e8 a, d d'16. cis32 d16. d32 a16. d32
+		\tempoEsWarAuchE fis,1
+		g
+		h,2 c
+		r4 d g,2\fermata \bar "|." %35 finis
+	}
+}
+
+EsWarAuchBassFigures = \figuremode {
+	r1
+	r2 <7+ 4 2>
+	r1
+	r
+	r2 <[8 3]> %5
+	<6 4+ 2>1
+	r4 <_+> <6>2
+	r1
+	r2.. <[6\\]>8
+	<7 [_+]>4. <6 \t>8 r2 %10
+	r <[_+]>
+	r1
+	r
+	r2 <[_+]>4. q8
+	<[7]> <[_+]> <[7]> <[6]> r4. <[_+]>8 %15
+	<[7]> <[_+]> <[7]> <[6]> r <[6\\]> <[6]>4
+	<6 [5!]>1
+	r2 <[7]>4. <[6]>8
+	r1
+	<6\\>2 <[6 _+]> %20
+	<[7 _+]>1
+	r2 <6>
+	r <[6+] 4+ 2>
+	r2. <[5+ _+]>4
+	<5>2 <6\\> %25
+	<[6+] 4+ [2+]>2. <[5+ _+]>4
+	r1
+	r2 <[5+ _+]>
+	r <[6 _+]>
+	r <[5+ _+]>4 <[6 4]> %30
+	<4!> <[3]>8 <[7 _+]> r2
+	<[6]>1
+	r
+	<6>
+	r1 %35 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

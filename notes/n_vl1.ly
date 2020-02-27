@@ -1266,6 +1266,24 @@ VerdamlicheBosheitViolinoI = {
 	}
 }
 
+EsWarAuchViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoEsWarAuch
+		R1*10 %10
+		\key e \minor \tempoEsWarAuchB r8 g' fis e dis c' h a
+		g fis e d c h' a g
+		fis e d c h a' g fis
+		e2 dis4 r8 dis
+		e dis e fis g4 r8 dis %15
+		e dis e fis g a h c
+		\key c \major \tempoEsWarAuchC d!2 r
+		R1*9 %26
+		\key h \phrygian R1*8 %34
+		R1\fermataMarkup \bar "|." %35 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

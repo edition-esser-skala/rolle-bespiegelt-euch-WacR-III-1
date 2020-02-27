@@ -1282,3 +1282,21 @@ VerdamlicheBosheitViola = {
 		e2 r4\fermata \bar "|." %66 finis
 	}
 }
+
+EsWarAuchViola = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 4/4 \tempoEsWarAuch
+		R1*10 %10
+		\key e \minor \tempoEsWarAuchB r8 e dis cis h a' g fis
+		e d c h a g' fis e
+		d c h a g fis' e d
+		c2 h4 r8 h
+		cis h cis dis e4 r8 h %15
+		cis h cis dis e fis g a
+		\key c \major \tempoEsWarAuchC h2 r
+		R1*9 %26
+		\key h \phrygian R1*8 %34
+		R1\fermataMarkup \bar "|." %35 finis
+	}
+}

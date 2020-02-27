@@ -895,67 +895,105 @@
 % 			\midi { \tempo 4 = 110 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.18" "A R I A" "Verdamliche Bosheit, entſetzliche Wuth"
+% 		}
+% 		\paper {
+% 			systems-per-page = #1
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { \center-column { "Flauto" "traverso I" } }
+% 							\VerdamlicheBosheitFlautoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { \center-column { "Flauto" "traverso II" } }
+% 							\VerdamlicheBosheitFlautoII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe I"
+% 							\VerdamlicheBosheitOboeI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe II"
+% 							\VerdamlicheBosheitOboeII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\VerdamlicheBosheitViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\VerdamlicheBosheitViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\VerdamlicheBosheitViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Canto" "solo" } }
+% 					\new Voice = "Soprano" { \dynamicUp \VerdamlicheBosheitSopranoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Soprano \VerdamlicheBosheitSopranoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\VerdamlicheBosheitOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \VerdamlicheBosheitBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.18" "A R I A" "Verdamliche Bosheit, entſetzliche Wuth"
+			movement = \movementTitle "2.19" "R E C I T A T I V O" "Es war auch oben über Ihn geſchrieben"
 		}
 		\paper {
-			systems-per-page = #1
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #3
 		}
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Flauto" "traverso I" } }
-							\VerdamlicheBosheitFlautoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Flauto" "traverso II" } }
-							\VerdamlicheBosheitFlautoII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Oboe I"
-							\VerdamlicheBosheitOboeI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Oboe II"
-							\VerdamlicheBosheitOboeII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\VerdamlicheBosheitViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\VerdamlicheBosheitViolinoII
-						}
-					>>
+					\new Staff {
+						\set Staff.instrumentName = "Violino I, II"
+						\EsWarAuchViolinoI
+					}
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\VerdamlicheBosheitViola
+						\EsWarAuchViola
 					}
 				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Canto" "solo" } }
-					\new Voice = "Soprano" { \dynamicUp \VerdamlicheBosheitSopranoNotes }
+					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Übelthäter I, II" "Jeſus" } }
+					\new Voice = "Tenore" { \dynamicUp \EsWarAuchTenoreNotes }
 				}
-				\new Lyrics \lyricsto Soprano \VerdamlicheBosheitSopranoLyrics
+				\new Lyrics \lyricsto Tenore \EsWarAuchTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\VerdamlicheBosheitOrgano
+						\EsWarAuchOrgano
 					}
 				>>
-				\new FiguredBass { \VerdamlicheBosheitBassFigures }
+				\new FiguredBass { \EsWarAuchBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }
