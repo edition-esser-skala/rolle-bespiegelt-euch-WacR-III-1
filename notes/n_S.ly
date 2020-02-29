@@ -1532,6 +1532,171 @@ IchBinEinSopranoLyrics = \lyricmode {
 	ben. %18 finis
 }
 
+RuhetSanftSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \autoBeamOff \tempoRuhetSanft
+		R2.*20 %20
+		a'2 h8.([ cis32 d)]
+		d4( cis8) d e fis
+		e8.([ fis32 g)] fis4 r
+		a2~ a8 cis,
+		d \tuplet 3/2 8 { e16([ fis g)] } g4 fis8.([\trill e32 fis)] %25
+		e4 r r
+		r8 \tuplet 3/2 8 { cis16([ d e)] } e4 d8.([\trill cis32 d)]
+		cis4 r r
+		r r8 cis dis e
+		dis8.([ e32 fis)] e8 g4 e8 %30
+		\appoggiatura d cis4. h8 cis d
+		cis8.([ d32 e)] d4 r
+		h~ h8[ cis16 d] e8[( d])
+		\appoggiatura d cis4 r r
+		r r8 e g, fis %35
+		e4 a4. d,8
+		cis4 r8 e' g, fis
+		e4 r r
+		r h' cis8.([ d32 e)]
+		d8 \tuplet 3/2 8 { h16([ a g)] } fis4 e\trill %40
+		d r r
+		R2.*2
+		a'2 h8.([ cis32 d)]
+		d4( cis8) d e fis %45
+		e8.([ fis32 g)] fis4 r
+		R2.*2
+		d2~ d8 fis,
+		g \tuplet 3/2 8 { a16([ h c!)] } c4 h8.([\trill a32 h)] %50
+		a4 r r
+		r e' e
+		e~ e16[ d c h] a[ g'! fis e]
+		d2.~
+		\once \tieDashed d4~ d16[ c h a] g[ f' e d] %55
+		c4~ c8[ \tuplet 3/2 8 { e16 d c] } h8[ \tuplet 3/2 8 { d16 c h] }
+		a4 fis'8.([ g32 a] g8) h,
+		\appoggiatura h a4 r r
+		r8 fis' fis8.([ g32 a] g8) h,
+		a4 r r %60
+		R2.
+		r4 g'8.([\trill fis32 e] d8) c
+		h4 r r
+		r4 g'8.([\trill fis32 e] d8) c
+		h \tuplet 3/2 8 { e16([ d c)] } h4 a\trillE %65
+		g g'4. c,8
+		\appoggiatura c h4 r r
+		R2.
+		c4 h\fermata a
+		g2 r4 %70
+		R2.*7 %77
+		R2.\fermataMarkup \bar "||"
+		\twofourtime \time 2/4 R2
+		e'4 a, %80
+		fis'8 fis fis fis
+		fis8[ e16. fis32] e8[ d!]
+		c8.[ h16] c[ d \once \tieDashed e8]~
+		e[ d16. e32] d8[ c]
+		h8.[ a16] h[ c d8]~ %85
+		d c c h
+		a d d c
+		h e e d
+		c a' a g
+		g fis r4 %90
+		R2*2
+		g,4 c
+		c8 h16([ a)] g8 f
+		e4 c'8 c %95
+		c4 h
+		a d~
+		d c
+		h e~
+		e d~ %100
+		d c
+		r8 c([ d)] e
+		f2~
+		f8[ d e] f
+		e2 %105
+		d
+		c \markDaCapo \bar "||" %107 finis
+	}
+}
+
+RuhetSanftSopranoLyrics = \lyricmode {
+	Ru -- het __ %21
+	ſanft, ihr hol -- den
+	Glie -- der,
+	ſchla -- fet
+	wohl, es __ iſt voll -- %25
+	bracht,
+	es __ iſt voll --
+	bracht,
+	ihr hol -- den
+	Glie -- der, ſchla -- fet %30
+	wohl, ihr hol -- den
+	Glie -- der,
+	ru -- het __
+	wohl,
+	es iſt voll -- %35
+	bracht, ru -- het
+	wohl, es iſt voll --
+	bracht,
+	ru -- het __
+	ſanft, es __ iſt voll -- %40
+	bracht.
+	
+	Ru -- het __ %44
+	ſanft, __ ihr hol -- den %45
+	Glie -- der,
+	
+	ſchla -- fet %49
+	wohl, es __ iſt voll -- %50
+	bracht,
+	ru -- het
+	ſanft, __ _
+	_
+	_ %55
+	_ _
+	_ \xE ſchla -- fet \x
+	wohl,
+	es iſt __ voll --
+	bracht, %60
+	
+	ru -- het
+	ſanft,
+	ſchla -- fet
+	wohl, es __ iſt voll -- %65
+	bracht, ſchla -- fet
+	wohl,
+	
+	es iſt voll --
+	bracht. %70
+	
+	Chriſ -- tus %80
+	laſt uns unſ -- re
+	Pla -- _
+	_ _
+	_
+	_ _ %85
+	gen mit Ge --
+	la -- ßen -- heit er --
+	tra -- gen, mit Ge --
+	la -- ßen -- heit er --
+	tra -- gen %90
+	
+	bis der %93
+	fro -- he Tag er --
+	wacht, da uns %95
+	Je -- ſus
+	ſee -- _
+	_
+	_ _
+	_ %100
+	lig,
+	da uns
+	Je --
+	ſus
+	ſee -- %105
+	lig
+	macht. %107 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

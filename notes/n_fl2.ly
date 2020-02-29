@@ -248,3 +248,40 @@ VerdamlicheBosheitFlautoII = {
 		\appoggiatura h4 a2 r4\fermata \bar "|." %66 finis
 	}
 }
+
+RuhetSanftFlautoII = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \tempoRuhetSanft
+		d2\fE e8.( fis32 g)
+		g4( fis8) e fis g
+		fis8.( g32 a) g4 r
+		r \once \slurDashed d8( c h a)
+		g a' a4 g\trill %5
+		fis8 \tuplet 3/2 8 { a16 h c } c8 \tuplet 3/2 8 { fis,16 g a } a8 g\trill
+		fis8 \tuplet 3/2 8 { a16 h c } c8 \tuplet 3/2 8 { fis,16 g a } a8 g\trill
+		fis8 r g4 a8.( h32 c)
+		\appoggiatura c8 h4 g'8.(\trill fis32 e) d8 c
+		\tuplet 3/2 8 { h16[ c d] e d c h[ a g] fis e d } a'4\trill %10
+		g8 h~\p h16. d32 c8~ c16. h32 a8
+		h \once \tieDashed d,~\pp d16. f32 e8~ e16. g32 fis8
+		fis4( g) r
+		R2.*27 %40
+		r4 d\f e8.( fis32 g)
+		\appoggiatura g8 fis4 d'8.( cis32 h) a8 g'
+		\tuplet 3/2 8 { fis16[ g a] h a g fis[ e d] cis h a } e'4\trill
+		d r r
+		R2.*24 %68
+		R2.\fermataMarkup
+		R %70
+		r8 \tuplet 3/2 8 { a16\f h c } c8 \tuplet 3/2 8 { fis,16\p g a } a8 g
+		fis \tuplet 3/2 8 { a16\f h c } c8 \tuplet 3/2 8 { fis,16\p g a } a8 g
+		fis4 g\f a8.( h32 c)
+		\appoggiatura c8 h4 g'8.(\trill fis32 e) d8 c
+		\tuplet 3/2 8 { h16[ c d] e d c h[ a g] fis e d } a'4\trill %75
+		g8 h~\p h16. d32 c8~ c16. h32 a8
+		h d,~\pp d16. f32 e8~ e16. g32 fis8
+		fis4( g) r\fermata \bar "||"
+		\twofourtime \time 2/4 R2*29 \markDaCapo \bar "||" %107 finis
+	}
+}

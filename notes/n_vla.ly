@@ -1318,3 +1318,117 @@ UndEsWarViola = {
 		g2 r\fermata \bar "|." %21 finis
 	}
 }
+
+RuhetSanftViola = {
+	\relative c' {
+		\clef alto
+		\key g \major \time 3/4 \tempoRuhetSanft
+		h4\fE a cis
+		cis( d8) r r4
+		d d r
+		r r d8 c
+		h d d4 cis %5
+		d d d
+		d d d
+		d h8 e d d
+		d4 e8 g, a a
+		g g' g4 fis\trill %10
+		g g\pE g
+		g, g\ppE g
+		g2 r4
+		g\pE fis e
+		d2 r4 %15
+		d' d r
+		r r d8 c!
+		h d d4 cis
+		d r d8 c
+		h d d4 cis %20
+		d cis d
+		a2 r4
+		a' a r
+		r r a8 g
+		fis e a,4 a %25
+		a r a8 g
+		fis a a4 gis
+		a r8 c! c c
+		h4 h r
+		h h h %30
+		a a r
+		a a8 a d d
+		d4 g, g
+		a r r
+		a a a %35
+		a a a
+		a a a
+		a d8 d d d
+		d4 g8 g e e
+		d g, a4 a %40
+		d, h'8\fE h a a
+		a4 h8 d e e
+		d d d4 cis
+		d e\pE d
+		a2 r4 %45
+		a a r
+		r r d8 c!
+		h d d4 cis
+		d r d8 c
+		h d d4 cis %50
+		d h8 h a a
+		h h h h h h
+		a a a' a a a
+		a a a a a a
+		g g g g g g %55
+		g g d d d d
+		d d d d d d
+		d4 d\fE d
+		d8 d\pE d d d d
+		d4 d\fE d %60
+		d h8\pE h d d
+		d4 e8 g a a
+		d,4 e8 e d d
+		d4 e8 g a a
+		d, e d4 d %65
+		g, g g
+		g g g
+		d'2 r4
+		R2.\fermataMarkup
+		r8 g, g a h c %70
+		d4 d\f d\pE
+		d d\fE d\pE
+		d h8\fE e d d
+		d4 e8 g a a
+		g g g4 fis\trill %75
+		g g,\pE g
+		g g\ppE g
+		g2 r4\fermata \bar "||"
+		\twofourtime \time 2/4 g'8\pE a h g
+		a g fis e %80
+		dis dis dis dis
+		e e e e
+		e4 e
+		d! d
+		d d %85
+		c c
+		d d
+		e e
+		fis d
+		d d8 c %90
+		h a h g
+		d' d, d d'
+		g, f' e c
+		g' g, g g'
+		c, d e, fis! %95
+		g a h c
+		d d, f g
+		a h c d
+		e e, e' c
+		a g16 a h8 g %100
+		g f16 g a8 g
+		f4. e8
+		d c' h a
+		g4 c8 f,
+		g2~ %105
+		g
+		c, \markDaCapo \bar "||" %107 finis
+	}
+}

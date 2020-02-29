@@ -3368,6 +3368,230 @@ UndEsWarBassFigures = \figuremode {
 	r1 %21 finis
 }
 
+RuhetSanftOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 3/4 \tempoRuhetSanft
+		g'4\fE fis e
+		d d, r
+		d' g, r
+		r r d'
+		e8 fis g4 cis, %5
+		d d, g
+		d' d, g
+		d'8 d e e fis fis
+		g4 e8 e fis fis
+		g c, d4 d, %10
+		g g'\p g
+		g, g\pp g
+		g2 r4
+		g'\p fis e
+		d d, r %15
+		d' g, r
+		r r d'
+		e8 fis g4 cis,
+		d r d
+		e8 fis g4 cis, %20
+		d8 d' cis4 h
+		a a, r
+		a' d, r
+		r r a'
+		h8 cis d4 d, %25
+		a' r a,
+		h8 cis d4 gis,
+		a r8 a a a
+		h4 h r
+		h' e, g %30
+		a a, r
+		a' d, fis
+		g g, g'
+		a r r
+		a a, d %35
+		a' a, d
+		a' a, d
+		a' h8 h a g
+		fis4 g8 g a a
+		h g a4 a, %40
+		d h8\f h cis cis
+		d4 h'8 h cis cis
+		d g, a4 a,
+		d cis\pE h'
+		a a, r %45
+		a' d, r
+		r r d
+		e8 fis g4 cis,4
+		d2 d4
+		e8 fis g4 cis, %50
+		d h' a
+		gis gis gis
+		a a a
+		fis fis fis
+		g! g g %55
+		e fis g
+		d8 d' d d d d
+		d4 d,\fE g
+		d8 d'\pE d d d d
+		d4 d,\fE g %60
+		d e8\pE e fis fis
+		g4 e8 e fis fis
+		g4 e8 e fis fis
+		g4 e8 e fis fis
+		g c d4 d, %65
+		g g g
+		g g, g
+		g2 r4
+		c4 d2\fermata
+		g8 g, g a h c %70
+		d4 d\fE g\pE
+		d' d,\fE g\pE
+		d e8\fE e fis fis
+		g4 e8 e fis fis
+		g c, d4 d, %75
+		g g'\p g
+		g g,\pp g \noBreak
+		g2 r4\fermata \bar "||"
+		\twofourtime \time 2/4 e'8\pE fis g e \noBreak
+		a g fis e %80
+		dis dis dis dis
+		e e' e e,
+		a, a' a a,
+		d! d' d d,
+		g, g' g g, %85
+		c4 r
+		d r
+		e r
+		fis4. g8
+		d4 d'8 c %90
+		h a h g
+		d' d, d d'
+		g, f e c
+		g' g, g g'
+		c, d e fis! %95
+		g a h c
+		d d, f g
+		a h c d
+		e e, e' c
+		a g16 a h8 a %100
+		g f16 g a8 g
+		f4. e8
+		d c' h a
+		g4 c8 f,
+		g2~ %105
+		g
+		c, \markDaCapo \bar "||" %107 finis
+	}
+}
+
+RuhetSanftBassFigures = \figuremode {
+	r4 <6> <6\\>
+	<7+ 4> <8 3>2
+	r2.
+	r2 <6 4>8 <5 3>
+	r8 <6 5> <9 4>4 <7> %5
+	r <7> <9 4>8 <8 3>
+	r4 <7> <9 4>8 <8 3>
+	r2 <6>4
+	<4>8 <3> r4 <6>
+	r4 <6 4> <5 3> %10
+	r8 <7! 5> <\t \t> <6 4> <\t \t> <7+ 4>
+	<8 3> <7! 5> <\t \t> <6 4> <\t \t> <7+ 4>
+	<\t \t>4 <8 3>2
+	r4 <6> <6\\>
+	<7+ 4> <8 3>2 %15
+	r2.
+	r2 <6 4>8 <5 3>
+	r <6 5> <9 4>4 <7>
+	r2 <6 4>8 <5 3>
+	r <6 5> <9 4>4 <7> %20
+	r <6> <6\\>
+	<7+ 4> <8 _+>2
+	<_+>2.
+	r2 <6 4>8 <5 _+>
+	r <6 5> <9 4>4 <8 3> %25
+	<_+>2 <6 4>8 <5 _+>
+	r <6 5> <9 4>4 <7>
+	<_+>4. <6 _!>
+	<4>4 <_+>2
+	<7 _+> <6>4 %30
+	<6 4!> <5 _+>2
+	<7 _+> <6 5!>4
+	<9> <8> <8 6>8 <7 5>
+	<6 4> <5 _+> r2
+	<_+>4 <7 _+> <9 4>8 <8 3> %35
+	<_+>4 <7 _+> <9 4>8 <8 3>
+	<_+>4 <7 _+> <9 4>8 <8 3>
+	<_+>4 <6>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<6 4> <\t 3> r4 <7 _+>
+	r <6 4> <5 _+> %40
+	r2 <6 5>4
+	<4>8 <3> r4 <6 5>
+	r <6 4> <5 _+>
+	r <6> <6\\>
+	<7+ 4> <8 _+>2 %45
+	<_+>2.
+	r2 <6 4>8 <5 3>
+	r <6 5!> <9 4>4 <7>
+	r4 <8 6>8 <7 5> <6 4> <5 3>
+	r <6 5> <9 4>4 <7> %50
+	r <5! 3> <\t \t>
+	<6 5>2.
+	<8 3>2 <7! \t>4
+	<6 5>2.
+	<8 3>2 <7! \t>4 %55
+	<6 5> <6 5>2
+	r2 <6 4>4
+	<\t \t>8 <5 3> <7>4 <9 4>8 <8 3>
+	r2 <6 4>4
+	<5 3> <7> <9 4>8 <8 3> %60
+	<6 4> <5 3> r4 <6>
+	<4>8 <3> r4 <6>8 <5>
+	<4> <3> r4 <6 5>
+	<4>8 <3> r4 <6>8 <5>
+	r <6> <6 4>4 <5 3> %65
+	r8 <7! 5> <\t \t> <6 4> <\t \t> <7+ 4>
+	<8 3> <7! 5> <\t \t> <6 4> <\t \t> <7+ 4>
+	<7 2>4 <8 3>2
+	<6>4 <6 4> <5 3>
+	r4. <6>8 q4 %70
+	r <7> <9 4>8 <8 3>
+	r4 <7> <9 4>8 <8 3>
+	r2 <6>4
+	<4>8 <3> r4 <6>8 <5>
+	r4 <6 4> <5 3> %75
+	r8 <7! 5> <\t \t> <6 4> <\t \t> <7+ 4>
+	<8 3> <7! 5> <\t \t> <6 4> <\t \t> <7+ 4>
+	<\t \t>4 <8 3>2
+	r4 <6>
+	r2 %80
+	<7>8 <6>4 <5>8
+	<9>4 <8>8 <7!>
+	<9 7>4 <8 \t>
+	<9 7> <8 \t>
+	<9 7> <8 \t> %85
+	<9 7>8 <8 6>4 <7 5>8
+	<5> <6>4.
+	<5>8 <6>4.
+	<6 5>2
+	<6 4>8 <5 3> r <2> %90
+	<6>2
+	<4>8 <3>4.
+	r8 <2> <6>4
+	<4> <3>
+	r <6>8 <6 5> %95
+	<4>4 <6>
+	<4> <6>
+	<4> <6>
+	<4> <3>
+	<6! 5> <5! 3> %100
+	<6 5> <5 3>
+	q <6 4>8 <8 6>
+	<_!>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<7!>2
+	<6 4> %105
+	<5 3>
+	r %107 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -1298,3 +1298,116 @@ UndEsWarViolinoII = {
 		g2 r\fermata \bar "|." %21 finis
 	}
 }
+
+RuhetSanftViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \tempoRuhetSanft
+		h4\fE a cis
+		cis( d8) e fis g
+		fis8.( g32 a) g4 r
+		r \once \slurDashed d8( c h a)
+		g a' a4 g\trill %5
+		fis8 \tuplet 3/2 8 { a16 h c } c8 \tuplet 3/2 8 { fis,16 g a } a8 g\trillE
+		fis8 \tuplet 3/2 8 { a16 h c } c8 \tuplet 3/2 8 { fis,16 g a } a8 g\trillE
+		fis8 r g4 a8.( h32 c)
+		\appoggiatura c8 h4 g'8.(\trill fis32 e) d8 c
+		\tuplet 3/2 8 { h16[ c d] e d c h[ a g] fis e d } a'4\trill %10
+		g8 h~\p h16. d32 c8~ c16. h32 a8
+		h \once \tieDashed d,~\pp d16. f32 e8~ e16. g32 fis8
+		fis4( g) r
+		h,\p a cis
+		cis( d8) e fis g %15
+		fis8.( g32 a) g4 r
+		r \once \slurDashed d8( c h a)
+		g a' a4 g\trillE
+		fis4 \once \slurDashed d8( c h a)
+		g a' a4 g\trillE %20
+		fis e gis
+		gis( a8) h cis d
+		cis8.( d32 e) d4 r
+		r \once \slurDashed a8( g fis e)
+		d e' e4 d\trillE %25
+		cis \once \slurDashed a8( g fis e)
+		d \tuplet 3/2 8 { e16 fis g } g4 fis8.(\trillE e32 fis)
+		e4 a fis
+		\appoggiatura e8 dis4. e8 fis g
+		fis8.( g32 a) g8 h4 g8 %30
+		\appoggiatura fis e4. d8 e fis
+		e8.( fis32 g) fis8 fis a a
+		a a g g g fis
+		\appoggiatura fis e4 r r
+		r8 \tuplet 3/2 8 { e16\f fis g } g8 \tuplet 3/2 8 { cis,16\p d e } e8 d %35
+		cis8 \tuplet 3/2 8 { e16\f fis g } g8 \tuplet 3/2 8 { cis,16\p d e } e8 d
+		cis8 \tuplet 3/2 8 { e16\f fis g } g8 \tuplet 3/2 8 { cis,16\p d e } e8 d
+		cis4 g'~ g8 a16 h
+		\appoggiatura h8 a4 h8 h g g
+		fis r r4 r %40
+		r d\f e8.( fis32 g)
+		\appoggiatura g8 fis4 d'8.( cis32 h) a8 g'
+		\tuplet 3/2 8 { fis16[ g a] h a g fis[ e d] cis h a } e'4\trill
+		d a\p gis
+		\once \slurDashed gis( a8) h cis d %45
+		cis8.( d32 e) d4 r
+		r h8( a g fis)
+		g a a4 g\trillE
+		fis d8( c! h a)
+		g \tuplet 3/2 8 { fis'16 g a } a4 g\trillE %50
+		fis r8 f(-. f-. f-.)
+		e e d' d d d
+		c c c c c c
+		c c c c c c
+		h h h h h h %55
+		h h a a g g
+		fis4 r r
+		r8 \tuplet 3/2 8 { a16\f h c } c8 \tuplet 3/2 8 { fis,16 g a } a8 g
+		fis4 r r
+		r8 \tuplet 3/2 8 { a16 h c } c8 \tuplet 3/2 8 { fis,16 g a } a8 g %60
+		g fis g4\p a8.( h32 c)
+		\appoggiatura c8 h4 g'8.(\trill fis32 e) d8 c
+		\appoggiatura c h4 g a8.( h32 c)
+		\appoggiatura c8 h4 g'8.(\trill fis32 e) d8 c
+		h a g4 fis\trill %65
+		g8 h~ h16. d32 c8~ c16. h32 a8
+		h d,~ d16. f32 e8~ e16. g32 fis8
+		fis4( g) r
+		R2.\fermataMarkup
+		R %70
+		r8 \tuplet 3/2 8 { a16\f h c } c8 \tuplet 3/2 8 { fis,16\p g a } a8 g
+		fis \tuplet 3/2 8 { a16\f h c } c8 \tuplet 3/2 8 { fis,16\p g a } a8 g
+		fis4 g\f a8.( h32 c)
+		\appoggiatura c8 h4 g'8.(\trill fis32 e) d8 c
+		\tuplet 3/2 8 { h16[ c d] e d c h[ a g] fis e d } a'4\trill %75
+		g8 h~\p h16. d32 c8~ c16. h32 a8
+		h d,~\pp d16. f32 e8~ e16. g32 fis8
+		fis4( g) r\fermata \bar "||"
+		\twofourtime \time 2/4 h4\p e,
+		c' r8 c %80
+		c h r a
+		g4 g
+		g g
+		fis fis
+		fis g8 f? %85
+		e a4 g8
+		fis h4 a8
+		g c4 h8
+		a c4 h8
+		h a r4 %90
+		d8 c d h
+		a4 fis
+		g g8 e
+		d4 d
+		e r8 e %95
+		d g, r \once \tieDashed g'~
+		g4 f
+		e8 a, r \once \tieDashed a'~
+		a g16 fis! g4
+		f8 f f f %100
+		e e e e
+		r a h c
+		\once \tieDashed d2~
+		d8 h c a
+		g2 %105
+		R2*2 \markDaCapo \bar "||" %107 finis
+	}
+}

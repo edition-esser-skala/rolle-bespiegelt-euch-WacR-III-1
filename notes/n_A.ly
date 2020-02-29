@@ -1590,6 +1590,182 @@ IchBinEinAltoLyrics = \lyricmode {
 	ben. %18 finis
 }
 
+RuhetSanftAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \autoBeamOff \tempoRuhetSanft
+		R2.*13 %13
+		d2 e8.([ fis32 g)]
+		g4( fis8) g a h %15
+		a8.([ h32 c)] h4 r
+		d2~ d8 fis,
+		g \tuplet 3/2 8 { a16([ h c)] } c4 h8.([\trill a32 h)]
+		a4 d4. fis,8
+		g \tuplet 3/2 8 { a16([ h c)] } c4 h8.([\trill a32 h)] %20
+		a2 r4
+		r r8 h cis d
+		cis8.([ d32 e)] d4 r
+		R2.*2 %25
+		r4 a4. cis,8
+		d \tuplet 3/2 8 { e16([ fis g)] } g4 fis8.([\trill e32 fis)]
+		e4 a fis
+		\appoggiatura e8 dis4. e8 fis g
+		fis8.([ g32 a)] g4 r %30
+		r r8 d e fis
+		e8.([ fis32 g)] fis4 a~
+		a8[ h16 a] g4.( fis8)
+		\appoggiatura fis e4 a a
+		a2~ a8 d, %35
+		cis4 r8 e' g, fis
+		e4 a4. d,8
+		cis4 g'4. a16([ h)]
+		\appoggiatura h8 a4 r r
+		r8 \tuplet 3/2 8 { g16([ fis e)] } d4 cis\trill %40
+		d r r
+		R2.*5 %46
+		d'2~ d8 fis,
+		g \tuplet 3/2 8 { a16([ h c!)] } c4 h8.([\trill a32 h)]
+		a4 r r
+		r8 \tuplet 3/2 8 { fis16([ g a)] } a4 g8.([\trillE fis32 g)] %50
+		fis4 d' d
+		\once \tieDashed d~ d16[ c h a] gis[ d' c h]
+		c2.~
+		\once \tieDashed c4~ c16[ h a g] fis[ c' h a]
+		h2.~ %55
+		h8[ a16 g] a8[ \tuplet 3/2 8 { c16 h a] } g8[ \tuplet 3/2 8 { h16 a g] }
+		fis4 a8.([ h32 c] h8) g
+		\appoggiatura g fis4 r r
+		r8 a a8.([ h32 c] h8) g
+		fis4 r r %60
+		r g a8.([ h32 c)]
+		\appoggiatura c8 h4 r r
+		r g a8.([ h32 c)]
+		\appoggiatura c8 h4 r r
+		r8 \tuplet 3/2 8 { c16([ h a)] } g4 fis\trill %65
+		g r r
+		r g4. \appoggiatura { a16[ h] } c8
+		c4( h) r
+		a g\fermata fis
+		g2 r4 %70
+		R2.*7 %77
+		R2.\fermataMarkup \bar "||"
+		\twofourtime \time 2/4 h4 e,
+		c'8 c c c %80
+		c[ h16. c32] h8[ a]
+		g8.[ fis16] g16.[ a32 \once \tieDashed h8]~
+		h[ a16. gis32] a8[ g]
+		fis8.[ e16] fis16.[ g32 a8]~
+		a[ g16. fis32] g8[ f] %85
+		e a a g
+		fis h h a
+		g c c h
+		a c c h
+		h a r4 %90
+		d,4 g
+		g8 fis16([ e)] d8 c
+		h4 g'8 e
+		d d d d
+		c4 g'8 e %95
+		d4 g
+		g f
+		e \once \tieDashed a~
+		a8[ g16 fis!] g4
+		f2 %100
+		e
+		r8 a([ h)] c
+		\once \tieDashed d2~
+		d8[ h c] a
+		c2 %105
+		h
+		c \markDaCapo \bar "||" %107 finis
+	}
+}
+
+RuhetSanftAltoLyrics = \lyricmode {
+	Ru -- het __ %14
+	ſanft, __ ihr hol -- den %15
+	Glie -- der,
+	ſchla -- fet
+	wohl, es __ iſt voll --
+	bracht, ſchla -- fet
+	wohl, es __ iſt voll -- %20
+	bracht,
+	ihr hol -- den %22
+	Glie -- der,
+	
+	ru -- het %26
+	ſanft, es __ iſt voll --
+	bracht, ſchla -- fet
+	ſanft, ihr hol -- den
+	Glie -- der, %30
+	ihr hol -- den
+	Glie -- der, ſchla --
+	fet __
+	ſanft, ſchla -- fet,
+	ſchla -- fet %35
+	ſanft, es iſt voll --
+	bracht, ru -- het
+	wohl, ſchla -- fet __
+	ſanft,
+	es __ iſt voll -- %40
+	bracht.
+	
+	Schla -- fet %47
+	wohl, es __ iſt voll --
+	bracht,
+	es __ iſt voll -- %50
+	bracht, ru -- het
+	ſanft __ _
+	_
+	_
+	_ %55
+	_ _
+	_ ſchla -- fet
+	wohl,
+	es iſt __ voll --
+	bracht, %60
+	ſchla -- fet __
+	wohl,
+	ru -- het __
+	ſanft,
+	es __ iſt voll -- %65
+	bracht,
+	ſchla -- fet
+	wohl, __
+	es iſt voll --
+	bracht. %70
+	
+	Chriſ -- tus %79
+	laſt uns unſ -- re %80
+	Pla -- _
+	_ _
+	_
+	_ _
+	_ %85
+	_ \xE gen mit Ge --
+	la -- ßen -- heit er --
+	tra -- gen, mit Ge --
+	la -- ßen -- heit er --
+	tra -- gen \x %90
+	bis der
+	fro -- he Tag an --
+	bricht, bis der
+	fro -- he Tag er --
+	wacht, da uns %95
+	Je -- ſus
+	ſee -- _
+	_ _
+	_
+	_ %100
+	lig,
+	da uns
+	Je --
+	ſus
+	ſee -- %105
+	lig
+	macht. %107 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
