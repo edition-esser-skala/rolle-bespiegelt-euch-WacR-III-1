@@ -2242,6 +2242,102 @@ UndEsWarTenoreLyrics = \lyricmode {
 	ſchied Er. %20 finis
 }
 
+DaAberDerTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key e \minor \time 4/4 \autoBeamOff \tempoDaAberDer
+		r4 r8 h e^\Evangelist e16 e e8 dis
+		e e r16  e g e c4 a16 a a h
+		c4 r8 d h \clef bass d,^\Hauptmann g4
+		d'8 d c h e c c h
+		g g r4 \clef "treble_8" r8 h^\Evangelist h cis %5
+		dis dis dis e fis4 fis8 dis
+		h h r fis16 g a8 a16 a a8 h
+		c!4 fis8 fis dis dis dis e
+		e4 r8 e c a a g
+		e4 r r r8 h' %10
+		e e e e gis e e fis16 gis
+		cis,8 cis r cis fis fis r cis16 cis
+		ais8 ais16 ais ais8 h cis cis cis dis
+		e e cis fis dis dis r dis
+		cis4 ais8  h h fis r4 %15
+		r r8 cis' cis gis? r gis?
+		cis cis cis eis cis cis r gis
+		h4 h r8 h h cis
+		d! d d cis a!4 r8 a
+		cis cis cis e! ais, ais ais h %20
+		cis cis cis d h h r h
+		d d d d16 fis fis8 h, r16 h h c
+		a8 a r16 a a h c8 c c h
+		g8. g16 g8 h e4 e8 dis
+		e e r e c a dis e %25
+		e h r4 r8 e e g
+		c,4 c8 c16 d h4 h8 c
+		d d r d f d d d
+		h h h d f,4 r8 d'
+		h h f' d h h h c %30
+		c4 r e8 e e e
+		e h r h16 c d4 d8 c
+		a4 r8 a a a a h
+		c c c d e4 r8 e
+		e e cis e e a,16 e' g8 f %35
+		d d r a16 a d8 d d a
+		b r16 d d8 g cis, cis cis d
+		a4 r r r8 d
+		d a16 a a8 fis d4 a'8 h!
+		c8. c16 c8 e c8. c16 c8 d %40
+		h h r4 h8 h e dis
+		e e e e16 g cis,8 cis16 cis cis8 d
+		a4 r r2\fermata \bar "|." %43 finis
+	}
+}
+
+DaAberDerTenoreLyrics = \lyricmode {
+	Da a -- ber der Haupt -- mann
+	ſa -- he, was da ge -- ſchah, prei -- ſe -- te er
+	Gott und ſprach: Für -- wahr,
+	Die -- ſer iſt ein from -- mer Menſch ge --
+	we -- ſen. Und al -- les %5
+	Volck, das da -- bey war und zu --
+	ſa -- he, da ſie ſa -- hen, was da ge --
+	ſchah, ſchlu -- gen ſie an ih -- re
+	Bruſt und wand -- ten wie -- der
+	um. Es %10
+	ſtan -- den a -- ber al -- le Sei -- ne Be --
+	kand -- ten von fer -- ne und die
+	Wei -- ber, die Ihm aus Ga -- li -- lä -- a
+	wa -- ren nach -- ge -- fol -- get, und
+	ſa -- hen das al -- les. %15
+	Und ſie -- he, ein
+	Mann mit Nah -- men Jo -- ſeph, ein
+	Raths -- herr, der war ein
+	gu -- ter from -- mer Mann, der
+	hat -- te nicht ge -- wil -- li -- get in %20
+	ih -- ren Rath und Han -- del, der
+	war von A -- ri -- ma -- thi -- a, der Stadt der
+	Jü -- den, der auch auf das Reich Got -- tes
+	war -- te -- te. Der ging zu Pi --
+	la -- to und bat um den Leib %25
+	Je -- ſu, und nahm Ihn
+	ab, wi -- ckel -- te Ihn in ein
+	Lein -- wandt und leg -- te Ihn in
+	ein ge -- hau -- en Grab, da --
+	rin -- nen nie -- mand je ge -- le -- gen %30
+	war. Und es war der
+	Rüſt -- tag, und der Sab -- bath brach
+	an. Es fol -- ge -- ten aber
+	auch die Wei -- ber nach, die
+	mit Ihm kom -- men wa -- ren aus Ga -- li -- %35
+	lä -- a und be -- ſchau -- e -- ten das
+	Grab und wie Sein Leib ge -- le -- get
+	ward. Sie
+	keh -- re -- ten a -- ber um und be --
+	rei -- te -- ten die Spe -- ce -- rey und %40
+	Sal -- ben, und den Sab -- bath
+	ü -- ber wa -- ren ſie ſtil -- le nach dem Ge --
+	ſetz. %43 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

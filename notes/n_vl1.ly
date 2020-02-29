@@ -1414,11 +1414,3 @@ RuhetSanftViolinoI = {
 		R2*2 \markDaCapo \bar "||" %107 finis
 	}
 }
-
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }

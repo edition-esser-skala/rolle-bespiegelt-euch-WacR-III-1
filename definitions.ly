@@ -292,6 +292,7 @@ UebelII = \markup { \remark "Übelthäter II" } %T
 Jesus = \markup { \remark "Jeſus" }           %B
 Pilatus = \markup { \remark "Pilatus" }       %B
 UebelI = \markup { \remark "Übelthäter I" }   %B
+Hauptmann = \markup { \remark "Hauptmann" }   %B
 
 
 
@@ -387,6 +388,7 @@ tempoIchBinEin = \tempoMarkup "[Choral]"
 tempoUndEsWar = \tempoMarkup "[Recitativo]"
 	tempoUndEsWarB = \tempoMarkup "Largo"
 tempoRuhetSanft = \tempoMarkup "[Duetto]"
+tempoDaAberDer = \tempoMarkup "[Recitativo]"
 
 
 

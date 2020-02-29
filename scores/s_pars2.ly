@@ -1091,64 +1091,92 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.22" "D U E T T O" "Ruhet ſanft, ihr holden Glieder"
+% 		}
+% 		\paper { systems-per-page = #1 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { \center-column { "Flauto" "traverso" "I" } }
+% 							\RuhetSanftFlautoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { \center-column { "Flauto" "traverso" "II" } }
+% 							\RuhetSanftFlautoII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\RuhetSanftViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\RuhetSanftViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\RuhetSanftViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Canto" "solo" } }
+% 						\new Voice = "Soprano" { \dynamicUp \RuhetSanftSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \RuhetSanftSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Alto" "solo" } }
+% 						\new Voice = "Alto" { \dynamicUp \RuhetSanftAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \RuhetSanftAltoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\RuhetSanftOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \RuhetSanftBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 80 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.22" "D U E T T O" "Ruhet ſanft, ihr holden Glieder"
+			movement = \movementTitle "2.23" "R E C I T A T I V O" "Da aber der Hauptmann ſahe"
 		}
-		\paper { systems-per-page = #1 }
+		\paper {
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #5
+		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Flauto" "traverso" "I" } }
-							\RuhetSanftFlautoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Flauto" "traverso" "II" } }
-							\RuhetSanftFlautoII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\RuhetSanftViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\RuhetSanftViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\RuhetSanftViola
-					}
-				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Canto" "solo" } }
-						\new Voice = "Soprano" { \dynamicUp \RuhetSanftSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \RuhetSanftSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Alto" "solo" } }
-						\new Voice = "Alto" { \dynamicUp \RuhetSanftAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \RuhetSanftAltoLyrics
-				>>
+				\new Staff {
+					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Hauptmann" } }
+					\new Voice = "Tenore" { \dynamicUp \DaAberDerTenoreNotes }
+				}
+				\new Lyrics \lyricsto Tenore \DaAberDerTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\RuhetSanftOrgano
+						\DaAberDerOrgano
 					}
 				>>
-				\new FiguredBass { \RuhetSanftBassFigures }
+				\new FiguredBass { \DaAberDerBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 80 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

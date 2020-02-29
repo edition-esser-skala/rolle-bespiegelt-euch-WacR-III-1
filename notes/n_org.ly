@@ -3592,6 +3592,102 @@ RuhetSanftBassFigures = \figuremode {
 	r %107 finis
 }
 
+DaAberDerOrgano = {
+	\relative c {
+		\clef bass
+		\key e \minor \time 4/4 \tempoDaAberDer
+		e1~
+		e2 a,~
+		a \once \tieDashed g~
+		g c
+		r4 d dis2~ %5
+		dis dis~
+		dis \once \tieDashed dis~
+		dis a'
+		g a,
+		r4 h \once \tieDashed gis2~ %10
+		gis1
+		\once \tieDashed ais~
+		ais~
+		ais2 h
+		e r4 fis %15
+		eis1~
+		eis~
+		\once \tieDashed eis~
+		eis2 \once \tieDashed fis~
+		fis e~ %20
+		e \once \tieDashed d~
+		d1
+		dis
+		e
+		gis2 a %25
+		r4 h c2
+		c,1~
+		\once \tieDashed c~
+		c~
+		c~ %30
+		c
+		gis
+		\once \tieDashed c~
+		c2 \once \tieDashed cis~
+		cis1 %35
+		f
+		g
+		r4 a \once \tieDashed fis!2~
+		fis1~
+		fis %40
+		\once \tieDashed g~
+		g
+		r4 fis8 a d,2\fermata \bar "|." %43 finis
+	}
+}
+
+DaAberDerBassFigures = \figuremode {
+	r1
+	r2 <5>
+	<6>1
+	r
+	r2 <6> %5
+	r q
+	r <6 5>
+	<7!> <4+ 2>
+	<6>1
+	r4 <_+> <6>2 %10
+	r1
+	<6 _+>
+	r
+	r2 <_+>
+	<6+ 4+ 2>2. <5+ _+>4 %15
+	<6+ _+>1
+	r
+	<6+ 5 _+>
+	<7! 5 _+>4. <6+ \t \t>8 <5+ _!>2
+	r <6+ 4+ 2> %20
+	r <6>
+	r1
+	<6 5>2 <7>4. <6>8
+	r1
+	<6> %25
+	r4 <_+> <5 3>2
+	r <7 4 2>
+	r1
+	r
+	r %30
+	<8 3>
+	<6>2 <5>
+	<6>1
+	r2 <6>
+	r1 %35
+	<6>
+	<_->
+	r4 <_+> <6>2
+	r1
+	<6 5> %40
+	<5>2 <6>
+	r <4+ 2>
+	r4 <6>8 <_+> r2 %43 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
