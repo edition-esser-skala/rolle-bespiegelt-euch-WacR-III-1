@@ -135,6 +135,26 @@ BespiegeltEuchViola = {
 	}
 }
 
+GuteNachtViolaNotes = {
+	\relative c' {
+		\clef alto
+		\key d \minor \time 4/4 \autoBeamOff \tempoGuteNacht
+		d4 c b a
+		a2 f\fermata
+		d'4 d e c
+		f2 e\fermata
+		d4 d d cis %5
+		a1\fermata \bar ":|."
+		d4 d c! c
+		d c a2\fermata
+		c4 d c c
+		f e e2 %10
+		cis\fermata d4 c?
+		b a a2
+		f1\fermata \bar "|." %13 finis
+	}
+}
+
 LassetUnsZuViola = {
 	\relative c' {
 		\clef alto
@@ -215,6 +235,22 @@ AlsErDahinKamViola = {
 		r <d g,> <es g, c,> r
 		\tempoAlsErDahinKamE R1*2
 		R1\fermataMarkup \bar "|." %15 finis
+	}
+}
+
+DeinenEngelViolaNotes = {
+	\relative c' {
+		\clef alto
+		\key b \major \time 4/4 \autoBeamOff \tempoDeinenEngel
+		d4 f f f
+		d c c2
+		a\fermata b4 c
+		d es f es
+		d1\fermata \bar ":|." %5
+		f4 g g f
+		es f f2\fermata
+		b,4 c d es^\critnote
+		f f d2\fermata \bar "|." %9 finis
 	}
 }
 
@@ -329,6 +365,26 @@ HerrSollenViola = {
 		e e e e e e
 		e e e e e e
 		e e, r4 r\fermata \bar "|." %9 finis
+	}
+}
+
+LassMichAnAndernViolaNotes = {
+	\relative c' {
+		\clef alto
+		\key h \minor \time 4/4 \autoBeamOff \tempoLassMichAnAndern
+		d2 e4 d
+		cis cis cis2
+		d2.\fermata d8([ cis)]
+		h4 h h4. fis'8 \noBreak
+		fis2( d)\fermata \bar ":|." %5
+		e e4 e \noBreak
+		d cis h a
+		a( e'8[ d] cis2)\fermata
+		d fis4 fis
+		fis e d( e) %10
+		cis2.\fermata d8([ e)]
+		fis4 h, h4. fis'8
+		fis2( d)\fermata \bar "|." %13 finis
 	}
 }
 
@@ -628,6 +684,22 @@ WerdetRuhigViola = {
 	}
 }
 
+IchFuehleZwarViolaNotes = {
+	\relative c' {
+		\clef alto
+		\key g \minor \time 4/4 \autoBeamOff \tempoIchFuehleZwar
+		r4 b d d
+		d c a b
+		a2.\fermata fis'4
+		e d d d
+		d2.\fermata d4
+		d c b c
+		a b c2\fermata
+		r4 f es d
+		d d b2\fermata \bar "|."
+	}
+}
+
 DieMaennerAberViola = {
 	\relative c' {
 		\clef alto
@@ -668,7 +740,7 @@ WasDuerfenWirViola = {
 		\partial 8 r8 r4 r8 a' gis eis cis cis'
 		cis ais fis fis fis dis h h'
 		h gis e! e e h' a cis
-		d4 cis cis8 fis fis h,
+		d,4 cis cis8 fis fis h,
 		cis cis r4 r2 %5
 		R1*2
 		r2 r4 cis
@@ -888,6 +960,27 @@ ErHatDasVolckViola = {
 		a,8 a'16 gis fis gis fis e dis2~
 		dis e4 e8 fis^\critnote
 		cis4 d cis r8\fermata \bar "|." %15 finis
+	}
+}
+
+IstGottFuerViolaNotes = {
+	\relative c' {
+		\clef alto
+		\key h \minor \time 2/2 \autoBeamOff \tempoIstGottFuer
+		r4 a e' e
+		d a a2
+		a2.\fermata ais4
+		h fis' g fis
+		d1\fermata \bar ":|." %5
+		r4 e e d
+		d e fis2
+		d2.\fermata d4
+		d d h h
+		h2.\fermata e4 %10
+		e g! fis e
+		e2 e\fermata
+		r4 cis d a
+		a a a2\fermata \bar "|." %14 finis
 	}
 }
 
@@ -1171,6 +1264,28 @@ NimmSichrerViola = {
 	}
 }
 
+WieHeftigViolaNotes = {
+	\relative c' {
+		\clef alto
+		\key b \major \time 4/4 \autoBeamOff \tempoWieHeftig
+		r4 f f f
+		f g g( f)
+		f2.\fermata g4
+		f f f d
+		d2 d\fermata %5
+		r4 d d f!
+		f f f2\fermata
+		r4 d d f!
+		f g g( f)
+		f2.\fermata g4 %10
+		f f f d
+		d es c2\fermata
+		r4 a b es
+		f es f f
+		d1\fermata \bar "|." %15 finis
+	}
+}
+
 ErHatAndernViola = {
 	\relative c' {
 		\clef alto
@@ -1298,6 +1413,31 @@ EsWarAuchViola = {
 		R1*9 %26
 		\key h \phrygian R1*8 %34
 		R1\fermataMarkup \bar "|." %35 finis
+	}
+}
+
+IchBinEinViolaNotes = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 4/4 \autoBeamOff \tempoIchBinEin
+		r4 e d c
+		d e f g
+		f2.\fermata g4
+		g g g e
+		d2 c\fermata %5
+		r4 c d g
+		g e g g
+		f2.\fermata g4
+		e g g e
+		e( d) c2\fermata %10
+		r4 c d g
+		g e g g
+		f2.\fermata f4
+		g g c, d
+		e d h2\fermata %15
+		r4 h c f
+		g f g2
+		e1\fermata \bar "|." %18 finis
 	}
 }
 
@@ -1430,5 +1570,22 @@ RuhetSanftViola = {
 		g2~ %105
 		g
 		c, \markDaCapo \bar "||" %107 finis
+	}
+}
+
+DaDuHerrViolaNotes = {
+	\relative c' {
+		\clef alto
+		\key d \major \time 4/4 \autoBeamOff \tempoDaDuHerr
+		r4 fis cis fis
+		fis fis e d
+		d2.\fermata d4
+		g d d fis
+		fis e cis2\fermata %5
+		r4 d d cis
+		d cis d fis^\critnote
+		d2.\fermata cis4
+		d cis h h
+		a a a2\fermata \bar "|." %10 FINIS
 	}
 }

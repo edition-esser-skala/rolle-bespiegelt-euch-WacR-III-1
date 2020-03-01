@@ -37,7 +37,7 @@
 				\new Lyrics \lyricsto Tenore \UndDerGantzeTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Cembalo"
+						\set Staff.instrumentName = "Fondamento"
 						\UndDerGantzeOrgano
 					}
 				>>
@@ -109,7 +109,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Cembalo"
+						\set Staff.instrumentName = "Fondamento"
 						\DiesenFindenWirOrgano
 					}
 				>>
@@ -137,7 +137,7 @@
 				\new Lyrics \lyricsto Tenore \PilatusAberTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Cembalo"
+						\set Staff.instrumentName = "Fondamento"
 						\PilatusAberOrgano
 					}
 				>>
@@ -209,7 +209,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Cembalo"
+						\set Staff.instrumentName = "Fondamento"
 						\ErHatDasVolckOrgano
 					}
 				>>
@@ -237,7 +237,7 @@
 				\new Lyrics \lyricsto Tenore \DaAberPilatusTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Cembalo"
+						\set Staff.instrumentName = "Fondamento"
 						\DaAberPilatusOrgano
 					}
 				>>
@@ -289,7 +289,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Cembalo"
+						\set Staff.instrumentName = "Fondamento"
 						\IstGottFuerOrgano
 					}
 				>>
@@ -317,7 +317,7 @@
 				\new Lyrics \lyricsto Tenore \PilatusAberRiefTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Cembalo"
+						\set Staff.instrumentName = "Fondamento"
 						\PilatusAberRiefOrgano
 					}
 				>>
@@ -389,7 +389,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Cembalo"
+						\set Staff.instrumentName = "Fondamento"
 						\HinwegMitDiesemOrgano
 					}
 				>>
@@ -454,7 +454,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Cembalo"
+						\set Staff.instrumentName = "Fondamento"
 						\WelcherWarUmOrgano
 					}
 				>>
@@ -526,7 +526,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Cembalo"
+						\set Staff.instrumentName = "Fondamento"
 						\EsSollDerOrgano
 					}
 				>>
@@ -554,7 +554,7 @@
 				\new Lyrics \lyricsto Tenore \UndAlsSieTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Cembalo"
+						\set Staff.instrumentName = "Fondamento"
 						\UndAlsSieOrgano
 					}
 				>>
@@ -574,11 +574,11 @@
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Flauto" "traverso I" } }
+							\set Staff.instrumentName = "Flauto I"
 							\EsSollDerBFlautoI
 						}
 						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Flauto" "traverso II" } }
+							\set Staff.instrumentName = "Flauto II"
 							\EsSollDerBFlautoII
 						}
 					>>
@@ -632,7 +632,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Cembalo"
+						\set Staff.instrumentName = "Fondamento"
 						\EsSollDerBOrgano
 					}
 				>>
@@ -676,7 +676,7 @@
 				\new Lyrics \lyricsto Tenore \JesusAberWandteTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Cembalo"
+						\set Staff.instrumentName = "Fondamento"
 						\JesusAberWandteOrgano
 					}
 				>>
@@ -732,7 +732,7 @@
 				\new Lyrics \lyricsto Basso \NimmSichrerBassoLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Cembalo"
+						\set Staff.instrumentName = "Fondamento"
 						\NimmSichrerOrgano
 					}
 				>>
@@ -780,7 +780,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Cembalo"
+						\set Staff.instrumentName = "Fondamento"
 						\WieHeftigOrgano
 					}
 				>>
@@ -808,7 +808,7 @@
 				\new Lyrics \lyricsto Tenore \EsWurdenAberTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Cembalo"
+						\set Staff.instrumentName = "Fondamento"
 						\EsWurdenAberOrgano
 					}
 				>>
@@ -885,7 +885,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Cembalo"
+						\set Staff.instrumentName = "Fondamento"
 						\ErHatAndernOrgano
 					}
 				>>
@@ -907,11 +907,11 @@
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Flauto" "traverso I" } }
+							\set Staff.instrumentName = "Flauto I"
 							\VerdamlicheBosheitFlautoI
 						}
 						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Flauto" "traverso II" } }
+							\set Staff.instrumentName = "Flauto II"
 							\VerdamlicheBosheitFlautoII
 						}
 					>>
@@ -951,7 +951,7 @@
 				\new Lyrics \lyricsto Soprano \VerdamlicheBosheitSopranoLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Cembalo"
+						\set Staff.instrumentName = "Fondamento"
 						\VerdamlicheBosheitOrgano
 					}
 				>>
@@ -989,7 +989,7 @@
 				\new Lyrics \lyricsto Tenore \EsWarAuchTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Cembalo"
+						\set Staff.instrumentName = "Fondamento"
 						\EsWarAuchOrgano
 					}
 				>>
@@ -1037,7 +1037,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Cembalo"
+						\set Staff.instrumentName = "Fondamento"
 						\IchBinEinOrgano
 					}
 				>>
@@ -1081,7 +1081,7 @@
 				\new Lyrics \lyricsto Tenore \UndEsWarTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Cembalo"
+						\set Staff.instrumentName = "Fondamento"
 						\UndEsWarOrgano
 					}
 				>>
@@ -1101,11 +1101,11 @@
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Flauto" "traverso" "I" } }
+							\set Staff.instrumentName = "Flauto I"
 							\RuhetSanftFlautoI
 						}
 						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Flauto" "traverso" "II" } }
+							\set Staff.instrumentName = "Flauto II"
 							\RuhetSanftFlautoII
 						}
 					>>
@@ -1141,7 +1141,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Cembalo"
+						\set Staff.instrumentName = "Fondamento"
 						\RuhetSanftOrgano
 					}
 				>>
@@ -1169,7 +1169,7 @@
 				\new Lyrics \lyricsto Tenore \DaAberDerTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Cembalo"
+						\set Staff.instrumentName = "Fondamento"
 						\DaAberDerOrgano
 					}
 				>>
@@ -1181,7 +1181,7 @@
 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.24" "C H O R A L" "Der Du, HErr Jeſu, Ruh und Raſt"
+			movement = \movementTitle "2.24" "S C H L U S S C H O R A L" "Der Du, HErr Jeſu, Ruh und Raſt"
 		}
 		\paper {
 			system-system-spacing.basic-distance = #25
@@ -1191,7 +1191,6 @@
 		\score {
 			<<
 				\new ChoirStaff \with { \threeStanzaDistance } <<
-% 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
 						\new Voice = "Soprano" { \dynamicUp \DaDuHerrSopranoNotes }
@@ -1226,7 +1225,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Cembalo"
+						\set Staff.instrumentName = "Fondamento"
 						\DaDuHerrOrgano
 					}
 				>>

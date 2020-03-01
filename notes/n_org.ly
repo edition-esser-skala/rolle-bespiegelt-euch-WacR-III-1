@@ -1670,7 +1670,7 @@ WasDuerfenWirBassFigures = \figuremode {
 	<5> <7> <7 _+>4 <[6 5]>8 <\l [4]> %20
 	<6>2 <[7]>8 <[6]> <[\t]>4
 	<[4+ 2]>4 <[6]>8 q <[6 4]>4 <[5 _+]>
-	r1 %23 finis
+	r2.. %23 finis
 }
 
 MundDerOrgano = {
