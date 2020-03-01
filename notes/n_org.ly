@@ -3688,14 +3688,32 @@ DaAberDerBassFigures = \figuremode {
 	r4 <6>8 <_+> r2 %43 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+DaDuHerrOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoDaDuHerr
+		r4 d a' h
+		fis h a! d,
+		g2.\fermata fis4
+		e d h' a
+		h g fis2\fermata %5
+		r4 h g a!
+		d, a' h fis
+		g2.\fermata g4
+		fis a h g
+		a a, d,2\fermata \bar "|." %10 FINIS
+	}
+}
+
+DaDuHerrBassFigures = \figuremode {
+	r1
+	<_+>
+	r2. <6>4
+	q2 <6>4 q
+	r q <_+>2 %5
+	r2 <6 5>
+	r1
+	r2. <2>4
+	<6>2. <6 5>4
+	<6 4> <5 3>2. %10 FINIS
+}

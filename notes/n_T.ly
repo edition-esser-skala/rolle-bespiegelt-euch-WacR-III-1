@@ -2338,14 +2338,61 @@ DaAberDerTenoreLyrics = \lyricmode {
 	ſetz. %43 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		
-% 		
-% 	}
-% }
-% 
-% TenoreLyrics = \lyricmode {
-% 	
-% }
+DaDuHerrTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 4/4 \autoBeamOff \tempoDaDuHerr
+		r4 fis cis fis
+		fis fis e d
+		d2.\fermata d4
+		g d d fis
+		fis e cis2\fermata %5
+		r4 d d cis
+		d cis d fis^\critnote
+		d2.\fermata cis4
+		d cis h h
+		a a a2\fermata \bar "|." %10 FINIS
+	}
+}
+
+DaDuHerrTenoreLyricsA = \lyricmode {
+	\set stanza = #"1 "
+	Der Du, HErr
+	Je -- ſu, Ruh und
+	Raſt in
+	Dei -- nem Grab ge --
+	hal -- ten haſt, %5
+	gib, daß wir
+	in Dir ru -- hen
+	all und
+	un -- ſer Le -- ben
+	Dir ge -- fall. %10 FINIS
+}
+
+DaDuHerrTenoreLyricsB = \lyricmode {
+	\set stanza = #"2 "
+	Ver -- leih, o
+	HErr, uns Stärk und
+	Muth, die
+	Du er -- kauft mit
+	Dei -- nem Blut, %5
+	und führ uns
+	in des Him -- mels
+	Licht zu
+	Dei -- nes Va -- ters
+	An -- ge -- ſicht. %10 FINIS
+}
+
+DaDuHerrTenoreLyricsC = \lyricmode {
+	\set stanza = #"3 "
+	Wir dan -- ken
+	Dir, o Got -- tes --
+	lamm, ge --
+	töd -- tet an des
+	Creut -- zes Stamm, %5
+	laß ja uns
+	Sün -- dern Dei -- ne
+	Pein ein
+	Ein -- gang in das
+	Le -- ben ſeyn. %10 FINIS
+}

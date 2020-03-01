@@ -1241,14 +1241,61 @@ IchBinEinBassoLyrics = \lyricmode {
 	ben. %18 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+DaDuHerrBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \autoBeamOff \tempoDaDuHerr
+		r4 d a' h
+		fis h a! d,
+		g2.\fermata fis4
+		e d h' a
+		h g fis2\fermata %5
+		r4 h g a!
+		d, a' h fis
+		g2.\fermata g4
+		fis a h g
+		a a, d2\fermata \bar "|." %10 FINIS
+	}
+}
+
+DaDuHerrBassoLyricsA = \lyricmode {
+	\set stanza = #"1 "
+	Der Du, HErr
+	Je -- ſu, Ruh und
+	Raſt in
+	Dei -- nem Grab ge --
+	hal -- ten haſt, %5
+	gib, daß wir
+	in Dir ru -- hen
+	all und
+	un -- ſer Le -- ben
+	Dir ge -- fall. %10 FINIS
+}
+
+DaDuHerrBassoLyricsB = \lyricmode {
+	\set stanza = #"2 "
+	Ver -- leih, o
+	HErr, uns Stärk und
+	Muth, die
+	Du er -- kauft mit
+	Dei -- nem Blut, %5
+	und führ uns
+	in des Him -- mels
+	Licht zu
+	Dei -- nes Va -- ters
+	An -- ge -- ſicht. %10 FINIS
+}
+
+DaDuHerrBassoLyricsC = \lyricmode {
+	\set stanza = #"3 "
+	Wir dan -- ken
+	Dir, o Got -- tes --
+	lamm, ge --
+	töd -- tet an des
+	Creut -- zes Stamm, %5
+	laß ja uns
+	Sün -- dern Dei -- ne
+	Pein ein
+	Ein -- gang in das
+	Le -- ben ſeyn. %10 FINIS
+}

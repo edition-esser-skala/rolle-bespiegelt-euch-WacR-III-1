@@ -1151,32 +1151,89 @@
 % 			\midi { \tempo 4 = 80 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.23" "R E C I T A T I V O" "Da aber der Hauptmann ſahe"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #5
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Hauptmann" } }
+% 					\new Voice = "Tenore" { \dynamicUp \DaAberDerTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \DaAberDerTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Cembalo"
+% 						\DaAberDerOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \DaAberDerBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.23" "R E C I T A T I V O" "Da aber der Hauptmann ſahe"
+			movement = \movementTitle "2.24" "C H O R A L" "Der Du, HErr Jeſu, Ruh und Raſt"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #5
+			system-system-spacing.basic-distance = #25
+			system-system-spacing.minimum-distance = #25
+			systems-per-page = #2
 		}
 		\score {
 			<<
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Evangeliſt" "Hauptmann" } }
-					\new Voice = "Tenore" { \dynamicUp \DaAberDerTenoreNotes }
-				}
-				\new Lyrics \lyricsto Tenore \DaAberDerTenoreLyrics
+				\new ChoirStaff \with { \threeStanzaDistance } <<
+% 				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Canto" "Violino I" "Oboe I" } }
+						\new Voice = "Soprano" { \dynamicUp \DaDuHerrSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \DaDuHerrSopranoLyricsA
+					\new Lyrics \lyricsto Soprano \DaDuHerrSopranoLyricsB
+					\new Lyrics \lyricsto Soprano \DaDuHerrSopranoLyricsC
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Alto" "Violino II" "Oboe II" } }
+						\new Voice = "Alto" { \dynamicUp \DaDuHerrAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \DaDuHerrAltoLyricsA
+					\new Lyrics \lyricsto Alto \DaDuHerrAltoLyricsB
+					\new Lyrics \lyricsto Alto \DaDuHerrAltoLyricsC
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Tenore" "Viola" } }
+						\new Voice = "Tenore" { \dynamicUp \DaDuHerrTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \DaDuHerrTenoreLyricsA
+					\new Lyrics \lyricsto Tenore \DaDuHerrTenoreLyricsB
+					\new Lyrics \lyricsto Tenore \DaDuHerrTenoreLyricsC
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \DaDuHerrBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \DaDuHerrBassoLyricsA
+					\new Lyrics \lyricsto Basso \DaDuHerrBassoLyricsB
+					\new Lyrics \lyricsto Basso \DaDuHerrBassoLyricsC
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Cembalo"
-						\DaAberDerOrgano
+						\DaDuHerrOrgano
 					}
 				>>
-				\new FiguredBass { \DaAberDerBassFigures }
+				\new FiguredBass { \DaDuHerrBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

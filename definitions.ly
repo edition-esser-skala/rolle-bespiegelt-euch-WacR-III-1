@@ -389,6 +389,7 @@ tempoUndEsWar = \tempoMarkup "[Recitativo]"
 	tempoUndEsWarB = \tempoMarkup "Largo"
 tempoRuhetSanft = \tempoMarkup "[Duetto]"
 tempoDaAberDer = \tempoMarkup "[Recitativo]"
+tempoDaDuHerr = \tempoMarkup "[Choral]"
 
 
 
