@@ -1,4 +1,4 @@
-# (c) 2019 by Wolfgang Esser-Skala.
+# (c) 2020 by Wolfgang Esser-Skala.
 # This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 # To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
@@ -6,9 +6,9 @@
 # change the following variables according to your project
 project = Rolle_Bespiegelt_euch_WacR_III_1
 zipname = Rolle_Bespiegelt_euch_WacR_III_1_Engraving_Files
-notes = fl1 fl2 ob1 ob2 fag1 fag2 cor cor2 vl1 vl2 vla S A T B org
+notes = fl1 fl2 ob1 ob2 fag1 fag2 cor1 cor2 vl1 vl2 vla S A T B org
 parts = fl1 fl2 ob1 ob2 fag1 fag2 cor12 vl1 vl2 vla soli coro org b
-movements = part1
+movements = pars1 pars2
 
 
 .DEFAULT_GOAL := info

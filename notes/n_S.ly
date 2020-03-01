@@ -996,7 +996,7 @@ EsSollDerSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 3/4 \autoBeamOff\tempoEsSollDer
-		\partial 4 d4\pE^\solo g2 a8([ b16 c)]
+		\partial 4 \mvTr d4\pE^\solo g2 a8([ b16 c)]
 		\appoggiatura c8 b4 a r8 b
 		c es d4 c
 		\appoggiatura c8 b4 a4 r8. b16

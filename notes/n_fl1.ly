@@ -230,8 +230,8 @@ VerdamlicheBosheitFlautoI = {
 		R2.*5 %29
 		r16 d,\fE d( g) g( h) h( d) d( a) a( c) %30
 		c4( h8) r r4\fermata \bar "||"
-		R2.*11 %42
-		R2.\fermataMarkup \bar "||"
+		\time 4/4 R1*11 %42
+		R1\fermataMarkup \bar "||"
 		\time 3/4 R2.*2 %45
 		r16 a\p a( d) d( f) f( a) a( e) e( g)
 		f a,\f a( d) d( f) f( a) a( e) e( g)

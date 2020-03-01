@@ -306,7 +306,7 @@ tempoMarkup =
 %
 
 tempoBespiegeltEuch = \tempoMarkup "Coro"
-tempoGuteNacht = \tempoMarkup "Choral con Instrum:"
+tempoGuteNacht = \tempoMarkup "Choral"
 tempoJesusGingHinauf = \tempoMarkup "[Recitativo]"
 tempoLassetUnsZu = \tempoMarkup "Ebr: XIII. 13"
 tempoAlsErDahinKam = \tempoMarkup "[Recitativo]"
@@ -389,7 +389,7 @@ tempoUndEsWar = \tempoMarkup "[Recitativo]"
 	tempoUndEsWarB = \tempoMarkup "Largo"
 tempoRuhetSanft = \tempoMarkup "[Duetto]"
 tempoDaAberDer = \tempoMarkup "[Recitativo]"
-tempoDaDuHerr = \tempoMarkup "[Choral]"
+tempoDaDuHerr = \tempoMarkup "Choral: 3 Vers."
 
 
 
@@ -478,7 +478,7 @@ tempoDaDuHerr = \tempoMarkup "[Choral]"
 		\Score
 		\override MetronomeMark.font-series = #'medium
 		\compressFullBarRests
-		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
+% 		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
 	}
 	\context {
 		\StaffGroup
