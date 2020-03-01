@@ -2423,7 +2423,7 @@ EsSollDerOrgano = {
 		g d r8 g %10
 		es c fis4 d
 		g, d' r8. g16
-		cis,4 cis8. e64 d cis h) a8. cis16
+		cis,4 cis8. e64( d cis h) a8. cis16
 		d4 d8. a'64 g f e d8 d
 		g4 a a, %15
 		d d, r
